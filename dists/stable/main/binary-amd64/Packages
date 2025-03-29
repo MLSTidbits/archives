@@ -106,6 +106,23 @@ SHA256: f77b717610f46d1aeedb9e1b232ec79d6ea3d865ec7c7057db2e15aaa95810f7
 Homepage: http://example.com
 Description: A program that prints hello
 
+Package: plasma-wallpapers
+Version: 25.03.12-947db95
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 72804
+Depends: plasma-desktop
+Filename: pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
+Size: 73740570
+MD5sum: 88510db823b4c55e5a331a58d3e1e603
+SHA1: f758037b3921082b9de4f7e29c401180b816bd49
+SHA256: 1144e16ebaaf4eac2205df8928385ca69822efea2607cad8d11c0cba567ffad2
+Section: kde
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers
+Description: Wallpapers for the Plasma desktop
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
 Package: plasma-wallpapers-poses
 Version: 25.03.12-e8495db
 Architecture: amd64

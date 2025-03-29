@@ -1,4 +1,4 @@
-Origin: apt-repo
+Origin: mls
 Label: default
 Suite: stable
 Codename: stable
@@ -6,16 +6,16 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: Repository for the apt-repo project
-date: Sat, 29 Mar 2025 20:38:55 +0000
+date: Sat, 29 Mar 2025 21:09:36 +0000
 MD5Sum:
- 8bc29e779dcc0fdfb618c3f279b4e69e 6402 main/binary-amd64/Packages
- a10a211dec5c9909c85a45b7b9fe631f 2176 main/binary-amd64/Packages.gz
- d6f46c6610b93d14a9068e8304c3ee36 2180 main/binary-amd64/Packages.xz
+ 0a1a261f63e8231da6f04fc679dbb969 7051 main/binary-amd64/Packages
+ 91fc5dce65ab5145ee000a57444a5801 2316 main/binary-amd64/Packages.gz
+ fc13b4520d2a52da2ac5d0cc9eef04f0 2300 main/binary-amd64/Packages.xz
 SHA1:
- 41668c1f5367366ceda9365df764f892d959ef40 6402 main/binary-amd64/Packages
- 0c70fa1f72b49e3e3a4dad3c76f3201721dbd02d 2176 main/binary-amd64/Packages.gz
- 30d5f448dd75a3f2ea7b7baad778b0c1908dc23a 2180 main/binary-amd64/Packages.xz
+ 4277367989cdb90f8b1356474ec20eb73b842265 7051 main/binary-amd64/Packages
+ 45d16f3ba77aba631b18894e838039f142dd1e4b 2316 main/binary-amd64/Packages.gz
+ d952c4525aad8692387fd789ee441af4679a2ed0 2300 main/binary-amd64/Packages.xz
 SHA256:
- e426c068cd08ec16da4a5b4a6c26baf20784ea3ed90a54c4d5e8a3ebb32c72c6 6402 main/binary-amd64/Packages
- ed8459dca3ffb3a1314362181b49f2b5e90cd786d7c444ba418d5787b3261eb4 2176 main/binary-amd64/Packages.gz
- 8c5e5ea26059971ad452d35d96e527be41e775b4ed1ac4961b402fd3078b95e6 2180 main/binary-amd64/Packages.xz
+ 82669b6459c85a09e597956522b5a76a1b2aebde579959ab7a48260e8108b9c1 7051 main/binary-amd64/Packages
+ 23c82b19ce3806eb22bd281f978a638b3c75e21083edfb8b62740431f69b5158 2316 main/binary-amd64/Packages.gz
+ 28feb9c593e9f2159e069ced8a70d91835e3172b8a72905851580af7550c6adf 2300 main/binary-amd64/Packages.xz
