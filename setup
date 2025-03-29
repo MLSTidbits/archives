@@ -1,0 +1,72 @@
+#!/bin/env bash
+
+function do_hash () {
+
+    local hashName hashCmd
+
+    hashName=$1
+    hashCmd=$2
+
+    echo "${hashName}:"
+
+    find ./main -type f | while read -r f; do
+
+        f=$(echo "${f}" | cut -c3-) # remove ./ prefix
+        test "${f}" != "Release" || continue
+
+        echo " $(${hashCmd} "${f}"  | cut -d" " -f1) $(wc -c "${f}")"
+    done
+}
+
+set -ep pipefail
+
+baseDir="$(pwd)"
+
+# Release header
+releaseFile="$(cat <<EOF
+Origin: mls
+Label: default
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Repository for the apt-repo project
+date: $(date -Ru)
+EOF
+)"
+
+# Rebuild the Packages file
+dpkg-scanpackages --arch amd64 pool/ > dists/stable/main/binary-amd64/Packages
+
+test "${?}" -eq 0 || {
+    echo "Failed to rebuild the Packages file"
+    exit 1
+}
+
+# Compress the Packages file into a gz file and xz file
+cd "${baseDir}/dists/stable/main/binary-amd64"
+
+gzip -k -f Packages
+xz -k -f Packages
+
+cd "${baseDir}"
+
+# Create the Release file
+echo "${releaseFile}" > dists/stable/Release
+
+# Create the Release file
+cd "${baseDir}/dists/stable"
+
+# Add hashes to the Release file
+{
+    do_hash "MD5Sum" "md5sum"
+    do_hash "SHA1" "sha1sum"
+    do_hash "SHA256" "sha256sum"
+} >> Release
+
+# Remove the old Release.gpg and InRelease files
+rm -vf Release.gpg InRelease
+
+gpg --default-key HowToNebie -abs -o Release.gpg Release
+gpg --default-key HowToNebie --clearsign -o InRelease Release

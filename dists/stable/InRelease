@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: apt-repo
+Label: default
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Repository for the apt-repo project
+date: Sat, 29 Mar 2025 20:38:55 +0000
+MD5Sum:
+ 8bc29e779dcc0fdfb618c3f279b4e69e 6402 main/binary-amd64/Packages
+ a10a211dec5c9909c85a45b7b9fe631f 2176 main/binary-amd64/Packages.gz
+ d6f46c6610b93d14a9068e8304c3ee36 2180 main/binary-amd64/Packages.xz
+SHA1:
+ 41668c1f5367366ceda9365df764f892d959ef40 6402 main/binary-amd64/Packages
+ 0c70fa1f72b49e3e3a4dad3c76f3201721dbd02d 2176 main/binary-amd64/Packages.gz
+ 30d5f448dd75a3f2ea7b7baad778b0c1908dc23a 2180 main/binary-amd64/Packages.xz
+SHA256:
+ e426c068cd08ec16da4a5b4a6c26baf20784ea3ed90a54c4d5e8a3ebb32c72c6 6402 main/binary-amd64/Packages
+ ed8459dca3ffb3a1314362181b49f2b5e90cd786d7c444ba418d5787b3261eb4 2176 main/binary-amd64/Packages.gz
+ 8c5e5ea26059971ad452d35d96e527be41e775b4ed1ac4961b402fd3078b95e6 2180 main/binary-amd64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmfoWl8eHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUot41QP/iSnj6I47McalwaP
+t3exUMewmNyjuMA/2ihf7MYQte0HtS4a6HN+moFBKizo/txov87zJwuhPKDG/BNo
+QcsxdEPNx759D9ZoF4l205XVDECISNdFBK/XvHq0ITFuigH98sdH/B2FkNb+rt12
+0roluvx7tHf7NI3pbWrUHY/ym1FC7V4/ahjtpU/PodqbP5mt3WQHyW8BAX2dU+RU
+etwyZvJ61Ltx+vS0euAkvmqmvxlh1e2t6IkJQWgquhUWtTN5S6f4VW/ZYl0gUfrd
+dtFsscphH083cicGET21nnzwv3AKH3bOC0pzOxRpRWE8y9YXXHcIzlKlR1Mj8Jj1
+KGQsyfkGFwCQRvo8dwxTksJH1ptL8LKWSbuBty+q7E6EyFyEmQKCponDpjuNV0M8
+YroJmDzsHrzypGNsdAWhWmkVH+Bnd6iHp98OJSRMClBUtsde9TgKtl3c6qyonJkg
+Y0mKwQwKvsiwC8dWKgpxlQYyzxNFNwn+dFggP8mw+qDmpmEOphvrUnlOJMvzJj12
+rEbbIT87PH9a8etnVLFEtqBuyCh1lKcjM+E1CuiJ6BmNSY6aNQGtjyC/9XNybqd2
+hLRPeZDEv77fn0I1Ckzv7+94Yy770q+AymyYE3vkXMwZQNtav82xbH4WtVkhDme5
+BGbL51tdr9P6oW25tefEvYyi1iuk
+=8sUK
+-----END PGP SIGNATURE-----

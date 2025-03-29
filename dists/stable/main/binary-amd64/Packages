@@ -1,0 +1,167 @@
+Package: btrfs-fstab
+Version: 25.03.12-4c289a4
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 16
+Depends: btrfs-progs, coreutils
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_25.03.12-4c289a4_amd64.deb
+Size: 4176
+MD5sum: 7ac38465fcb3a47ebefc01f3f0c49f80
+SHA1: 3a3762ccb79c1fa6ac9aec2b23be6f3e356c3b2a
+SHA256: bcf03963f936d200144934d50ef77978b274a1c3aed500dafa8c0a23d703f764
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/btrfs-fstab
+Description: Generate fstab file for btrfs subvolumes
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: btrfs-snapshots-manager
+Version: 25.03.12-f7380dd
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 28
+Depends: btrfs-progs, bash (>= 4.4), coreutils, systemd
+Conflicts: timeshift
+Filename: pool/main/b/btrfs-snapshots-manager/btrfs-snapshots-manager_25.03.12-f7380dd_amd64.deb
+Size: 6826
+MD5sum: ac2051ff2cb0e8ad961513c35e67e8d3
+SHA1: b470824307aa07ced0b896513d55192d037680ec
+SHA256: d01dd16ef3a940069b2f25dc944cff0fa8f57ffd936e01d8523a0309cae11f46
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/btrfs-snapshots-manager
+Description: Manage BTRFS snapshots simply -
+    If you are using the BTRFS filesystem the way it was intended.
+    NOTE: This package is not compatible with Timeshift.
+Build-Depends: debhelper, git-changelog, make (>= 4.1), dpkg-dev, bash (>= 4.4)
+
+Package: ddns
+Version: 25.03.12-79fc756
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 32
+Depends: dpkg-dev, git
+Filename: pool/main/d/ddns/ddns_25.03.12-79fc756_amd64.deb
+Size: 10998
+MD5sum: db5e10de65df381efcceeae0fa36af46
+SHA1: 19bea6473dcffcb78ac6a71d79d32631f7f6b7ae
+SHA256: e2d4778d76a383608b38ab6fdc95b1e875e0fe17341dde5483ba318ce952bf0e
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/dpkg-changelog
+Description: Manage BTRFS snapshots simply -
+    If you are using the BTRFS filesystem the way it was intended.
+    NOTE: This package is not compatible with Timeshift.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: dpkg-changelog
+Version: 25.03.12-bad2929
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 16
+Depends: dpkg-dev, git
+Filename: pool/main/d/dpkg-changelog/dpkg-changelog_25.03.12-bad2929_amd64.deb
+Size: 3732
+MD5sum: 6f1978486046d0ea3dd287187ab0facc
+SHA1: 1dff6c15e60c3a6902060384ffc0e87650b023a7
+SHA256: 1dfa1301526bd96278d7e016dbc99c71281a87574689d9bc40410dfc89bccd05
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/dpkg-changelog
+Description: Git commit to Debian changelog -
+    Use the git commit log to generate a Debian changelog
+    file. This is useful for projects that use git as their
+    version control system and want to generate a Debian
+    package.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: grub-theme-minimal
+Version: 25.03.12-dba4378
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 644
+Depends: dpkg-dev, git
+Filename: pool/main/g/grub-theme-minimal/grub-theme-minimal_25.03.12-dba4378_amd64.deb
+Size: 182434
+MD5sum: ab4e542f41b1bafc29a7c87fd959eb63
+SHA1: a527d24a31752476afc6ead28523902d73c6982e
+SHA256: edd36c31286ee042238e8962bc163196ef79a8379527fb5ca21bfd8898d81ca7
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/grub-theme-minimal
+Description: Minimal theme for Grub -
+    This package provides a minimal theme for Grub.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: hello-world
+Version: 1.0.1
+Architecture: amd64
+Maintainer: example <example@example.com>
+Depends: libc6
+Filename: pool/main/h/hello-world/hello-world_1.0.1-1_amd64.deb
+Size: 2556
+MD5sum: c9b6a13ec70bb2f58d52a3f9399a9c6b
+SHA1: c4d2cd2a48414606ca84fa5d645ed18ef9006467
+SHA256: f77b717610f46d1aeedb9e1b232ec79d6ea3d865ec7c7057db2e15aaa95810f7
+Homepage: http://example.com
+Description: A program that prints hello
+
+Package: plasma-wallpapers-poses
+Version: 25.03.12-e8495db
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 27052
+Depends: plasma-desktop
+Filename: pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
+Size: 27329466
+MD5sum: 4b81c737ca52234d4ce33f49c83fd809
+SHA1: 16699cd89b383734c20b0ac5ceb57676da159c64
+SHA256: c796d9fa8c0ff98c19ef6a22818a981d781679ab4920ada27c215f6a23eda22f
+Section: kde
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers-poses
+Description: Wallpapers for the Plasma desktop
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: simple-zram
+Source: https://github.com/MichaelSchaecher/simple-zram
+Version: 25.03.0-0758
+Architecture: all
+Maintainer: Michael Schaecher <michaelleeschaeceher@gmail.com>
+Installed-Size: 40960
+Depends: bash, coreutils, awk, util-linux
+Filename: pool/main/s/simple-zram/simple-zram_25.03.0-0758_all.deb
+Size: 4144
+MD5sum: 5f50f6274e3f12ca9f47dcb2ab931e82
+SHA1: 0edb7369337073619d44d0e97d38df5cd9de582e
+SHA256: ce5efc02c3b4984e7ac6d450a9e0af18aa1441accc9d9c80e86304ae269f4334
+Section: utils
+Priority: optional
+Homepage: https://hotonebie.com
+Description: Create and enable zram swap devices
+    This package provides a simple script to create and enable zram swap devices.
+Build-Depends: make
+Copyright: 2024 Michael Schaecher
+Files: *
+License: MIT
+    Permission is hereby granted, free of charge...
+Require: systemd, cureutils, awk, util-linux
+
+Package: starship-prompt
+Version: 25.03.12-0959
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 9952
+Depends: systemd, bash (>= 4.4)
+Filename: pool/main/s/starship-prompt/starship-prompt_25.03.12-0959_amd64.deb
+Size: 3105792
+MD5sum: be661c2d58fbc77c32fa26a9f5593189
+SHA1: 647204ddcdc9fe5c31814068aa97a9265e2fc6a3
+SHA256: fcf2dabf09d36a9a858529dc70d94b042e124faec660ae82e0b58eabe9b0f38f
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/starship-prompt
+Description: Modernize the shell prompt with Starship and
+    keep it up to date without having to manually download/install.
+Build-Depends: debhelper, make (>= 4.1), dpkg-dev, dpkg-changelog
+
