@@ -76,16 +76,16 @@ Description: Git commit to Debian changelog -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: grub-btrfsd
-Version: 25.03.12-4d71b38
+Version: 25.03.12-90ba371
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 120
 Depends: btrfs-progs, grub2-common, inotify-tools
-Filename: pool/main/g/grub-btrfsd/grub-btrfsd_25.03.12-4d71b38_amd64.deb
-Size: 50784
-MD5sum: 9f81576b046003aab70b73be5f76b125
-SHA1: 5b5fd09c16915310703daddaa200254ffa53c3bd
-SHA256: d843d44f9cc81d9ddedf721bee09bac6ccf25262ad4b88d861c15f3d994fd6ab
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_25.03.12-90ba371_amd64.deb
+Size: 50888
+MD5sum: fe582b3897eec279cdfbe1fee4c158ec
+SHA1: 2dc3f946eb33fe02cb24d18d41d87b2a2af8d731
+SHA256: 5ebf09ffc3d4c292ee25cbb895d42fb780d54f9fe69fc1d0ba0f6f4be4f32471
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/dpkg-changelog
