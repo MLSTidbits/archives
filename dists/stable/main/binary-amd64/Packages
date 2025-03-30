@@ -75,6 +75,24 @@ Description: Git commit to Debian changelog -
     package.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
+Package: grub-btrfsd
+Version: 25.03.12-afc6d6f
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 116
+Depends: btrfs-progs, grub2-common, inotify-tools
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_25.03.12-afc6d6f_amd64.deb
+Size: 49934
+MD5sum: 9c9165e6da82dffe38c3da8c3c994955
+SHA1: 7568b6c649d38ef338c57b1845cdf1e1612d2e02
+SHA256: 47e6ff2e12dd044de4c9df3ac9aa7fd7eff89d4aca74d71ae0bff9f13004fe31
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/dpkg-changelog
+Description: Add BTRFS snapshots to Grub boot menu -
+    This package will add BTRFS snapshots to the Grub boot menu.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
 Package: grub-theme-minimal
 Version: 25.03.12-dba4378
 Architecture: amd64
