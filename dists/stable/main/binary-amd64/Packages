@@ -15,21 +15,21 @@ Homepage: https://github.com/MichaelSchaecher/btrfs-fstab
 Description: Generate fstab file for btrfs subvolumes
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
-Package: btrfs-snapshots-manager
-Version: 25.03.12-f7380dd
+Package: btrfs-snapshot
+Version: 25.03.13-68d1bf4
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 28
+Installed-Size: 32
 Depends: btrfs-progs, bash (>= 4.4), coreutils, systemd
 Conflicts: timeshift
-Filename: pool/main/b/btrfs-snapshots-manager/btrfs-snapshots-manager_25.03.12-f7380dd_amd64.deb
-Size: 6826
-MD5sum: ac2051ff2cb0e8ad961513c35e67e8d3
-SHA1: b470824307aa07ced0b896513d55192d037680ec
-SHA256: d01dd16ef3a940069b2f25dc944cff0fa8f57ffd936e01d8523a0309cae11f46
+Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.03.13-68d1bf4_amd64.deb
+Size: 7274
+MD5sum: 157f92e091aee7225233853e5e45ce5e
+SHA1: 780035dd08618e687edfd6839d308fd370290ac3
+SHA256: bf84a04e3a54d04289f6fa280de3a899add492fa71a85487dfd658c81db525e3
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/btrfs-snapshots-manager
+Homepage: https://github.com/MichaelSchaecher/btrfs-snapshot
 Description: Manage BTRFS snapshots simply -
     If you are using the BTRFS filesystem the way it was intended.
     NOTE: This package is not compatible with Timeshift.
