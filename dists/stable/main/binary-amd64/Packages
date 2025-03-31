@@ -1,18 +1,19 @@
 Package: btrfs-fstab
-Version: 25.03.12-4c289a4
+Version: 25.03.13-49d0510
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 16
-Depends: btrfs-progs, coreutils
-Filename: pool/main/b/btrfs-fstab/btrfs-fstab_25.03.12-4c289a4_amd64.deb
-Size: 4176
-MD5sum: 7ac38465fcb3a47ebefc01f3f0c49f80
-SHA1: 3a3762ccb79c1fa6ac9aec2b23be6f3e356c3b2a
-SHA256: bcf03963f936d200144934d50ef77978b274a1c3aed500dafa8c0a23d703f764
+Depends: dpkg-dev, git
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_25.03.13-49d0510_amd64.deb
+Size: 4946
+MD5sum: 2785446463115ed34973a00cd49a2549
+SHA1: fcc3c1320dfd5d9006d97848e04bdb44ec900d4c
+SHA256: 37079f85f6edd61fbb4af1d38e77fc12aa4c4156623032d989200edbe2d8fafa
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/btrfs-fstab
-Description: Generate fstab file for btrfs subvolumes
+Homepage: https://github.com/MichaelSchaecher/ddns
+Description: Generate a fstab file for BTRFS subvolumes -
+  Us for creating a fstab file for BTRFS filesystems with multiple subvolumes.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: btrfs-snapshot
