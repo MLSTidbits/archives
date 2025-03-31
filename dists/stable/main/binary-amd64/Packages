@@ -17,24 +17,22 @@ Description: Generate a fstab file for BTRFS subvolumes -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: btrfs-snapshot
-Version: 25.03.13-68d1bf4
+Version: 25.03.13-e066c32
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 32
-Depends: btrfs-progs, bash (>= 4.4), coreutils, systemd
-Conflicts: timeshift
-Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.03.13-68d1bf4_amd64.deb
-Size: 7274
-MD5sum: 157f92e091aee7225233853e5e45ce5e
-SHA1: 780035dd08618e687edfd6839d308fd370290ac3
-SHA256: bf84a04e3a54d04289f6fa280de3a899add492fa71a85487dfd658c81db525e3
+Depends: dpkg-dev, git
+Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.03.13-e066c32_amd64.deb
+Size: 7654
+MD5sum: 542ca01c14fa8c88e4da6c02556f9bfe
+SHA1: c795a9cc3a7e5afa06dbd7e1c5446bea07cd74b7
+SHA256: a6d0023d90edfe1949477efd44cf6a6257f7f980c69df260c2812d93fb6ee378
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/btrfs-snapshot
+Homepage: https://github.com/MichaelSchaecher/ddns
 Description: Manage BTRFS snapshots simply -
-    If you are using the BTRFS filesystem the way it was intended.
-    NOTE: This package is not compatible with Timeshift.
-Build-Depends: debhelper, git-changelog, make (>= 4.1), dpkg-dev, bash (>= 4.4)
+    Maintain snapshots of on BTRFS filesystems configured the proper way.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: ddns
 Version: 25.03.13-a669f11
