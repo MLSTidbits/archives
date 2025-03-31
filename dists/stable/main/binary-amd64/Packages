@@ -17,16 +17,16 @@ Description: Generate a fstab file for BTRFS subvolumes -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: btrfs-snapshot
-Version: 25.03.13-6763b8c
+Version: 25.03.13-9230c57
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 32
 Depends: dpkg-dev, git
-Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.03.13-6763b8c_amd64.deb
-Size: 7684
-MD5sum: 1c208aa160415e244e758ab33a3d4951
-SHA1: 759165acb82ecf7b1ac456485d78decc9626eb18
-SHA256: 648a02a3b3ac7c053cdbb99abdf52de37daa37fc54fae6b66e35586315dd3cfe
+Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.03.13-9230c57_amd64.deb
+Size: 7718
+MD5sum: 85f0db93f54fe41fea0c750dc6f1f702
+SHA1: 0200e6561bb5dc962ac1fff3935d9bce40f04a63
+SHA256: 734778c5c43187bba3d228e466757ba7035b18fbd145e56e1c8d8b82b70685ec
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddns
