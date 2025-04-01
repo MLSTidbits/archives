@@ -17,16 +17,16 @@ Description: Generate a fstab file for BTRFS subvolumes -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: btrfs-snapshot
-Version: 25.03.13-a5b0bbd
+Version: 25.04.13-30377a9
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 36
 Depends: btrfs-progs, bash (>= 4.4)
-Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.03.13-a5b0bbd_amd64.deb
-Size: 8696
-MD5sum: c2842d8da5960497c67e0cf095f98fcc
-SHA1: e4cc38bc56cd166300332186743241add089edc0
-SHA256: 7cd7ddd924eaee66737a8b99eac9c5fb2d62e889057bd66ca8efdd9d98006e85
+Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.04.13-30377a9_amd64.deb
+Size: 8780
+MD5sum: 8a109c3ca14a2afaf5f92ebb96baca8f
+SHA1: 468e8760cb94fa567ed600e7f3ca3275be59b937
+SHA256: 9751927978924f8fe6374feab2ab7a205c7a1cb6f086ed70a74fddb7dc071f03
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddns
@@ -54,24 +54,21 @@ Description: Manage BTRFS snapshots simply -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: dpkg-changelog
-Version: 25.03.12-bad2929
+Version: 25.04.13-125ea5b
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 16
+Installed-Size: 20
 Depends: dpkg-dev, git
-Filename: pool/main/d/dpkg-changelog/dpkg-changelog_25.03.12-bad2929_amd64.deb
-Size: 3732
-MD5sum: 6f1978486046d0ea3dd287187ab0facc
-SHA1: 1dff6c15e60c3a6902060384ffc0e87650b023a7
-SHA256: 1dfa1301526bd96278d7e016dbc99c71281a87574689d9bc40410dfc89bccd05
+Filename: pool/main/d/dpkg-changelog/dpkg-changelog_25.04.13-125ea5b_amd64.deb
+Size: 4456
+MD5sum: b2c3139336b8011e4e3ab273cb50a7b4
+SHA1: c1e7fa70ed51764985c89b1450ec033d4c9eb9af
+SHA256: 1d221b113d30360f21682a0c97c23326a0b64b270eda7a72199adb8a0e523114
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/dpkg-changelog
-Description: Git commit to Debian changelog -
-    Use the git commit log to generate a Debian changelog
-    file. This is useful for projects that use git as their
-    version control system and want to generate a Debian
-    package.
+Homepage: https://github.com/MichaelSchaecher/ddns
+Description: Debian changelog from git commit messages -
+  Generate a Debian style changelog from git commit messages used in Debian/Ubuntu packages.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: grub-btrfsd
