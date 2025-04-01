@@ -182,16 +182,16 @@ License: MIT
 Require: systemd, cureutils, awk, util-linux
 
 Package: starship-update
-Version: 25.04.13-1f5922b
+Version: 25.04.13-62e443c
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 24
 Depends: cutils
-Filename: pool/main/s/starship-update/starship-update_25.04.13-1f5922b_amd64.deb
-Size: 4952
-MD5sum: 5b57cd120b579538c348eb4372887198
-SHA1: c88dead67df79f92ef3b97a44530435343c250c8
-SHA256: 155f340735203f0132b5cc299b4f233293ded87ee850ddbffe6aed18d835f1d9
+Filename: pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
+Size: 5066
+MD5sum: 0e53fa1454655742857528fcbe672a18
+SHA1: 3471689555f67065188a5a1da94e415e372fefe0
+SHA256: 1981e8458ce24fc4491435fb9ef5ec855de7ed6cec0013abd45fa16a0b1fc7c6
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddns
