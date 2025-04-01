@@ -1,14 +1,14 @@
 Package: btrfs-fstab
-Version: 25.03.13-49d0510
+Version: 25.04.13-e3b8aef
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 16
 Depends: dpkg-dev, git
-Filename: pool/main/b/btrfs-fstab/btrfs-fstab_25.03.13-49d0510_amd64.deb
-Size: 4946
-MD5sum: 2785446463115ed34973a00cd49a2549
-SHA1: fcc3c1320dfd5d9006d97848e04bdb44ec900d4c
-SHA256: 37079f85f6edd61fbb4af1d38e77fc12aa4c4156623032d989200edbe2d8fafa
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_25.04.13-e3b8aef_amd64.deb
+Size: 5506
+MD5sum: a5a83352c35e165cfbc73f90df8b15d6
+SHA1: bb405ea591bd45c7cac2cc5fd8b01093921a7fea
+SHA256: 8556b407340a54a6577ddd9453917b488b4269cb27c89f9794c0354954f6c1bc
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddns
@@ -181,21 +181,21 @@ License: MIT
     Permission is hereby granted, free of charge...
 Require: systemd, cureutils, awk, util-linux
 
-Package: starship-prompt
-Version: 25.03.12-0959
+Package: starship-update
+Version: 25.04.13-1f5922b
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 9952
-Depends: systemd, bash (>= 4.4)
-Filename: pool/main/s/starship-prompt/starship-prompt_25.03.12-0959_amd64.deb
-Size: 3105792
-MD5sum: be661c2d58fbc77c32fa26a9f5593189
-SHA1: 647204ddcdc9fe5c31814068aa97a9265e2fc6a3
-SHA256: fcf2dabf09d36a9a858529dc70d94b042e124faec660ae82e0b58eabe9b0f38f
+Installed-Size: 24
+Depends: cutils
+Filename: pool/main/s/starship-update/starship-update_25.04.13-1f5922b_amd64.deb
+Size: 4952
+MD5sum: 5b57cd120b579538c348eb4372887198
+SHA1: c88dead67df79f92ef3b97a44530435343c250c8
+SHA256: 155f340735203f0132b5cc299b4f233293ded87ee850ddbffe6aed18d835f1d9
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/starship-prompt
-Description: Modernize the shell prompt with Starship and
-    keep it up to date without having to manually download/install.
-Build-Depends: debhelper, make (>= 4.1), dpkg-dev, dpkg-changelog
+Homepage: https://github.com/MichaelSchaecher/ddns
+Description: Install and update to the Starship prompt -
+  The Starship prompt is a cross-shell prompt written in rust that is fast & customizable.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
