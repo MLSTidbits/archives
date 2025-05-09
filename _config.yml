@@ -2,4 +2,4 @@ title: Apt Repository
 description: APT Repository for some of my projects
 show_downloads: false
 # google_analytics:
-theme: just-the-docs
+theme: jekyll-theme-cayman
