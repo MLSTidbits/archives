@@ -1,20 +1,22 @@
 Package: btrfs-fstab
-Version: 25.04.13-e3b8aef
+Version: 1.1.4
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 16
-Depends: dpkg-dev, git
-Filename: pool/main/b/btrfs-fstab/btrfs-fstab_25.04.13-e3b8aef_amd64.deb
-Size: 5506
-MD5sum: a5a83352c35e165cfbc73f90df8b15d6
-SHA1: bb405ea591bd45c7cac2cc5fd8b01093921a7fea
-SHA256: 8556b407340a54a6577ddd9453917b488b4269cb27c89f9794c0354954f6c1bc
+Installed-Size: 52
+Depends: btrfs-progs (>= 4.0), util-linux (>= 2.20)
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
+Size: 16866
+MD5sum: dd8841034d81d23981f2bed17e4d9ac1
+SHA1: 853bcb558d7ab2cc1e837e2f901ea0a09bb52422
+SHA256: 24a1f001e3cac437438351f475a58327e7f6aaf3f701c8707c1ca81ea6982cd5
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/ddns
-Description: Generate a fstab file for BTRFS subvolumes -
-  Us for creating a fstab file for BTRFS filesystems with multiple subvolumes.
-Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+Homepage: https://github.com/MichaelSchaecher/btrfs-fstab
+Description: Generate fstab entries for btrfs subvolumes
+  This package provides a script to generate fstab entries for btrfs
+  subvolumes for customized Ubuntu installations that use btrfs as the
+  root filesystem.
+Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: btrfs-snapshot
 Version: 25.04.13-4611159
@@ -54,22 +56,25 @@ Description: Manage BTRFS snapshots simply -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: dpkg-changelog
-Version: 25.04.13-125ea5b
+Version: 0.3.12
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 20
-Depends: dpkg-dev, git
-Filename: pool/main/d/dpkg-changelog/dpkg-changelog_25.04.13-125ea5b_amd64.deb
-Size: 4456
-MD5sum: b2c3139336b8011e4e3ab273cb50a7b4
-SHA1: c1e7fa70ed51764985c89b1450ec033d4c9eb9af
-SHA256: 1d221b113d30360f21682a0c97c23326a0b64b270eda7a72199adb8a0e523114
+Installed-Size: 24
+Depends: dpkg (>= 1.0.0), git (>= 1.0.0)
+Recommends: dpkg-repos (>= 0.1.0), dpkg-craft (>= 0.5.0)
+Filename: pool/main/d/dpkg-changelog/dpkg-changelog_0.3.12-b8a2301_amd64.deb
+Size: 8036
+MD5sum: 041fea0c7752621842d5d88441daa579
+SHA1: 1ee24591a845e864908fbebffedf4191e04173a7
+SHA256: 751931cfd45f6b6860c326477c96242a7603aaac899fd3e6154358e7a0038759
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/ddns
-Description: Debian changelog from git commit messages -
-  Generate a Debian style changelog from git commit messages used in Debian/Ubuntu packages.
-Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+Homepage: https://github.com/MichaelSchaecher/dpkg-changelog
+Description: Generate changelog file for Debian packages.
+  Generate and configure changelog entries for Debian packages, sorting them
+  by date and setting the appropriate version numbers. If more then one commit
+  for the same date is found, then each commit will be added for that date.
+Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: grub-btrfsd
 Version: 25.03.12-8fcfa20
@@ -156,27 +161,23 @@ Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: simple-zram
 Source: https://github.com/MichaelSchaecher/simple-zram
-Version: 25.03.0-0758
-Architecture: all
+Version: 0.1.6
+Architecture: amd64
 Maintainer: Michael Schaecher <michaelleeschaeceher@gmail.com>
-Installed-Size: 40960
-Depends: bash, coreutils, awk, util-linux
-Filename: pool/main/s/simple-zram/simple-zram_25.03.0-0758_all.deb
-Size: 4144
-MD5sum: 5f50f6274e3f12ca9f47dcb2ab931e82
-SHA1: 0edb7369337073619d44d0e97d38df5cd9de582e
-SHA256: ce5efc02c3b4984e7ac6d450a9e0af18aa1441accc9d9c80e86304ae269f4334
-Section: utils
+Installed-Size: 72
+Depends: bash, coreutils, util-linux
+Filename: pool/main/s/simple-zram/simple-zram_0.1.6-28d4149_amd64.deb
+Size: 20962
+MD5sum: 3c614edf529d4f605f6836208c1107ec
+SHA1: 392d95ca25441469c9d83f390083b9e51e752097
+SHA256: 82d96e3feace08afa47db5fb14d709020a85000a2beeaab36e1b2c18bf04ebc9
+Section: admin
 Priority: optional
-Homepage: https://hotonebie.com
+Homepage: https://github.com/MichaelSchaecher/simple-zram
 Description: Create and enable zram swap devices
     This package provides a simple script to create and enable zram swap devices.
-Build-Depends: make
-Copyright: 2024 Michael Schaecher
-Files: *
-License: MIT
-    Permission is hereby granted, free of charge...
-Require: systemd, cureutils, awk, util-linux
+Build-Depends: dpkg-dev (>= 1.19.0), debhelper (>= 9)
+Standards-Version: 0.1.6 4.5.0
 
 Package: starship-update
 Version: 25.04.13-62e443c
