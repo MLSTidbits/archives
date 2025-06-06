@@ -112,6 +112,26 @@ Description: Minimal theme for Grub -
     This package provides a minimal theme for Grub.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
+Package: grub-themes-polkadots-dark
+Version: 0.0.8
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 884
+Depends: grub2-common, grub-common
+Filename: pool/main/g/grub-themes-polkadots-dark/grub-themes-polkadots-dark_0.0.8-bd8dfd2_all.deb
+Size: 357892
+MD5sum: c177cba87e0bc611268a1dbef3ead79a
+SHA1: 4db3f8967272517e72258501d504846a1cacf686
+SHA256: 9a8ff07a0496e7c8b96ef8d3e9959a08bad2b5e8c907d9e6b994e54c4b4821b1
+Section: misc
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/grub-themes-polkadots-dark
+Description: Grub dark theme with Polkadots
+  This is a dark theme for GRUB with a Polkadots designed to be minimalistic.
+  yet functional. It is designed to be used with the GRUB bootloader. It features
+  a clean and modern look, with a focus on simplicity and usability.
+Build-Depends: git, make (>= 4.1), dpkg-dev, dpkg-changelog
+
 Package: hello-world
 Version: 1.0.1
 Architecture: amd64
