@@ -11,7 +11,7 @@ Over the years I have developed a number of tools and scripts that have been use
 To install the repository, you need to add the repository to your apt sources. This can be done by adding the following line to your `/etc/apt/sources.list.d/howtonebie.list` file:
 
 ```bash
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/HowToNebie.gpg] hthttps://repository.howtonebie.com/ stable main" |
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/HowToNebie.gpg] https://repository.howtonebie.com/ stable main" |
 sudo tee /etc/apt/sources.list.d/howtonebie.list
 ```
 
