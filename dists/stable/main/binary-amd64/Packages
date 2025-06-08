@@ -113,16 +113,16 @@ Description: Minimal theme for Grub -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: grub-themes-polkadots-dark
-Version: 0.0.8
+Version: 0.0.12
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 884
+Installed-Size: 920
 Depends: grub2-common, grub-common
-Filename: pool/main/g/grub-themes-polkadots-dark/grub-themes-polkadots-dark_0.0.8-bd8dfd2_all.deb
-Size: 357892
-MD5sum: c177cba87e0bc611268a1dbef3ead79a
-SHA1: 4db3f8967272517e72258501d504846a1cacf686
-SHA256: 9a8ff07a0496e7c8b96ef8d3e9959a08bad2b5e8c907d9e6b994e54c4b4821b1
+Filename: pool/main/g/grub-themes-polkadots-dark/grub-themes-polkadots-dark_0.0.12-876b99f_all.deb
+Size: 367842
+MD5sum: 9f2abc7fa9ef47301ecc4c325003df03
+SHA1: 661707e406ac4c8d18894a0996b2349054e5f6c4
+SHA256: 46039be825f8fc900b0607dc878bb7ef4aa7483aee0927057e70071194a36d6f
 Section: misc
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/grub-themes-polkadots-dark
