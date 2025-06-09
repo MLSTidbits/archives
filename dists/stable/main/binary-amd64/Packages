@@ -77,16 +77,16 @@ Description: Generate changelog file for Debian packages.
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: grub-btrfsd
-Version: 4.1.7-a563193
+Version: 4.1.8-8a2587d
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 104
+Installed-Size: 136
 Depends: btrfs-progs, grub2-common, inotify-tools
-Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.1.7-a563193_amd64.deb
-Size: 48768
-MD5sum: a763dc06a001eb87af3ddca08aae0304
-SHA1: e5e7da12611b10555aaee17d9c2f76c1dea78124
-SHA256: f0e4f1a7ec0f9384c30a0377ec2047bca2f924cda6654756d580cbdbb5cf9fed
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.1.8-8a2587d_amd64.deb
+Size: 55052
+MD5sum: 58bcc729735404bd9febc790aefda10c
+SHA1: d3bd2cfc46b2549248b8d2d396ab9fbdfc74f074
+SHA256: c8b66536815c297a498971be572bc8a6f3c83ade601fffda6d14cac114060914
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelMure/grub-btrfsd
