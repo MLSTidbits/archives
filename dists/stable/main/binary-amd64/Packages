@@ -182,16 +182,16 @@ Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: simple-zram
 Source: https://github.com/MichaelSchaecher/simple-zram
-Version: 0.3.6-e36b9b0
+Version: 0.3.8-096b40d
 Architecture: amd64
 Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 60
+Installed-Size: 76
 Depends: bash, coreutils, util-linux
-Filename: pool/main/s/simple-zram/simple-zram_0.3.6-e36b9b0_amd64.deb
-Size: 19792
-MD5sum: 9568f5f54c3f5d9d6518ec6d942f3539
-SHA1: 704fbc14fd05d4b508238760cfbcb652acddc275
-SHA256: ce1f7eec3e7a008725bdd00a535658b4f62e4af37107ca735c62ee2ca9bfa32b
+Filename: pool/main/s/simple-zram/simple-zram_0.3.8-096b40d_amd64.deb
+Size: 21806
+MD5sum: 86d68f997e8b3494e656f2712ed3a901
+SHA1: e2a75d2a7776955c735510a030b2392628de7492
+SHA256: 57d62a4dec5870e47ed8023b4a002dd629da7f84a4eea0c1e00f840f2e8b543f
 Section: admin
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/simple-zram
