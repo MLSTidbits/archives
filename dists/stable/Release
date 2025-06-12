@@ -6,16 +6,16 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: Repository for the apt-repo project
-date: Thu, 12 Jun 2025 04:00:39 +0000
+date: Thu, 12 Jun 2025 19:59:57 +0000
 MD5Sum:
- 4de3e6c8a276c44825a9e168f3f97ddb 8785 main/binary-amd64/Packages
- bbe890eb7adc099f4b0bca743de68568 2922 main/binary-amd64/Packages.gz
- 4f667f87b101fdb80f017bfc33f95fe4 2876 main/binary-amd64/Packages.xz
+ af3c53ea245bbea5ac4cb13976a5691a 8789 main/binary-amd64/Packages
+ 9f9533cfa58712336275ddaadc03c1cc 2924 main/binary-amd64/Packages.gz
+ 637f85534a8d50fbb754a9cae284b052 2876 main/binary-amd64/Packages.xz
 SHA1:
- caec81260287e118cd068f69917c75c00988abca 8785 main/binary-amd64/Packages
- 6288ff02a8b3f8066b74d989d5f2d1ca41742897 2922 main/binary-amd64/Packages.gz
- 9240ff3fe51845e6886f509f50fec20f36ea654b 2876 main/binary-amd64/Packages.xz
+ 3739afa56f899e17a5d2d81b3308be7200c39042 8789 main/binary-amd64/Packages
+ 3c0d2d9d3722fe41dd91da7b001448db0e0a30b7 2924 main/binary-amd64/Packages.gz
+ ae232301f66141d2b33bb8ebcc9f22ae1917210d 2876 main/binary-amd64/Packages.xz
 SHA256:
- b156fd0f58de48636c4bd737dc8df12494f33c535061de361bad361480a15887 8785 main/binary-amd64/Packages
- 2bccba7c2cc0f5ddc3cc6c18929b3430fb959d67c14d5b328d051b84eb47c6b7 2922 main/binary-amd64/Packages.gz
- c8b0b3631f454d63eb19ae60c838913c1817c793a55ec55130c338b4706381e0 2876 main/binary-amd64/Packages.xz
+ f249180562e054e3a682a57d54a539caef9615762763da522226ae8f2a3a4df5 8789 main/binary-amd64/Packages
+ 136c9989658ef58527df0f0e30a02335ab265e41168b54562e707d1f8a3b914a 2924 main/binary-amd64/Packages.gz
+ e464b5df55f013c4b28d6f0b370dab1b4376777bdbf991ee168aef11c15996d9 2876 main/binary-amd64/Packages.xz

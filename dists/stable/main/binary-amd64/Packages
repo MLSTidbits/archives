@@ -182,23 +182,23 @@ Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: simple-zram
 Source: https://github.com/MichaelSchaecher/simple-zram
-Version: 0.3.2
+Version: 0.3.6-e36b9b0
 Architecture: amd64
-Maintainer: Michael Schaecher <michaelleeschaeceher@gmail.com>
-Installed-Size: 76
+Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 60
 Depends: bash, coreutils, util-linux
-Filename: pool/main/s/simple-zram/simple-zram_0.3.2-3824847_amd64.deb
-Size: 21542
-MD5sum: 4552a9da8d8fe4963ac12796bfed942b
-SHA1: 60edec8b72c6a60eb2a752306d0f31fdd7cc3ee5
-SHA256: 468f13b530bf27e5e22ba68950e5b91373efa8a5e77955bb48c2782c5f067c27
+Filename: pool/main/s/simple-zram/simple-zram_0.3.6-e36b9b0_amd64.deb
+Size: 19792
+MD5sum: 9568f5f54c3f5d9d6518ec6d942f3539
+SHA1: 704fbc14fd05d4b508238760cfbcb652acddc275
+SHA256: ce1f7eec3e7a008725bdd00a535658b4f62e4af37107ca735c62ee2ca9bfa32b
 Section: admin
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/simple-zram
 Description: Create and enable zram swap devices
     This package provides a simple script to create and enable zram swap devices.
 Build-Depends: dpkg-dev (>= 1.19.0), debhelper (>= 9)
-Standards-Version: 0.3.2 4.5.0
+Standards-Version: 4.5.0
 
 Package: starship-update
 Version: 25.04.13-62e443c
