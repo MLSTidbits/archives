@@ -18,23 +18,29 @@ Description: Generate fstab entries for btrfs subvolumes
   root filesystem.
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
-Package: btrfs-snapshot
-Version: 0.9.6-6dbb7c0
+Package: btrfsnapd
+Version: 1.0.8-c8e3422
 Architecture: amd64
 Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 84
+Installed-Size: 88
 Depends: btrfs-progs, bash (>= 4.4), grub-btrfsd
-Conflicts: timeshift
-Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_0.9.6-6dbb7c0_amd64.deb
-Size: 29958
-MD5sum: db3f4399de32ef9e73e57ba8938800ad
-SHA1: f84545fe13bfe36f2da640ee367c00fce10f3eb9
-SHA256: 79814e6a2907e1abf76d716003088820ec716ec206bd32ef50f9185fd48802d0
+Conflicts: timeshift, btrfs-snapshot
+Filename: pool/main/b/btrfsnapd/btrfsnapd_1.0.8-c8e3422_amd64.deb
+Size: 31430
+MD5sum: 9c07481934ffdefca137c07c2f032b5d
+SHA1: 399cf3afcbe0f03075231f8611ae6a7f39e9c7ce
+SHA256: d350ea41004c4be3bb51cbe2bc9f32c7e680476e7365efd8661208c76e8516ab
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/btrfs-snapshot
-Description: Manage BTRFS snapshots simply -
-    Maintain snapshots of on BTRFS filesystems configured the proper way.
+Homepage: https://github.com/MichaelSchaecher/btrfsnapd
+Description: Btrfs snapshot daemon
+ Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
+ GRUB to allow booting into snapshots. It provides a simple command-line
+ interface for creating, listing, and deleting snapshots, as well as
+ restoring the system to a previous state.
+ .
+ This package is designed to work with Btrfs filesystems and requires
+ btrfs-progs to function correctly.
 Build-Depends: debhelper (>= 11), git, dpkg-dev,dpkg-changelog
 
 Package: ddns
