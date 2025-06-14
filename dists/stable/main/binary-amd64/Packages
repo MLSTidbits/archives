@@ -19,22 +19,23 @@ Description: Generate fstab entries for btrfs subvolumes
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: btrfs-snapshot
-Version: 25.04.13-4611159
+Version: 0.9.5-b218bfe
 Architecture: amd64
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 36
-Depends: btrfs-progs, bash (>= 4.4)
-Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_25.04.13-4611159_amd64.deb
-Size: 8814
-MD5sum: 7f5190c30b3aec3f700b748f3711c083
-SHA1: b9bb36c2998de59f90e673eee7d2b4fa57654d75
-SHA256: 9279ec3ad6933c85cb52581065916f40b06b088829c33c6b5b14e41fb21c559b
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 84
+Depends: btrfs-progs, bash (>= 4.4), grub-btrfsd
+Conflicts: timeshift
+Filename: pool/main/b/btrfs-snapshot/btrfs-snapshot_0.9.5-b218bfe_amd64.deb
+Size: 29910
+MD5sum: a5c3a481a00b8b05cd8f4ab35764838b
+SHA1: 92808aecb739411cb93f57e8552d0d5b421ec6fe
+SHA256: a8f024cce24badc494e6ee3bd822ec9b95ef3e66a62e052b151e0b16eda727b5
 Section: utils
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/ddns
+Homepage: https://github.com/MichaelSchaecher/btrfs-snapshot
 Description: Manage BTRFS snapshots simply -
     Maintain snapshots of on BTRFS filesystems configured the proper way.
-Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+Build-Depends: debhelper (>= 11), git, dpkg-dev,dpkg-changelog
 
 Package: ddns
 Version: 25.03.13-a669f11
