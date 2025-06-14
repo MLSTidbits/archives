@@ -19,17 +19,17 @@ Description: Generate fstab entries for btrfs subvolumes
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: btrfsnapd
-Version: 1.0.8-c8e3422
+Version: 1.1.0-2824df8
 Architecture: amd64
 Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
 Installed-Size: 88
 Depends: btrfs-progs, bash (>= 4.4), grub-btrfsd
 Conflicts: timeshift, btrfs-snapshot
-Filename: pool/main/b/btrfsnapd/btrfsnapd_1.0.8-c8e3422_amd64.deb
-Size: 31430
-MD5sum: 9c07481934ffdefca137c07c2f032b5d
-SHA1: 399cf3afcbe0f03075231f8611ae6a7f39e9c7ce
-SHA256: d350ea41004c4be3bb51cbe2bc9f32c7e680476e7365efd8661208c76e8516ab
+Filename: pool/main/b/btrfsnapd/btrfsnapd_1.1.0-2824df8_amd64.deb
+Size: 31476
+MD5sum: 97c226f87677404320cede42bafe43ce
+SHA1: 75d2fd67e98ea18af6d5085dfcb1501463468e3b
+SHA256: 3f533a002afebfa99616f1f9ce908771001a29f97354d8baab704d537a783213
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/btrfsnapd
