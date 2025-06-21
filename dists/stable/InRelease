@@ -9,33 +9,33 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: Repository for the apt-repo project
-date: Sat, 21 Jun 2025 22:13:49 +0000
+date: Sat, 21 Jun 2025 22:34:53 +0000
 MD5Sum:
- e56aab6f2e4b1cd89191e6002cd58ff9 10160 main/binary-amd64/Packages
- 9c02c3f1cfc81b44983484ecd5dad20c 3468 main/binary-amd64/Packages.gz
- 3391fdfd2dea38cd4e29ffecfb7f1ea4 3384 main/binary-amd64/Packages.xz
+ c7a6e4d100841efcd6ac6bb5763c4489 10160 main/binary-amd64/Packages
+ ca700057de56f7655c5d52e712cf4f0c 3470 main/binary-amd64/Packages.gz
+ f57365708948cb4cb2eac5bf94093fd6 3380 main/binary-amd64/Packages.xz
 SHA1:
- 0df60827fff1443fef0cbf2c3e92c03c1ba15661 10160 main/binary-amd64/Packages
- f505bd94aed79df6ad99925edeecec4f46fa4d56 3468 main/binary-amd64/Packages.gz
- bce65e794b32aa243a52022b77ca929ea24c428d 3384 main/binary-amd64/Packages.xz
+ 0cd360b007223a40181fbc35ba14009195bc4b16 10160 main/binary-amd64/Packages
+ 2d64b7d6b07654b41b7a6c62a07a3379a5e0baee 3470 main/binary-amd64/Packages.gz
+ bdc701dd9478af741f09930869a76b3ca02a6a4a 3380 main/binary-amd64/Packages.xz
 SHA256:
- 17bfc77ce1c6e6c42847ebf328ead5e7b22ca3712b475cf93216910918419d40 10160 main/binary-amd64/Packages
- b2107e6dc5d58f833477404e7b47ebc43ba01ce83000ff0100eca96f2ef5645b 3468 main/binary-amd64/Packages.gz
- abb6e91b423034b704d6a256e166173f313156a7b1e44e7263dca777bc05625a 3384 main/binary-amd64/Packages.xz
+ fecbf21dc96bce1863929db47854d3a93bc10cbfef90ef3910466129789d6abb 10160 main/binary-amd64/Packages
+ 4a35c61f35e2a38607b7028ee97c8510813a9eae01ebbfbb8d7ce9546e09aba5 3470 main/binary-amd64/Packages.gz
+ 442b5c72ea512ddb3f17469512c4786d566ea58d1aed39a07e0abe630af5a71e 3380 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhXLp4eHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUot8IIP/3B1TeG/Pld3HOBr
-cnj5XnErITeZore1uVixXrBFpeRFdut/DfJ3XofKQXrpaCHnyBN2irDsmmLxYBXG
-cYyqPxgSzRH4q3asRmqJ6rHO6HVcHd782d7iHbA+Mub/Oeui8zOaxzZNlWjTtgHM
-IZXUM3IyBnlcVStEBf+gEGCbtJ5prT15FQJLMdR9sJLaEWBPzgKByh9M0afVcG1l
-uFCTLXQIsGu5Z4iZs53D9VzfmnxBb6AHTwp6aRlp4alv0SAPmeGj5I4PbhRsxYfU
-pC2rwhikucL5QwXiGq/nArkqd+QyQzlpWFpYH33eo/oVr8H42s9gIFxhf0dZm+0m
-i6D52jpc0QbV3UeC8kCM/QXd8ouI2+HLkhWMKH/U/HyQE/v0BALF89ViZqO/aCSn
-Nd7tY0gm35JGcbS6xiVezWxdaXawkq2rMWATHrkCmwSbXPOrAFt/EZem6uRv7PTN
-qiJDoaMUoWyh3OKJQ2L6V8p5vdh3AmHzD/X3ZZM7sp0tmQzpgK/WsZjoCtX712Rj
-1eX0XLcPGrr46vreU4X7i5iPbqOZdu0ZVMH1M0n8xSdiN5cQ3QTiftEBSyrrEl+A
-7qBW2hhLa4rvc9PZSJKA+KfjglBt26kWpqDkEplerwVBLvcb61ySpF42s3jvQ3ew
-wX4PIWb/MrcKsb2YEvgNq9C/okyX
-=HQS4
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhXM40eHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotlEAP/3nfwaJV3BzY9d54
+UNx+oJWkLHz+aHizhDutIQqH6Ytmampc686x+q2QNXZo53Fm02M9gA7YnNZ8S7v3
+jhbiM1bCC9I+L4/g2sIGtFRUMl/avOPN1gi43YaNywvlwDwLha+0yJjMPs2aj/0/
+nv91T7OTx4uYm8YEJxjeYdjN9E5mMuN4+ssjBgHSMKKSK4tT+7N4wI+WJR/qp6TZ
+UJhJu4wzB6dyUGVrue+HGpf8A8yKiQafqmo890KXKaH+V85EcDo5+cc16vRxGD/C
+kTeJBgXj0xzJyTh4dwA6ipSJinzWHUtUSUONii1LcYWuXdFF/zQ6pu6Vg/pYV1Vo
+dTiPTe9aIbspu3gjOwyhWKzpAogsYtQ4pUFkaWJfUq/yY1l707GO8Mla0ID9kRVW
+04haTh+LbSNLKdvKvjbtfoOfEm1YYkO7XVo68IramOU19z6I4C19qylGsHUuOlFV
+jFzCdo+qb2mlcOrUbggtrG7XxjKVQi31VPy3/h0LKVyuyVChruOH3Tr3Z49Mk1jy
+jNz68sabqhrCxGfeBIf0QStj8oFkYrVU63SgLlUx8s9IC9RIlHFfTet+QFGf0wm7
+1Wf3eDp/kEA627qxqL4TH6URoYPTaqCjbknWoBLUOvkhVKVrZ24kPyVoFB+JfC9x
+M1RYih0LYMnGE2IaJJoNMCOtexzc
+=l2lv
 -----END PGP SIGNATURE-----
