@@ -62,6 +62,35 @@ Description: Manage BTRFS snapshots simply -
     NOTE: This package is not compatible with Timeshift.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
+Package: ddnsd
+Version: 0.8.9-b5804cd
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 80
+Depends: jq, inotify-tools, curl, coreutils, nano
+Conflicts: ddns
+Filename: pool/main/d/ddnsd/ddnsd_0.8.9-b5804cd_amd64.deb
+Size: 29326
+MD5sum: 65801a6fd5a365f39538dc22ec174e0e
+SHA1: 3a01c7d762d0f7f17c7a4cdececa45837d5bae5c
+SHA256: 74ccba295221c98c4dc9b7b3c5852850dd61970be11b2a7f5f114bdc3cf5a511
+Section: net
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/ddnsd
+Description: ddnsd is a dynamic DNS server -
+    that allows you to update DNS records dynamically. Tt is designed to be simple
+    and efficient, making it suitable for small to medium-sized networks.
+    .
+    This package provides the ddnsd server and client utilities for managing dynamic
+    DNS updates.
+    .
+    Features include:
+    - Support for multiple DNS providers
+    - Easy configuration
+    - Lightweight and fast
+    - Open source and community-driven
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
 Package: dpkg-changelog
 Version: 0.3.12
 Architecture: amd64
