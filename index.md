@@ -20,8 +20,9 @@ wget -qO - https://repository.howtonebie.com/key/HowToNebie.gpg |
 gpg --dearmor | sudo dd of=/usr/share/keyrings/HowToNebie.gpg
 ```
 
-Once that is done update your package list and install the package simple-zram:
+Once that is done update your package list you can install packages from the repository using the following command:
 
 ```bash
 sudo apt update
 sudo apt install -y <package-name>
+```
