@@ -3,7 +3,3 @@ description: APT Repository for some of my projects
 show_downloads: false
 # google_analytics:
 theme: jekyll-theme-cayman
-
-include:
-  - pool
-  - dists
