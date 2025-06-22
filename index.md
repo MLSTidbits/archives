@@ -2,7 +2,11 @@
 layout: default
 ---
 
-Over the years I have developed a number of tools and scripts that have been useful to me. I have published them here in apt repositories, on github so that others can use them.
+## About
+
+The HowToNebie repository is a collection of packages designed to help users that have installed and setup their Debian/Ubuntu systems in a way that is not the most common. For example, it includes packages to assist maintaining **BTRFS Snapshots**, **DDNS** services with **DuckDNS**/**Cloudflare**, and more.
+
+It is designed to be used with Debian/Ubuntu and systems based on them, such as Linux Mint, Pop!_OS, and others. The repository is maintained by the [HowToNebie](https://HowToNebie.com) team and is open for contributions from the community.
 
 ## Install the repository
 
