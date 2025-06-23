@@ -216,26 +216,6 @@ Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers-poses
 Description: Wallpapers for the Plasma desktop
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
-Package: simple-zram
-Source: https://github.com/MichaelSchaecher/simple-zram
-Version: 0.3.8-096b40d
-Architecture: amd64
-Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 76
-Depends: bash, coreutils, util-linux
-Filename: pool/main/s/simple-zram/simple-zram_0.3.8-096b40d_amd64.deb
-Size: 21806
-MD5sum: 86d68f997e8b3494e656f2712ed3a901
-SHA1: e2a75d2a7776955c735510a030b2392628de7492
-SHA256: 57d62a4dec5870e47ed8023b4a002dd629da7f84a4eea0c1e00f840f2e8b543f
-Section: admin
-Priority: optional
-Homepage: https://github.com/MichaelSchaecher/simple-zram
-Description: Create and enable zram swap devices
-    This package provides a simple script to create and enable zram swap devices.
-Build-Depends: dpkg-dev (>= 1.19.0), debhelper (>= 9)
-Standards-Version: 4.5.0
-
 Package: starship-update
 Version: 25.04.13-62e443c
 Architecture: amd64
@@ -253,4 +233,27 @@ Homepage: https://github.com/MichaelSchaecher/ddns
 Description: Install and update to the Starship prompt -
   The Starship prompt is a cross-shell prompt written in rust that is fast & customizable.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: zswapd
+Source: https://github.com/MichaelSchaecher/zswapd
+Version: 0.4.4-a2ccb35
+Architecture: amd64
+Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 72
+Depends: bash, coreutils, util-linux
+Conflicts: zram-tools, simple-zram
+Filename: pool/main/z/zswapd_0.4.4-a2ccb35_amd64.deb
+Size: 22710
+MD5sum: ecb56f7f6b5622121f8af131362ba4a5
+SHA1: b9d25016c569e6cfb8be91ea4f77b1597203afb6
+SHA256: d2692ef8195e5dc2d64855349bf5fc310f358234945eb8b2c9f77695bb566ffb
+Section: admin
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/zswapd
+Description: zswapd is a daemon to manage zram devices
+ zswapd is a simple daemon to manage zram devices. It creates and manages
+ zram devices, allowing for efficient memory compression and swap management.
+ It is designed to be lightweight and easy to use, providing a straightforward
+ interface for system administrators to configure and monitor zram usage.
+Build-Depends: dpkg-dev (>= 1.19.0), debhelper (>= 9)
 
