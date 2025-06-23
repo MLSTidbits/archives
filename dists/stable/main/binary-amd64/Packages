@@ -236,17 +236,17 @@ Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: zswapd
 Source: https://github.com/MichaelSchaecher/zswapd
-Version: 0.4.9-be5fd40
+Version: 0.5.1-560c398
 Architecture: amd64
 Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
 Installed-Size: 76
 Depends: bash, coreutils, util-linux
 Conflicts: zram-tools, simple-zram
-Filename: pool/main/z/zswapd_0.4.9-be5fd40_amd64.deb
-Size: 23208
-MD5sum: 9b97fadd9d75bf4bb73909d214fbd407
-SHA1: 9dd1bb7b6c931d757f9d57af55625209a0478835
-SHA256: a1a40accf2b9f0d1a756c890fbc943948964766d31485f889ad1f196d7ced1a0
+Filename: pool/main/z/zswapd_0.5.1-560c398_amd64.deb
+Size: 23384
+MD5sum: 326df01fbee02fc41d2e60220ebc85a3
+SHA1: f8d6076cbae4e27e0ab310654b78af62bfd29604
+SHA256: c98ed5c21607c7ef0c8f1a12aec710d8e018563f70c34f44c257a2a7ae05b943
 Section: admin
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/zswapd
