@@ -1,6 +1,6 @@
 <div align="right">
   <img
-    src="images/logo.svg"
+    src="images/logo.png"
     alt="Repository Logo"
     width="auto"
     height="360"
