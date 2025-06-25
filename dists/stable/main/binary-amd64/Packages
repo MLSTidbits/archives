@@ -63,17 +63,17 @@ Description: Manage BTRFS snapshots simply -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: ddnsd
-Version: 1.0.3-a55b281
+Version: 1.0.5-c0057bd
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 84
 Depends: jq, inotify-tools, curl, coreutils, nano
 Conflicts: ddns
-Filename: pool/main/d/ddnsd/ddnsd_1.0.3-a55b281_amd64.deb
-Size: 31144
-MD5sum: 51dec1d950c948b3b81f61bad0015234
-SHA1: f76724df90a3e8a867213df2d3637c4ae73416dd
-SHA256: 6badf3b4e7fb9bbfd5d51cc4928fe7313108929c7ec9799d067212c7ba5c9099
+Filename: pool/main/d/ddnsd/ddnsd_1.0.5-c0057bd_amd64.deb
+Size: 31244
+MD5sum: 6f5a45a555de9ca9c3b8b32dd977d20c
+SHA1: 423c07c43db883a58cfdd387f24f54963222eb4f
+SHA256: 03bc37ebea7918fa795086ca4dea9d4ada994f270d52fccff4ca494c55ab171c
 Section: net
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddnsd
