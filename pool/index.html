@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf‑8"/>
+  <title>Pool Directory Index</title>
+  <style>
+    ul { list-style: none; margin-left: 1em; }
+    li.folder { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Files in /pool</h1>
+  <div id="listing">Loading…</div>
+
+<script>
+async function fetchPool() {
+  const res = await fetch('/api/pool');
+  const json = await res.json();
+  function render(items) {
+    const ul = document.createElement('ul');
+    for (const it of items) {
+      const li = document.createElement('li');
+      if (it.type === 'directory') {
+        li.textContent = '📁 ' + it.name;
+        li.className = 'folder';
+        li.appendChild(render(it.children));
+      } else {
+        li.innerHTML = `📄 <a href="/pool/${encodeURIComponent(it.path)}" target="_blank">${it.name}</a> (${it.size} bytes)`;
+      }
+      ul.appendChild(li);
+    }
+    return ul;
+  }
+  document.getElementById('listing').innerHTML = '';
+  document.getElementById('listing').appendChild(render(json.items));
+}
+
+fetchPool();
+</script>
+</body>
+</html>
