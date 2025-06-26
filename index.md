@@ -2,9 +2,10 @@
 layout: default
 ---
 
-## About
+[dist](https://repository.howtonebie.com/dist/)
+[pool](https://repository.howtonebie.com/pool/)
 
-The HowToNebie repository is a collection of packages designed to help users that have installed and setup their Debian/Ubuntu systems in a way that is not the most common. For example, it includes packages to assist maintaining **BTRFS Snapshots**, **DDNS** services with **DuckDNS**/**Cloudflare**, and more.
+The HowToNebie repository is a collection of packages designed to help users that have installed and setup their Debian/Ubuntu systems in a way that is not the most common. For example, it includes packages to assist maintaining **BTRFS Snapshots**, **DDNS** services with [DuckDNS](https://duckdns.org)/[cloudflare](https://cloudflare.com), and other useful tools that are not available in the default repositories.
 
 It is designed to be used with Debian/Ubuntu and systems based on them, such as Linux Mint, Pop!_OS, and others. The repository is maintained by the [HowToNebie](https://HowToNebie.com) team and is open for contributions from the community.
 
