@@ -1,6 +1,7 @@
 ---
 title: HowToNebie Repository
 layout: default
+image: images/logo.png
 ---
 
 ## About
