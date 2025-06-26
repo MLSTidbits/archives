@@ -1,6 +1,5 @@
 ---
 layout: default
-image: images/logo.png
 ---
 
 ## About
