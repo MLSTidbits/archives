@@ -14,7 +14,7 @@
 
 <script>
 async function fetchPool() {
-  const res = await fetch('/api/pool');
+  const res = await fetch('/pool');
   const json = await res.json();
   function render(items) {
     const ul = document.createElement('ul');
