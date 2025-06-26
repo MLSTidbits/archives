@@ -2,5 +2,5 @@ title: HowToNebie Repository
 description: A collection of tools and resources for Debian and Ubuntu users.
 show_downloads: false
 # google_analytics:
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 image: /images/logo.svg
