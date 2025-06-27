@@ -24,7 +24,7 @@ baseDir="$(pwd)"
 
 # Release header
 releaseFile="$(cat <<EOF
-Origin: mls
+Origin: HowToNebie
 Label: default
 Suite: stable
 Codename: stable
