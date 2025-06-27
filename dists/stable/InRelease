@@ -1,41 +1,45 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Origin: mls
+Origin: HowToNebie
 Label: default
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: Repository for the apt-repo project
-date: Wed, 25 Jun 2025 23:21:51 +0000
-MD5Sum:
- 1d397da80057ad50d0bcc47a0d624068 10367 main/binary-amd64/Packages
- ac84a84f768c5938ea05dd9d92d65b08 3562 main/binary-amd64/Packages.gz
- 157487217b52d2cdf117169ea24ca553 3472 main/binary-amd64/Packages.xz
-SHA1:
- 4adbd8b8b77b6f5cb5b9b4e05bc47c3dfc7c95f9 10367 main/binary-amd64/Packages
- acc6ce6e882b83bba77212076ec4ef1377d69a30 3562 main/binary-amd64/Packages.gz
- 49fda85f158f9164b10dcf448da2dfc984124835 3472 main/binary-amd64/Packages.xz
-SHA256:
- d9d9f69077cc8e5d1e9a90864ee81876e6d83dbf9720fbe0b37139238c903df7 10367 main/binary-amd64/Packages
- 7e9258dfaba111178de691872fb99c12246bef76caaa52e16672aa58e8690dc3 3562 main/binary-amd64/Packages.gz
- 5cf8e470b63721995d46828ba4fd1d2fdf3fe9a4f007a74f9e394ccf520ad4fe 3472 main/binary-amd64/Packages.xz
+Description: HowToNubie.com APT Repository
+ APT repository for HowToNubie.com
+Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
+date: Fri, 27 Jun 2025 23:41:25 +0000
+MD5:
+ dd8841034d81d23981f2bed17e4d9ac1 16866 pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
+ 97c226f87677404320cede42bafe43ce 31476 pool/main/b/btrfsnapd/btrfsnapd_1.1.0-2824df8_amd64.deb
+ 2268bd03a9b294b22124cf6173a2f217 11606 pool/main/d/ddns/ddns_25.03.13-a669f11_amd64.deb
+ 40cd5fddb11c6c2f42ce6836d686fc62 31466 pool/main/d/ddnsd/ddnsd_1.1.2-238b45a_amd64.deb
+ 041fea0c7752621842d5d88441daa579 8036 pool/main/d/dpkg-changelog/dpkg-changelog_0.3.12-b8a2301_amd64.deb
+ 58bcc729735404bd9febc790aefda10c 55052 pool/main/g/grub-btrfsd/grub-btrfsd_4.1.8-8a2587d_amd64.deb
+ ab4e542f41b1bafc29a7c87fd959eb63 182434 pool/main/g/grub-theme-minimal/grub-theme-minimal_25.03.12-dba4378_amd64.deb
+ 46662640ae73ef698e6dbd2a691476ce 368376 pool/main/g/grub-theme-polkadots-dark/grub-themes-polkadots-dark_0.0.13-696d63b_all.deb
+ c9b6a13ec70bb2f58d52a3f9399a9c6b 2556 pool/main/h/hello-world/hello-world_1.0.1-1_amd64.deb
+ 4b81c737ca52234d4ce33f49c83fd809 27329466 pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
+ 88510db823b4c55e5a331a58d3e1e603 73740570 pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
+ 0e53fa1454655742857528fcbe672a18 5066 pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
+ 326df01fbee02fc41d2e60220ebc85a3 23384 pool/main/z/zswapd_0.5.1-560c398_amd64.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhchJAeHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotNlAP/jDSM8Bqc28jlfR5
-ILKaO9EXXxSPoeZbPzVfhGNZLvufrf0wOnb8UMQTcRzboB4AuznsHpnkz2C7d08D
-jLCXfTXlvgo3hIDm0mwXW6qFeVMxZt9lA65F3Q/qFEq0i41K/IIjY/DgPnqc2Imv
-UKpCCuoAhDw8hj9+EUGTkDHwdDhZd0hw0ZjreDQPGS56HtnBfp0EcIL2fuXcjWir
-tghfz+D5tEWJRkzbjecrAk/HZudow2ru5G7Amg+b5ZNyatYmRQ4Ykj3ovGaIkcMF
-E75JPohxauV8W6phDrttZFHk+oU81kRFSfXettYRJHTr1pLRaQM0rjRtk/ojijCo
-PvzvJHWHF9Xq0C7pw7dWrEIQk7fTcXLXiE9cJz+EOSTgvgmJ2olRtfAh7mf0kvQv
-h2DrkjSU8lEGGpSSfApYd0bPQC9LGjzG2JAvvEPiLLKtZFacl5tYAHUpm8EwlDs7
-deoBM7bRW8CAuklutb0q5hJi4e3GxhsnNcFijd/DwSSf96L4h2PgiCRhj1CG4hXf
-W+bq3qLk8D9gTy0+7rl2kQ3F8hoGcx8ac2BKLQnzlK2wcpgYQw92RiRd414OWUtJ
-rrrGo/zCxXyO0B9lhKV1FSpMlsuM+uRSuQ1AFhsEHCIRLXc7fKmCS4YPSl/EJuaY
-b5SZGkdFPUkbCKUhdx52XxJTkJP8
-=DPgt
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhfLQIeHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotBoYQAIPTiAuEb6tebpjD
+RD3dwMLilqMlA/Wrea/PfRUIPiJdyHBonJYxpVAj+3RO9qrplrXRsS2qcKSCj+Nd
+Ct+8Vjf7bhotMg1BDKL3izJtTRmLQ9QOYVUM6o4cZa6wd/eYvPQ0Fy2Eaw+zo/+b
+srArostcfDfw41LJq9jySFlG0P0DkicVMquO3B7AqJUgV6IX+jg6qu0R6IPEQxsE
+UomqTdzrhBsu7OvQ3pqsiEB0QkyPzsI6RMk/T5BhgGXvQdgBFtP8EGC15ZZcG0/T
+spjCNfYoroQpx5iFVGPOXOZGHG+zW86+Q1EMtH//QIVInlENhtdOt8u2zGvOOnVO
+PLv44CIh/lQ/1GwrK9IPrUl/osi2VxKz7SVAS65mPKg5+m5dNq09SugvxBezRo7m
+K02tioT49ATvLsdY7ihDUJ+x0PzxSvdgIH5i33EdcGlDkKgorsiXo0x9mJB1leQ7
+rM/vwbRWchYHp0Jt3+lI4qzQ9Jm6r1z6cUG5gwZ1XMdo92NrkWLDJQS0ZvAVK+Oc
+1tduoS8aRTbxsqZjoELgLoPwOBn5Zav0QDNrh2e8K8Aou4m0qJY2xYdSSm6PkEh5
+dstl6Wq5sfy1RKSs4DRwnWzh4E01W0B6m2dN20Kbl4rkfO2UwjmPloEOrs11C4d0
+cb7ToAhLaZANMuP26FVWWBLTW6Cv
+=4jNN
 -----END PGP SIGNATURE-----
