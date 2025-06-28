@@ -43,25 +43,6 @@ Description: Btrfs snapshot daemon
  btrfs-progs to function correctly.
 Build-Depends: debhelper (>= 11), git, dpkg-dev,dpkg-changelog
 
-Package: ddns
-Version: 25.03.13-a669f11
-Architecture: amd64
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 32
-Depends: dpkg-dev, git
-Filename: ./pool/main/d/ddns/ddns_25.03.13-a669f11_amd64.deb
-Size: 11606
-MD5sum: 2268bd03a9b294b22124cf6173a2f217
-SHA1: 5ca2b223ba26fbf4dba9d1185f4d947bdf300a4d
-SHA256: fa6522800c5c7c2a131a839bf4f73730dcc99a88f213b4e0d9f21c7ad9a22ba1
-Section: utils
-Priority: optional
-Homepage: https://github.com/MichaelSchaecher/ddns
-Description: Manage BTRFS snapshots simply -
-    If you are using the BTRFS filesystem the way it was intended.
-    NOTE: This package is not compatible with Timeshift.
-Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
-
 Package: ddnsd
 Version: 1.1.2-238b45a
 Architecture: amd64
