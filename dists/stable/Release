@@ -8,16 +8,16 @@ Components: main
 Description: HowToNubie.com APT Repository
  APT repository for HowToNubie.com
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
-date: Sat, 28 Jun 2025 00:20:06 +0000
+date: Sat, 28 Jun 2025 00:33:27 +0000
 MD5Sum:
  1d397da80057ad50d0bcc47a0d624068 10367 main/binary-amd64/Packages
- af0223c7da22202e2e4c5ee7dc7d22be 3562 main/binary-amd64/Packages.gz
+ b91e0db982158ec31159f541fa73f930 3562 main/binary-amd64/Packages.gz
  157487217b52d2cdf117169ea24ca553 3472 main/binary-amd64/Packages.xz
 SHA1:
  4adbd8b8b77b6f5cb5b9b4e05bc47c3dfc7c95f9 10367 main/binary-amd64/Packages
- db7e209790e0ef3c28026808fe3e0b6960dace24 3562 main/binary-amd64/Packages.gz
+ a6de612e42a6e41901741e6d78bf306d91ad6e84 3562 main/binary-amd64/Packages.gz
  49fda85f158f9164b10dcf448da2dfc984124835 3472 main/binary-amd64/Packages.xz
 SHA256:
  d9d9f69077cc8e5d1e9a90864ee81876e6d83dbf9720fbe0b37139238c903df7 10367 main/binary-amd64/Packages
- b87b460bd75c292ee2e1ccf53d92e3536e1dac81ecfd0e58e56fc47bac9007f1 3562 main/binary-amd64/Packages.gz
+ 36a1f8cc2a3688336c5b278395610a54e2ca8b55c6b4740aa7cd933adf83cc6e 3562 main/binary-amd64/Packages.gz
  5cf8e470b63721995d46828ba4fd1d2fdf3fe9a4f007a74f9e394ccf520ad4fe 3472 main/binary-amd64/Packages.xz

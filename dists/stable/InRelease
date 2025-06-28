@@ -11,33 +11,33 @@ Components: main
 Description: HowToNubie.com APT Repository
  APT repository for HowToNubie.com
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
-date: Sat, 28 Jun 2025 00:20:06 +0000
+date: Sat, 28 Jun 2025 00:33:27 +0000
 MD5Sum:
  1d397da80057ad50d0bcc47a0d624068 10367 main/binary-amd64/Packages
- af0223c7da22202e2e4c5ee7dc7d22be 3562 main/binary-amd64/Packages.gz
+ b91e0db982158ec31159f541fa73f930 3562 main/binary-amd64/Packages.gz
  157487217b52d2cdf117169ea24ca553 3472 main/binary-amd64/Packages.xz
 SHA1:
  4adbd8b8b77b6f5cb5b9b4e05bc47c3dfc7c95f9 10367 main/binary-amd64/Packages
- db7e209790e0ef3c28026808fe3e0b6960dace24 3562 main/binary-amd64/Packages.gz
+ a6de612e42a6e41901741e6d78bf306d91ad6e84 3562 main/binary-amd64/Packages.gz
  49fda85f158f9164b10dcf448da2dfc984124835 3472 main/binary-amd64/Packages.xz
 SHA256:
  d9d9f69077cc8e5d1e9a90864ee81876e6d83dbf9720fbe0b37139238c903df7 10367 main/binary-amd64/Packages
- b87b460bd75c292ee2e1ccf53d92e3536e1dac81ecfd0e58e56fc47bac9007f1 3562 main/binary-amd64/Packages.gz
+ 36a1f8cc2a3688336c5b278395610a54e2ca8b55c6b4740aa7cd933adf83cc6e 3562 main/binary-amd64/Packages.gz
  5cf8e470b63721995d46828ba4fd1d2fdf3fe9a4f007a74f9e394ccf520ad4fe 3472 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhfNUceHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUot0y0P/i0TM9Mht+BcPVow
-O8MIEiabnvS0f+oWnDkty3MYObSzrmCxA9W2iAtn4CkYS+MBivqp1XgkNjp0tZe+
-QG6D17xsIqYo5DH2KPU7cSrmC6nIgXdsprWVqnu4sFGnohlnSp44r9AWgx2V1Zf2
-C5CjQ7NKbOBJ5+UX5xU7fXBoy4Cai9MfQa09l1kx5FMpIFo0I0vSAv485nGk/hlX
-C2fJJnpfcTq/sK8uFY2fAGr+o3Q3RhjmswO1lmRem3qu7P/C617vg6tY88SxhOuI
-8WnXVg7STa1dutuoe0HUuIguxVfjzohplL4gzM/uf0Ng6XAWUyldiMoZZe6lKSrh
-GboMdYLMup+gUQZDvPzqTWPDKJLWpuTRT7sfv1/l0OcPmi3RFTDlW0A0PX4DkCv5
-HooabZ9nTwUVCmxPD+pvx/n5cNsCn9wgZPP8FTyqf/iICX79elFi3ugawKAYa7yr
-FukOegEh5bwa2SOFaoJVNowNy2mNBem/Yi+cm4TG11dtXov3zkkjrE3BbELa9Wqs
-IfQ8xrcXnCwynrH9+ECaYT9nhstX7hCqdiz9Yi+yu5lYMHP9oOYAvMCu4yScXqVL
-Bh4lFGmE4WrjIygMRsosMDrbhhqpX/ZkkCiPv3SZwTdRdfXjsnPvAiKUBjZI4Ro6
-bmtmUjQAbGW+mEGlbMlmJl7HJnxd
-=y8IZ
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhfOGEeHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotEigP+wZW2O1xFUn9cDiX
++dOlgd7KmiDtjEcRVp8zcui+T5wfdhA4wIM3Qy1YqHmkYJcHFgouWVUVaRThJDEZ
+LtUp36a3VhAgomtL6NrxIvKvquIpKDbgXRzZ3aXcSlqBnmaHathQWQp6xEpXivpP
+tnDydSENBJhAL5wZOo2mIq4QfQgpYP/7dpIljzo/1xCOc9lcuhh6xAcuagVrkjYH
+4K1pIN8E437hvDrinn1qPFRZgLsHs3ohYyChs6KoRCrc2EArGJD82Js8OM+Lk/my
+xKuIWAnzcnyiCTQB86pqMSIYVwSQ7hurzweIDLqKdiUzZ8dOHm4lgzMCPh1uXJNJ
+FcgfP6GxAanuO8bxj5WkdWYV9TJTYLvjMlHKPX8qBoTS7XYyTJ6ITfJ3Eq/MTF4W
+z8mruuMx2DGPKDVw/6k+DdP9xB1uHbzz6tUsQARregCXjC+AGeRKkKwpPOyBccsH
+19ExfKlhDOXVVJ2MfjG1aYiUgW6guQ09LrgYZhF4TPL67B6qHXumV1tM/QhhCYU6
+qeDpiBQIP7+PIE9gq+gu4yu7pul/LEMw7ZnAwIKvTGm2TKCkoFh/pt4xLHmO2dUQ
+ZrXqwZKazb97HUrTEv49In2q+F3EjEjPVlytsG7kuhBn7A1MvrtIgr44d8xND6+t
+O9fjsI0l4ffV3ocblKcvfzy/bPXe
+=RmH3
 -----END PGP SIGNATURE-----
