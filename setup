@@ -31,7 +31,9 @@ Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: Repository for the apt-repo project
+Description: HowToNubie.com APT Repository
+ APT repository for HowToNubie.com
+Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
 date: $(date -Ru)
 EOF
 )"

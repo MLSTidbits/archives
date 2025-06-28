@@ -11,35 +11,33 @@ Components: main
 Description: HowToNubie.com APT Repository
  APT repository for HowToNubie.com
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
-date: Fri, 27 Jun 2025 23:41:25 +0000
-MD5:
- dd8841034d81d23981f2bed17e4d9ac1 16866 pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
- 97c226f87677404320cede42bafe43ce 31476 pool/main/b/btrfsnapd/btrfsnapd_1.1.0-2824df8_amd64.deb
- 2268bd03a9b294b22124cf6173a2f217 11606 pool/main/d/ddns/ddns_25.03.13-a669f11_amd64.deb
- 40cd5fddb11c6c2f42ce6836d686fc62 31466 pool/main/d/ddnsd/ddnsd_1.1.2-238b45a_amd64.deb
- 041fea0c7752621842d5d88441daa579 8036 pool/main/d/dpkg-changelog/dpkg-changelog_0.3.12-b8a2301_amd64.deb
- 58bcc729735404bd9febc790aefda10c 55052 pool/main/g/grub-btrfsd/grub-btrfsd_4.1.8-8a2587d_amd64.deb
- ab4e542f41b1bafc29a7c87fd959eb63 182434 pool/main/g/grub-theme-minimal/grub-theme-minimal_25.03.12-dba4378_amd64.deb
- 46662640ae73ef698e6dbd2a691476ce 368376 pool/main/g/grub-theme-polkadots-dark/grub-themes-polkadots-dark_0.0.13-696d63b_all.deb
- c9b6a13ec70bb2f58d52a3f9399a9c6b 2556 pool/main/h/hello-world/hello-world_1.0.1-1_amd64.deb
- 4b81c737ca52234d4ce33f49c83fd809 27329466 pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
- 88510db823b4c55e5a331a58d3e1e603 73740570 pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
- 0e53fa1454655742857528fcbe672a18 5066 pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
- 326df01fbee02fc41d2e60220ebc85a3 23384 pool/main/z/zswapd_0.5.1-560c398_amd64.deb
+date: Sat, 28 Jun 2025 00:20:06 +0000
+MD5Sum:
+ 1d397da80057ad50d0bcc47a0d624068 10367 main/binary-amd64/Packages
+ af0223c7da22202e2e4c5ee7dc7d22be 3562 main/binary-amd64/Packages.gz
+ 157487217b52d2cdf117169ea24ca553 3472 main/binary-amd64/Packages.xz
+SHA1:
+ 4adbd8b8b77b6f5cb5b9b4e05bc47c3dfc7c95f9 10367 main/binary-amd64/Packages
+ db7e209790e0ef3c28026808fe3e0b6960dace24 3562 main/binary-amd64/Packages.gz
+ 49fda85f158f9164b10dcf448da2dfc984124835 3472 main/binary-amd64/Packages.xz
+SHA256:
+ d9d9f69077cc8e5d1e9a90864ee81876e6d83dbf9720fbe0b37139238c903df7 10367 main/binary-amd64/Packages
+ b87b460bd75c292ee2e1ccf53d92e3536e1dac81ecfd0e58e56fc47bac9007f1 3562 main/binary-amd64/Packages.gz
+ 5cf8e470b63721995d46828ba4fd1d2fdf3fe9a4f007a74f9e394ccf520ad4fe 3472 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhfL2EeHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotUjIP/jhsWwUPHaD+U8Eu
-crXOJVtIym8Lvoas/OAaKimCOGZnoZXv8T8hDhKtMT5XyRGfkQRS+d3N2FVCiRf1
-S5oJ3L1bTvMk51H4t82TCnOcDKN/iz3k6EJcRCwUrKSTCVpUWqx/ZmaF9B1YhLpn
-wsbwWTXUmm798vcNQdH5HlysZUUvgEuxFx5XjHJvCfJUBk8sMeOjG5ECXo67wBWF
-aw3oLnpy2hLJwmm/ZkJcmyvkVEaTMpFo7ncFTKh4BWmeMpDBb4dOu7ijjqXTNh4k
-Z7thr39l9URgC9sksNi9GFLKs1e6xVEbrvRnfrTY//ReCfxjH2Yv3m1MWBUuwEhc
-nuwTborX314S5Ko8c8wdoBng6ViuT9AlhA5lONE6pXbQODpG4emYqzbJJMgIY46n
-dfAl4u1Ej/p8wpPYv/cYgVMfLUfPJTfqBdYVptbEugqhtNWCOCn80AE/bIsSFbx8
-mrOhlSpG4wS4lS7XjKTdC6uJrIHuKiUlb7kOm1GQ4hPr8oa+P/HEUuwh5cNyXfat
-kyr6V8Q+Vlkr9qDPXfYC86YsN37N/zg950D/JaQ5xdEhVB5UpsnetrVYgeXnnVLm
-3JehxfwG0t+ti7inVFLzjGFXc6TvqMp1egldbeYpt2zWQWmnauPxiOxNVdfVqZPG
-J08VU3tLoGHY7kKK26CGwdn2n3s3
-=jdoH
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhfNUceHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUot0y0P/i0TM9Mht+BcPVow
+O8MIEiabnvS0f+oWnDkty3MYObSzrmCxA9W2iAtn4CkYS+MBivqp1XgkNjp0tZe+
+QG6D17xsIqYo5DH2KPU7cSrmC6nIgXdsprWVqnu4sFGnohlnSp44r9AWgx2V1Zf2
+C5CjQ7NKbOBJ5+UX5xU7fXBoy4Cai9MfQa09l1kx5FMpIFo0I0vSAv485nGk/hlX
+C2fJJnpfcTq/sK8uFY2fAGr+o3Q3RhjmswO1lmRem3qu7P/C617vg6tY88SxhOuI
+8WnXVg7STa1dutuoe0HUuIguxVfjzohplL4gzM/uf0Ng6XAWUyldiMoZZe6lKSrh
+GboMdYLMup+gUQZDvPzqTWPDKJLWpuTRT7sfv1/l0OcPmi3RFTDlW0A0PX4DkCv5
+HooabZ9nTwUVCmxPD+pvx/n5cNsCn9wgZPP8FTyqf/iICX79elFi3ugawKAYa7yr
+FukOegEh5bwa2SOFaoJVNowNy2mNBem/Yi+cm4TG11dtXov3zkkjrE3BbELa9Wqs
+IfQ8xrcXnCwynrH9+ECaYT9nhstX7hCqdiz9Yi+yu5lYMHP9oOYAvMCu4yScXqVL
+Bh4lFGmE4WrjIygMRsosMDrbhhqpX/ZkkCiPv3SZwTdRdfXjsnPvAiKUBjZI4Ro6
+bmtmUjQAbGW+mEGlbMlmJl7HJnxd
+=y8IZ
 -----END PGP SIGNATURE-----
