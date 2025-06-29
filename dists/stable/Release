@@ -1,23 +1,22 @@
-Origin: HowToNebie
-Label: default
+Origin: HowToNebie/repository.howtonebie.com
+Label: HowToNebie
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: HowToNubie.com APT Repository
- APT repository for HowToNubie.com
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
-date: Sun, 29 Jun 2025 13:29:29 +0000
+Description: Publicly available APT repository for HowToNebie
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Date: Sun, 29 Jun 2025 21:32:03 +0000
 MD5Sum:
- 14958213743cb81aa3712fd7b5068fb8 9432 main/binary-amd64/Packages
- ae83ac06f8b407b7b6e318dccc77530e 3290 main/binary-amd64/Packages.gz
- 865a72b2911645fdc5e19800cf6fb715 3216 main/binary-amd64/Packages.xz
+ 69d84c0c975d9eab9c56cd0de9ee7f4f 10382 main/binary-amd64/Packages
+ 9e61b96e51c80de7fcf31553b6363679 3617 main/binary-amd64/Packages.gz
+ b3c8701b742412394c8624c7ac008bb3 3520 main/binary-amd64/Packages.xz
 SHA1:
- c19320be853b9646b19a536718064edeeb0ccd0d 9432 main/binary-amd64/Packages
- 8dd07c66017747e0e2124f823b606847e2497d5a 3290 main/binary-amd64/Packages.gz
- cdfb4046286d1cbe9b6d576f87815526356b37d3 3216 main/binary-amd64/Packages.xz
+ fd67aa9e7599417517959351ae8650ca7139bc48 10382 main/binary-amd64/Packages
+ 8f910821e359679aed56d782ecf1ea76c4f75e14 3617 main/binary-amd64/Packages.gz
+ 5f4c3c06d0c9e76f4d9a18b65679fff92f7a0bc1 3520 main/binary-amd64/Packages.xz
 SHA256:
- cad697e14d5fd6d8b161c62579cf1d7dbda38f3c4a8a3e1c0f4270c0338f59be 9432 main/binary-amd64/Packages
- f7c05c914c605b02acae1df9ae0e03b0bee6d847067de4daad0eb6db050d32cf 3290 main/binary-amd64/Packages.gz
- a991a36f3d8f96289e670858ea58960eae078c0d4a6211ac149e01bef84e8c68 3216 main/binary-amd64/Packages.xz
+ 7b0809469a27955cbbcced1d1419e020040c45c45bdfadf1f805e4b1117dba48 10382 main/binary-amd64/Packages
+ e0a77dc40af1177a7b9c0ee6f87f72b3276df31d12b1abf59fea88129d04dc03 3617 main/binary-amd64/Packages.gz
+ b4fb643898d06c555e062a5f9a23cf661592e71a5da33e4e3a69a3dd0d986971 3520 main/binary-amd64/Packages.xz
