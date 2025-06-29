@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 52
 Depends: btrfs-progs (>= 4.0), util-linux (>= 2.20)
-Filename: ./pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
 Size: 16866
 MD5sum: dd8841034d81d23981f2bed17e4d9ac1
 SHA1: 853bcb558d7ab2cc1e837e2f901ea0a09bb52422
@@ -25,7 +25,7 @@ Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
 Installed-Size: 88
 Depends: btrfs-progs, bash (>= 4.4), grub-btrfsd
 Conflicts: timeshift, btrfs-snapshot
-Filename: ./pool/main/b/btrfsnapd/btrfsnapd_1.1.0-2824df8_amd64.deb
+Filename: pool/main/b/btrfsnapd/btrfsnapd_1.1.0-2824df8_amd64.deb
 Size: 31476
 MD5sum: 97c226f87677404320cede42bafe43ce
 SHA1: 75d2fd67e98ea18af6d5085dfcb1501463468e3b
@@ -50,7 +50,7 @@ Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 84
 Depends: jq, curl, coreutils, nano
 Conflicts: ddns
-Filename: ./pool/main/d/ddnsd/ddnsd_1.1.6-86fb1d9_amd64.deb
+Filename: pool/main/d/ddnsd/ddnsd_1.1.6-86fb1d9_amd64.deb
 Size: 31472
 MD5sum: 5fcd5b71ee9b32dd55462b547a1c4208
 SHA1: bca6a4aaa7953b98cdf01d077bde3524b9915616
@@ -73,7 +73,7 @@ Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 24
 Depends: dpkg (>= 1.0.0), git (>= 1.0.0)
 Recommends: dpkg-repos (>= 0.1.0), dpkg-craft (>= 0.5.0)
-Filename: ./pool/main/d/dpkg-changelog/dpkg-changelog_0.3.12-b8a2301_amd64.deb
+Filename: pool/main/d/dpkg-changelog/dpkg-changelog_0.3.12-b8a2301_amd64.deb
 Size: 8036
 MD5sum: 041fea0c7752621842d5d88441daa579
 SHA1: 1ee24591a845e864908fbebffedf4191e04173a7
@@ -93,7 +93,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 136
 Depends: btrfs-progs, grub2-common, inotify-tools
-Filename: ./pool/main/g/grub-btrfsd/grub-btrfsd_4.1.8-8a2587d_amd64.deb
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.1.8-8a2587d_amd64.deb
 Size: 55052
 MD5sum: 58bcc729735404bd9febc790aefda10c
 SHA1: d3bd2cfc46b2549248b8d2d396ab9fbdfc74f074
@@ -112,7 +112,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 644
 Depends: dpkg-dev, git
-Filename: ./pool/main/g/grub-theme-minimal/grub-theme-minimal_25.03.12-dba4378_amd64.deb
+Filename: pool/main/g/grub-theme-minimal/grub-theme-minimal_25.03.12-dba4378_amd64.deb
 Size: 182434
 MD5sum: ab4e542f41b1bafc29a7c87fd959eb63
 SHA1: a527d24a31752476afc6ead28523902d73c6982e
@@ -130,7 +130,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 920
 Depends: grub2-common, grub-common
-Filename: ./pool/main/g/grub-theme-polkadots-dark/grub-themes-polkadots-dark_0.0.13-696d63b_all.deb
+Filename: pool/main/g/grub-theme-polkadots-dark/grub-themes-polkadots-dark_0.0.13-696d63b_all.deb
 Size: 368376
 MD5sum: 46662640ae73ef698e6dbd2a691476ce
 SHA1: 668df299e7b7ac1e53e9d9bcd6224ce77b781f62
@@ -149,7 +149,7 @@ Version: 1.0.1
 Architecture: amd64
 Maintainer: example <example@example.com>
 Depends: libc6
-Filename: ./pool/main/h/hello-world/hello-world_1.0.1-1_amd64.deb
+Filename: pool/main/h/hello-world/hello-world_1.0.1-1_amd64.deb
 Size: 2556
 MD5sum: c9b6a13ec70bb2f58d52a3f9399a9c6b
 SHA1: c4d2cd2a48414606ca84fa5d645ed18ef9006467
@@ -163,7 +163,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 72804
 Depends: plasma-desktop
-Filename: ./pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
+Filename: pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
 Size: 73740570
 MD5sum: 88510db823b4c55e5a331a58d3e1e603
 SHA1: f758037b3921082b9de4f7e29c401180b816bd49
@@ -180,7 +180,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 27052
 Depends: plasma-desktop
-Filename: ./pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
+Filename: pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
 Size: 27329466
 MD5sum: 4b81c737ca52234d4ce33f49c83fd809
 SHA1: 16699cd89b383734c20b0ac5ceb57676da159c64
@@ -197,7 +197,7 @@ Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 24
 Depends: cutils
-Filename: ./pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
+Filename: pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
 Size: 5066
 MD5sum: 0e53fa1454655742857528fcbe672a18
 SHA1: 3471689555f67065188a5a1da94e415e372fefe0
@@ -217,7 +217,7 @@ Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
 Installed-Size: 76
 Depends: bash, coreutils, util-linux
 Conflicts: zram-tools, simple-zram
-Filename: ./pool/main/z/zswapd_0.5.1-560c398_amd64.deb
+Filename: pool/main/z/zswapd_0.5.1-560c398_amd64.deb
 Size: 23384
 MD5sum: 326df01fbee02fc41d2e60220ebc85a3
 SHA1: f8d6076cbae4e27e0ab310654b78af62bfd29604
