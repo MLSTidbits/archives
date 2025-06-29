@@ -10,13 +10,13 @@ Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Date: Sun, 29 Jun 2025 23:38:48 +0000
 MD5Sum:
  32df31f5d2eeb4222390492784c4c06b 9012 main/binary-amd64/Packages
- 45503d188398ad5301f5aad797a934d2 3114 main/binary-amd64/Packages.gz
+ e700e767ec2c907740eecb9c06220119 3114 main/binary-amd64/Packages.gz
  238da341e3c1395e4831d436bec05186 3052 main/binary-amd64/Packages.xz
 SHA1:
  03ff7a499a198e6c3c5b3c0334fc178a73ee7f04 9012 main/binary-amd64/Packages
- e761cccaf773bc57910f72ef8ca8ef04033f6052 3114 main/binary-amd64/Packages.gz
+ 8480973b7148995f81e0330920c6651370187fe1 3114 main/binary-amd64/Packages.gz
  7ab11f75da9aa2f373c7978bd254fed7a4cf41ad 3052 main/binary-amd64/Packages.xz
 SHA256:
  80d545c36f51416724e2f5c7701053ffeb694b4055076d32e98362d8f37fb70d 9012 main/binary-amd64/Packages
- e2cf46a5cbae5826f0ffc28299e42b139b05e0c371a8bc0425b7294e03d10210 3114 main/binary-amd64/Packages.gz
+ 3949f257a8f965720c0080c0fe9890dd89011019c111a194fc451a1e0ff9283c 3114 main/binary-amd64/Packages.gz
  502ed227547c3696a8bd3da010d969a0c1e6af1dac4d254e4c49e94f8dbecd1a 3052 main/binary-amd64/Packages.xz
