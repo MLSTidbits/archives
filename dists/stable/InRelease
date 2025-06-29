@@ -10,33 +10,33 @@ Architectures: amd64
 Components: main
 Description: Publicly available APT repository for HowToNebie
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Date: Sun, 29 Jun 2025 23:16:50 +0000
+Date: Sun, 29 Jun 2025 23:38:48 +0000
 MD5Sum:
- cf9205dc342a0f5d5e2e7e68c19fc576 9936 main/binary-amd64/Packages
- 1034b43aceed179b59d397e41002d149 3441 main/binary-amd64/Packages.gz
- a35109434c8ab8dee072f800bac44b82 3360 main/binary-amd64/Packages.xz
+ 32df31f5d2eeb4222390492784c4c06b 9012 main/binary-amd64/Packages
+ 45503d188398ad5301f5aad797a934d2 3114 main/binary-amd64/Packages.gz
+ 238da341e3c1395e4831d436bec05186 3052 main/binary-amd64/Packages.xz
 SHA1:
- 5585f5826664c93d04d1523bc22baff9b0f81b4c 9936 main/binary-amd64/Packages
- 0ae5d99d22ddd886238be7d9c72da6e38df091de 3441 main/binary-amd64/Packages.gz
- 12c7282b60e631f7a76d182a979d9278a6544c02 3360 main/binary-amd64/Packages.xz
+ 03ff7a499a198e6c3c5b3c0334fc178a73ee7f04 9012 main/binary-amd64/Packages
+ e761cccaf773bc57910f72ef8ca8ef04033f6052 3114 main/binary-amd64/Packages.gz
+ 7ab11f75da9aa2f373c7978bd254fed7a4cf41ad 3052 main/binary-amd64/Packages.xz
 SHA256:
- 33bc0efd847c306f51f6e33f58d369edc62771a46e5288552d74aeedaab95a53 9936 main/binary-amd64/Packages
- d95ba137ef23a76405130beb150e2be455eb630a8881d4f7ff597297459013bc 3441 main/binary-amd64/Packages.gz
- d88bff813bfb4b07cf9961c2158eb440d3136a8dab6c4c0ae83ed12ebe16a77c 3360 main/binary-amd64/Packages.xz
+ 80d545c36f51416724e2f5c7701053ffeb694b4055076d32e98362d8f37fb70d 9012 main/binary-amd64/Packages
+ e2cf46a5cbae5826f0ffc28299e42b139b05e0c371a8bc0425b7294e03d10210 3114 main/binary-amd64/Packages.gz
+ 502ed227547c3696a8bd3da010d969a0c1e6af1dac4d254e4c49e94f8dbecd1a 3052 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhhyWMeHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotBaAP/0LjvXZQXXAPT2pH
-0Tr3W2SctpqmpJzZDcPzZ21qEOq8O3xUQ0fxpKaeZHvD9+JZu4wddD2sz4BI2PUe
-yH5xvCbZBus8giotjA57bXr/IdVc2fckL2ziLYZUZ/8zHHaeaE7nWr0EFigISw+g
-XkPbFuEOJzjlmeJ5edVwLVq0naxMfjTHrmychVdT9iMYsM1l4kKcMFHUdqIjxfXK
-PZlxtpz14EtsGnvW+HgHN/rTlohDP1lBOEE4Y1mYUbNq/znDmd/9YReU8qWM3ZiZ
-4F32xSVjDisqgB4RSg/ScuQYjMzVTz/m09p19rr4cmyKT2e/vK/2ol75wNFfThqS
-XDVKWpp00zfstqQ8e6TP3LjPeGKyv/VOjEYC8MVAwjFA7I1u9ANxgNgr0dFFzdue
-fA3dOwX3SiPOkrLl/BKBxJEvC8bZVE6KiXpyvquoRKmpXn37ngPtTl26v3hKmLRt
-Z0mrADKoRTKogWy8I/YetG1nbLRzn1in0uH0RKicaMl4JXvr7Z4kebqK1nltlpW4
-fGrzO+l90mOytxKpIniIAUdqniba3IAfbqZpVweUZbXlcmRC1nd6cmX1KCkcnAUZ
-1wNtgYeaZbKdx840yzvDn1nD8Zqu+SHGesLbaCNgnVcf0etnh1NGxw+AH5Pc/WgQ
-/GXtFpuZvOkOUNm20Z3a1JHywGWt
-=y2QT
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhhzsweHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotQ1YP/1uBcS5FJCKJApHW
++obEf3R6G0BfTNUwf7NEuTgs8O4F9WyAv0ZHba/KSiJNQwx71RiG3pqEorMmjkUk
+alQ2twFo2ZXBw5edvc3FXb/t/6EWBjC606FF94Ar0Srn2D46xxC/p1+XopaoDsQl
+/Ri0QWwej3FqLVtwYiYuArepVMS0+JyZq7VqfePl5pUS/PrH6cSxJ7V9VPMftbOu
+yS8V47fm7a3nJ+p0O97RaTW2n5JQl2ydyzMu8r8UeV9T96Lakz0GCw+D0p+W/SCP
+jgdnpmFD1pkHtQd3lDxWbAI7R3LkRfz/d6IfZjC3vBw2aNxQPjnuwOLGlXRmPKh0
+a7mAZxAaTJq4NdJkURcjZ9wVBmWaMy6Ncw/2S1OFJYb7JAnVTghsxRyeTJ2TAcuT
+ciZQLzPVGABZqaaoh4fcVT6G4zRh25JKu4lYVOzbH8gVoIT/fcwN1sD2gnj2VGj4
+sE1Z2pnu7WfBbCgxarG0/+olIcb4buR7vH1IuYIaLfmHTVjQsaVaVE9sZ91z+2ek
++8JEMcqjudy7y+hdusjMA82BV5UdBoZe1RuTEl+9RdgMpDiRKccDeGjbXyL0x2cQ
+rBR5i+A/IetKXn7ZNPesVCqdP5SElx3GMPo/f9cCs28qbfLEnX5cyY6ubjNM+t60
+/e8IkvOdlIaLlVgA01ylRpjQyaK0
+=TW9E
 -----END PGP SIGNATURE-----
