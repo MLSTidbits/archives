@@ -1,22 +1,23 @@
-Origin: HowToNebie/repository.howtonebie.com
-Label: HowToNebie
+Origin: HowToNebie
+Label: default
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: Publicly available APT repository for HowToNebie
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Date: Sun, 29 Jun 2025 21:43:07 +0000
+Description: HowToNebie.com APT Repository
+ APT repository for HowToNebie.com
+Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
+date: Sun, 29 Jun 2025 22:35:21 +0000
 MD5Sum:
  e4efadf9d1fbd2f6dcc27ddc0641aa8f 9936 main/binary-amd64/Packages
- 53fc873064ee0509dbb7b27fe8f75c53 3445 main/binary-amd64/Packages.gz
+ 894677299fa30ac278ceededbc38ca36 3445 main/binary-amd64/Packages.gz
  a6fe0f28789efb014a3605d66a5cc0ee 3360 main/binary-amd64/Packages.xz
 SHA1:
  a791484508b9869bb9ca11d4dc8c066f9be30ca2 9936 main/binary-amd64/Packages
- 2e901a5178acfcf93bc2d66c25b862eef1ceb115 3445 main/binary-amd64/Packages.gz
+ f453f4e47d3c8baa1270abb17179fd7cdafb15f5 3445 main/binary-amd64/Packages.gz
  30fb813153dfe82caa63c3575993e2f012bda0c9 3360 main/binary-amd64/Packages.xz
 SHA256:
  89af2501d3913875d7e8c1290674fdb68b8ce4e44269f65255b447585d52acb4 9936 main/binary-amd64/Packages
- 610368ad8763d12fe18c9d37b8aaded470a85041697718b999efe82eb04d8b84 3445 main/binary-amd64/Packages.gz
+ f45b17d7df0434ee09be05e88caa6af1dcac166b02ca45d4ac256221daa37ca5 3445 main/binary-amd64/Packages.gz
  96e955e8e781130271fcaf5009ce95e848863a65e9c283ed34613261bcd11424 3360 main/binary-amd64/Packages.xz
