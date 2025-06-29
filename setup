@@ -31,8 +31,8 @@ Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: HowToNubie.com APT Repository
- APT repository for HowToNubie.com
+Description: HowToNebie.com APT Repository
+ APT repository for HowToNebie.com
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
 date: $(date -Ru)
 EOF
