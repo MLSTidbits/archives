@@ -9,14 +9,14 @@ Description: Publicly available APT repository for HowToNebie
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Date: Sun, 29 Jun 2025 21:32:03 +0000
 MD5Sum:
- 2c9f294389e70a02a5d102fa32e70860 10382 main/binary-amd64/Packages
- 5695b5b29b029568ef42c80adb129292 3617 main/binary-amd64/Packages.gz
- 43de69b1fd409d556447389c4f8aabb3 3520 main/binary-amd64/Packages.xz
+ b1f8a275c8f306ea4b87532ed7295f2f 9456 main/binary-amd64/Packages
+ 4ceeed504acbcc9c6463f56953899a5c 3294 main/binary-amd64/Packages.gz
+ fa07741c0051d01061143ef4147f5582 3216 main/binary-amd64/Packages.xz
 SHA1:
- b0efed4a5b6ddfcbb7ce3652d9bd45e400a48172 10382 main/binary-amd64/Packages
- 032a44f162c875b7c527a478606d4cf18bb26bc2 3617 main/binary-amd64/Packages.gz
- dfc3c6261531e1409723b1754a9fec3915ca7973 3520 main/binary-amd64/Packages.xz
+ 7c586ec15ac9f7b0e6fe1d5b371efa48f5c4458d 9456 main/binary-amd64/Packages
+ bba8728e6de0d219fb7f5da32370ab47eefd5213 3294 main/binary-amd64/Packages.gz
+ a69568175f77553b8d781ae3f771624f873b46f2 3216 main/binary-amd64/Packages.xz
 SHA256:
- b3815ccb6874284533a58a46b9f7e3715887763387ccd21cb783ccec0799601c 10382 main/binary-amd64/Packages
- e14eeea9f7bfdf9a190682cc6ea51826bafd2291c7dc857b82909901333ff407 3617 main/binary-amd64/Packages.gz
- 45956545b8177fcdb4345741c1d072dd70f0007e55fde6ef3b885bd28eac54e9 3520 main/binary-amd64/Packages.xz
+ 5923fc563a01505528bc8b41eda69a2113228970a0db359adbfd54900e4749a7 9456 main/binary-amd64/Packages
+ fe9cf1a395b6d63b94faf745086197ea26b8e93d242c35d2b65b2b7747058a42 3294 main/binary-amd64/Packages.gz
+ 787e5ae8947e1813bc859d4b9abe7137a8a32ad87897eccde368cd97b4f7ec7a 3216 main/binary-amd64/Packages.xz

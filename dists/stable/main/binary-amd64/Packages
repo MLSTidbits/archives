@@ -157,28 +157,6 @@ SHA256: f77b717610f46d1aeedb9e1b232ec79d6ea3d865ec7c7057db2e15aaa95810f7
 Homepage: http://example.com
 Description: A program that prints hello
 
-Package: mkaptrepo
-Version: 0.3.4-a8acf1a
-Architecture: amd64
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 84
-Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
-         gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
-         grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
-Filename: ./pool/main/m/mkaptrepo/mkaptrepo_0.3.4-a8acf1a_amd64.deb
-Size: 23322
-MD5sum: 103ba2c03c56e43f0f3f9a18b0b513e9
-SHA1: d4b5347f1ce3b77f4132dcf21220b4ecc75a066a
-SHA256: 9b8c9b0b424411e2b36e6bbc068dd62704016d6159adae330eaf9894a1f01c25
-Section: utils
-Priority: optional
-Homepage: https://github.com/MichaelSchaecher/mkaptrepo
-Description: mkaptrepo is a tool to manage APT repositories.
- It allows you to create and maintain your own APT repositories
- easily, including the generation of Packages and Release files,
- as well as signing them with GPG.
-Build-Depends: make, dpkg-dev
-
 Package: plasma-wallpapers
 Version: 25.03.12-947db95
 Architecture: amd64
