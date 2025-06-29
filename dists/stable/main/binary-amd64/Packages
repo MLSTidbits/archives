@@ -158,18 +158,18 @@ Homepage: http://example.com
 Description: A program that prints hello
 
 Package: mkaptrepo
-Version: 0.3.3-b74b6af
+Version: 0.3.4-a8acf1a
 Architecture: amd64
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 84
 Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
          gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
          grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
-Filename: ./pool/main/m/mkaptrepo/mkaptrepo_0.3.3-b74b6af_amd64.deb
-Size: 23272
-MD5sum: 6316828d786f035ae93f5d5de16cbf6b
-SHA1: 172064fbb2531dd2f9ed0e4e1d1dfebe6580d93c
-SHA256: fb78b0bde7def6eae02281085761f3960677a1e6744aeceb198e63eed2b10258
+Filename: ./pool/main/m/mkaptrepo/mkaptrepo_0.3.4-a8acf1a_amd64.deb
+Size: 23322
+MD5sum: 103ba2c03c56e43f0f3f9a18b0b513e9
+SHA1: d4b5347f1ce3b77f4132dcf21220b4ecc75a066a
+SHA256: 9b8c9b0b424411e2b36e6bbc068dd62704016d6159adae330eaf9894a1f01c25
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/mkaptrepo
