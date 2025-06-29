@@ -44,32 +44,26 @@ Description: Btrfs snapshot daemon
 Build-Depends: debhelper (>= 11), git, dpkg-dev,dpkg-changelog
 
 Package: ddnsd
-Version: 1.1.2-238b45a
+Version: 1.1.6-86fb1d9
 Architecture: amd64
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 84
-Depends: jq, inotify-tools, curl, coreutils, nano
+Depends: jq, curl, coreutils, nano
 Conflicts: ddns
-Filename: ./pool/main/d/ddnsd/ddnsd_1.1.2-238b45a_amd64.deb
-Size: 31466
-MD5sum: 40cd5fddb11c6c2f42ce6836d686fc62
-SHA1: a5e148ccaf4d5061e3aaf9a41c7be956521b5250
-SHA256: bb71c25776aa33e7c830b9354679dbbea1f7b618983b90a26989cb54a33e01d6
+Filename: ./pool/main/d/ddnsd/ddnsd_1.1.6-86fb1d9_amd64.deb
+Size: 31472
+MD5sum: 5fcd5b71ee9b32dd55462b547a1c4208
+SHA1: bca6a4aaa7953b98cdf01d077bde3524b9915616
+SHA256: 026be7110a1d08232d9b9db1d75ea8f74a6601826f039f76fb28a789fb3acedc
 Section: net
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddnsd
-Description: ddnsd is a dynamic DNS server -
-    that allows you to update DNS records dynamically. Tt is designed to be simple
-    and efficient, making it suitable for small to medium-sized networks.
-    .
-    This package provides the ddnsd server and client utilities for managing dynamic
-    DNS updates.
-    .
-    Features include:
-    - Support for multiple DNS providers
-    - Easy configuration
-    - Lightweight and fast
-    - Open source and community-driven
+Description: ddnsd is a dynamic DNS server for Cloudflare and DuckDNS
+  Using SystemD service to run ddnsd in the background. To monitor for
+  changes in the IP address.
+  .
+  It will update the DNS records on Cloudflare and DuckDNS when the IP
+  address changes.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: dpkg-changelog
