@@ -2,42 +2,41 @@
 Hash: SHA512
 
 Origin: HowToNebie
-Label: default
+Label: HowToNebie
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: HowToNebie.com APT Repository
- APT repository for HowToNebie.com
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
-date: Sun, 29 Jun 2025 22:35:21 +0000
+Description: Publicly available APT repository for HowToNebie
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Date: Sun, 29 Jun 2025 22:48:47 +0000
 MD5Sum:
- e4efadf9d1fbd2f6dcc27ddc0641aa8f 9936 main/binary-amd64/Packages
- 894677299fa30ac278ceededbc38ca36 3445 main/binary-amd64/Packages.gz
- a6fe0f28789efb014a3605d66a5cc0ee 3360 main/binary-amd64/Packages.xz
+ 24637cf63464b68e8396360f0043f771 9936 main/binary-amd64/Packages
+ b8c2b9c5661400ff7a5565626b2aa19e 3442 main/binary-amd64/Packages.gz
+ dfb0394df4f73e14a3acaa6dfc33c0f2 3356 main/binary-amd64/Packages.xz
 SHA1:
- a791484508b9869bb9ca11d4dc8c066f9be30ca2 9936 main/binary-amd64/Packages
- f453f4e47d3c8baa1270abb17179fd7cdafb15f5 3445 main/binary-amd64/Packages.gz
- 30fb813153dfe82caa63c3575993e2f012bda0c9 3360 main/binary-amd64/Packages.xz
+ 9f917a28da9087bb854f7b7acafc09a0a5cd6e84 9936 main/binary-amd64/Packages
+ 01497d3db80121cba0f82fbd8bd0efa8e5176438 3442 main/binary-amd64/Packages.gz
+ cfd73b643b8f22a4646bdaad87ca3cf2f1ad7ab2 3356 main/binary-amd64/Packages.xz
 SHA256:
- 89af2501d3913875d7e8c1290674fdb68b8ce4e44269f65255b447585d52acb4 9936 main/binary-amd64/Packages
- f45b17d7df0434ee09be05e88caa6af1dcac166b02ca45d4ac256221daa37ca5 3445 main/binary-amd64/Packages.gz
- 96e955e8e781130271fcaf5009ce95e848863a65e9c283ed34613261bcd11424 3360 main/binary-amd64/Packages.xz
+ af0c2a27dffaba69f501b3cf82566cd3e84c9f1012f2b8c7ce48be231cd82061 9936 main/binary-amd64/Packages
+ 04219fd3b96c4b3b76c9ff424560983e6a3118478bd72060b3b156f3899af853 3442 main/binary-amd64/Packages.gz
+ 918f27f9e88dc94d4d2c8b70401b1fdae7db203790bf12f2d3676e7d9ac6bcb5 3356 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhhv6oeHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotrHIP/iFJbPrAeumKpm2I
-025hmWi4bOZHhHhJsQ14uB6H9iSgsvJTPTgGsba/OdIbwu5faCgpxI+Jr6XRwyfU
-mKSTkpZSzuI/CK+DnIyRjfjwzgzShbf6AjARCbmoLr8C4jp9/yEOH/H5p6QCwKl8
-dg5KRdvGaIuOXOt+roRTNvn0deFunWg7MUlvUZv3j6jy3A19gwQ+idl+6231yUX3
-AGPHjwF674TmQkGxybOTEi2LdwnTYT+9bewZvX1ktmQjq/O1SpfbY+H6/9OFU/mS
-6lixxYS+2i+0ioZFvKvpI/O19vVevmeLlg3tDGZ2CiPwfJsMj9+VnxZ05kgr3TYW
-2+udiHQwpX9WWzqMt/5FhihPbnpYBOsHUUeqo8qUxOQ9gpD5BM+4xZW8c13+XBHO
-W92EWSoqqXmnDAUJBuDOa0ZXvVfnjpNKH64NB2itR5usVcmcujV5WCSAGJDwUp1Y
-iGTrj5zK/LGhCXK5Yojhe/WkvAhMMBgmTI/8B/yvBbe81orL3LpNWgy6XPnQOqMg
-btCWi7FMhsmh5kBnT7xFbDC7lV117ZgusLOij38mrzSalQYwggdeda3WTMTEKvt7
-VUmLCq6DjG0mAeCL8OAoprhxpzkcv56zYNTS4Fj49mSDwmAnwLx4zWWVDbTBrA5A
-QyrRviiAVcjQE9W+rV5rymQtNwEY
-=nb1c
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhhwtAeHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotBNsP/iKTekc+xjLaRRTo
+/qJ524Mdt92X97iOPai0Jo7NKL7JfrW/Vqc4lAI0lnQg441pyClp2Gsf8YbQ5xSC
+nfWALixdbmAdbcqY/6QxUpkGdBqdbIP7PF1eP+9VyIwKKZgetClckPfTKpfOxNha
+pMkr9d44kyXISRxXfNi6EVDbbJzXGsWjbOJSyDTj317o9SkOr68y/4VtULONeHeZ
+gNo54uLTnT3H4RrlPDf3E6J1Wla1e3tUnuo9NBmCSQjG5svaf5ahnzhihesNBhB8
+NszrtS6sL5q2hWjw05bgSXjhPT+qGV7j6Uej4tf4GxgmD9VWhoZnqZ87pnB1XsIn
+IcChfkwY7VvwqAQgW39VPOsPQ1k/1nV1LstlaPWTvCXPFDICnPYsVvr0j8PaKX7F
+EzftdRi4rUOvYjsK7d4zMJ1IWy3DXxQSFgYsPgjGinimEZWerbWN+hZCp2ghliRn
+OdulA+hRQG0KzGg72XrbDOqctWGTKv6+aWEaT+l6tmCRX1nNSe/uizN2Ng/aSxbo
+o+BQWx77bOiNVSvUAW7i/EWazcuQzPqguYEIPqJOvgLGzv/PU2w0G7yYeco0E9BL
+aic/dcY48n4M6RBDq8TRmffI2WV/u0wy7XjOT+OTWrm5nQ6hA5bOWyORXiYYIDhV
+l+KVYyWskphjpqyhRPx55pkQRxDd
+=zobV
 -----END PGP SIGNATURE-----
