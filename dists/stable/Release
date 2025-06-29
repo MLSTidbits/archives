@@ -7,16 +7,16 @@ Architectures: amd64
 Components: main
 Description: Publicly available APT repository for HowToNebie
 Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Date: Sun, 29 Jun 2025 22:48:47 +0000
+Date: Sun, 29 Jun 2025 23:15:37 +0000
 MD5Sum:
  24637cf63464b68e8396360f0043f771 9936 main/binary-amd64/Packages
- b8c2b9c5661400ff7a5565626b2aa19e 3442 main/binary-amd64/Packages.gz
+ 86bd50a150d1f35259958cd591691e63 3442 main/binary-amd64/Packages.gz
  dfb0394df4f73e14a3acaa6dfc33c0f2 3356 main/binary-amd64/Packages.xz
 SHA1:
  9f917a28da9087bb854f7b7acafc09a0a5cd6e84 9936 main/binary-amd64/Packages
- 01497d3db80121cba0f82fbd8bd0efa8e5176438 3442 main/binary-amd64/Packages.gz
+ f00539463adebab64f6fbed97df1e8af36fe7c5b 3442 main/binary-amd64/Packages.gz
  cfd73b643b8f22a4646bdaad87ca3cf2f1ad7ab2 3356 main/binary-amd64/Packages.xz
 SHA256:
  af0c2a27dffaba69f501b3cf82566cd3e84c9f1012f2b8c7ce48be231cd82061 9936 main/binary-amd64/Packages
- 04219fd3b96c4b3b76c9ff424560983e6a3118478bd72060b3b156f3899af853 3442 main/binary-amd64/Packages.gz
+ 5e2349f73911b225be3451c1b2fbdadf0c22537fd33803ece97ac5568e761aa6 3442 main/binary-amd64/Packages.gz
  918f27f9e88dc94d4d2c8b70401b1fdae7db203790bf12f2d3676e7d9ac6bcb5 3356 main/binary-amd64/Packages.xz
