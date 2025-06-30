@@ -1,33 +1,42 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
-: No message provided
+Origin: HowToNebie
+Label: HowToNebie
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Publicly available APT repository for HowToNebie
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Date: Mon, 30 Jun 2025 12:14:58 +0000
+MD5Sum:
+ 7bcdce03eb454ee60b0781494ea22295 9936 main/binary-amd64/Packages
+ e0c13792ad81ed891b3d1df6e390f785 3446 main/binary-amd64/Packages.gz
+ e698be863d77bfa91cb8194fe322b9ea 3364 main/binary-amd64/Packages.xz
+SHA1:
+ 5fda56baa535437511c2d4460a2c3bd762676ff7 9936 main/binary-amd64/Packages
+ 8176541caef36dffbd21a08b3663d28efd6d4d7f 3446 main/binary-amd64/Packages.gz
+ 8dd0946cc536c33ca1cfc6f04bdae05543209624 3364 main/binary-amd64/Packages.xz
+SHA256:
+ 936d7c893dc94ffeaeef19df293e0a1f0e3f523aa02d7a14afbf0da6864a2d84 9936 main/binary-amd64/Packages
+ 45cfb1c7eccbff6c425b1d9c6e8b8504db945065e116df67234fc276892aa087 3446 main/binary-amd64/Packages.gz
+ 0f9b78a0cd9c0f9b47c7f3dbf49ea879884e5e00c90b32251abcf01d3e1f3141 3364 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhifloeHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotQbUP/RZVYXPhwwYHZtIE
-7ZwXSfd2p5GUYvx+hRtYy3wEiSsqShgOpaNUwy37OnGIJLlK9r99v1Szt3/k/aT2
-3aaOIQyqlmWaHM3jLS8+7r5dm/dW3X0UX6vXHiiFj3qS4AHD+tgkVK+KlU7BbDfZ
-FxupJcJnisWsMt+qxtkKG8M6d6hiRJDuA0nQnLK/uciw3qJLmYjVFDgV1vbz206H
-FZ+WoFdmb1/5cw65SvFOClo2rRWL1HoEk1XwfumJgzrTwd+O7oqrWy6RrQ2S6Q8F
-mV3I9E4Dlzx8vZOGVE84gTRukCrkJH7suzzF1CtnzB1CCJE3vUTHF+sQSYD+DZkJ
-gxWdx1QnsCmLVBjpKJtQKZqNMR3gcSlp3x0bN6E1xmcpqukxiEgu5aB0mIl+BiLK
-Q51dFT8ozz9nOjgVm0CxlGtvAo58jXPgaafObHFifF3Ao2ZHVCbtUSo6AKhbYrwP
-5xNJTbhJxrweYm67wb6SQ6tJDnkCPCNJNS1TpYqWtWOR6w7Gc3Fixu964ggfiTLB
-b92oTMpeIMfjs3fCqvNH4/lIxy9VVVKGQMOOetyOfGzjiIpk0Ap1DxRSX95mKK7l
-RY++0d+Jpaxd+SK6DFD2NWqoVZHC3wJwO6JaDnUzMqFxo77LHvpcDJcNwq1bIfAC
-+vtqxZkc4UthjzHnqfvEgvCGzl6w
-=yFHz
+iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmhif8MeHG1pY2hhZWxs
+ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotraMQAIJcSqMln+5MV7RT
+kQgxH4F073NQUIpQlK50LhSKfVj0422oel9mYV12s16CX7dC49D05ay5hEnF8AAE
+3lM1VKLSscv2qqtAocT8Bpfnxe4JmaBt+lJbE3j62zmF9lVXg1mfoxMDwkUVLQJp
+GquXp2SaYK3EV+ev7aKhbm0uNE4edi/i0aDRYU/IaosTlgGiGU/ygIkHxcq7NJb9
+szwROEVTvJ4jR7+tarpRBXl21ni7fBVcPQ8rN8A3wrC/uczLvW5YNZK2z4Pxrqe9
+hjo4eARfqmHGJnQCOpFwyKBPTk3dQOUGfo0t16lYzJdBond/JabA3HifBs15xU2s
+TeRZxm//MPt9LRXxWLYed/sStC+17Vt4kb0QOkSyZM8UXzoFY3IiO0A9XZsR7t3p
+ChegdAe+GFDPPgMMUqhx4NgfpX6eDbDoxrKboMzJ0LGGVOt/QmlOHKEFTgjdDH/s
+PMm6+8mIQbl7aaUm6VclzzMkGZqCKPvIlxpg+6ahR9XLF/jUGnmx6rY15cB0br2s
+QGVYq1xVPDlvljjZgpEpq+8W1ZD1dqw1KT4s8hMLbSoSnHFYElpPERaaqjnVEEFJ
+iJBnTVtx5NcgMT50I275JPuG8iHZJ9bkPoZIJKqYVWLyLUxiIkUZwu1bhOVGNeXr
+HbPv0gDiaSTQpmLK2A9060uHqB8u
+=uFgb
 -----END PGP SIGNATURE-----
