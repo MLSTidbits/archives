@@ -144,28 +144,6 @@ Description: Grub dark theme with Polkadots
   a clean and modern look, with a focus on simplicity and usability.
 Build-Depends: git, make (>= 4.1), dpkg-dev, dpkg-changelog
 
-Package: mkaptrepo
-Version: 0.5.4-8d15258
-Architecture: amd64
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 92
-Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
-         gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
-         grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
-Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.4-8d15258_amd64.deb
-Size: 28354
-MD5sum: d811e672f36117c08567ca96a0f6ba89
-SHA1: 7fedb98cdb5fbeab48b3fb79d0ce540d8744dbfd
-SHA256: d9924535bb8337e7ae4478c1430d21ee7c702505723cc9f8613292f3b7d2b3b0
-Section: utils
-Priority: optional
-Homepage: https://github.com/MichaelSchaecher/mkaptrepo
-Description: mkaptrepo is a tool to manage APT repositories.
- It allows you to create and maintain your own APT repositories
- easily, including the generation of Packages and Release files,
- as well as signing them with GPG.
-Build-Depends: make, dpkg-dev
-
 Package: plasma-wallpapers
 Version: 25.03.12-947db95
 Architecture: amd64
