@@ -44,3 +44,15 @@ SHA256:
  2d582164fdb56cd35c9ec014eca718abe994e7d300eb61edf795a441d476599c 9936 main/binary-amd64/Packages
  7e9963c2b58ba73b399404821fda06e98d4b860bafe535c5199b5778041758d4 3443 main/binary-amd64/Packages.gz
  acc97a053cd1fbb54e13005c213dad3ba6d55dcfbe99bf621570003dbda41839 3364 main/binary-amd64/Packages.xz
+MD5Sum:
+ 41b53b4939fd8d67abfeab7313b2643d 9936 main/binary-amd64/Packages
+ 3b18c631207cfba71ebb5d4c983a1d57 3444 main/binary-amd64/Packages.gz
+ 00ad4bde99e20a3178977cd4cd030b05 3364 main/binary-amd64/Packages.xz
+SHA1:
+ 4affb032e5629aea7862496cd4fb7a0b76d857fa 9936 main/binary-amd64/Packages
+ a5009755557c2b042a2e7d4307ec194d1752edfd 3444 main/binary-amd64/Packages.gz
+ 6d120b8868cf6bad44e1a68eae652afbc972d7b4 3364 main/binary-amd64/Packages.xz
+SHA256:
+ 961c65ac30e35fd01f1d808e75ce9df930153b747b55bd822b8964913fc4f892 9936 main/binary-amd64/Packages
+ ff3db7070bdbdc67ac013e34f05254ece271b6b5f009979d5fd3aac89594bf90 3444 main/binary-amd64/Packages.gz
+ 4018c68ab3f942cfbda2fc13d4d888a2e5863bb055cafc3d27218599df798445 3364 main/binary-amd64/Packages.xz
