@@ -145,18 +145,18 @@ Description: Grub dark theme with Polkadots
 Build-Depends: git, make (>= 4.1), dpkg-dev, dpkg-changelog
 
 Package: mkaptrepo
-Version: 0.5.6-c23c2e7
+Version: 0.5.7-ba9a420
 Architecture: amd64
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
 Installed-Size: 84
 Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
          gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
          grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
-Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.6-c23c2e7_amd64.deb
-Size: 28464
-MD5sum: 1c5ec7fb3728bf11419c5f3e0b2a0556
-SHA1: 819b534fc0755079a897c2bcb652661d5a1e0465
-SHA256: 0cd41fe2c6d82f890b166b35cdce10035c24ef237d4f56a16f149917d137af59
+Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.7-ba9a420_amd64.deb
+Size: 28498
+MD5sum: 5692f668b6795ead2abfb0533d7f8ef9
+SHA1: b5233ba8135df3679f38a4fbb4d4f3a613ecac80
+SHA256: 2f1ab26dbceb4c4170c1c55f3e19ec20b4b32b7255ca36d053b458df50e33ccc
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/mkaptrepo
