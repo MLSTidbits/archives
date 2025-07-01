@@ -148,15 +148,15 @@ Package: mkaptrepo
 Version: 0.5.4-8d15258
 Architecture: amd64
 Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 84
+Installed-Size: 92
 Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
          gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
          grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
 Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.4-8d15258_amd64.deb
-Size: 28360
-MD5sum: 8f4b659bec759e8b6e1f9650e9f9d770
-SHA1: 866da921224ca8a5aa76b78e99afc931fccc4f0e
-SHA256: 486eef0d77310245e71b8016343ae747296401440798de144e6e3a3af76be5c0
+Size: 28398
+MD5sum: 10117bd2c9b9c2203b4e5decc1ded91b
+SHA1: 6555abdc7e43e4e84748e49129f2502a63da104f
+SHA256: 48b95006749040299ae38af3800db40ef74c55cead0eecade2203cf6600f3d0f
 Section: utils
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/mkaptrepo

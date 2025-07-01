@@ -1,0 +1,10 @@
+Origin: HowToNebie
+Label: HowToNebie
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Publicly available APT repository for HowToNebie
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Date: Tue, 01 Jul 2025 03:01:44 +0000
