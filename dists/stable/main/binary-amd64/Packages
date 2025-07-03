@@ -124,6 +124,31 @@ Description: Minimal theme for Grub -
     This package provides a minimal theme for Grub.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
+Package: grub-theme-polkadots-dark
+Version: 0.2.8
+Architecture: amd64
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 885
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-polkadots-dark/grub-theme-polkadots-dark_0.2.8_amd64.deb
+Size: 454918
+MD5sum: 090004fbb35ec5d2651c2bb00c3bb2e3
+SHA1: 32c3def7479667b01498a51ab80695f24db31153
+SHA256: e153caa811bf1de4d976a17657cfdfb7ed94d50bdaa130d1cf160d8e726075d0
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/MichaelSchaecher/grub-theme-polkadots-dark
+Description: Dark Polkadots GRUB theme
+ This is a dark version of the Polkadots GRUB theme.
+ It features a modern design with polka dots and a dark color scheme.
+ .
+ The theme is designed to be visually appealing and functional, providing
+ a pleasant user experience during the boot process.
+ .
+ It is compatible with GRUB 2 and can be easily installed on Debian-based
+ systems.
+
 Package: mkaptrepo
 Version: 0.5.8-ced452c
 Architecture: amd64

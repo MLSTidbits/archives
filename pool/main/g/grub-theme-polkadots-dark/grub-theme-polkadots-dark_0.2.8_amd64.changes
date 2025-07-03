@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 03 Jul 2025 00:00:00 +0000
+Source: grub-theme-polkadots-dark
+Binary: grub-theme-polkadots-dark
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.8
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ grub-theme-polkadots-dark - Dark Polkadots GRUB theme
+Changes:
+ grub-theme-polkadots-dark (0.2.8) stable; urgency=low
+ .
+   * Fix theme path in postinst script to use correct hyphenated filename
+   * Fix image filename case in README.md
+   * Update installation instructions in README.md for clarity and detail
+   * Enhance configure script with additional options for theme installation and build environment setup
+   * Remove pandoc from Build-Depends in debian control file
+   * Add install option to configure script for theme installation
+   * Fix UEFI grub configuration handling in postinst script
+   * Add configure script for build environment setup and package checks
+   * Add Homepage field to debian control file
+   * Add version to .gitignore and create placeholder file
+   * Add version file installation to the package
+   * Update control file to include Vcs-Browser and Vcs-Git fields
+   * Add compat file and update control file for package dependencies
+   * Install the theme as the default once general installation is complete.
+Checksums-Sha1:
+ a3ae373da5ba6a1c208d9a0cc6ff730ef76891b2 13320 grub-theme-polkadots-dark_0.2.8_amd64.buildinfo
+ 32c3def7479667b01498a51ab80695f24db31153 454918 grub-theme-polkadots-dark_0.2.8_amd64.deb
+Checksums-Sha256:
+ ff7a1aa0529af56ee235ab4d10cecf2ab8f429ab68a61dde35439144bcaa248a 13320 grub-theme-polkadots-dark_0.2.8_amd64.buildinfo
+ e153caa811bf1de4d976a17657cfdfb7ed94d50bdaa130d1cf160d8e726075d0 454918 grub-theme-polkadots-dark_0.2.8_amd64.deb
+Files:
+ c8373aa26c449797cdf62e043608dd41 13320 admin optional grub-theme-polkadots-dark_0.2.8_amd64.buildinfo
+ 090004fbb35ec5d2651c2bb00c3bb2e3 454918 admin optional grub-theme-polkadots-dark_0.2.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhnBKUACgkQle5BQVtL
+uLedthAAwiBs5ar9jyw7vCaAEu2do0hEFZ+/IqGVRxSbLqGCp/ZeQNUVMLhrGuGd
+fs2wz9SNEKhDmnUpflTde63Ch3DrtzFVJD7WU7IMqFdZWz4/3g5t1bNRgk7IuZpM
+BmvSbbetDHS+seP3iyAiGEyhCuftap6DwdEGjP0Z/KMR/l/NEYBokggCWRFagdfU
+6ez1BUHca/oZQD+DbeEqVEGybi7A95TZoZA6jHb2t4HpuLXizk506JOV3GtP22fM
+s5yLwTNjDA+rGs3GB7cotjtsxuD/AjTko/PK/k0KlbR0I6Om3oazEqYhId4+SeSr
+t8++Wo1br55JRifZC3A5qj4Z6qD7nn+KGJJ8GMSju4bGyHJib5f8YJ482TMDVxt4
+xDUqlzUs+N9mh3eCMfETrEdfL1T25trmERYMavWxyZoiA6xL74vTLlr6pxcVv8eb
+yu6ckMqH4s64Cqw1M2oXHsiNGLAvr/yE5vAzIZhW9UUpULfcdP7GcMnSambXf2lB
+RxyX/YswYvsxHFnSIvwuQXRSLu51Ug8kitkwJALLGHGdGhDsHv3pw/luqlieJlH9
+jhW3lJYVAtFQHMZ+atAHsRLf0J9lzkvzDGuXp5m/1Sj6sBE1Z6NOlPZF+Q5tiyDF
+Vxw7uUYJmqpjkSqPOfwkxD+jzi/tqiUc+cv6HHr4Ya6OUv+eW6I=
+=Mxyo
+-----END PGP SIGNATURE-----
