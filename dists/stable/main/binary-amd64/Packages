@@ -231,7 +231,7 @@ Maintainer: Michael L. Schaecher <michaelleeschaecher@gmail.com>
 Installed-Size: 76
 Depends: bash, coreutils, util-linux
 Conflicts: zram-tools, simple-zram
-Filename: pool/main/z/zswapd_0.5.1-560c398_amd64.deb
+Filename: pool/main/z/zswapd/zswapd_0.5.1-560c398_amd64.deb
 Size: 23384
 MD5sum: 326df01fbee02fc41d2e60220ebc85a3
 SHA1: f8d6076cbae4e27e0ab310654b78af62bfd29604
