@@ -124,25 +124,30 @@ Description: Minimal theme for Grub -
     This package provides a minimal theme for Grub.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
-Package: grub-themes-polkadots-dark
-Version: 0.0.13
+Package: grub-theme-polkadots-dark
+Version: 0.2.7
 Architecture: amd64
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 920
-Depends: grub2-common, grub-common
-Filename: pool/main/g/grub-theme-polkadots-dark/grub-themes-polkadots-dark_0.0.13-696d63b_all.deb
-Size: 368376
-MD5sum: 46662640ae73ef698e6dbd2a691476ce
-SHA1: 668df299e7b7ac1e53e9d9bcd6224ce77b781f62
-SHA256: 6d3c0faa341f9e2447e06498f6dc526614768cf4d5b15c6f61090a25084dfbcc
-Section: misc
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 884
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-polkadots-dark/grub-theme-polkadots-dark_0.2.7_amd64.deb
+Size: 454788
+MD5sum: 916ee95064d54cbbe4ed19b50a2de1c7
+SHA1: 981a6ad8faaaba607c498015183179ef302b45fa
+SHA256: f6a8b39b51ae4bd96e05ac7933ec79361a92315d35d7483c72184d2c63c5e361
+Section: admin
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/grub-themes-polkadots-dark
-Description: Grub dark theme with Polkadots
-  This is a dark theme for GRUB with a Polkadots designed to be minimalistic.
-  yet functional. It is designed to be used with the GRUB bootloader. It features
-  a clean and modern look, with a focus on simplicity and usability.
-Build-Depends: git, make (>= 4.1), dpkg-dev, dpkg-changelog
+Multi-Arch: foreign
+Homepage: https://github.com/MichaelSchaecher/grub-theme-polkadots-dark
+Description: Dark Polkadots GRUB theme
+ This is a dark version of the Polkadots GRUB theme.
+ It features a modern design with polka dots and a dark color scheme.
+ .
+ The theme is designed to be visually appealing and functional, providing
+ a pleasant user experience during the boot process.
+ .
+ It is compatible with GRUB 2 and can be easily installed on Debian-based
+ systems.
 
 Package: mkaptrepo
 Version: 0.5.8-ced452c
