@@ -1,0 +1,60 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 03 Jul 2025 00:00:00 +0000
+Source: zswapd
+Binary: zswapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.8
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ zswapd     - Setup zswapd  as your swap partition.
+Changes:
+ zswapd (0.6.8) stable; urgency=low
+ .
+   * Update version to 0.6.7 in documentation
+   * Fix HTML tag in README for consistency in "Manually Build and Install" section
+   * Update version to 0.6.5 in documentation
+   * Add wildcard entry for zswapd files in .gitignore
+   * Update .gitignore and add markdownlint configuration for improved file management
+   * Update installation paths for zswapd completion and documentation files
+   * Refactor README structure for improved clarity and organization
+   * Fix event_log function parameter assignment and add configure script for theme installation
+   * Renamed `zswapd.8.md -> zswapd.1.md
+   * Remove obsolete hold documentation file
+   * Add shellcheck directive to zswapd.conf for improved linting
+   * Remove version entry from .gitignore and add version file with current version 0.5.4
+   * Rename completion -> `completion/zswapd`
+   * Switched to direct Debian package build process.
+   * Fix event_log function to initialize _eventType and _eventMessage correctly
+Checksums-Sha1:
+ 4e8955dd53db539bf14999d8f73815e3317ce3f3 13304 zswapd_0.6.8_amd64.buildinfo
+ 2aef33529734d2b32cd9141d370b3eea256d2449 11864 zswapd_0.6.8_amd64.deb
+Checksums-Sha256:
+ 7344bf3732436d8e83e6deedaa53b1394795fb26331a72e832460e482ba97f4f 13304 zswapd_0.6.8_amd64.buildinfo
+ 9b72d553eb44b9b6131785010afe154fbafee3ac524dff14f75896b9d840d22d 11864 zswapd_0.6.8_amd64.deb
+Files:
+ ca327dbbb07ebadc207c7b12fce5298c 13304 admin optional zswapd_0.6.8_amd64.buildinfo
+ a45fa865a85e170e73ab2735c39febc0 11864 admin optional zswapd_0.6.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhm5+sACgkQle5BQVtL
+uLcRGw//QOpzEWlQ30Yafd4iclDwYHEQqIqV8erl7YhoHFzjWUdULdis6iaWwJRt
+2WNGM2rXH6wxs/28ICE3ec8Wpr6xSxht4nNHqtq/foxltNOrwg6JuwH7+LXt/1sd
++657p6vidfJO7UhW9NbQn/INJCh900vFyQFbvdqT91G3SGxcduNtmvCoLxI32t/f
+DgoI0x0712iNJhICZwH1gTnDEMWJeoDOghfrlg98gSIYjPU5s9tMDpgv3vZLWt4g
+kgXnA10NuOMEFS1/a50vwdPoKtjHJwVqozp7J5Ihfj8e31U68u0UYzjiKrv6oQ0r
+0ux4x+PH6y0SgH3DfS7y79g9DSMH8yzw7KzPboIL297MXY3uMlGn7pWg9J4AuPDj
+RT2/C/UDISxgGrwwep+BGCCYrTRPk4lba+XSNRZaHEiL4Evh7jbzcQxCucuFjaCc
+Z68UkVL4Q5Q+8OGbmxM4VM/CApqXFltgWLLu/E4Dc6ZVlY3pjjA5LOAdRCU09SDv
+B4Xk2/lUde+Ri9rI/d0HsrOSNCV4Q3sqvkqz/BbFPvzpSEGPtVCKusVwl0fOOu3t
+F9khWw3XibETdB9ut+T5XOf0ZrKkH8ePJtyCIvCATouTIzlEyh4UAeFWGMJTF8hf
+T6DuTYhxU05MFbTV5dP+p8ywJrwjv8QScTXXI43cB13EbUMHchw=
+=PzkO
+-----END PGP SIGNATURE-----

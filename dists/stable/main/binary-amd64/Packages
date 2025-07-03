@@ -223,3 +223,26 @@ Description: Install and update to the Starship prompt -
   The Starship prompt is a cross-shell prompt written in rust that is fast & customizable.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
+Package: zswapd
+Version: 0.6.8
+Architecture: amd64
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 45
+Depends: bash, coreutils, util-linux, bash-completion, systemd, nano
+Filename: pool/main/z/zswapd/zswapd_0.6.8_amd64.deb
+Size: 11864
+MD5sum: a45fa865a85e170e73ab2735c39febc0
+SHA1: 2aef33529734d2b32cd9141d370b3eea256d2449
+SHA256: 9b72d553eb44b9b6131785010afe154fbafee3ac524dff14f75896b9d840d22d
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/MichaelSchaecher/zswapd
+Description: Setup zswapd  as your swap partition.
+ zswapd is a daemon that manages the zswap compressed cache for swap pages.
+ It allows you to configure the size of the cache, the compression algorithm,
+ and other parameters to optimize performance.
+ .
+ This package provides a systemd service to manage zswapd automatically.
+ It also includes a configuration file for easy customization.
+
