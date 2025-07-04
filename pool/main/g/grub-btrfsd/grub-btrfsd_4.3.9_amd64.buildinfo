@@ -1,17 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: grub-btrfsd
 Binary: grub-btrfsd
 Architecture: amd64
-Version: 4.3.8
+Version: 4.3.9
 Checksums-Md5:
- 09f8fe047760e2a4a5547b4545f44933 27738 grub-btrfsd_4.3.8_amd64.deb
+ 5dd7c1bcafd69b75a24549994d202c7b 27836 grub-btrfsd_4.3.9_amd64.deb
 Checksums-Sha1:
- 9327ab106a485964896d4a8a2861133736f7c712 27738 grub-btrfsd_4.3.8_amd64.deb
+ 6909799303018b694b8eefc8e593fe711360f41f 27836 grub-btrfsd_4.3.9_amd64.deb
 Checksums-Sha256:
- 3e6d640e602c0c99699bad2e56b17afdd40e49be59ce3b23971a82122b98e97b 27738 grub-btrfsd_4.3.8_amd64.deb
+ c72c88153046bb9bca5f590b19ab956d49dca838d261ffe918d0284385bea675 27836 grub-btrfsd_4.3.9_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 04 Jul 2025 12:59:36 -0600
+Build-Date: Fri, 04 Jul 2025 13:13:11 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -231,3 +234,20 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1751587200"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhoJ8cACgkQle5BQVtL
+uLfxiA/8DHFNs8kMDvaV0sT29QIrmOPTO3fVZBAFwmuojHbzSuTYB/+9LIpxwBRs
+rwsRNl/tYC5F/OIPwlq4a14bLoCELCS4SLp3eT6UCKwxL3pZf5CkFLjaHSN6waJL
+i4bM8c/u9IQUwms0JJu50vBeiMTBIUkMaccBj95OQCu82GcmC8lKyj8PhdiU9CmY
+k5t526vvUeZqZQ/qitwUt+yEDmEdbpeXHsjzt2XYfQXQ7Dj6z/tmocrqyY5hBbPl
+MWVJ2Wj5QOZzHLtFXTTG21UWA9gReNeBleZOtWKkppR9VN3bG0l4H261CcBLdSaS
+Qehzp67k/mrRZgwFhWPxCkWAuy+oDXW/4UKI1IHRq2R1UiUmVXPubnv1Eq1Zp/E3
+AvGbhQoOitKSNLwb3/7AscCfHey3b+HMXSIiBhiA1xG1J3hBhyjTeUe6l+4BplPJ
+Irg9rRQ6BgtYMIuRl+oHsbqQFnGFmeAJHbJbrWpgDCmi1RiGoCjrOpXXN9vcCyHL
+DJcmASfzBYK61W1OMMmiWvqFjXir29qeUk1Hvd8MrkqpmVLJCjNeTyjkFvhzpuv+
+EunGCxixxvzg/UQhxkEiFH3NA4kR0M9cA60Tm4Tc6M36ZSsYbWmyfBhPXLB0uQVe
+tXXaaW6cul26WkyatL/xrNx8GoU7pU6ap2vr48dJzk9xo6nKaac=
+=ahCK
+-----END PGP SIGNATURE-----

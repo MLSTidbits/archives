@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 04 Jul 2025 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.3.9
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+Changes:
+ grub-btrfsd (4.3.9) stable; urgency=low
+ .
+   * Fix environment file path in grub-btrfsd.service for consistency
+   * Fix required packages in Initialize_build function for accurate dependency check
+   * Enhance manual installation process and service management in configure script
+   * Add configure script for building and installing the DEB package
+   * Update .gitignore to include additional files and directories for packaging
+   * Add debian/rules file for package build process
+   * Moved manual pages to `User Command` section.
+   * Add initial Debian packaging files for grub-btrfsd
+   * Refactor command list in bash completion for grub-btrfsd to consolidate definitions
+   * Remove useless logging feature.
+   * Update grub directory path to support EFI and adjust version variable initialization
+   * Add bash completion function for grub-btrfsd
+Checksums-Sha1:
+ e9f0a6ce66964d293d2ed0b620724b4f75bc9235 8879 grub-btrfsd_4.3.9_amd64.buildinfo
+ 6909799303018b694b8eefc8e593fe711360f41f 27836 grub-btrfsd_4.3.9_amd64.deb
+Checksums-Sha256:
+ 9e1f87b1f9b24efa51d57d7d92c7678a64fa4bbdd76e98b6f3b8cccc32f57d45 8879 grub-btrfsd_4.3.9_amd64.buildinfo
+ c72c88153046bb9bca5f590b19ab956d49dca838d261ffe918d0284385bea675 27836 grub-btrfsd_4.3.9_amd64.deb
+Files:
+ fcdd9b1268c2d1e91e08f848cabe6921 8879 admin optional grub-btrfsd_4.3.9_amd64.buildinfo
+ 5dd7c1bcafd69b75a24549994d202c7b 27836 admin optional grub-btrfsd_4.3.9_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhoJ8cACgkQle5BQVtL
+uLdz7Q//Xzn43S6e6avhtRK6sR/MUzWlMSZ3EvUw57MQRaA6MexLapk7BmYP6pp3
+RvVr5eZVU+LSj6pFAAKKw9Fa7AQyEL42vKxefvN44DluW5DFFzkS7Ope7Bgl7BGo
+h9ecDHUMFN9OeFecdW4nnDvlxGaQ5vOGFyiU1KBCac+nVFzW9As5Hg6MHwDAsVCP
+VudczHBMvgzkVrKOTWwmGr59dcIL48i1asJP67JhNuBsAZFjnKVXYeOSWmZ7VOIy
+9gmsW5Vhz0yk4N9Kt+4Mt887b/pnywF2ujLqdf3HBnMX1HMvTkVCNLB7sgG3OkSk
+Y+9Rrwk34nXz0UtOwJ5ATQja4MZk7VVPPgDJcX6F6ddK2844JbzK+LPEJSfBK3Fj
+aUzI71H52UtiUnlVR1Pc4a6w3wUhm0kjUNjx1JCCGtOkeTcCHK0dbEBryjavc4Bw
+R4LexhUQp28Y4m1Gf3xghuoqYoCbNxowOB81peE2OwPlXtf+kGHWxY7zYKKtN3it
+bMfAmc/wbBtuVeOknLEQaigQbec6IWwdmlDwWSfXxMWx/QiAlNS/Oq8y6dXPbGd6
+LuVw1KUARWLEuhoMe9QW/Jvh1ea0Umdt1S+3C712zo9231RuFNaTgUw9aEwDVKI2
+Jep6ql2oeJK338mwJYZ0YbfKafH6lsyScXf35bCcxO4CrF0k9oU=
+=n/1O
+-----END PGP SIGNATURE-----
