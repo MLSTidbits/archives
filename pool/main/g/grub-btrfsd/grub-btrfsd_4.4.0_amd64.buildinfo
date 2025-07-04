@@ -5,16 +5,16 @@ Format: 1.0
 Source: grub-btrfsd
 Binary: grub-btrfsd
 Architecture: amd64
-Version: 4.3.9
+Version: 4.4.0
 Checksums-Md5:
- 5dd7c1bcafd69b75a24549994d202c7b 27836 grub-btrfsd_4.3.9_amd64.deb
+ 0b4b98d2ba1ee0ff55d15a33a9ff387c 27858 grub-btrfsd_4.4.0_amd64.deb
 Checksums-Sha1:
- 6909799303018b694b8eefc8e593fe711360f41f 27836 grub-btrfsd_4.3.9_amd64.deb
+ 1418aeeaacb7608b4ab00f0486923c6a01722ab8 27858 grub-btrfsd_4.4.0_amd64.deb
 Checksums-Sha256:
- c72c88153046bb9bca5f590b19ab956d49dca838d261ffe918d0284385bea675 27836 grub-btrfsd_4.3.9_amd64.deb
+ 773766dcd713cc3ca9737045f7adeb72cb6f1a6cbbaae7403ebaebeca4cf3949 27858 grub-btrfsd_4.4.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 04 Jul 2025 13:13:11 -0600
+Build-Date: Fri, 04 Jul 2025 13:23:09 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -237,17 +237,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhoJ8cACgkQle5BQVtL
-uLfxiA/8DHFNs8kMDvaV0sT29QIrmOPTO3fVZBAFwmuojHbzSuTYB/+9LIpxwBRs
-rwsRNl/tYC5F/OIPwlq4a14bLoCELCS4SLp3eT6UCKwxL3pZf5CkFLjaHSN6waJL
-i4bM8c/u9IQUwms0JJu50vBeiMTBIUkMaccBj95OQCu82GcmC8lKyj8PhdiU9CmY
-k5t526vvUeZqZQ/qitwUt+yEDmEdbpeXHsjzt2XYfQXQ7Dj6z/tmocrqyY5hBbPl
-MWVJ2Wj5QOZzHLtFXTTG21UWA9gReNeBleZOtWKkppR9VN3bG0l4H261CcBLdSaS
-Qehzp67k/mrRZgwFhWPxCkWAuy+oDXW/4UKI1IHRq2R1UiUmVXPubnv1Eq1Zp/E3
-AvGbhQoOitKSNLwb3/7AscCfHey3b+HMXSIiBhiA1xG1J3hBhyjTeUe6l+4BplPJ
-Irg9rRQ6BgtYMIuRl+oHsbqQFnGFmeAJHbJbrWpgDCmi1RiGoCjrOpXXN9vcCyHL
-DJcmASfzBYK61W1OMMmiWvqFjXir29qeUk1Hvd8MrkqpmVLJCjNeTyjkFvhzpuv+
-EunGCxixxvzg/UQhxkEiFH3NA4kR0M9cA60Tm4Tc6M36ZSsYbWmyfBhPXLB0uQVe
-tXXaaW6cul26WkyatL/xrNx8GoU7pU6ap2vr48dJzk9xo6nKaac=
-=ahCK
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhoKh4ACgkQle5BQVtL
+uLd51BAAm8jQs8hYX0m4cbOrfEr87ccAeVOCfS6Smu4S4Yp9Sm/kwVecCWsb+p6N
+Qo76C72PESXe9Gq6X2d9A+BCGgc86HEi0T/WGr9UO6Gtw0CIWxAGhrYujYyTPpqc
+9oBpqt2vlk+YYlD8mNYP5XcMpVIEN5JvjhSrVwSBkIAIrwfC4LvnAWSC22K99jN9
+2TgnTvF92cllwcb92arLGUokyWREpKdfqb76fGlKFx+Dk/YqsHe5giprTnHuisIW
+G2pG3Nv6VuSizgWvSNZSv/TK5RzVTalh446LpPgmcG6BqYr4DyFEOHM/GEN7m91Z
+Lk+u6Eng3D93OWX7NajGhg5Ll5CsgA9PpFg9HRdkl4cpASCHSamjJZLZrpdfX5SQ
+IoTzks6k7yfbhCiGrCA97AQLhLf6YBz11XUADTKPZ2vkcCuHSZ5+z5aqCopDYGHn
+hEh+xCMAS7y7SJfa+AvYwy2BSaHvrQtO2gefu63jHr8PY5geo/puvXvDdBRU5fAP
+dFuGqWjeYc8XhWz0jxF/4G+AQyaPM1FZQbjq3fnT8yGtL626aeZBQtkhKYSP+q26
+LkJ8dSKR/Qo3/L7OZs4J07U3GeyRW3JWxzA5crJtRz4T7TrB51OQRj8OekieQmq7
+BJAC78Q9HQatg+9vw6SrxyEjDXNgp6tlYYTvcQIsIHSy0aNqLJE=
+=5OXP
 -----END PGP SIGNATURE-----
