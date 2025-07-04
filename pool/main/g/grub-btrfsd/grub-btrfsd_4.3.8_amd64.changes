@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Fri, 04 Jul 2025 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.3.8
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+Changes:
+ grub-btrfsd (4.3.8) stable; urgency=low
+ .
+   * Fix required packages in Initialize_build function for accurate dependency check
+   * Enhance manual installation process and service management in configure script
+   * Add configure script for building and installing the DEB package
+   * Update .gitignore to include additional files and directories for packaging
+   * Add debian/rules file for package build process
+   * Moved manual pages to `User Command` section.
+   * Add initial Debian packaging files for grub-btrfsd
+   * Refactor command list in bash completion for grub-btrfsd to consolidate definitions
+   * Remove useless logging feature.
+   * Update grub directory path to support EFI and adjust version variable initialization
+   * Add bash completion function for grub-btrfsd
+Checksums-Sha1:
+ 53d926699bfb9f3cf70cc2dfdd61469d0e86a000 7996 grub-btrfsd_4.3.8_amd64.buildinfo
+ 9327ab106a485964896d4a8a2861133736f7c712 27738 grub-btrfsd_4.3.8_amd64.deb
+Checksums-Sha256:
+ 551a49e041ce828732fae524e6cb1f91114150c7b8e7024b9e9930328a1ac65f 7996 grub-btrfsd_4.3.8_amd64.buildinfo
+ 3e6d640e602c0c99699bad2e56b17afdd40e49be59ce3b23971a82122b98e97b 27738 grub-btrfsd_4.3.8_amd64.deb
+Files:
+ b2dec94bce3445100a843b514b409dab 7996 admin optional grub-btrfsd_4.3.8_amd64.buildinfo
+ 09f8fe047760e2a4a5547b4545f44933 27738 admin optional grub-btrfsd_4.3.8_amd64.deb

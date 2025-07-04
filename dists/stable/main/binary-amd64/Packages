@@ -88,23 +88,26 @@ Description: Generate changelog file for Debian packages.
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: grub-btrfsd
-Version: 4.1.8-8a2587d
+Version: 4.3.8
 Architecture: amd64
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 136
-Depends: btrfs-progs, grub2-common, inotify-tools
-Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.1.8-8a2587d_amd64.deb
-Size: 55052
-MD5sum: 58bcc729735404bd9febc790aefda10c
-SHA1: d3bd2cfc46b2549248b8d2d396ab9fbdfc74f074
-SHA256: c8b66536815c297a498971be572bc8a6f3c83ade601fffda6d14cac114060914
-Section: utils
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 64
+Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
+Recommends: timeshift, snapper, btrfsnapd
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.3.8_amd64.deb
+Size: 27738
+MD5sum: 09f8fe047760e2a4a5547b4545f44933
+SHA1: 9327ab106a485964896d4a8a2861133736f7c712
+SHA256: 3e6d640e602c0c99699bad2e56b17afdd40e49be59ce3b23971a82122b98e97b
+Section: admin
 Priority: optional
-Homepage: https://github.com/MichaelMure/grub-btrfsd
+Multi-Arch: foreign
+Homepage: https://github.com/MichaelSchaecher/grub-btrfsd
 Description: Add BTRFS snapshots to Grub boot menu -
-  Show BTRFS snapshots in Grub boot menu making it easy to boot into
-  previous system states for recovery purposes.
-Build-Depends: debhelper (>= 11), git, dpkg-dev, dpkg-changelog
+ This package provides a daemon that monitors BTRFS snapshots and adds them to
+ the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
+ .
+  Take advantage of BTRFS snapshots capabilities.
 
 Package: grub-theme-minimal
 Version: 25.03.12-dba4378
