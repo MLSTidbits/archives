@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 04 Jul 2025 00:00:00 +0000
+Source: zswapd
+Binary: zswapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.3
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ zswapd     - Setup zswapd  as your swap partition.
+Changes:
+ zswapd (0.7.3) stable; urgency=low
+ .
+   * Install missing `conf` file to load zram at boot
+   * Renamed
+   * Add modprobe configuration and create load-zram.conf for zram module
+   * Remove build script and version file as part of project cleanup
+Checksums-Sha1:
+ a5456cc5fb34ba75d6e06b05fe458b2a8acc2c56 13304 zswapd_0.7.3_amd64.buildinfo
+ e8b57ef8423852cddf9c909dec2b1b73d0eb7016 12186 zswapd_0.7.3_amd64.deb
+Checksums-Sha256:
+ aaa9a7b1a423abe6e98232ece100468dd9c32bb0638cb6f4dfd03892f266ac13 13304 zswapd_0.7.3_amd64.buildinfo
+ 6f110e3fd805d721a2e9644bdbf4c5a957a169198f1268e385dac6b18e444fff 12186 zswapd_0.7.3_amd64.deb
+Files:
+ 5bd29302270de8c55904817638a3fa2a 13304 admin optional zswapd_0.7.3_amd64.buildinfo
+ aa6facc146e31fdf7535404fb5556be5 12186 admin optional zswapd_0.7.3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhn5d0ACgkQle5BQVtL
+uLcLYA//Xqk7lv5A/kUsXYq4xNHq/8/C+rMkVFYuNKXIP+hlEGZ3JSkPNmQNrV9/
+Z8fpF+5bLHdixj5ZDfKiHV7m07Px96d1af/asJz31ZKC9faCr8cf3W8n2HT6woKo
+jZcaQM3TcR/khKtDAfcydPep4+w+6o/nhpVin4qv9JlOSW4gRhh7oNKOv7jFrDj+
+sRp7Afq/859eEPBwyI4/Xd+lpqKg0Jok3c+dVe1N2pX5zGCyBDw2Em16cZaeRUfY
+ZjsysB7tWownpHmUL4C5MXOQojyhpoqRZOhgOzlsksof0+E8xej7UI+/Adg2jqox
+4N4cSnn42wS16CE/2S2e7FS0GeuDPnmwYjeF+u6veu+FQnl62Zo94uZbkEM1ti0D
+whHibeyXvHdUYbPbHdRoUw0su5W/85DtD8YAqlLuNWDFYqD2orvehtMG1myAZVH0
+J3z29vTaR4WlqFQFUjEw4Y6ZSBcwCXnS9Py3/Zm5XPqxy2tNxpJVWRSnOC541koM
+cR9YJmk3a5BUM6OwxSK4gbYK7plMxlxHY+eoK+7dgKpXb+0+gboGmNpKTwInEBLf
+3toQvwBIv6toE9JkXUdb2w3RZXyGBehbxt5C79AW75K3O3oQEA7mcjp6uHotq4fV
+1f93hA1bhbZ54IVd6kheA0W1S3BZFWhkx0CHGGDXB+lc63+NXaU=
+=l4EM
+-----END PGP SIGNATURE-----

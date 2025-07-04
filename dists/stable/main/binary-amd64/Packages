@@ -224,16 +224,16 @@ Description: Install and update to the Starship prompt -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: zswapd
-Version: 0.6.8
+Version: 0.7.3
 Architecture: amd64
 Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 45
+Installed-Size: 48
 Depends: bash, coreutils, util-linux, bash-completion, systemd, nano
-Filename: pool/main/z/zswapd/zswapd_0.6.8_amd64.deb
-Size: 11864
-MD5sum: a45fa865a85e170e73ab2735c39febc0
-SHA1: 2aef33529734d2b32cd9141d370b3eea256d2449
-SHA256: 9b72d553eb44b9b6131785010afe154fbafee3ac524dff14f75896b9d840d22d
+Filename: pool/main/z/zswapd/zswapd_0.7.3_amd64.deb
+Size: 12186
+MD5sum: aa6facc146e31fdf7535404fb5556be5
+SHA1: e8b57ef8423852cddf9c909dec2b1b73d0eb7016
+SHA256: 6f110e3fd805d721a2e9644bdbf4c5a957a169198f1268e385dac6b18e444fff
 Section: admin
 Priority: optional
 Multi-Arch: foreign

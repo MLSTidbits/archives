@@ -5,16 +5,16 @@ Format: 1.0
 Source: zswapd
 Binary: zswapd
 Architecture: amd64
-Version: 0.6.8
+Version: 0.7.3
 Checksums-Md5:
- a45fa865a85e170e73ab2735c39febc0 11864 zswapd_0.6.8_amd64.deb
+ aa6facc146e31fdf7535404fb5556be5 12186 zswapd_0.7.3_amd64.deb
 Checksums-Sha1:
- 2aef33529734d2b32cd9141d370b3eea256d2449 11864 zswapd_0.6.8_amd64.deb
+ e8b57ef8423852cddf9c909dec2b1b73d0eb7016 12186 zswapd_0.7.3_amd64.deb
 Checksums-Sha256:
- 9b72d553eb44b9b6131785010afe154fbafee3ac524dff14f75896b9d840d22d 11864 zswapd_0.6.8_amd64.deb
+ 6f110e3fd805d721a2e9644bdbf4c5a957a169198f1268e385dac6b18e444fff 12186 zswapd_0.7.3_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 03 Jul 2025 14:28:27 -0600
+Build-Date: Fri, 04 Jul 2025 08:31:56 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -356,21 +356,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1751500800"
+ SOURCE_DATE_EPOCH="1751587200"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhm5+sACgkQle5BQVtL
-uLfB2hAAicPliYV9bmXrTEnnnpigeQw6whxdpNlbDlmmisphg3MhH5zWxdUBx2SI
-UmjaVRjqQQ4QZW9/HNld752Gg7IOm0vLCQkt5bWGJ2qDiJEjoEqeiAy1Sionp5EO
-eY12065JQIOGlpyGVZauJPeuNzzS/Di9GxntCRGb6w1F3z9uhQPvsBsEUcpIkOOx
-Bvn9mZZ3SVGhwALppsFAQ5NM8Qh0rDTVprJJueyLmsL3McNQxR4kkylPxCXvHrzE
-SIybCq/1HPkVIakxEyhN3gf98OdICj1HnpCW0yi8UOpHwc5xiGreM72D5q4tWiVG
-p0GidFK0QG5xviSDRMXejWLFzsWg1/TYg/rbXpCqp/RLsmfFbeleBDp2X+4itSHO
-aTMIdzTPRazuiRoGLpe3Bw/39TCswJBzuMsKW5fgEyH41Soh0VbmPCdnI9yMky5l
-/Vh0CGomPzLOq6M9D5UhncfrZOO0AqSjtJm9rfeggmgCcxEMqx0/EBAfgfpawOEv
-9W6cAYXD6t+wdEfevPAyuUv7fMZJq/El/uvfDYxWlDfgJHSoFAnCNW2lOxLTww/t
-sS/oOS7CTd1LDU7wphLydSfa6Ic0Xu2BOCvVcjoRKEoNkYtL1s6rOjeeOiwYuB7C
-+p6ldE/UwZa3DnCB5WPpfoV51kT8YjTXLKb3Tov5nuG+Ks718Kg=
-=o5N/
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhn5d0ACgkQle5BQVtL
+uLfQhw/+KcVARmDEDMhg2b9R7orrk9Ja82LcBYruA8cWZTiWhcJHwhJf0DTZ+Ct4
+oQxAjTr2FX1IFtVT+TEhAf5oH4CUKV/hhADu/6vJ5/A7fa0+txafjuFvIIOy4ueN
+iR4EcT0ytGxM4ZtXia/6aRBOhEzetEvPIpF6I9DB5icZoONzP9mV8Uho++6RVAON
+17My0njyEm1pCPiU64KjunaVGwkvVCNdqK9wXFYyFcgEzXKaL2XInkv/0dvTmYRV
+5Jqq9sulgGAtwaFGktXAtHD/4V52sB3+ZcEAF1NM/5SKSXP+8k7hZeUGDYapMsiB
+7MDBGyIdokO2VoJcsgjVEqj2XLca9wIRFN3UNgUcHmfFqDnkhIgHDAJTXM7IopQU
+Ivt9/S+mLHLp3hPTsRfkVBl+IsYyNYcBtfZ0BWKkFRBjpeGNyjV4PVQmOFvSzTs3
+EZpmgv4eatVyfWkzkBHQMmbNTMIa6nj1/Bgl9tE8ytqvvgdINKBQy9sjMI5nbbUB
+nc/tJvcFY/8pp5p6GYmmq3+v4nI/uYhAJTVK+jGnTvubl0hNn5ZRWjRZDVr4EY/X
+OKCWUPQPa1oE+TtlB7chQpkIkgBUlRBVRe047BdfEINlvnQ+vAZE51XXpfKcxaac
+S9UF8GNh5fZE/ZvuDQ9CDT2sw4pU7VZrQgXuGqDMGwjSDne1MkI=
+=eWoL
 -----END PGP SIGNATURE-----
