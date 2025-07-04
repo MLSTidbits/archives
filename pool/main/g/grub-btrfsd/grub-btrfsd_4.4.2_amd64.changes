@@ -1,0 +1,60 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 04 Jul 2025 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.4.2
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+Changes:
+ grub-btrfsd (4.4.2) stable; urgency=low
+ .
+   * Installing in the wrong place or not at all.
+   * Fix installation process by adding missing grub.d configuration and updating install targets
+   * Fix ExecStart path in grub-btrfsd.service for correct binary location
+   * Fix environment file path in grub-btrfsd.service for consistency
+   * Fix required packages in Initialize_build function for accurate dependency check
+   * Enhance manual installation process and service management in configure script
+   * Add configure script for building and installing the DEB package
+   * Update .gitignore to include additional files and directories for packaging
+   * Add debian/rules file for package build process
+   * Moved manual pages to `User Command` section.
+   * Add initial Debian packaging files for grub-btrfsd
+   * Refactor command list in bash completion for grub-btrfsd to consolidate definitions
+   * Remove useless logging feature.
+   * Update grub directory path to support EFI and adjust version variable initialization
+   * Add bash completion function for grub-btrfsd
+Checksums-Sha1:
+ ee2776925ee25dcf74d12c55b24739f61ad43b0a 8879 grub-btrfsd_4.4.2_amd64.buildinfo
+ c2301bf57c0901950de4f1cb5bcfd61e088b377a 46010 grub-btrfsd_4.4.2_amd64.deb
+Checksums-Sha256:
+ 597a873046da347b6a45b864a7e1330d6290208ddde515a66d76ace037666dbb 8879 grub-btrfsd_4.4.2_amd64.buildinfo
+ dce3e7f91cbc477433cc5a3903794fc378cdd15ae4f439c7cf424a306dacfe68 46010 grub-btrfsd_4.4.2_amd64.deb
+Files:
+ c0cc26d33bb1b2d7bea3839d4c5fcead 8879 admin optional grub-btrfsd_4.4.2_amd64.buildinfo
+ 773d7e9c0ec19229a1519ea5ff860256 46010 admin optional grub-btrfsd_4.4.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhoPUIACgkQle5BQVtL
+uLdttg/8CiZOEpGYDmSBjfnhduvF86+k7laIfwPLtVxLt57b88Z72Fg2iuW/1roB
+hF56AEjRMVsuu13nUTWVAF00za9MRi/mUBmMPcDqkEtTPhy/2xwhuHGNQdDvMMD9
+Oe+07ABNUVCcBz9fDVRNxZsf0fM1R0wSqJU5yO/LquE/Ktrs7sWL596jI27Gv35I
+N2Uxc7QEWnYF6puH35+hrp3LjbkErElp3wx/yqlHzCtBFi3b9cQUB1ADDrQ+vqp0
+a9ZBdNeGBWRRz/ian9+bpF10emMFbx4o+tSiVhpOfdJhawzFAUad4Uuaoz9eNBBg
+6QEsaPnU12mKJEv7PQ8nKuzQCDaaXIU4OSfASU8nSV/JytJT6JcvTEbLOuSuYA4O
+7vBZYFNu+b8KGllzDXZe7VFPMfqtMlaq0py6Q1dNHM34mqZlhSZo+YyZBhwbUSob
+27LU6uFShCdekc7fDgJ6J1DKX5benIWTqMN4AZ7LXOP97nqjy/P8Vb90UB9wYB2m
+ZCw6vFOjbm0lxFJF6v4U0LNrq9cbINIooBLr53Si3aVHAJBqBBkjev+ZBT3cWwid
+6qZaqovSQebQRGzkr4Oa9tghKjHBYcKrSCxY1ZRbd7On52imwJmbuOSm+6suJFWy
+sN/mobDhHNX+FLOE7yRHkt5SF4evHwTOK6ZomLA0v5Bxk/KcHtc=
+=X6BK
+-----END PGP SIGNATURE-----
