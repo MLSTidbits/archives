@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 05 Jul 2025 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.2
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+Changes:
+ btrfsnapd (1.3.2) stable; urgency=low
+ .
+   * Enhance snapshot creation error handling in package management
+   * Refine build initialization message in configure script
+   * Update reset_env function to clean additional debian files and modify required packages for build
+   * Moved btrfsnapd manual page and update .gitignore
+   * Add apt configuration file installation to debian/rules
+   * Moved btrfsnapd configuration manual page and remove obsolete btrfs-snapshot manual page
+   * Add configure script for building and installing btrfsnapd package
+   * Moved bash completion script for btrfsnapd
+   * Add debian/rules file for btrfsnapd packaging
+   * Add initial Debian packaging files for btrfsnapd
+   * Remove obsolete post-install and pre-remove scripts for btrfsnapd
+   * Moved systemd service and timer files for btrfs snapshot management
+   * Add shellcheck directive to btrfsnapd configuration file
+   * Refactor error handling in btrfsnapd script for improved readability and consistency
+Checksums-Sha1:
+ 376e212e30f937a6df7bf94ed1bc514a4be58499 6871 btrfsnapd_1.3.2_amd64.buildinfo
+ e232ef5ce389bdb0ec3f79c31190d5778e77169a 18582 btrfsnapd_1.3.2_amd64.deb
+Checksums-Sha256:
+ f7c7ad14af85e8f4a76846176cb1aefa492d4918a311663c1b242903d6a49715 6871 btrfsnapd_1.3.2_amd64.buildinfo
+ 56b736b5c02a46a65147c1ff78a565e05f18345a154a1d0c1205d493aeb5d496 18582 btrfsnapd_1.3.2_amd64.deb
+Files:
+ 91ab1b97974e61b9c20fc2edf93b2828 6871 admin optional btrfsnapd_1.3.2_amd64.buildinfo
+ f0553ab2c5dc222c5b448869f375e6e8 18582 admin optional btrfsnapd_1.3.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhpjLwACgkQle5BQVtL
+uLfOvRAAo/pNhuf9cfiVG2m1HM1h+NnDxC0Ed3e7N29uDcejnkN8V85tzAQDOUJ0
+0v/TzglW8ua0eD1pko4pQ9J3mDK5iTblEtMUPH3C8zN5A16xNG3sUQf8wPdM0thl
+FiIx0773kabp6jSoY3WG177t0fj2Cy+SGIxIQXGSEI0eA8+3J+W4Hcia0CmLjyEh
+nY20ahsZuOKtt7aD96aUF68ryyxMplcyERvrmhYK/nh72OeOmG3VuLd1WBHTujdc
+xZpF0nWQ5UXUsZdEMrV/OGZoFwtsSPGJMrW6MJpRXiKCOJAHkVO+lxuGZi2TbzmS
+KGqGNlC1GKYfYv/9Tzb/yJDlZmxIW9lvs4X+ir/M0MMzPg7Ov7/CUANsvS+caetC
+55yCdnNiSEGx3vOvNdCHtx4AQvf5z6jyeYF5RkRXs2HtOJK1BplDgiz0y5NUuTGe
+B5Lc8Viq+vgowYH8A/dD+W8Q/Jc6MX6pi3N++TzlVrcpAypMceLLfqh60DOC6Mb9
+fyoM+8+7ScjLPk2+mjSH64baXDYcNxrOlYfgC0D+UKtbxRa7kcFWdw5P30kr37Bg
+XokKhXHsD5bDiMQhGHAU21Xp6VXmLCIE0gNCg0MeJ/i0memjJbIDHls+j3uLXTkO
+1aPCB3li+9O6329FStztrUZTOxNY1FiRzU1VkYQOgOAfsKRR9vc=
+=tVPO
+-----END PGP SIGNATURE-----
