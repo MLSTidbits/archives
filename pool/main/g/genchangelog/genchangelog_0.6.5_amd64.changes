@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 05 Jul 2025 00:00:00 +0000
+Source: genchangelog
+Binary: genchangelog
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.5
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ genchangelog - Generate Debian changelogs from git commit messages
+Changes:
+ genchangelog (0.6.5) stable; urgency=low
+ .
+   * Fix typo in Depends section of debian/control file
+   * Running dh_genchangelog inside debian/rules caused mismatch with version code
+   * Improve GPG ID validation and remove redundant build message in configure script
+   * Remove unused print_info function and simplify changelog file removal
+   * Try to generate the changelog early in the build
+   * Fix typo in .gitignore to correctly ignore doc/version
+   * Refactor package structure and finish rebranding
+   * Remove obsolete Makefile, copyright file, and size calculation script
+   * Add Debian packaging files and configuration for a true `deb` package build process
+   * Add Contributor Covenant Code of Conduct and conf identifier to the configuration file
+Checksums-Sha1:
+ a4e44d216c9b52431be43f484884950a1e708842 8307 genchangelog_0.6.5_amd64.buildinfo
+ d5976d3673e79318a4934a7e6c435ae59fb78ee3 9426 genchangelog_0.6.5_amd64.deb
+Checksums-Sha256:
+ f14a8259a1969d170045a0c9f9f432caf72b54282afca68fca4f57d8643f6b77 8307 genchangelog_0.6.5_amd64.buildinfo
+ 7670b6b9b5ebee37d783feed1517aac1d7c61f3cf59cbbecf9a71ac8cf4db775 9426 genchangelog_0.6.5_amd64.deb
+Files:
+ 20998429b901d5835df62eae5ec50448 8307 utils optional genchangelog_0.6.5_amd64.buildinfo
+ 788ac39cea80f7eab55765a413022c72 9426 utils optional genchangelog_0.6.5_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhpSuIACgkQle5BQVtL
+uLf3fw//RUIvNfwnKIkKoddOymS+vj/ERTtT2IhbfwArI6GqP1B/pqpcp2ZAj3BS
+ARK++SSz9xvsehPADVAct0lSylG8LwWuleTdUboWWwSbZLydDzYB+zoliy4ANhbt
+4R5rtW3hytBAK7p1Yy6Uj0nNzsHizYiZpt/2p0+koqv7kHVnmILCftLLXLBFMOrP
+Xh/xV7rq77yL8HYbJ2nP0F2iagr85OL3gkd5+IBMYaVyYjnUk0CEX/0ruKDomEP+
+NMUGMCIauyujai8NpQMGpxOEA6Z57qL42g2y+Pv4BngFx/zsDwvyBnc9wS2VzuBR
+hCR5mWMjo5SQk1ou+vVEfyNunELCGRev/tmHLSiYzq8KEGblhXscJyRP94JxZXTB
+zAItBSgNHgoIzBJlhmTwqWYkjqseXdIBd7RKiWNvUAHFRAnoMg53UaWHzviYaJpg
+ULhfsewHtVkOj3UQ7NneqMwd8cWpvAVYax79irwsk0IZexI0paPKmAt5jOKOMxhH
+RnMMQAzb8nWQYUOns3Mz9R0a8HSTqlvcB/Fv6XIn0xXM3g3ngFsNYe5x113IoIe5
+BB/cF+uz0lGJbx7RWvkgo6XdPcPAY42MJ+yxuZBzsMGEimYbXLR8CfZr2hiIkH1H
+xMiHAO27wZwSXJ8or7KTknJP3uSSjH2dU+paCfBR3gHBx5TNck0=
+=087a
+-----END PGP SIGNATURE-----
