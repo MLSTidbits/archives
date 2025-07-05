@@ -1,0 +1,67 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 04 Jul 2025 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.4.9
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+Changes:
+ grub-btrfsd (4.4.9) stable; urgency=low
+ .
+   * Refine .gitignore to properly ignore debian/grub-btrfsd directory and include manpage files
+   * Update configure and rules for improved installation and documentation handling
+   * Moved for grub-btrfsd and grub-btrfsd.conf
+   * Remove obsolete postinst, prerm, and service files for grub-btrfsd
+   * Add systemd service and bash completion for grub-btrfsd better DEB package build.
+   * Add documentation and manpages for grub-btrfsd
+   * Add grub-btrfsd.dirs file to define installation directories
+   * Installing in the wrong place or not at all.
+   * Fix installation process by adding missing grub.d configuration and updating install targets
+   * Fix ExecStart path in grub-btrfsd.service for correct binary location
+   * Fix environment file path in grub-btrfsd.service for consistency
+   * Fix required packages in Initialize_build function for accurate dependency check
+   * Enhance manual installation process and service management in configure script
+   * Add configure script for building and installing the DEB package
+   * Update .gitignore to include additional files and directories for packaging
+   * Add debian/rules file for package build process
+   * Moved manual pages to `User Command` section.
+   * Add initial Debian packaging files for grub-btrfsd
+   * Refactor command list in bash completion for grub-btrfsd to consolidate definitions
+   * Remove useless logging feature.
+   * Update grub directory path to support EFI and adjust version variable initialization
+   * Add bash completion function for grub-btrfsd
+Checksums-Sha1:
+ 0851d718ce037697ddfab9263d482c9e2c1dac2d 8879 grub-btrfsd_4.4.9_amd64.buildinfo
+ 599b069549589c7ac24ad490f9c26dd2c9f5c502 33826 grub-btrfsd_4.4.9_amd64.deb
+Checksums-Sha256:
+ 6ed9339c9cac3b76908a921558cff39ee2f54837bc85a49b707c4ad0261a8904 8879 grub-btrfsd_4.4.9_amd64.buildinfo
+ aa2a1691852e10dea5c4a37a9bd260436903fff9901e760d9c2608d3a4c4b6db 33826 grub-btrfsd_4.4.9_amd64.deb
+Files:
+ 97b1a081f2f086be5777f7f023cd95fa 8879 admin optional grub-btrfsd_4.4.9_amd64.buildinfo
+ 19463a959d0c002aaf71020d80118613 33826 admin optional grub-btrfsd_4.4.9_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhomSwACgkQle5BQVtL
+uLfrZBAAySshpYcIDOZdSaQKlIAiYSGjt192sXsnav3fdB32caSUtPFu3f5Kpu35
+UIYIGMA+IJztADN4cjm/Z3f6dlLx3+pDSVPwY1k3jbImxG4QfcVATvB+oRXxlN3N
+ardf56Sv9hlENZeXe0euMel9KmU9PkE7tlc/4IDDjup0cYhNKT4EZkisANJXzdum
+SltIgX8b955R38II/HvlZQPkKTU+n5nnuNsOtD1FY7FM18TW0VSsbeAJvzuipWNA
+Yu9Lp2giVea2A4bUNY5fco8q5xFBtT6+79aMFWlPNmv2t2XUbMxJkEagXw7dIRyq
+5XzFuJF9cFPh4MRAm2pUckhUJQ6QpONBVAmBkxLWvCrGMYc61nJQQT/xJLGti50d
+wUuPJb9DXp9arNJW+m9+wxgfzWm2wDqylaUmA8N66Y5kVbPFppPhuuOJbSZVou0J
+zJil2FY6kFcsKej3Jmu6GOlqhyapuoivFZ1S4AbDcM0iV7d5ktfO2drEySuL9brB
+UaZfNenr5zZsThbmPpciUa1OXMsa2qJGwWhElo7+qn7rw1K5F1glp9CXzX2M08Kk
+PwVvSX7o5RNvT/vh4TmbcNswb+/nUHOcxuptudSsbFc54IRH0f0h3y5P2xr+N6yc
+edmResVvrReeU2U5MF85UOtQdew443SqYZU0JJnUjHoJaSXyxgg=
+=Ei2u
+-----END PGP SIGNATURE-----

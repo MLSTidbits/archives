@@ -87,6 +87,28 @@ Description: Generate changelog file for Debian packages.
   for the same date is found, then each commit will be added for that date.
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
+Package: grub-btrfsd
+Version: 4.4.9
+Architecture: amd64
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 99
+Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
+Recommends: timeshift, snapper, btrfsnapd
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.4.9_amd64.deb
+Size: 33826
+MD5sum: 19463a959d0c002aaf71020d80118613
+SHA1: 599b069549589c7ac24ad490f9c26dd2c9f5c502
+SHA256: aa2a1691852e10dea5c4a37a9bd260436903fff9901e760d9c2608d3a4c4b6db
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/MichaelSchaecher/grub-btrfsd
+Description: Add BTRFS snapshots to Grub boot menu -
+ This package provides a daemon that monitors BTRFS snapshots and adds them to
+ the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
+ .
+  Take advantage of BTRFS snapshots capabilities.
+
 Package: grub-theme-minimal
 Version: 25.03.12-dba4378
 Architecture: amd64
