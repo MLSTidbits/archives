@@ -5,16 +5,16 @@ Format: 1.0
 Source: btrfsnapd
 Binary: btrfsnapd
 Architecture: amd64
-Version: 0.9.6
+Version: 0.10.1
 Checksums-Md5:
- 3be241acf980b940b251e4bd7a1fabaa 19602 btrfsnapd_0.9.6_amd64.deb
+ bee3cd56b4919dba80bacd469c3462a1 19544 btrfsnapd_0.10.1_amd64.deb
 Checksums-Sha1:
- 92b6ff9b50838c4f755caed664413de4f2ab5d79 19602 btrfsnapd_0.9.6_amd64.deb
+ ef094da6aa382aec7a034c2ecc529da3893eb4ef 19544 btrfsnapd_0.10.1_amd64.deb
 Checksums-Sha256:
- b9c84bbbc8c693b472038f09d44780417099138fb3112cc3f24228e68fdffc9a 19602 btrfsnapd_0.9.6_amd64.deb
+ a746682113d60b438b2cf6dc6c940d1abaac47909096bfefb631a214f4904107 19544 btrfsnapd_0.10.1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 08 Jul 2025 18:06:23 -0600
+Build-Date: Thu, 10 Jul 2025 17:34:34 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -177,21 +177,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1751932800"
+ SOURCE_DATE_EPOCH="1752105600"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhtsn8ACgkQle5BQVtL
-uLc1rA//UNelWbypBcIxk0oMX9SRhiIaC/rLLXvQBV5D7iZg7oCvBBVlmZOLBS7B
-iUCpO8DJwgLXRhtnWeTRCz7PqMPBcjpzBzEB/Y0o1H6GcxHLBuPQfR2UR7nA2Vqy
-6rDBVJinn8bk3k6R9qiEUr3l2uX6rIOYpKmuFXmmp5HVWRHfH4ki8/q+8GRpUfX7
-C+uxYooATvDWgs3sGjHqiOoeGHnAUOU+AjyRIovUFYOa2NH9e5gel6RLj7qdN4kB
-Vg+lr96/gbTbyoYVdATUtmuX0cr5Y/kWRxhModpC3jYwkgDUJqnKdXJyz4aTUxy7
-K6wF6DzRcZ7HYCWJJv/cq3Yafd7PQzpAf9ZnwG0yd9wm9oiFPI7PXGFco9AnfgpY
-A+aZVyj7381+AVkMHH7A06P5LFCEYxgZ+7M9q4Byh/ZXi2NQap6bmmeFqDLxbAeE
-mkWvQjaLwJJkgdww7skU6tTbfejs/tP+6J2V6f3QHIQsFfJXE91IFWzd39Fdky1s
-UQLdM8jsvCmg32gQcqxerUPk2sQKQEYT5XXQyk++4di8ioaONN6nU7SOdIeYRhcT
-+FO605J4ccQgWMdv5fZcBvppHoT1SrCRft/6aS1aFDJbsK+NvcS0oP9/QYXXExDw
-AeOQMC4brHkFo+Wrz7HsjGHkesq+oZJpKYgfJWfRiikcl0MYVa8=
-=BxGS
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhwTgoACgkQle5BQVtL
+uLdsWRAAgzE/u1WPGorDObmphfpPX7ANbLajhXJdMozhKGvNxGyvefWtHsf6C/iR
+fCJpOOsiUb8lO+Fl5et1KigOnsORyBSZ5J7sdw3LNuczt37DLBBucHYO1W7CNSwv
+2Sv+teEwS/DFDorLjkkMkmX0GAygG+xdNUIby87afG4Y8sfd5kGkOGPd3WHLOdWr
+uaUkjLZRf5QzquPJOini2SfdIVjMQFPE4O/i17lpk1lZuV3+ShVSZYdP0CdIqpyB
+7QwiYSPcUTjig8nYPqbmobWOAA0BLJqKFLJ/W/DLqOV5Uxhq/rvba2tS5655bu50
+G3FgQBUSicBEL4MnwGjG/Xnu+lFanNHh8cvquShkuBacq/+uIrDAH9hXgNHj1vQs
+fY9jV810OelLwGfEli7ATFlVs0Pc7Obw5JA8eQCtotVW8+zdMMoEiUQpBqKL16bP
+4792yydApBJw9RCa3epPnAuto2ojiKDIoi0bVOjbqyCRyxM4FMoE8VtNCcfwVo4l
+lb2xix5/tCnJhEBMP9VKEQdHOr+8nwevK1rgelCjMV3JGGmYId9gSrWWlkbh35/W
+29m9rERdO8zlHJzNbI85Zs3aqCCuxxSTALCfIWp2tYLstj8MAXaY5flIoLH9sII/
+iMGoCLwc//A2wDvQZEcFZY6HIfcr0AnpW1wgde/4576zuRf4lmQ=
+=Tc4v
 -----END PGP SIGNATURE-----

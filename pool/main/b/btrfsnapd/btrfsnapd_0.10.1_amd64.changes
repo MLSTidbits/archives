@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 10 Jul 2025 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.10.1
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+Changes:
+ btrfsnapd (0.10.1) stable; urgency=low
+ .
+   * Refactor prerm script to disable services during removal and purge actions
+   * Moving to dh_installman do to dh_installmanpages being deprecated.
+Checksums-Sha1:
+ 9e5e4481e55eb8af5902530d6b9c5463736ee3c7 6652 btrfsnapd_0.10.1_amd64.buildinfo
+ ef094da6aa382aec7a034c2ecc529da3893eb4ef 19544 btrfsnapd_0.10.1_amd64.deb
+Checksums-Sha256:
+ e70f9048b1ebca52870b4cf997db21b6de1f2847712b51e802c06604ca5a03e9 6652 btrfsnapd_0.10.1_amd64.buildinfo
+ a746682113d60b438b2cf6dc6c940d1abaac47909096bfefb631a214f4904107 19544 btrfsnapd_0.10.1_amd64.deb
+Files:
+ f0c07bcc30a708d61e1d413afa13ce2c 6652 admin optional btrfsnapd_0.10.1_amd64.buildinfo
+ bee3cd56b4919dba80bacd469c3462a1 19544 admin optional btrfsnapd_0.10.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIyBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmhwTgoACgkQle5BQVtL
+uLdkwg/4yqVBv8duafjX7vyFZ3UWKPDcyU0E5eGG5cmc4mUkvRUOASnPim94e8ZS
+iqF1noYDXpUtjkvMISSYyccC2c7W+E6gWYpMce2eH0BrBGw9W+B21uQ4l1BBC9U/
+xZQxGMUgfkKd91HCZkTc13izaTOhzGSwdQoXIfXnzJuYj+Bq0i2CAJ/r9Za94Ltw
+zE54VpLJUPZKU+elkMMi3pAwcQPr503JxE7/jV+wlkGNfZJZFruPzY3sW1R7XuyL
+Upo1ll20vjFGOiS62bUNW9bvuFknZn1ScIGX1t7sVF2usVZCwnlPYgGxNSnj2r67
+7EAyCi9oBxEcU1dq2oBSvaHQPFLl2NUKn8p7IUy/Da1AcMzWceK9IEdFYMfmjTDm
+U+SGFlrKAWRp7xdJSzBrgMYa0vhOzJ3tOfYAFF+vxRLQWhSJUUDkjlE+biO5Pesy
+2XgLYoVPEUDtTC13FWbFqBdSGTVqGbarY2eLNt6am/3U5sXbt1e5HwF0blWfutqp
+/OgymdAtin+HCuvqgXL1bBsiHDyJww++rZGcgJKU9oA8q/jX9zADxV9SuNnOQZxE
+EbYOrgiQtL7DtzrCpygke2ur1rANT6R68WPwhFWmIhWzAy4uqo1N6gQIPQvVGm0h
+5OxF8cRpWZKP5eCzSmx7hhFluVW0SUgDEMqZj3tdHAP9CBQIew==
+=Pzgm
+-----END PGP SIGNATURE-----
