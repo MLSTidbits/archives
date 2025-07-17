@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 16 Jul 2025 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.11.2
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+Changes:
+ btrfsnapd (0.11.2) stable; urgency=low
+ .
+   * docs: update default distribution name in configuration file for clarity
+   * docs: update README installation instructions and add configuration details
+   * docs: add CONTRIBUTING guidelines for project collaboration
+   * Alignment(title): Centered titled text
+   * Refactor snapshot directory variable usage: remove unnecessary leading slashes
+   * Improve error message for missing Pandoc during manpage generation in configure script
+   * Fix build_deb function: remove unnecessary shellcheck disables and correct configuration file name
+   * For some reason the configure script was listed for wrong package.
+   * Remove unnecessary shellcheck disable comments from configure script
+   * Update configure script: refine command options and improve help documentation
+   * Fix package check output formatting in build_deb function
+   * Modified configure script: fix shebang, improve error handling, and streamline build process
+   * Fix shebang line in btrfsnapd script to use /usr/bin/env bash
+   * Add Lintian overrides and integrate dh_lintian into binary-indep target
+Checksums-Sha1:
+ c3260ad25243a6fa5f650f7afd828dd69e8ace6a 6652 btrfsnapd_0.11.2_amd64.buildinfo
+ 62b09e110209b480be2f3957a6fe7a5b10493b01 23082 btrfsnapd_0.11.2_amd64.deb
+Checksums-Sha256:
+ d744155c52f21e57c875c4f3b32fa69ff3b9e2bd1ed2be15df60667fc9504d5b 6652 btrfsnapd_0.11.2_amd64.buildinfo
+ 0390a732d2b0ba7dd866d0966081453ef5145c6bba19e52f0bba9c983a38bd36 23082 btrfsnapd_0.11.2_amd64.deb
+Files:
+ 23934bdd2da64b90297a266e7d03d8a1 6652 admin optional btrfsnapd_0.11.2_amd64.buildinfo
+ 060ea843ba19c1f83acb129414210102 23082 admin optional btrfsnapd_0.11.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh4ZtUACgkQle5BQVtL
+uLe4sg//eyLecnsNBZmT1cU0HVZUSYpRzHjQcvkFMT6fx27BEWrO330qtuHMUJiK
+UctgrORPCw+FeY/ICymdK7mZowQ5SNvU3BrQZyX/LT1ql0TXRmNirgkmex1EtpaU
+2MWyLXCePoQ7GbyJAnbDgAYIj1ixnqlT264LIrNiQFZKpPWNaYbMaude7uvT7o93
+6xQ/8G8+B9yZIRg0V1CqGeOeJqMxDMWrpzyJQqJAQ6Wr8C5osxRloNLKaDlwVf4b
+Rz+ut6WVOKW1HB5Hf/gaHeb4A3CHUTfy03YxIydywvBdWTE2gPJ2TVnhcMLfr6D6
+WJZpa+lO9x5Q+0c4kochPb4AOEDZkyEE5aElHcu1JxPh5Azt0E+4VUEsNngtwGk0
+N4zfnYDPv+zfLFp78AzqdINhDh1B0n5oLLCy12Yh+fGdD4oS/98sJAJTijFhR3cL
+j4okCWxHHf4EEoOzA1ngsfz1stgohnRXhWSra6VplO65yKBIlbMz69ty01RAs7g3
+OoWutrXFdtarTBVzbWRXE0FpvGCP4ONwvRFX/R1LlHJ980yJjmiMJpjpB8LgiDHc
+3ekr9Rldvolej/vwipy708m/wjBZN7Agff6yeHNws3KxhABpBTgWyzLfTGxlRHGe
+EfLP/xE9oKX+j4W43+/xDbviYJosRXWfYIO+P7jI9OFD9pqqW4M=
+=rOcc
+-----END PGP SIGNATURE-----
