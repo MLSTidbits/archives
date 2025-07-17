@@ -18,30 +18,6 @@ Description: Generate fstab entries for btrfs subvolumes
   root filesystem.
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
-Package: btrfsnapd
-Version: 0.10.1
-Architecture: amd64
-Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 71
-Depends: btrfs-progs, systemd, coreutils, grub-common, grub2-common, grub-btrfsd
-Filename: pool/main/b/btrfsnapd/btrfsnapd_0.10.1_amd64.deb
-Size: 19544
-MD5sum: bee3cd56b4919dba80bacd469c3462a1
-SHA1: ef094da6aa382aec7a034c2ecc529da3893eb4ef
-SHA256: a746682113d60b438b2cf6dc6c940d1abaac47909096bfefb631a214f4904107
-Section: admin
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/MichaelSchaecher/btrfsnapd
-Description: Btrfs snapshot daemon
- Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
- GRUB to allow booting into snapshots. It provides a simple command-line
- interface for creating, listing, and deleting snapshots, as well as
- restoring the system to a previous state.
- .
- This package is designed to work with Btrfs filesystems and requires
- btrfs-progs to function correctly.
-
 Package: ddnsd
 Version: 1.1.6-86fb1d9
 Architecture: amd64
