@@ -65,6 +65,33 @@ Description: ddnsd is a dynamic DNS server for Cloudflare and DuckDNS
   address changes.
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
+Package: dh-gitchangelog
+Version: 0.5.0
+Architecture: amd64
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 35
+Depends: git, coreutils, dh-make, debhelper
+Recommends: devscripts
+Replaces: dpkg-changelog, genchangelog
+Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.5.0_amd64.deb
+Size: 11098
+MD5sum: e99efcd4ed1e1c420a30dbecbd9e29ce
+SHA1: 86f287431d5dde85be86cbc86ab04ff7c52412dd
+SHA256: 4fdc2ff6f0d36dcea5d607c5a701a28c0aecac8e1bc341f7a1d7a7728932ad61
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github/MichaelSchaecher/dh-gitchangelog
+Description: Generate Debian changelogs from git commit messages
+ dh-gitchangelog is a tool to generate Debian changelogs from git
+ commit messages. It can be used to create a debian/changelog file
+ that follows the Debian Policy Manual and the Debian Developer's
+ Reference.
+ .
+ It is designed to be used in conjunction with git, dh-make and
+ debhelper, and can be integrated into your workflow to automate
+ the process of generating changelogs.
+
 Package: genchangelog
 Version: 0.6.5
 Architecture: amd64

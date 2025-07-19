@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 19 Jul 2025 00:00:00 +0000
+Source: dh-gitchangelog
+Binary: dh-gitchangelog
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.0
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ dh-gitchangelog - Generate Debian changelogs from git commit messages
+Changes:
+ dh-gitchangelog (0.5.0) stable; urgency=low
+ .
+   * docs: Add configuration documentation for dh-gitchangelog
+   * pandoc: Update man page paths and replace genchangelog with dh-gitchangelog in build process
+   * fix: Correct directory name in .gitignore for dh-gitchangelog
+   * rebrand: Update package name and related files to dh-gitchangelog
+   * rebrand(gh-gitchange): Update package name and metadata in control files
+   * rebrand(gh-gitchange ): Because this application uses git commits.
+Checksums-Sha1:
+ 5b0c0cc176009b427e318675fca4733e364687a0 7937 dh-gitchangelog_0.5.0_amd64.buildinfo
+ 86f287431d5dde85be86cbc86ab04ff7c52412dd 11098 dh-gitchangelog_0.5.0_amd64.deb
+Checksums-Sha256:
+ e81cadeb68d021c5556a5a1eebfc30de09b56d5e5cd2f39769ab932b77b5f1e8 7937 dh-gitchangelog_0.5.0_amd64.buildinfo
+ 4fdc2ff6f0d36dcea5d607c5a701a28c0aecac8e1bc341f7a1d7a7728932ad61 11098 dh-gitchangelog_0.5.0_amd64.deb
+Files:
+ cc7e307a8162ad203cc415bd270ce6ed 7937 devel optional dh-gitchangelog_0.5.0_amd64.buildinfo
+ e99efcd4ed1e1c420a30dbecbd9e29ce 11098 devel optional dh-gitchangelog_0.5.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh7nAQACgkQle5BQVtL
+uLfCpg//SD5yI3kLkIuS6B9gIBbLOYqdsp8cEMoELAaN3Y68brBbZRXk0BqpC6nU
+1cFO4egTBIjku96CZK1+dJI++PM90EHODd7OyZteNmXaGpV19SH7nmdmH2Q0J2o9
+AdgTiLTY5ROUHfQdj2rFK/lESR7ODkF4pfSJRZpmiMdtfiPchTNzaa16X2vvn0P4
+4bDJOCTU8vEsXAqntfIyD2rAwocugkqYDxiXcvdlix4hDsSWLeC+Iw8QPoHxBZ1I
+YmVXAFaO6BqtYlcuEATVJ4YyTry0C24hjxml+aDJf1O4Q8tyokhjHPVy5zJZU0mN
+zpdqIMzCgBgBgDGTJjBnrvNNyfxbFMi6i0GH6SCGk6dPJKQ4ZJOadd7WqaMnrQeB
+SoFwazgO4zvw+/5NpTCSBCQyGA2oDjdmeAR1elHc9tuOJWz55WAG6+ga0KiPVasG
+6X4mEyrvLrZAwWfHlFsD+TeQtSsHBKxKz/XzSMj5wo6NobmqK1g9xhjb3fY1EipT
+7qYV72LpPbFpycPWRMGmYmuJ2IyfNcb63ywB6Ty7v9bUdAzeHWI7+qQp97lMQTmH
+6aPU39DjZPFXnmEEFFxJbKnyVAvbw/uoxABCLu8VbkpPSDlgHonIXjq5eAr8GZQp
+CPWA0JOfQz26IQ8/k61BYDkiW71Z4/dTC/QhB21bm0fA1Ovb85w=
+=EGbY
+-----END PGP SIGNATURE-----
