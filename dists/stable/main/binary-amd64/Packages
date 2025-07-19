@@ -43,18 +43,17 @@ Description: Btrfs snapshot daemon
  btrfs-progs to function correctly.
 
 Package: ddnsd
-Version: 1.1.6-86fb1d9
+Version: 0.10.0
 Architecture: amd64
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 84
-Depends: jq, curl, coreutils, nano
-Conflicts: ddns
-Filename: pool/main/d/ddnsd/ddnsd_1.1.6-86fb1d9_amd64.deb
-Size: 31472
-MD5sum: 5fcd5b71ee9b32dd55462b547a1c4208
-SHA1: bca6a4aaa7953b98cdf01d077bde3524b9915616
-SHA256: 026be7110a1d08232d9b9db1d75ea8f74a6601826f039f76fb28a789fb3acedc
-Section: net
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 59
+Depends: jq, curl, coreutils, nano, systemd
+Filename: pool/main/d/ddnsd/ddnsd_0.10.0_amd64.deb
+Size: 19578
+MD5sum: 49eb704a81f1773022c568265055d8d4
+SHA1: ad8c6bb80daae7d6abbb45e351b80a5db316a6f6
+SHA256: 60a26efa16c56611e2f14034811c38083b00ff0ff8a9a454216c380e7474f5ec
+Section: unknown
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddnsd
 Description: ddnsd is a dynamic DNS server for Cloudflare and DuckDNS
@@ -63,7 +62,6 @@ Description: ddnsd is a dynamic DNS server for Cloudflare and DuckDNS
   .
   It will update the DNS records on Cloudflare and DuckDNS when the IP
   address changes.
-Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: dh-gitchangelog
 Version: 0.5.2
