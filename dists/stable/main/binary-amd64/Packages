@@ -43,25 +43,26 @@ Description: Btrfs snapshot daemon
  btrfs-progs to function correctly.
 
 Package: ddnsd
-Version: 0.10.0
+Version: 1.5.4
 Architecture: amd64
 Maintainer: Michael <michaelleeschaecher@gmail.com>
-Installed-Size: 59
-Depends: jq, curl, coreutils, nano, systemd
-Filename: pool/main/d/ddnsd/ddnsd_0.10.0_amd64.deb
-Size: 19578
-MD5sum: 49eb704a81f1773022c568265055d8d4
-SHA1: ad8c6bb80daae7d6abbb45e351b80a5db316a6f6
-SHA256: 60a26efa16c56611e2f14034811c38083b00ff0ff8a9a454216c380e7474f5ec
-Section: unknown
+Installed-Size: 54
+Depends: jq, curl, coreutils (>= 8), nano, systemd
+Filename: pool/main/d/ddnsd/ddnsd_1.5.4_amd64.deb
+Size: 19654
+MD5sum: 755f9f09525d33703a67532b3f309822
+SHA1: 97c08e28daefb2ca7492325c525ae81b373e6b39
+SHA256: 851965e6507782c58d236e52fb9d4888cbc76c088f36003f74c512a2fca1aab7
+Section: net
 Priority: optional
 Homepage: https://github.com/MichaelSchaecher/ddnsd
-Description: ddnsd is a dynamic DNS server for Cloudflare and DuckDNS
-  Using SystemD service to run ddnsd in the background. To monitor for
-  changes in the IP address.
-  .
-  It will update the DNS records on Cloudflare and DuckDNS when the IP
-  address changes.
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
 
 Package: dh-gitchangelog
 Version: 0.5.5

@@ -5,16 +5,16 @@ Format: 1.0
 Source: ddnsd
 Binary: ddnsd
 Architecture: amd64
-Version: 0.10.0
+Version: 1.5.4
 Checksums-Md5:
- 49eb704a81f1773022c568265055d8d4 19578 ddnsd_0.10.0_amd64.deb
+ 755f9f09525d33703a67532b3f309822 19654 ddnsd_1.5.4_amd64.deb
 Checksums-Sha1:
- ad8c6bb80daae7d6abbb45e351b80a5db316a6f6 19578 ddnsd_0.10.0_amd64.deb
+ 97c08e28daefb2ca7492325c525ae81b373e6b39 19654 ddnsd_1.5.4_amd64.deb
 Checksums-Sha256:
- 60a26efa16c56611e2f14034811c38083b00ff0ff8a9a454216c380e7474f5ec 19578 ddnsd_0.10.0_amd64.deb
+ 851965e6507782c58d236e52fb9d4888cbc76c088f36003f74c512a2fca1aab7 19654 ddnsd_1.5.4_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 19 Jul 2025 13:31:51 -0600
+Build-Date: Sun, 20 Jul 2025 06:45:49 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -51,6 +51,7 @@ Installed-Build-Depends:
  findutils (= 4.8.0-1ubuntu3),
  g++ (= 4:11.2.0-1ubuntu1),
  g++-11 (= 11.4.0-1ubuntu1~22.04),
+ gawk (= 1:5.1.0-1ubuntu0.1),
  gcc (= 4:11.2.0-1ubuntu1),
  gcc-11 (= 11.4.0-1ubuntu1~22.04),
  gcc-11-base (= 11.4.0-1ubuntu1~22.04),
@@ -81,6 +82,8 @@ Installed-Build-Depends:
  libcap-ng0 (= 0.7.9-2.2build3),
  libcap2 (= 1:2.44-1ubuntu0.22.04.2),
  libcc1-0 (= 12.3.0-1ubuntu1~22.04),
+ libcmark-gfm-extensions0.29.0.gfm.3 (= 0.29.0.gfm.3-3),
+ libcmark-gfm0.29.0.gfm.3 (= 0.29.0.gfm.3-3),
  libcom-err2 (= 1.46.5-2ubuntu1.2),
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
@@ -92,6 +95,7 @@ Installed-Build-Depends:
  libdpkg-perl (= 1.21.1ubuntu2.3),
  libdw1 (= 0.186-1ubuntu0.1),
  libelf1 (= 0.186-1ubuntu0.1),
+ libffi8 (= 3.4.2-4),
  libfile-stripnondeterminism-perl (= 1.13.0-1),
  libgcc-11-dev (= 11.4.0-1ubuntu1~22.04),
  libgcc-s1 (= 12.3.0-1ubuntu1~22.04),
@@ -128,6 +132,7 @@ Installed-Build-Depends:
  libperl5.34 (= 5.34.0-3ubuntu1.4),
  libpipeline1 (= 1.5.5-1),
  libquadmath0 (= 12.3.0-1ubuntu1~22.04),
+ libreadline8 (= 8.1.2-1),
  libseccomp2 (= 2.5.3-2ubuntu3~22.04.1),
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
@@ -160,11 +165,14 @@ Installed-Build-Depends:
  mawk (= 1.3.4.20200120-3),
  ncurses-base (= 6.3-2ubuntu0.1),
  ncurses-bin (= 6.3-2ubuntu0.1),
+ pandoc (= 2.9.2.1-3ubuntu2),
+ pandoc-data (= 2.9.2.1-3ubuntu2),
  patch (= 2.7.6-7build2),
  perl (= 5.34.0-3ubuntu1.4),
  perl-base (= 5.34.0-3ubuntu1.4),
  perl-modules-5.34 (= 5.34.0-3ubuntu1.4),
  po-debconf (= 1.0.21+nmu1),
+ readline-common (= 8.1.2-1),
  rpcsvc-proto (= 1.4.2-0ubuntu6),
  sed (= 4.8-1ubuntu2),
  sensible-utils (= 0.0.17),
@@ -177,21 +185,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1752883200"
+ SOURCE_DATE_EPOCH="1752969600"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh78qcACgkQle5BQVtL
-uLcAaA//Quqm4HqBS0xszA2/8+Kvu7PwPD+JOX2qPGG54h4QrJAWSz8xQl6wzP3k
-ZrLHvtfluM9tanjPqyKqKcn8GlM32svZp6rlyp/u+suthrMiu0WeTGk/tCK5M5VW
-JuNMZcL+ha344OqnrDJpX0Y9ZOqMPnlWTraQgcgX8pjPIahzlDEK9n0dq6n111EF
-tL8vgsgO6Nz22ubfIVrMusWemmJZeYYDZyqu0+0UfBQ8Icn6A2CDtOc1McKiZREG
-bUL/Pnccq3vxlW34MbKb5WuVyY6V8yZMOSk0ymwhwMFzGKgKzx4wiSTXzHct3LcT
-kaj0a3vJEZLlHPyXt6Oa9yuIPkW7tI2s08Sg7xeyykyzZpiS9pmSW1+5h5+F2A6P
-BiuZKBXz0BZ2nz3cNLZE6ob5UPF2ubat+YRXEHAfrn5F8WFcUI0VGSK7Hs647i2K
-nEptdSDStY8C7XGBEpa9V07Q/9UPzzkZzE6H0bwicQAmdp9FMwgnpYon/a5x8tQ/
-5zCABge5R6NapLFTZcE3fqZ9/lAbQCCczsmd+13iCr/o0sjY+EelVf4YVLDSfdIY
-8L956r55zgUZlcgHMKBHHL7RMIar9zqHoUR7+cetd5QIu6x/9aBXvq9Qkvlcd3hO
-VZ2ZU8dcbFveupaOawy8TSXUEQaTE+2z0BNZrytsIUJiapiGXww=
-=sIUM
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh85P0ACgkQle5BQVtL
+uLf2TxAAmLIIs7h67wqq0CUIlqd86AHS7e9oM2Q7Qoa0Ms70hKyLhH00RFFYxzo7
+Gx9xFRrp24KqKuX4LTtbckR+0iaoB05qzwE3FwxQG3lUjKFdXqzZfbU25R10m2BT
+5uuFn+Dp2UbbgM0SL6TDTaz7UDwPLM/qsbJYujYNmRY5h+ZJbUKuYeT5T55bmPsR
+AvdfAj3TZ2zzebeVONTZQfZj1ZTJdzZfB6gfxnuVWNeWw2z8I4OX7lqacag0BQKI
+vcgYMlD+S3q+2QpgYAcFIdF7Y0IIIdsC5sWk0QAtpAspJK6gzJLC4bUtusg+GcTI
+ltZlPFGiRNZywqqIwmf3L9dyv2yY2AQlFZdwERznTEIq8uXSyRHToWmvnpVI78Pn
+2WRkcTdNxG4pFW5h6RSXZ4DrXe44qfDzzEu0Rbn86nYX9BjwPWR+MNM1CVGIUymv
+AYbQZO1ucix8RlmpUyfs9fawmRBXOo64fhqfcpFVqIqw3L08SEeGdub6YyaM2zmM
+96S5h53kjC7U8xN+jHhgobMltq7oSlMfNV9XsittxNuUjWMcoR2Q38vzRmMyKLbM
+ZQ+YPSafdyuY2Tzl6Ra2J0FNuwhxhJs9Rl4QmXRht0B9MH2DsF8JccPeFEJxpw3S
+hdORFH3DlCogVymK14hW2SrVtZ1PPh/GL2F5khro0zSG+eSxDJc=
+=/OSd
 -----END PGP SIGNATURE-----

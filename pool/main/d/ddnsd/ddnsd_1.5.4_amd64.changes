@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 20 Jul 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.5.4
+Distribution: stable
+Urgency: low
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (1.5.4) stable; urgency=low
+ .
+   * refactor: Use dh_install to for installing script & config.
+   * chore: Remove redundant license comments from ddnsd script
+   * fix (lintian): Remove warning/errors from packaging check.
+   * feat: Enhance IP monitoring by checking lookup service availability
+Checksums-Sha1:
+ 8463a7db4f5adeac11de359fb2892e46cad56d10 6905 ddnsd_1.5.4_amd64.buildinfo
+ 97c08e28daefb2ca7492325c525ae81b373e6b39 19654 ddnsd_1.5.4_amd64.deb
+Checksums-Sha256:
+ efe32334baa05c6cca94a7f55dccb859411ef739fd8b542b069be3bef7366dcb 6905 ddnsd_1.5.4_amd64.buildinfo
+ 851965e6507782c58d236e52fb9d4888cbc76c088f36003f74c512a2fca1aab7 19654 ddnsd_1.5.4_amd64.deb
+Files:
+ 99bbae0f85ad93020e86ea023e08cb89 6905 net optional ddnsd_1.5.4_amd64.buildinfo
+ 755f9f09525d33703a67532b3f309822 19654 net optional ddnsd_1.5.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh85P0ACgkQle5BQVtL
+uLeybw//VvW8VR7E+CymgpcprU5pjzN1ehT5W5Vmke4UqnJXFEYbnAaZtJTeEO9a
+vOekhkVCISFrIMbhheaBFreILkOy/ibDcdXp5rWe7nXHQ8CVoXHBj+kSH36Cn1PD
+1MzqbmA77ZeyE1GySRoVEx9emUuFnyG161Vk5cIJSVa6SuK7Hrwrz9pVYOZmWEaM
+giqJTH5CKyTYmWXEcA8MA/otiUKcUVgUJZ8AiIFHEZoKd00LrvnCqeeeXA2Bemy/
+mZjRIOvtRXR3GLRZHZmhQS88/2Otv+ZT28SZKNVwlr9h2oYfrfXCIHMbZgqwpP3+
+2PrGBxXpWSXepZfQJ34rvgMImI3cmjBXTfOgbFyPav5azl56lnBjhWSg/ko13zNS
+gUFl4bPxlah6Htrb7yiStKp7m97yPohGlB6qLSe7PTsEH3qOmFv3lvhvUCHxuqyt
+O3q/S2JHUJgZjYN1HK3Habs1L0eRpzNKdQij4TasljObrZrJ73OYuppKTIhoF5UX
+mSePz3h9u3NeW+hFchMzUggkvv+7w9js6QH+L5EPacR27nfxYPzQZwCdvsBQtg05
+ZhsRxTIZ8JeFprlgsEfoQSCuIR4vGws8oIY0HgsNFN4+I4w4nCde8why6L+mONXu
+UyGNRbIN2l+8RD7zYOLhWTYMOcLsdYSSy8yvUU++5pHNJwyL2qk=
+=1yOG
+-----END PGP SIGNATURE-----
