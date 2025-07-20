@@ -5,16 +5,16 @@ Format: 1.0
 Source: dh-gitchangelog
 Binary: dh-gitchangelog
 Architecture: amd64
-Version: 0.5.2
+Version: 0.5.4
 Checksums-Md5:
- 616994228eac2ad7a4c78d028487165f 11280 dh-gitchangelog_0.5.2_amd64.deb
+ b2ff35869354a08de3ee909d3b3ee3dd 11278 dh-gitchangelog_0.5.4_amd64.deb
 Checksums-Sha1:
- 94222384b5954ddc19f6bf443345c69fbf2fd675 11280 dh-gitchangelog_0.5.2_amd64.deb
+ 38bb2e09a53150fca5583b9c6b37808937d497f3 11278 dh-gitchangelog_0.5.4_amd64.deb
 Checksums-Sha256:
- 88f553e1ae13e04bf8211dae7bc47299ff6ec129e6a8afae3d15bf7f86483456 11280 dh-gitchangelog_0.5.2_amd64.deb
+ 8543f46edd3a9873cdfc3e278081b739ff3102ab73fa8363af4fe59383fcf0d5 11278 dh-gitchangelog_0.5.4_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 19 Jul 2025 09:54:32 -0600
+Build-Date: Sat, 19 Jul 2025 18:06:04 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -217,17 +217,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh7v7gACgkQle5BQVtL
-uLd6HRAAgQ/Ll7kvQL3i/NoupVFdzms2xfG52zgsNiIjUq0U6f2HUMETjZILR0OK
-vVCSB0cfSqdesEDK+BYbz72LjGYntO0DI75o93s9zt01oi34geV8ZH2MsjVAV9Gv
-bmAJp5CwxyWurnHV8K9bLPRDVGYbWgRR+UjiWc8dwDuPvoYCKfpE2TXn/5IWCYId
-TSIvEI4t7g3CONaEOgc3ge8nXfIH3Yj8rbjpz7De6x8kYCZqgktnf12u61TlqEIf
-gUMm8P9dDW7m2n4d4qkTVLYidraqew6V0KfTDYKNecUO9KeI1t+d9azaqnVDpuW8
-p0KqcieIZXnten4t862Wh/BxdOE3Crrp551IuqiGx4+dH2xInJWLkMQ+DacmPiE0
-/osjzUFHrTAH/YADellJ4+Rgu6DBe2XQd8HjlXUGMxWJ1/7okV6f8HvqWBRYxzCY
-2ijL+rXuj6Nth7cFmUhFUuZgXEGigKCNe/dAaAydk+oXALEwtBeBeYy3pE2Di/ZQ
-sk+oaxLQx7+QaOQ/+d5zycjpmk1QN5Du2Bt1a9fzjBcWrudFeOAm75L1haoWycat
-BUEixKDvDiX5esxDUL0eVJ/2IKK6zwB/u1tZ373RsM3QeTBq3l/5RVKbGubl6ZZ4
-Nrx6hgJSVVej0NV+OF2PbYS9TogbjYd4BN9pbWupuaLcTvcz25I=
-=tiDj
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh8MuwACgkQle5BQVtL
+uLdhCxAAywuWKacghotFQVYtfvXKS5XDmyouG96EDQjDX35pulsz6xi9nklxYVpW
+c0Y0VtzSZykxmK7LifjFzhJzVBtaOan8TYc5z4rjuZ+ZqnkiZxYrdmIN7T4slCc5
+pVi3s8xxWGkgy01mtM4ADgz0kixjMtcrJF0FqKQK3GA0i7KgDKHWBCXqeUcIEpaW
+nkRafJPSUlDkN3kf8pQK9bo1QanwcDpMGNOQIQWz9vyPV5ZQ8hWOrvy8zWIptfDT
+MQ0u1iUZhVZl9pw96lxGBrBNI0yQsJZnYwkbPB8YALsehyYbY6lTQKQRpxxLWmuX
+VwTw0T3AT5bJF3A1GZdMcqFiX1baH/nFt6pn9BZQLOOgLmUuhI2qPRiNqZydqo+2
+X4+V87GLHxVXnf9yIHF6pse+iIpJs9r5lQx7bTQIvvyZ2mpcSzGOxznKYTVIzCvm
+3tY8u6t6dRi9aon/F1jlpVW51AP60NYDKgM2a/Z0eioXtklbOfY8HmxzkPVzV2Ms
+RVs0kY+BGSOAuQSQf4D0qk/vlNosNAGY3ANFq6P6E4ZjlIY4O8f9C3ua0j0/DKJt
+k2Gx3n+nWbdDNBHLgPtCXa+yqcPpRyu0o//SgYmn3TW/dzHeUyoSmHgRKmIq0okp
+CyIWJhSmY9XUs1P3FJEugIvfrq3SoZ4qbb3RJr1rslpVnO9VU/4=
+=/kZY
 -----END PGP SIGNATURE-----

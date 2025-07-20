@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 19 Jul 2025 00:00:00 +0000
+Source: dh-gitchangelog
+Binary: dh-gitchangelog
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.4
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ dh-gitchangelog - Generate Debian changelogs from git commit messages
+Changes:
+ dh-gitchangelog (0.5.4) stable; urgency=low
+ .
+   * fix: Correct error handling for missing configuration file
+   * fix: Missing `ITERATE_VERSION` variable
+   * fix: Specify minimum version for coreutils in package dependencies
+   * lintian: Apply overrides for DEB package checks
+   * docs: Add configuration documentation for dh-gitchangelog
+   * pandoc: Update man page paths and replace genchangelog with dh-gitchangelog in build process
+   * fix: Correct directory name in .gitignore for dh-gitchangelog
+   * rebrand: Update package name and related files to dh-gitchangelog
+   * rebrand(gh-gitchange): Update package name and metadata in control files
+   * rebrand(gh-gitchange ): Because this application uses git commits.
+Checksums-Sha1:
+ 50fc522dc3bef80047ad8f54884675b4d77762cc 7937 dh-gitchangelog_0.5.4_amd64.buildinfo
+ 38bb2e09a53150fca5583b9c6b37808937d497f3 11278 dh-gitchangelog_0.5.4_amd64.deb
+Checksums-Sha256:
+ 5a6267b398019eace393201fb4c005c613e3bd755b284ac510557167adf38287 7937 dh-gitchangelog_0.5.4_amd64.buildinfo
+ 8543f46edd3a9873cdfc3e278081b739ff3102ab73fa8363af4fe59383fcf0d5 11278 dh-gitchangelog_0.5.4_amd64.deb
+Files:
+ 4cdd3b1bee9ea97512de7fb664e15f09 7937 devel optional dh-gitchangelog_0.5.4_amd64.buildinfo
+ b2ff35869354a08de3ee909d3b3ee3dd 11278 devel optional dh-gitchangelog_0.5.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh8MuwACgkQle5BQVtL
+uLe6AQ//S6bYiUrBtQe3rcsR2F74nCIvOuBrQ95YrerWPIbnFq/fVyUm0kqCSxpk
+jAVVijaU/KlNARbO75/0bjYW/2EH3T4sgOPf46nkSMuRcCGWHucUMFinyqG8vtZe
+GWQxYAe7FIJs64lZH/FpMrlJKWOtf+n4v4SMY8ss9Txcr61ScMvtC6tzC7/4MTDB
+eNY8uImog4fZuiEcOwyp/lTdfSpAokUj+bi7/G2Kl2iie7cQMoOFyrY/AIgWIc5t
+o5LSWiIBSX9Zfj8x6lPxJDhqpEesQ60AvRW5f+dQf9jOL/avy0d4ZQtav4EA8ADN
+rqwpWpNH3a5BG+xh+gBOVHYCoxdPvO10Ds2Ya0lD7aFCGWXrjov8ybPvm4aGN1Kc
+4itIxeA6gQp+JlugnS/Jq7Pm+Z39ZG7i5/6rNjCg288T/+BDKqWG/Ui5zGjXENfv
+aHIMpnPPnPGjYsB0aqOcEbswW7zZ4S7jJUqEivjyroE3TO0/1bZED0W80gzXI4G1
+8i394bbaKG+Y7qU2oxKwgPx8T3DB3GNgUt/e34wnsezSlYvTOh1Xd5+7iOt/5LuW
+pLn9VIgOvfR/KIuYnz2byEA0YvzPi/jOCRUZfuMM1MGFtjLSI3Plj3eUxbozYaef
+dLwztg+S1VZfSaIiVgeEMQCdwCIrEJ73hYkkRO6ejOJij53JkE0=
+=iH24
+-----END PGP SIGNATURE-----
