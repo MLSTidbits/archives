@@ -64,18 +64,18 @@ Description: ddnsd is a dynamic DNS server for Cloudflare and DuckDNS
   address changes.
 
 Package: dh-gitchangelog
-Version: 0.5.4
+Version: 0.5.5
 Architecture: amd64
 Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 37
+Installed-Size: 38
 Depends: git, coreutils (>= 8), dh-make, debhelper
 Recommends: devscripts
 Replaces: dpkg-changelog, genchangelog
-Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.5.4_amd64.deb
-Size: 11278
-MD5sum: b2ff35869354a08de3ee909d3b3ee3dd
-SHA1: 38bb2e09a53150fca5583b9c6b37808937d497f3
-SHA256: 8543f46edd3a9873cdfc3e278081b739ff3102ab73fa8363af4fe59383fcf0d5
+Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.5.5_amd64.deb
+Size: 11484
+MD5sum: e22eaa72adcf6a344acae5863715e4e4
+SHA1: 4f0b57f798f489b6b4fe4b015cd304122b0bc893
+SHA256: de63730fd265f692b7fd0e29137fa2155aafa112ccbb6c5da8f50d8f6687ee13
 Section: devel
 Priority: optional
 Multi-Arch: foreign

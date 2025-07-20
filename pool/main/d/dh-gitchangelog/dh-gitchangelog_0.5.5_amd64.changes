@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 19 Jul 2025 00:00:00 +0000
+Source: dh-gitchangelog
+Binary: dh-gitchangelog
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.5
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Changed-By: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Description:
+ dh-gitchangelog - Generate Debian changelogs from git commit messages
+Changes:
+ dh-gitchangelog (0.5.5) stable; urgency=low
+ .
+   * conf:  Remove old config file upon configure/upgrade
+   * fix: Correct error handling for missing configuration file
+   * fix: Missing `ITERATE_VERSION` variable
+   * fix: Specify minimum version for coreutils in package dependencies
+   * lintian: Apply overrides for DEB package checks
+   * docs: Add configuration documentation for dh-gitchangelog
+   * pandoc: Update man page paths and replace genchangelog with dh-gitchangelog in build process
+   * fix: Correct directory name in .gitignore for dh-gitchangelog
+   * rebrand: Update package name and related files to dh-gitchangelog
+   * rebrand(gh-gitchange): Update package name and metadata in control files
+   * rebrand(gh-gitchange ): Because this application uses git commits.
+Checksums-Sha1:
+ 9ce4eb206a0626759b7d1abee7945067ae3ed6e2 7937 dh-gitchangelog_0.5.5_amd64.buildinfo
+ 4f0b57f798f489b6b4fe4b015cd304122b0bc893 11484 dh-gitchangelog_0.5.5_amd64.deb
+Checksums-Sha256:
+ 9ad97af60adb14ef4c026d7f9cb72477a76f9f507be82a7db3d177bfe80c8fd2 7937 dh-gitchangelog_0.5.5_amd64.buildinfo
+ de63730fd265f692b7fd0e29137fa2155aafa112ccbb6c5da8f50d8f6687ee13 11484 dh-gitchangelog_0.5.5_amd64.deb
+Files:
+ 45cbe8c7f08e42fa674efec6fe8ba69b 7937 devel optional dh-gitchangelog_0.5.5_amd64.buildinfo
+ e22eaa72adcf6a344acae5863715e4e4 11484 devel optional dh-gitchangelog_0.5.5_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEDV7ve4QcuX67BY5+le5BQVtLuLcFAmh8NdYACgkQle5BQVtL
+uLcMAw//bXZHa0AVwjJVuCMUelJxAVz44R6JWViywallRXJUcfZ0HHXZifzEs8lK
+VR67jqXN8DXAfybqL1OxfGtBhJlMSNckdK/sOflbdMLiVtMT2OZMj8Cz08CVHUtI
+nxQYcETsj2Ttvbf508UBbhtgVQU0RtG83TM1ldRpj11fEwbj6MWKpL0840vPFDbA
+FOAT1VdOe87tETjXFxM+yLAsfZMqUjwVkEtgbvSNgw4KM2YUNGAhHYLoG/Y2I45P
+Aac+IuFtXmGAw6PgmROe9Vuk/0mHXvZdOcY0KN6dtC2kcvSuDlh03pWOOqzqzpZh
+Ji1ct5DGWts+esd8g/t+rTsZf9mF4wcy2cgHCmI8Kc1ls+MJpFiiK24rvOQSmCqt
+9r9ewLIkYVk5pFxa83DvERKaBEFmO5EXbcDCobuGykCKj9RXMabX6XEq54jZOLCL
+X9XLyx9FiDPxqC4hBulN96bQ7fhJhezjxj8wFlp1mFBtV3BT9Za2n+HAHtBrSuLq
+Pl8ONFQFFTSy2DZ1mB5XmGjWKZfF5CGmwbp5aSpOuwPhL62vYoZxWcNL4h3K7t1/
+/7gCmEayqxacBPWOcN7GipnJJVmlbEAiNi8S2TKKJkgsNbn0fJvXiE+KHOFanJdm
++4KXZyNOgjPXQGVzp9H6m8oPpaKZ9LimGU+EVs+Gi7GJ2lpo9Gw=
+=NbSr
+-----END PGP SIGNATURE-----
