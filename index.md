@@ -13,7 +13,7 @@ It is designed to be used with Debian/Ubuntu and systems based on them, such as 
 To install the repository, you need to add the repository to your apt sources. This can be done by adding the following line to your `/etc/apt/sources.list.d/MLSTidbits.list` file:
 
 ```bash
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.MLSTidbits.com/ stable main" |
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.mlstidbits.com/ stable main" |
 sudo tee /etc/apt/sources.list.d/MLSTidbits.list
 ```
 
