@@ -5,13 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Archive Index</title>
 <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
   body {
     font-family: Arial, sans-serif;
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    color: #e7e5e5;
+  }
+  main {
+    flex: 1;
     margin: auto;
     padding: 1rem;
-    background-color: #f9f9f9;
-    color: #333;
+    width: 80rem;
   }
   h1 {
     text-align: center;
@@ -22,38 +31,50 @@
     padding: 0;
   }
   li {
-    background: white;
+    background: #171717;
     margin: 0.5rem 0;
     padding: 0.75rem;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    border-radius: 8px;
     transition: background 0.2s;
   }
   li:hover {
-    background: #f0f0f0;
+    background: #232323;
   }
   a {
     text-decoration: none;
     color: #0070c9;
     font-weight: bold;
   }
+  footer {
+    text-align: left;
+    padding: 1rem;
+    background: #171717;
+    font-size: 0.9rem;
+
+    .footer{
+      width: 80rem;
+      padding: 1rem;
+      margin: auto 100px;
+    }
+  }
 </style>
 </head>
 <body>
 
-<h1>📂 Archive Index</h1>
-<p>Browse the archive:</p>
+<main>
+  <h1>📂 Archive Index</h1>
+  <p>Browse the available directories:</p>
+  <ul>
+    <li><a href="dist/">dist/</a> — Distribution packages</li>
+    <li><a href="pool/">pool/</a> — Package pool</li>
+  </ul>
+</main>
 
-<ul>
-  <li><a
-    href="https://github.com/MLSTidbits/archives/tree/main/dists/">dist/</a> — Distribution packages</li>
-  <li><a
-    href="https://github.com/MLSTidbits/archives/tree/main/pool/">pool/</a> — Package pool</li>
-</ul>
-
-<footer style="text-align:center; margin-top:2rem; font-size:0.9rem;">
-  &copy; 2025 <a
-    href="https://mlstidbits.com">Tidbits</a> — Hosted on <a href="https://pages.github.com/">GitHub Pages</a>
+<footer>
+  <div class="footer">
+    <P>Hosted by <a href="https://pages.github.com/">GitHub Pages</a></P>
+    <p>&copy; 2025 MLSTidbits | All rights reserved</p>
+  </div>
 </footer>
 
 </body>
