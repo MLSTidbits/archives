@@ -2,41 +2,42 @@
 Hash: SHA512
 
 Origin: HowToNebie
-Label: HowToNebie
+Label: default
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: Publicly available APT repository for HowToNebie
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Date: Mon, 21 Jul 2025 00:09:04 +0000
+Description: HowToNebie.com APT Repository
+ APT repository for HowToNebie.com
+Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
+date: Fri, 08 Aug 2025 14:33:06 +0000
+MD5Sum:
+ 1da26aa733e349844b57c0beb63d4bb1 3592 main/binary-amd64/Packages.xz
+ 80ecddeb9a1317cfb5b16a2a98bafe83 11100 main/binary-amd64/Packages
+ c88cc6fd135f97e747d339083e2d156f 3714 main/binary-amd64/Packages.gz
 SHA1:
- 77c4d9d854aca4354a98df101b9c60fc8be9d8dc 11100 main/binary-amd64/Packages
- bb2a8bcea85389cf7a69a8101646aef95c6d2e00 3714 main/binary-amd64/Packages.gz
  0b4b096a7d85083181e185df85000a14307bffc7 3592 main/binary-amd64/Packages.xz
+ 77c4d9d854aca4354a98df101b9c60fc8be9d8dc 11100 main/binary-amd64/Packages
+ 38743236f28e3ce32f5f0b91f4914a159684511b 3714 main/binary-amd64/Packages.gz
 SHA256:
- ec477ba0dd6b249559d9e00778cf6885f9a5196710f101df57b937ff7c40675c 11100 main/binary-amd64/Packages
- d9620b24b1b4f6b777553fdf2ac6b1661d1e393c4af5d20a211111df1563b371 3714 main/binary-amd64/Packages.gz
  0d592a8974c7b1c512ae48f0719f7460b7819a6dcba634ed736bdb950cffd5db 3592 main/binary-amd64/Packages.xz
-SHA512:
- 8e986259cb0ce29ed8e047b23ff098420e4120c95cdc8695d1df2ab292d28a23b9ced02da3fbf3b124e3dbffa3d6d836587113a8453383619849b8950b11f2c4 11100 main/binary-amd64/Packages
- 64e8e60cf309be99ad9cb4cfc24b2f653b580d80343ce6585821c79d737a00d520758ce0c2202edbe95db664648762c561a1c5da809c2eefca3c308d1a0c692e 3714 main/binary-amd64/Packages.gz
- 3ff4632c7fa677ad1a6fc3f139fe8279b70b0690fcd2910604e3ba1244b94101f49a81de8f574c8cb31c5868d72bc7776c6ed89ab446905287303850304b7125 3592 main/binary-amd64/Packages.xz
+ ec477ba0dd6b249559d9e00778cf6885f9a5196710f101df57b937ff7c40675c 11100 main/binary-amd64/Packages
+ 64f388a1e22e39973f904bc3472af5c4f196ba7fe362d142e6cccb73743a03a7 3714 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJSBAEBCgA8FiEE4MMh8RvkWf+0W6tKbYffkqcZSi0FAmh9rq8eHG1pY2hhZWxs
-ZWVzY2hhZWNoZXJAZ21haWwuY29tAAoJEG2H35KnGUotFP4P/RCPW0jZBY4cpzkl
-n+nAuEcIvSUUU49RYo3lkbvHDj5CDa70G5rGLh2BN72W/orRhSCypFAXso0B6lvn
-u+SROgkjLXAAaBMlqFp2hc+xNQIC3PfV5zGmKUdxOwNg6NVR4GRPjUHMVTqaXUBS
-LxrROemszohgJMLwGxvuoZuEiimEvjeoX2H0TSkouIrYh47i2VrCkqo4T6PGRrnc
-T6899NewpUAjEYaypQl2IkUuDPrns7p1aanaGoxEDgKVHwe4lb3D9224ZIxPpJ+8
-uekUKhFmROxdMkzTdiSKwjedV2IJ6OoM/r9e7bX1hBUlEAw+mzmZ4DO3nw39QCdy
-cdjk+0SfkmzcmXphfwk5GZVnMV/nchME3hUOLPfYUF43ZO+9x/E9MbzOheAc05SV
-49iEul4OCtHPHvFidxL6mkYplUWKo9Y5ErxwVP3FgCp6hdYq7x2jKoTFhhXDWLcC
-kftu7kMJzaEr5cL08TMgxur/QqlQuYAxeSm0P75ESi71JKfOfybuPIZLfy8UmNWO
-2TTTGSBlle4OFDB0gCkDRKBZKAuP5ZS9OvQ0xbAObm0CBz/cO01/PB6mDnrI7c4o
-6YQ7tnw8c6RY7ZE6MB25IFiPysBh1woQeOX6+gv7jqWNPwNOQwl4Jp0etrgvx7PE
-LWtqEI+A8PASOFaxBDKIwazRF2Jb
-=bD1g
+iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmiWCqMXHGNvbnRhY3RA
+bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyarr4A/fY/49pSAwTMEPYHr56EaTp3q7
+mzed6Sj3Z3XBhSAWRJg5/l3DDDdjl0zunbNMgXkuwaBlU/tRyKAhUqo1aJ8sQFSj
+CXLDRoR5BYisfg2xOzhxeVqP9g34yBr71jly8gURc655jQB9VILIJCdpS/8JRDcQ
+8de8CvAkJ1jGvyNrXfidpUrJltD7CHv5Hra823rsBEKiFfB1AIgWAERE+NlltG8i
+kkqk/a2Y6svChV8gp5/L4ndMj5qBaaL7fZpkTC4kVCmHxF7XowInOF7g4bFSv3G4
+VH/WgXgKoogr2D3b7Z6odhf/CwOZeB5Nbdls4hgqKAeXWHK5fPNMcCDaAIQUy0WF
+eRMByKs1vNN6sXm1I7Ed923DAi1zHgsFG12d8W8LJW+DmY9ckiOIzgN0igPYw3WF
+KyzkY7hU2Q55a2eLlObTRAfx4E0EPDh6KA4QZ5fq8LWYk2zBwNws8VA4hmheM/DL
+AcJ/W8AuE11/Nz5lBf4msrKx5vQCuy9+2NvVutfcPIzA0aJ5JXg3LJ+iNnmrxYxg
+1x5C7n7RkC/3AUpix1oyZ7B31aK4ErZoqCWbbNWMBDHR2TmxBob6XeRnDWJKrwrs
+GrMqSp15MKWUO8SNanihEC9oJha5hgZrQyaxQLxoFZUsU6LFG4f8Eu5b+/gV8bBm
+dn3URIIROucpvw==
+=Jvo2
 -----END PGP SIGNATURE-----

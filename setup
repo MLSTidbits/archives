@@ -70,5 +70,5 @@ cd "${baseDir}/dists/stable"
 # Remove the old Release.gpg and InRelease files
 rm -vf Release.gpg InRelease
 
-gpg --default-key HowToNebie -abs -o Release.gpg Release
-gpg --default-key HowToNebie --clearsign -o InRelease Release
+gpg --default-key "MLS Tidbits Repository" -abs -o Release.gpg Release
+gpg --default-key "MLS Tidbits Repository" --clearsign -o InRelease Release
