@@ -24,16 +24,15 @@ baseDir="$(pwd)"
 
 # Release header
 releaseFile="$(cat <<EOF
-Origin: HowToNebie
+Origin: MLSTidbits
 Label: default
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: HowToNebie.com APT Repository
- APT repository for HowToNebie.com
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
+Description: MLSTidbits application repository
+Maintainer: MLS Tidbits <contact@mlstidbitscom>
 date: $(date -Ru)
 EOF
 )"

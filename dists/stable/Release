@@ -1,23 +1,22 @@
-Origin: HowToNebie
+Origin: MLSTidbits
 Label: default
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: HowToNebie.com APT Repository
- APT repository for HowToNebie.com
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher.com>
-date: Fri, 08 Aug 2025 14:33:06 +0000
+Description: MLSTidbits application repository
+Maintainer: MLS Tidbits <contact@mlstidbitscom>
+date: Fri, 08 Aug 2025 17:39:53 +0000
 MD5Sum:
  1da26aa733e349844b57c0beb63d4bb1 3592 main/binary-amd64/Packages.xz
  80ecddeb9a1317cfb5b16a2a98bafe83 11100 main/binary-amd64/Packages
- c88cc6fd135f97e747d339083e2d156f 3714 main/binary-amd64/Packages.gz
+ 278231d63f6d8eb78cd4718c5677784c 3714 main/binary-amd64/Packages.gz
 SHA1:
  0b4b096a7d85083181e185df85000a14307bffc7 3592 main/binary-amd64/Packages.xz
  77c4d9d854aca4354a98df101b9c60fc8be9d8dc 11100 main/binary-amd64/Packages
- 38743236f28e3ce32f5f0b91f4914a159684511b 3714 main/binary-amd64/Packages.gz
+ ddc6ebb425031da6770cfffb761d13460d85c5a6 3714 main/binary-amd64/Packages.gz
 SHA256:
  0d592a8974c7b1c512ae48f0719f7460b7819a6dcba634ed736bdb950cffd5db 3592 main/binary-amd64/Packages.xz
  ec477ba0dd6b249559d9e00778cf6885f9a5196710f101df57b937ff7c40675c 11100 main/binary-amd64/Packages
- 64f388a1e22e39973f904bc3472af5c4f196ba7fe362d142e6cccb73743a03a7 3714 main/binary-amd64/Packages.gz
+ 933de2e97640f58e05aff4dc47eba4621aba70988b46d67f3c1c7014abe679d1 3714 main/binary-amd64/Packages.gz
