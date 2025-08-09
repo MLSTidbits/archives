@@ -6,22 +6,42 @@
 <title>Archive Index</title>
 <style>
   html, body {
-    height: 100%;
     margin: 0;
+    font-size: 1rem;
   }
   body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
     background-color: #111111;
     color: #e7e5e5;
   }
   main {
-    flex: 1;
     margin: auto;
     padding: 1rem;
     width: 80rem;
+    height: 100%;
+
+    /* Place the classes left, center, and right into a flex container */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .left {
+      width: 20%;
+      margin-right: 1rem;
+    }
+
+    .center {
+      width: 60%;
+      margin: 0 1rem;
+    }
+
+    .right {
+        width: 20%;
+      margin-left: 1rem;
+    }
+
   }
+
   h1 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -31,27 +51,50 @@
     padding: 0;
   }
   li {
-    background: #171717;
     margin: 0.5rem 0;
-    padding: 0.75rem;
     border-radius: 8px;
-    transition: background 0.2s;
-  }
-  li:hover {
-    background: #232323;
   }
   a {
     text-decoration: none;
     color: #0070c9;
     font-weight: bold;
+    transition: color 0.3s;
+    }
+
+a:hover {
+    color: #e7e5e5;
+}
+
+  pre {
+    padding: 1rem;
+    border-radius: 8px;
+    color: #e7e5e5;
+    margin: 0 1rem;
+    font-family: monospace;
+    font-size: 1rem;
   }
+
+
+code {
+    display: block;
+    padding: 0.5rem;
+    background: #222222;
+    border-radius: 4px;
+    overflow-x: auto;
+    color: #e7e5e5;
+}
+
   footer {
     text-align: left;
     padding: 1rem;
     background: #171717;
     font-size: 0.9rem;
 
-    .footer{
+    /* Float to the bottom of the page */
+    position: fixed;
+    bottom: 0;
+
+    .text {
       width: 80rem;
       padding: 1rem;
       margin: auto 100px;
@@ -60,22 +103,43 @@
 </style>
 </head>
 <body>
+  <header>
+    <h1>📂 Archive Index</h1>
+  </header>
 
 <main>
-  <h1>📂 Archive Index</h1>
-  <p>Browse the available directories:</p>
-  <ul>
-    <li><a
-      href="https://github.com/MLSTidbits/archives/tree/7e44c88f28a165340142385087d76e57e25f2c57/dists/">dist/
-    </a> — Distribution packages</li>
-    <li><a
-      href="https://github.com/MLSTidbits/archives/tree/7e44c88f28a165340142385087d76e57e25f2c57/pool/">pool/
-    </a> — Package pool</li>
-  </ul>
+  <div class="left">
+    <ul>
+        <li><a
+        href="https://github.com/MLSTidbits/archives/tree/7e44c88f28a165340142385087d76e57e25f2c57/dists/">dist/
+        </a> — Distribution packages</li>
+        <li><a
+        href="https://github.com/MLSTidbits/archives/tree/7e44c88f28a165340142385087d76e57e25f2c57/pool/">pool/
+        </a> — Package pool</li>
+    </ul>
+  </div>
+  <div class="center">
+    <h3>Add the Repository</h3>
+        <pre>
+            <code>echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.mlstidbits.com/ stable main" | sudo tee /etc/apt/sources.list.d/MLSTidbits.list
+wget -qO - https://archive.MLSTidbits.com/key/MLSTidbits.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg
+            </code>
+            <code>sudo apt update</code>
+            <code>sudo apt install &lt;package-name&gt;</code>
+        </pre>
+    </div>
+    <div class="right">
+        <h3>Repository Information</h3>
+        <p>
+            This repository contains various packages for Debian-based systems. Please ensure that you have the
+            necessary permissions to add this repository to your system.
+        </p>
+    </div>
+
 </main>
 
 <footer>
-  <div class="footer">
+  <div class="text">
     <P>Hosted by <a href="https://pages.github.com/">GitHub Pages</a></P>
     <p>&copy; 2025 MLSTidbits | All rights reserved</p>
   </div>
