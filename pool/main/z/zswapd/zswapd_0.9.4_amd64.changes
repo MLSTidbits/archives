@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 09 Aug 2025 00:00:00 +0000
+Source: zswapd
+Binary: zswapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.4
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ zswapd     - Setup zswapd  as your swap partition.
+Changes:
+ zswapd (0.9.4) stable; urgency=low
+ .
+   * fix: Typo in `debian/zswapd.bash-completion` and directory name.
+   * chore: Remove redundant copyright info in main app.
+   * fix: update header and author information in zswapd manual page
+   * feat: Moved zswapd completion script and configuration file
+   * fix: update shellcheck directive for sign_handler function
+   * chore: update copyright information for consistency and accuracy
+   * chore: update maintainer information and repository links in control file
+Checksums-Sha1:
+ 4166eaf639b84a194cab96f7a101439bdf9a83c6 13346 zswapd_0.9.4_amd64.buildinfo
+ f4d02a85b19aca92eaec5ce03f7507ce8edbaf8a 13746 zswapd_0.9.4_amd64.deb
+Checksums-Sha256:
+ 27da01e22dc65cd11c40ff925b2ecb34c7957525d1c2b8b2f4cd621e1555d0e4 13346 zswapd_0.9.4_amd64.buildinfo
+ e07f8ec992feb4f92564069889e0c2b734b50c161ac6b4ab16dd1555288acd6a 13746 zswapd_0.9.4_amd64.deb
+Files:
+ 5740e2a7fb36ee97cb75f4d75cdd3b09 13346 admin optional zswapd_0.9.4_amd64.buildinfo
+ e99ef494bbd08b42729457db1db39761 13746 admin optional zswapd_0.9.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiXoJYACgkQbkoCnkKh
+yHlIQA/fVJABfP4bYmB98az5Vxgl0SZ5FtWce9i6OHybZKJYiICZKlwnh4+jC4jo
+cZBpO+vHiHYsPo7KalFPnN9cc8gKiSsxXz59aYCeM2U0LZFCFFmCAO6aJZb5l3TJ
+FVE5z9MbIefPAVab6umlSdQCIW6FjEkOnr2lzt3JzRyM7aMGl37Ec810XaZdSXJd
+selTxliUYqUP0GSL312IQJG0Hh/HMUzPYvak4m2aQLuBwQXsth+mbM7cKfXkCMfS
+LBMtDbuQg8k4M6JGKvOtSaSAknSflOE+cRi+a0nj2K3MlLtEw+a+0qJrlnwWQwsc
+AftZNC3PpyQz6oAcuyUIsynmKT2ZtW9Fg70H7HisLqfGMe/1DVdVud8GIAt2kbwU
+vEq0hxv1NXWhI+ltHlw7AF1mvn7Wz/ewZXgs4p9z6RhTo+1jzl7gCtGPWKWnOGrH
+IxdHuA2ZV50KR5B+Woc85Mk3un38dRVzrzc/aSomijT3Ds1Hy6dxxhsXABf8H5cQ
+Y2s8UncL5T3JxcJowBEfqbVvppkIU2QWCFBaUmJkqtlsIuVnC6q1XY6Lfz8O7Ri4
+8gH1iY1LqyHWYx+XUOlZ4Dx+/VzkPhp5ZHKhrAsJFV48Aklea+ViiwZUSzITihCK
+RH55ZpoN7FQIivzSxEnR3q3HfUWt5xgnfIFuoUb8veLqQA==
+=TZS6
+-----END PGP SIGNATURE-----

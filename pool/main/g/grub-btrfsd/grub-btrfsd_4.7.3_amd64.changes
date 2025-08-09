@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 09 Aug 2025 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.7.3
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+Changes:
+ grub-btrfsd (4.7.3) stable; urgency=low
+ .
+   * fix: Correct typo in Build-Depends for debhelper compatibility
+   * chore: Update copyright information in copyright file and script header
+   * fix: Remove unnecessary blank line in grub_btrfsd configuration
+   * chore: Set true homepage for maintainer organization.
+Checksums-Sha1:
+ 974ad5836abe3fd056fa093da692497eedfc3bcc 8473 grub-btrfsd_4.7.3_amd64.buildinfo
+ d030d9bbd5f8ee532784ba83126c69223b1fe92c 35456 grub-btrfsd_4.7.3_amd64.deb
+Checksums-Sha256:
+ 010d4af32127ae71bfa32931af1594ac9ff92a16888d9107225c39c9aef1ecef 8473 grub-btrfsd_4.7.3_amd64.buildinfo
+ a337234e7c62f272c0915837ccbadc111eb436398d1674c4829657fcff24d59f 35456 grub-btrfsd_4.7.3_amd64.deb
+Files:
+ eaf173db138d7c7655a4392322e91755 8473 admin optional grub-btrfsd_4.7.3_amd64.buildinfo
+ 47555cb81ccbc62db4d0a17638197977 35456 admin optional grub-btrfsd_4.7.3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiXjgcACgkQbkoCnkKh
+yHnTPw/eLLzmb44ZQuvL/3Vv78MWZoztlSgHIjIzd5tclTrMNX5rT+yCMDC0i3ld
+IVqUo9OePwEuyiJHITRACbPOlgqZ+tMrMkGlJc7UjIoiyNQn0MFxNzccIMv6xlul
+iQhryjRtD9gl4qlgP02/acXCZ1BbK/IbjgZsWDT3toBxtEUNWyu+JMQTNdmdneod
+E5ufo5Bm2VOw750Z/j1vuzf2BgV6z3/T7jNVtYLReOLo/WG/ovo9X6c0cRWJ8nNr
+tnNABTOnehufvsK/VGsjYUSqUED/9G6FXzDtQbGdS1o33UQZV6VAUQ0b1Z/rJPIV
+ah35C7CeZnmd7MnwsJjY8cBD6LmUCwk2pyXwlFtRn++CzyF5lHw/vKgIDS8upr4X
+B46iJ6JDpezBUHFQP4Q/xgaOhk0N3kmQ1rq+5snwEM1qdSzhvPx/4/3yAdK8Wtts
+BXS3qWVX5fknxydWyWrInKAYgQvZtNjZCrZIQTJ5hjDOS3w5uoppRA0uwIQ4DEw6
+lkU/6Oc51K6Uw2/AzZA27kw2Rr9HMnz9QheDChIp7x06pAdUVk/Z25P4/GNSZs9x
+pUNisY2JnNpPryhezsR3NH41vaxAaDfrrVJAz1/815KcojkNPdH/y48Ihz2kEaJj
+DZWDiLYBUWhbB8mxwiWex5zM0NCvcBZkVDeT2KPskduEkA==
+=ATXC
+-----END PGP SIGNATURE-----

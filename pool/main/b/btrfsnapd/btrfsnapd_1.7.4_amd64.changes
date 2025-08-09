@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 09 Aug 2025 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.4
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+Changes:
+ btrfsnapd (1.7.4) stable; urgency=low
+ .
+   * chore: Update maintainer info
+Checksums-Sha1:
+ 6d9f309302357643aaabbbc3367caf7f2f62056a 8349 btrfsnapd_1.7.4_amd64.buildinfo
+ a2d39b7e9385c9372fc6ecff12794fb8d1244eee 23112 btrfsnapd_1.7.4_amd64.deb
+Checksums-Sha256:
+ 4ae7545c560ca24699ab62615680ce91f45ed3a72c297c75d2e4c403fe8a0e7d 8349 btrfsnapd_1.7.4_amd64.buildinfo
+ ebfe2af9fe982b16c311890c88ce223af7cb617390783197ef0a269534376248 23112 btrfsnapd_1.7.4_amd64.deb
+Files:
+ aee5025363b447601119ca1d7932bf30 8349 admin optional btrfsnapd_1.7.4_amd64.buildinfo
+ 3c9133b54d50c1908c4b7ddf1d70aabf 23112 admin optional btrfsnapd_1.7.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiXZk8ACgkQbkoCnkKh
+yHnl4Q/fUzF/ze56tTH6L7mCDMoW/844qBZJLbG2GlpABHQzqoeY2X21FVJhQnX9
+353IdIsVBK7ZbFby5whvFLpCEGxnvLlbl8Fkcm5ZxP1i8+eCGJ8rIJ0/RdAX82tg
+odoC0WvCGXODRi/BICjcNqGANTKQAMgNoJ3iyLD5c6nZLROmF+6O569F4ffGzgAx
+fVqC3RF7LDqG4Xf2MDc0E36wzf4j6JA70vvi0Tkv/foLXjkqxy58w2TRHEz02//8
+eyXSr3MjAbyGw+oKQgVJA75SOUx6AZxp6ZDXAMN+O0NyjksLb//R22ZcXOrEk/xf
+7O5XZwtrdKlTxEdqB1zeGqEuY64fzYHSS6WPo5oEK0TDv6nrjbzBLxHV4HvqJNHT
+6mb8Gf4V7GIoNwPBAnipalLILyp0f6Pt3BPCO3injZ02EwEiwsoLt4jyADS95stK
+Oeb9io69X+eHn3Fyl6mRx6s5y8y6FlLE2lO84nnx2/gWm6MI/oH7g2l/12y0w2DN
+FWwfw8h5CFZPoMEpntjA8tPLxB/CxSjunfaIR04S/dBS90mrjl96RMlvrNvPERTU
+oid4alVLY/kg1UAz+Fjf2g/GKyJjrMgcWy+XojXbiyrhKrtBHOvUvngnWIvXNaHI
+SHJa92YEpobNJHkHJO1EYGGfhLcn8UnBZmop6HDnMfh5vg==
+=2F3x
+-----END PGP SIGNATURE-----

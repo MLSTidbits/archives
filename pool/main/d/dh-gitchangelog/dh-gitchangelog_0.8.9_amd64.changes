@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 09 Aug 2025 00:00:00 +0000
+Source: dh-gitchangelog
+Binary: dh-gitchangelog
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.9
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ dh-gitchangelog - Generate Debian changelogs from git commit messages
+Changes:
+ dh-gitchangelog (0.8.9) stable; urgency=low
+ .
+   * chore: Update synopsis in documentation to reflect correct configuration file path
+   * chore: Update copyright information in the documentation
+   * chore: Update copyright information in the documentation
+   * chore: Remove obsolete preinst script
+   * chore: Move sourced config to users profile for easier setup and control.
+   * chore: Update homepage and VCS links in control file
+Checksums-Sha1:
+ ca944b477844ab3e6a69ee6807c1569d3c26fda2 8379 dh-gitchangelog_0.8.9_amd64.buildinfo
+ 5726e17f43c0c81339ed322b408a03ab1240bb25 11664 dh-gitchangelog_0.8.9_amd64.deb
+Checksums-Sha256:
+ 9f41eccb2188b77a633296abeca4c337ea987c58725880e868ceac5c365efca1 8379 dh-gitchangelog_0.8.9_amd64.buildinfo
+ 91df0590964c099bb48795f538764446aa3c82bef052a33583243c404be9a6c5 11664 dh-gitchangelog_0.8.9_amd64.deb
+Files:
+ 6b8be3b60a8deb974c6c1329fad71282 8379 devel optional dh-gitchangelog_0.8.9_amd64.buildinfo
+ ac4c49f04d758b7a5429f96057426b9b 11664 devel optional dh-gitchangelog_0.8.9_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiXidUACgkQbkoCnkKh
+yHkQ2w/fZ5QM9/7iG6r2e0qmImPscRpXIkTHMcU4eQwDLAWQKlczfVttYrZlZLdg
+wP8NUEbjEnEBDGWK/uzmxTZS7RY+cY3McA6WX8TrhsfrCK14sngGDNFYTXS6sFyJ
+B7NUuTJXQ6YHGsxVqhU4/wuXDOByU5jy+D6/nY4jNku1Ri+odeqLmrn0Z66C6gkm
+fV/uNoo39lAmdvf1AwqFJW0I2q9sGVWDl1EaImeTma61Fl3VdgxIi3NRwwVWfbu1
+b4q6EmmWfcp5675JbK+mtHAdQdDTVdeYvlMZ5HVa3cmzPGzJQYuRBVst0uYz1StO
+gl+dckcCMu/SSFPXWde39+vn02jmfdxYqHKSzCnwnO+Xx09wAV7MP9K4ovk6b8Tr
+i5gsfz8xteVtRHfSm12QYw0Pw/6ouRff6YuxR6+repYR828gKrGtXabH+DisKYvc
+ZqqFV9FT9z3yAt9xkqVWVSL3rk8WbXECSl4Wl3vB7BseB1T6Z8ldXkIya7tVGzVG
+NWojhvX/TzE7qvtk6DAhlvJXd06CYC0OhNp2r7cUV9ia6/5ERU1KCx5yvWC4/oE8
+/BhWh5V12u9/PpT+tkm7hQrUz3Io4jLRipfon+bw2cFhnPOA0rkmnd7SR8uDwFCI
+Y+HDRvMHzITjUR2qsEPH4vLGje+1IlwmIPJ34pHOoVrGJA==
+=opPc
+-----END PGP SIGNATURE-----

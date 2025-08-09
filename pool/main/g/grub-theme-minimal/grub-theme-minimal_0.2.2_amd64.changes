@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 09 Aug 2025 00:00:00 +0000
+Source: grub-theme-minimal
+Binary: grub-theme-minimal
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.2
+Distribution: unstable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ grub-theme-minimal - Minimalistic GRUB theme
+Changes:
+ grub-theme-minimal (0.2.2) unstable; urgency=low
+ .
+   * chore: Update maintainer information and repository links in control file
+Checksums-Sha1:
+ 86f8a5629a5df340c1ad2ea4ceda79a978ca6943 8397 grub-theme-minimal_0.2.2_amd64.buildinfo
+ 4913413df165a97cd879c0959765427e539eef19 182370 grub-theme-minimal_0.2.2_amd64.deb
+Checksums-Sha256:
+ d0b6808229d2ea47875b986eb63b87ac676ea815d210d424c6d480d45be14631 8397 grub-theme-minimal_0.2.2_amd64.buildinfo
+ b6c77c562e4d95b8d51cb232b130f9db4b4c3862b31cd740165b91a3046ff314 182370 grub-theme-minimal_0.2.2_amd64.deb
+Files:
+ d55ef9812545b8b49b6a85585f727858 8397 admin optional grub-theme-minimal_0.2.2_amd64.buildinfo
+ c482a5d15dabfa4ea18924f52e26326d 182370 admin optional grub-theme-minimal_0.2.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiXjxsACgkQbkoCnkKh
+yHlb6Q/dESwucSVIW01eIjhAK7W4WG0hMtm1StsxixLQbQr1MjL0EkFZMqb9qCQt
+mQO72VnqO4nd5fXr8qgZZxgL8oRq6jQhKoNVCb/ZKsGP9QAQ3Y+ZJokvJ4k5oEl0
+NBOotbb2jemaB4LEbfVUKNL0lZN+PZRyON4Pj9S11pcqSPJDWVS4J+Gk1KRAYoGa
+ZCoOKDE+qU7c9zZMr7I0YnqgI+NmLgeV+1khEu3+ijAhpax7Y7LnLaX51HcQeW1R
+XIEqb2NaoW4aA03Ip0NeZMiVblvQqAgaVNAU/P0F2etxRkKbAFUTMJzSPnGEpQ1k
+FJqfouoM1g/pBvvNUNmLJTYgkyjDGQmcMJrwl2ue9xEIwY8rhrnc4huWxmRz4VIr
+oQ5PHQoqrZrWmrCJ7sWf/VoC0QnPsX+M0ZtJdUOb2OyHAQeF5GbluVvVCt+TY9Ty
+/L1aSRNo86k2uprKm/GSsoKDUpCcxAeZUkF4zuXDkevbIZd6luwYBU9jOGOFyBfC
+Ekql2F/MUNvb5cPOpylVYmqzUgQv21Q9lf50hpj9NPv1foJzC5OMSVCQu6VjRFo3
+NlSVZXs3Nsbn7x4u6tKlQn7+7tPBl+YNIN25v1RLHl3Cs2KIvplnO1dSx7C7tfSN
+EkA4Ry8f8CHwqhyWPIifwbL6MBTZZDYDGnp0ggaKGnN3jQ==
+=C6RH
+-----END PGP SIGNATURE-----
