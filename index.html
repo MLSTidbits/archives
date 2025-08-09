@@ -122,8 +122,7 @@ code {
     <h3>Add the Repository</h3>
         <pre>
             <code>echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.mlstidbits.com/ stable main" | sudo tee /etc/apt/sources.list.d/MLSTidbits.list
-wget -qO - https://archive.MLSTidbits.com/key/MLSTidbits.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg
-            </code>
+wget -qO - https://archive.MLSTidbits.com/key/MLSTidbits.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg</code>
             <code>sudo apt update</code>
             <code>sudo apt install &lt;package-name&gt;</code>
         </pre>
