@@ -19,20 +19,20 @@ Description: Generate fstab entries for btrfs subvolumes
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
 Package: btrfsnapd
-Version: 0.11.4
+Version: 1.7.4
 Architecture: amd64
-Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 79
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 76
 Depends: btrfs-progs, systemd, coreutils (>= 8), grub-common, grub2-common, grub-btrfsd
-Filename: pool/main/b/btrfsnapd/btrfsnapd_0.11.4_amd64.deb
-Size: 23268
-MD5sum: af0bda54c96a2bc4ecdcccb775b839a8
-SHA1: 6018387f27af04d7e2c253fe1e24d33034969080
-SHA256: 9ff2b1d3850c3a127bdb141c3dbc48f87ff60655165bbf858ea59d941f39518b
+Filename: pool/main/b/btrfsnapd/btrfsnapd_1.7.4_amd64.deb
+Size: 23112
+MD5sum: 3c9133b54d50c1908c4b7ddf1d70aabf
+SHA1: a2d39b7e9385c9372fc6ecff12794fb8d1244eee
+SHA256: ebfe2af9fe982b16c311890c88ce223af7cb617390783197ef0a269534376248
 Section: admin
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://github.com/MichaelSchaecher/btrfsnapd
+Homepage: https://mlstidbits.com
 Description: Btrfs snapshot daemon
  Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
  GRUB to allow booting into snapshots. It provides a simple command-line
@@ -43,19 +43,19 @@ Description: Btrfs snapshot daemon
  btrfs-progs to function correctly.
 
 Package: ddnsd
-Version: 1.5.4
+Version: 1.5.8
 Architecture: amd64
-Maintainer: Michael <michaelleeschaecher@gmail.com>
-Installed-Size: 54
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 56
 Depends: jq, curl, coreutils (>= 8), nano, systemd
-Filename: pool/main/d/ddnsd/ddnsd_1.5.4_amd64.deb
-Size: 19654
-MD5sum: 755f9f09525d33703a67532b3f309822
-SHA1: 97c08e28daefb2ca7492325c525ae81b373e6b39
-SHA256: 851965e6507782c58d236e52fb9d4888cbc76c088f36003f74c512a2fca1aab7
+Filename: pool/main/d/ddnsd/ddnsd_1.5.8_amd64.deb
+Size: 20024
+MD5sum: f1ffd34e4c197e8af1f1e348298effe0
+SHA1: 84ba6a4e022128427d4158c9a5fd1a4f3deb8e9c
+SHA256: cba9c8a3c36797e078fdc71cd44e94329f88b874cb657c3137d987f3000f1bc7
 Section: net
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/ddnsd
+Homepage: https://mlstidbits.com
 Description: Dynamic DNS client for updating DNS records
  ddnsd is a dynamic DNS client that updates DNS records based on the current
  public IP address of the system. It supports multiple DNS providers and can
@@ -65,22 +65,22 @@ Description: Dynamic DNS client for updating DNS records
  address and updates the DNS records accordingly.
 
 Package: dh-gitchangelog
-Version: 0.5.5
+Version: 0.8.9
 Architecture: amd64
-Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 38
-Depends: git, coreutils (>= 8), dh-make, debhelper
-Recommends: devscripts
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: git, dh-make, debhelper
+Suggests: devscripts
 Replaces: dpkg-changelog, genchangelog
-Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.5.5_amd64.deb
-Size: 11484
-MD5sum: e22eaa72adcf6a344acae5863715e4e4
-SHA1: 4f0b57f798f489b6b4fe4b015cd304122b0bc893
-SHA256: de63730fd265f692b7fd0e29137fa2155aafa112ccbb6c5da8f50d8f6687ee13
+Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.8.9_amd64.deb
+Size: 11664
+MD5sum: ac4c49f04d758b7a5429f96057426b9b
+SHA1: 5726e17f43c0c81339ed322b408a03ab1240bb25
+SHA256: 91df0590964c099bb48795f538764446aa3c82bef052a33583243c404be9a6c5
 Section: devel
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://github/MichaelSchaecher/dh-gitchangelog
+Homepage: https://mlstidbits.com
 Description: Generate Debian changelogs from git commit messages
  dh-gitchangelog is a tool to generate Debian changelogs from git
  commit messages. It can be used to create a debian/changelog file
@@ -117,21 +117,21 @@ Description: Generate Debian changelogs from git commit messages
  integrated into your workflow to automate the process of generating changelogs.
 
 Package: grub-btrfsd
-Version: 4.4.9
+Version: 4.7.3
 Architecture: amd64
-Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 99
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 101
 Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
-Recommends: timeshift, snapper, btrfsnapd
-Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.4.9_amd64.deb
-Size: 33826
-MD5sum: 19463a959d0c002aaf71020d80118613
-SHA1: 599b069549589c7ac24ad490f9c26dd2c9f5c502
-SHA256: aa2a1691852e10dea5c4a37a9bd260436903fff9901e760d9c2608d3a4c4b6db
+Suggests: snapper, snapper-gui, btrfsnapd
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.7.3_amd64.deb
+Size: 35456
+MD5sum: 47555cb81ccbc62db4d0a17638197977
+SHA1: d030d9bbd5f8ee532784ba83126c69223b1fe92c
+SHA256: a337234e7c62f272c0915837ccbadc111eb436398d1674c4829657fcff24d59f
 Section: admin
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://github.com/MichaelSchaecher/grub-btrfsd
+Homepage: https://mlstidbits.com
 Description: Add BTRFS snapshots to Grub boot menu -
  This package provides a daemon that monitors BTRFS snapshots and adds them to
  the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
@@ -139,22 +139,27 @@ Description: Add BTRFS snapshots to Grub boot menu -
   Take advantage of BTRFS snapshots capabilities.
 
 Package: grub-theme-minimal
-Version: 25.03.12-dba4378
+Version: 0.2.2
 Architecture: amd64
-Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 644
-Depends: dpkg-dev, git
-Filename: pool/main/g/grub-theme-minimal/grub-theme-minimal_25.03.12-dba4378_amd64.deb
-Size: 182434
-MD5sum: ab4e542f41b1bafc29a7c87fd959eb63
-SHA1: a527d24a31752476afc6ead28523902d73c6982e
-SHA256: edd36c31286ee042238e8962bc163196ef79a8379527fb5ca21bfd8898d81ca7
-Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 415
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-minimal/grub-theme-minimal_0.2.2_amd64.deb
+Size: 182370
+MD5sum: c482a5d15dabfa4ea18924f52e26326d
+SHA1: 4913413df165a97cd879c0959765427e539eef19
+SHA256: b6c77c562e4d95b8d51cb232b130f9db4b4c3862b31cd740165b91a3046ff314
+Section: admin
 Priority: optional
-Homepage: https://github.com/MichaelSchaecher/grub-theme-minimal
-Description: Minimal theme for Grub -
-    This package provides a minimal theme for Grub.
-Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+Multi-Arch: foreign
+Homepage: https://mlstidbits.com
+Description: Minimalistic GRUB theme
+ This is a minimalistic GRUB theme that provides a clean and simple interface
+ for the GRUB bootloader. It is designed to be lightweight and easy to use,
+ while still providing essential functionality.
+ .
+ The theme includes basic styling and layout for the GRUB menu, making it
+ suitable for users who prefer a straightforward boot experience.
 
 Package: grub-theme-polkadots-dark
 Version: 0.4.0
@@ -256,20 +261,20 @@ Description: Install and update to the Starship prompt -
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
 
 Package: zswapd
-Version: 0.7.3
+Version: 0.9.4
 Architecture: amd64
-Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
-Installed-Size: 48
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 50
 Depends: bash, coreutils, util-linux, bash-completion, systemd, nano
-Filename: pool/main/z/zswapd/zswapd_0.7.3_amd64.deb
-Size: 12186
-MD5sum: aa6facc146e31fdf7535404fb5556be5
-SHA1: e8b57ef8423852cddf9c909dec2b1b73d0eb7016
-SHA256: 6f110e3fd805d721a2e9644bdbf4c5a957a169198f1268e385dac6b18e444fff
+Filename: pool/main/z/zswapd/zswapd_0.9.4_amd64.deb
+Size: 13746
+MD5sum: e99ef494bbd08b42729457db1db39761
+SHA1: f4d02a85b19aca92eaec5ce03f7507ce8edbaf8a
+SHA256: e07f8ec992feb4f92564069889e0c2b734b50c161ac6b4ab16dd1555288acd6a
 Section: admin
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://github.com/MichaelSchaecher/zswapd
+Homepage: https://mlstidbits.com
 Description: Setup zswapd  as your swap partition.
  zswapd is a daemon that manages the zswap compressed cache for swap pages.
  It allows you to configure the size of the cache, the compression algorithm,
