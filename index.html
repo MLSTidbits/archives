@@ -94,12 +94,19 @@
       margin: 0 0 1rem 0;
       font-family: monospace;
       font-size: 1rem;
-      background: #1a1a1a;
+      background: #232323;
       overflow-x: auto;
     }
 
-    pre code {
+    pre .bash {
       color: #e7e5e5;
+    }
+
+    code {
+      color: #e7e5e5;
+      background: #232323;
+      padding: 0.2rem;
+      border-radius: 1px;
     }
 
     /* Copy button styling */
@@ -137,8 +144,16 @@
       width: 20%;
     }
 
+    p {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+    }
+
     /* Responsive adjustments */
     @media (max-width: 800px) {
+      boody {
+        font-size: 0.9rem;
+      }
       main {
         flex-direction: column;
         width: 90%;
@@ -147,6 +162,7 @@
         width: 100%;
       }
     }
+
   </style>
   <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
 </head>
@@ -174,11 +190,19 @@
 
     <div class="center">
       <h3>Add the Repository</h3>
-      <pre><code class="bash">echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.mlstidbits.com/ stable main" | sudo tee /etc/apt/sources.list.d/MLSTidbits.list&#10;wget -qO - https://archive.mlstidbits.com/key/MLSTidbits.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg</code>
+      <pre><code class="bash">echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.mlstidbits.com/ stable main" | sudo tee /etc/apt/sources.list.d/MLSTidbits.list
+      &#10;wget -qO - https://archive.mlstidbits.com/key/MLSTidbits.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg</code>
       <button class="copy-btn">Copy</button></pre>
-      <pre><code class="bash">sudo apt update</code><button class="copy-btn">Copy</button></pre>
-      <pre><code class="bash">sudo apt install &lt;package-name&gt;</code><button class="copy-btn">Copy</button></pre>
-      <button class="copy-btn">Copy</button>
+      <p>&#10;
+        Once you have added the repository, the next thing is to update with <code>sudo apt update</code>.
+        After that, you can install any package from this repository using <code>sudo apt install &lt;package-name&gt;</code>.
+      </p>
+      <p>
+        If you encounter any issues, please send an <a href="mailto:contact@mlstidbits.com">Email</a>, or file an issue on <a href="https://github.com">GitHub</a>.
+      </p>
+      <p>
+
+      </p>
     </div>
 
     <div class="right">
