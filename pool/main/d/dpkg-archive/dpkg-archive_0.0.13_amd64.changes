@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 11 Aug 2025 00:00:00 +0000
+Source: dpkg-archive
+Binary: dpkg-archive
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.13
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ dpkg-archive - A tool for managing Debian package archives
+Changes:
+ dpkg-archive (0.0.13) stable; urgency=low
+ .
+   * chore: Remove extra '"'
+   * fix: Rename install configuration
+   * fix: Change configuration file name
+   * feat: Manpage
+   * feat: Main script and config file
+   * chore: Update `.gitignore`
+   * chore: Update copyright info
+   * chore: Delete temp/demo debian files
+   * fix: Complete debian/rules
+   * chore: Add basic insstall package file
+Checksums-Sha1:
+ a8a04499b0c99d9fc42d576cdff808e1618bb7c4 8479 dpkg-archive_0.0.13_amd64.buildinfo
+ 09dab58ed46030be49ea520b06dfa7e24b077549 8190 dpkg-archive_0.0.13_amd64.deb
+Checksums-Sha256:
+ ec083e5144e0b091b83becc814ee139cf1a2bda7f57d8f655d23924b577998f4 8479 dpkg-archive_0.0.13_amd64.buildinfo
+ ade969a5307e4289a63cb1342123525a200a798459575c453542807ec966fa86 8190 dpkg-archive_0.0.13_amd64.deb
+Files:
+ 015bbbef2d38a2bc85936b1e7c8d2235 8479 utils optional dpkg-archive_0.0.13_amd64.buildinfo
+ f435f233888527adadc3c63c9ae26c3b 8190 utils optional dpkg-archive_0.0.13_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiajAoACgkQbkoCnkKh
+yHlPtA/glL3UH4BySyrQHofTY/ozw1/q7ob6qSpcgwJUnaMb2VinV3jrh4dahlmL
+smsBjiM9yRsMptW8F+XzcrMNN7y0p+2usgAK7eJosZpxJt7EtnIG6p1q6/n0SWMR
+Kpw0opySuM1lNY7E1gJ8AgNuSigNEfP1PTdcbCWRAnEh7Ry3J00y6vwwnqbZa4DC
+gUIgCPClvHzdm3yc8ZtjFXRZdLYCgILaCjY7Zyzmbgn850Slg+LlBIjHcRIetTBQ
+l6J+sqLd+XWldGERM60hqnEZ4W1bonvk5/z6Qo+mg0ImpCE+TuYAc4qquPGQtU72
+SvRvbcMksXoawBum1yOYT2zYsUNrq/suAdX+GLQIHQ09NotpBcr/X2QJjjp8YQv7
+1b0EHp4CIr7LbByVNSZs7EEBXhUMz49UQPH+whKJsEj68fPaHmEnL1IZOQi2HX4r
+LTgkGqjbTinri/WtI1cWKh1T4XQ4P8qzEQ053U8y92MEZiKu+unSP8xfeSilt8iF
+kvnpmaGWcdTmJFDwo7CRbCvVKGQGbypLOf/VK5GZAw7fvfxxXbOibgbMwn+SMLzh
+cPVx6LRp69gKwAOs27rM+Xi88cDUPDhtHuQ4KjEhM2jlCCLD4j+B3guuw3X3dI6r
+NAyCR77vVtD8w5skHALeuLam/7MudYHxaydwRWRp7UcmCQ==
+=1mZb
+-----END PGP SIGNATURE-----

@@ -92,16 +92,16 @@ Description: Generate Debian changelogs from git commit messages
  the process of generating changelogs.
 
 Package: dpkg-archive
-Version: 0.0.12
+Version: 0.0.13
 Architecture: amd64
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Installed-Size: 29
 Depends: dpkg-dev, jq, nano, yq
-Filename: pool/main/d/dpkg-archive/dpkg-archive_0.0.12_amd64.deb
-Size: 8176
-MD5sum: fcbae814906aaf32edd44a7e0e1087d3
-SHA1: 4a4f394c0f1637ba821dbffce4781b6ec256c08c
-SHA256: 238797c16fa7514e82a9cb41a09be76bbf8ac1df437c9c6868b8083ebfedf85c
+Filename: pool/main/d/dpkg-archive/dpkg-archive_0.0.13_amd64.deb
+Size: 8190
+MD5sum: f435f233888527adadc3c63c9ae26c3b
+SHA1: 09dab58ed46030be49ea520b06dfa7e24b077549
+SHA256: ade969a5307e4289a63cb1342123525a200a798459575c453542807ec966fa86
 Section: utils
 Priority: optional
 Homepage: https://github.com/MLSTidbits/dpkg-archive
