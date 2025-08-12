@@ -91,6 +91,24 @@ Description: Generate Debian changelogs from git commit messages
  debhelper, and can be integrated into your workflow to automate
  the process of generating changelogs.
 
+Package: dpkg-archive
+Version: 0.0.12
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 29
+Depends: dpkg-dev, jq, nano, yq
+Filename: pool/main/d/dpkg-archive/dpkg-archive_0.0.12_amd64.deb
+Size: 8176
+MD5sum: fcbae814906aaf32edd44a7e0e1087d3
+SHA1: 4a4f394c0f1637ba821dbffce4781b6ec256c08c
+SHA256: 238797c16fa7514e82a9cb41a09be76bbf8ac1df437c9c6868b8083ebfedf85c
+Section: utils
+Priority: optional
+Homepage: https://github.com/MLSTidbits/dpkg-archive
+Description: A tool for managing Debian package archives
+ Designed to maintain deb archives, providing a way of keeping
+ packages and Release/InRelease files in sync.
+
 Package: genchangelog
 Version: 0.6.5
 Architecture: amd64
