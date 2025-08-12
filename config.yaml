@@ -1,0 +1,16 @@
+key:
+  enable: true
+  name: MLS Tidbits Repository
+
+release:
+  origin: MLS Tidbits
+  label: default
+  suite: stable
+  codename: stable
+  architectures: amd64
+  components: main
+  description: MLS Tidbits Archive Repository
+
+maintainer:
+  name: MLS Tidbits
+  email: contact@mlstidbits.com
