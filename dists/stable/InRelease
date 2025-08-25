@@ -10,33 +10,33 @@ Architectures: amd64
 Components: main
 Description: MLS Tidbits Archive Repository
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-date: Tue, 12 Aug 2025 00:36:36 +0000
+date: Mon, 25 Aug 2025 01:06:46 +0000
 MD5Sum:
  d06747c3f3d722c6c51ab30f34153f3b 3928 main/binary-amd64/Packages.xz
  3a6cd9d69db1bbd51acc8849e99ae101 11756 main/binary-amd64/Packages
- a155ba9fa92cb2c1a1630c88a41f6f88 4082 main/binary-amd64/Packages.gz
+ 523c46218abf57f0f5f18282bed7880b 4082 main/binary-amd64/Packages.gz
 SHA1:
  3627296106b0989ac2205018169f1c0bc6501109 3928 main/binary-amd64/Packages.xz
  c59faf2a84179c8adfd9f1ef79e9817500b0e8c5 11756 main/binary-amd64/Packages
- 6bf276cd11d7ab2f15f05f90748e99c211d1253d 4082 main/binary-amd64/Packages.gz
+ 25a0c0689a188fb455a7d52cd5c5e9019fc9e802 4082 main/binary-amd64/Packages.gz
 SHA256:
  225c48e2813ff085b73bd33d9e36ec78664231ce194dc9af75e82e04d77b2801 3928 main/binary-amd64/Packages.xz
  b61c933076f42c410976ea0e9ab5b293a8fc884a207bb170c5f53750125df597 11756 main/binary-amd64/Packages
- e0546eaeaa8d1076994a30a3440ddb89c83b74f22f7c7ef534e91c6825c42f8c 4082 main/binary-amd64/Packages.gz
+ 9de3288c90dcc5a118bbdc626233084daa04d1a41175d7e8013712a12a8ed1b7 4082 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmiajJUXHGNvbnRhY3RA
-bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyargzQ/eO8WHppDx2RgjCZb7XIktopvp
-3Aeswvn3Hl7zQBubfyxWvvq0kA6ypqgALjvFFznrdHYHmyHCbN/aNFOnxJUn5b+w
-i5iQjKTGAq7jezMH/CySnr/6vGD8zWv0R4xc3Rh4GwDDzJaRfTXe7CkP+dNm6TMB
-NwR3jF722fjuDiK6i88wwt2xU1bZkP7u9r9UUH/EyghB18lG8Q/f0T5EukMdXU0J
-k8t5zXjiqI4lgKC3DVxBsgeRTzF+1ePk2T7NmkQWXIj0YcECkSr3W0lhUktgAags
-N4a4IxlrLfZj12oMzUCa7YDStjl6qZhr7QQLg9YJIBO3sJZwEXN2JZPgLw1sn551
-uaIbnp8v1pRL4hVIrlxXKTzaJkx0XKL/oVDnSIkWnsxwPWTvbhn0c+V0EGs2XOMm
-fi0XcdvulLjX1dP8O5mCt8ysdraIUGlp90E81jTslJUufH4xrIY+s7kojKo8Ey2x
-oBkwmDs+jp6OMEb/s9I0HslbahwsvvpqD/hSdmiv7GJSacQW/d2n11i6RbdsONKP
-J5K+8x3CuGUBngDAOOTtMWJf7AEETQFFj89Fx2+tz+Tt/29Lpfqt7NJDjyYPkKaE
-R0l3CL4cLAvVIGF3NHTZJAPls4PDHaC0P+ySGJUWifM2jChc+EhlHnQI7bGE1e2h
-Q/LTPBhPxEKbug==
-=aX5R
+iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmirtycXHGNvbnRhY3RA
+bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyaqrGA/eNQPte+uQSRwp6PcpyX7wti7N
+3BdulDhFLlycMXCRtSFwmi0Swb1El69WLCdfW7z3E+qrbzGdCbaEGc3MdfoLHCd4
+eUCIFES9Z8o6WN6GtDxu8DnNEwrPrU1cav5ZkBZnGt4VMifA5Nup49W+9x05dSgx
+mKYMkjaCHEIRiIw5eO6kbB08+H+UfgHOi6RBc4huUz0L5DUEGa3uqypyRkttpLYL
+vMMqvJY41WHzlKI0M7NrKau8r08CLCIDlInr/ocWM0HLidGcECrpoK9k+l8r9XIp
+3/3o7wGpckDrxVg35YBeOTZILVwYNlYmnCgju1col0fdDFgh2kgBJcJkgLVnnkUb
+utSHhj/hC9dc/hmFVzLVkiNGFd3nklEo6vhUrTNWE824S1lAwGVc/dH7g8AXyaq4
+8qT3iIHVtSQHKUsSX+aayva5lbad0yF5Q9BOeM1oGqk7ce3HsB1/4cNIvn43RLuC
+CP9w/hDADRJLcSsfNFfz58SNXrJspkYZZQ2FyarQ0kBeT25LvxghNumoskRlikKk
+dBwJmaZhsAsQsnuuVh98PzjdXpp8AFue/IhSpAm81g3RGQF54L4yVPAQGFDGN6AH
+NJ8sx2+IpeAJaSWVkitr16wTduuNd2DWqJ0HhyOzJidujJ4QHu/kjC62N9TCXSxn
+uFp5/lK4sl3RnA==
+=CgB2
 -----END PGP SIGNATURE-----
