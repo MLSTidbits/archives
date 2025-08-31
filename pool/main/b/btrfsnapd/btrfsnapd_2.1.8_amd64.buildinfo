@@ -5,16 +5,16 @@ Format: 1.0
 Source: btrfsnapd
 Binary: btrfsnapd
 Architecture: amd64
-Version: 1.7.4
+Version: 2.1.8
 Checksums-Md5:
- 3c9133b54d50c1908c4b7ddf1d70aabf 23112 btrfsnapd_1.7.4_amd64.deb
+ 737afe74da63b632693553a7d154b6d3 23244 btrfsnapd_2.1.8_amd64.deb
 Checksums-Sha1:
- a2d39b7e9385c9372fc6ecff12794fb8d1244eee 23112 btrfsnapd_1.7.4_amd64.deb
+ b082f8c4586f3a8f85beab1b3c66a18d2b9dada5 23244 btrfsnapd_2.1.8_amd64.deb
 Checksums-Sha256:
- ebfe2af9fe982b16c311890c88ce223af7cb617390783197ef0a269534376248 23112 btrfsnapd_1.7.4_amd64.deb
+ df115995634a5f096cb9fb35fc568ed90a27267645372e17acc605d60af3db5d 23244 btrfsnapd_2.1.8_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 09 Aug 2025 09:16:31 -0600
+Build-Date: Tue, 26 Aug 2025 06:23:09 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -45,7 +45,7 @@ Installed-Build-Depends:
  debianutils (= 5.17build1),
  debugedit (= 1:5.0-5build2),
  dh-autoreconf (= 20),
- dh-gitchangelog (= 0.5.6),
+ dh-gitchangelog (= 0.8.9),
  dh-make (= 2.202304),
  dh-strip-nondeterminism (= 1.13.1-1),
  diffutils (= 1:3.10-1build1),
@@ -155,8 +155,8 @@ Installed-Build-Depends:
  libpipeline1 (= 1.5.7-2),
  libpsl5t64 (= 0.21.2-1.1build1),
  libpython3-stdlib (= 3.12.3-0ubuntu2),
- libpython3.12-minimal (= 3.12.3-1ubuntu0.7),
- libpython3.12-stdlib (= 3.12.3-1ubuntu0.7),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.8),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.8),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04),
  libreadline8t64 (= 8.2-4build1),
  librtmp1 (= 2.4+20151223.gitfa8646d.1-2build7),
@@ -183,9 +183,9 @@ Installed-Build-Depends:
  libudev1 (= 255.4-1ubuntu8.10),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.3),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.3),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.4),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-71.71),
+ linux-libc-dev (= 6.8.0-78.78),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -203,8 +203,8 @@ Installed-Build-Depends:
  po-debconf (= 1.0.21+nmu1),
  python3 (= 3.12.3-0ubuntu2),
  python3-minimal (= 3.12.3-0ubuntu2),
- python3.12 (= 3.12.3-1ubuntu0.7),
- python3.12-minimal (= 3.12.3-1ubuntu0.7),
+ python3.12 (= 3.12.3-1ubuntu0.8),
+ python3.12-minimal (= 3.12.3-1ubuntu0.8),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
  sed (= 4.9-2build1),
@@ -219,21 +219,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1754697600"
+ SOURCE_DATE_EPOCH="1756166400"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmiXZk8ACgkQbkoCnkKh
-yHkCRA/eJZsqMBGl+apjcygzS6RhQ7RUIj8pco3lpaTlYMHFF9HZe7x9tNCw/4ul
-zjeRaj/xHQ4EToCCioRK0qTs1k/GvepJXZFMOWzJ5zvkbjW6M28vCLaOQsdWyWCk
-KPV2CPRo2kD6KqaDi9YgyOqVSgyB3CUrPwqbPrDv5R5ugaFTNCTUlyaTR7V2E/Zr
-isNT5xjxWDNhCxz1jvr3HTzfSTQ97v2Thd2/wZBXauSIbOUODSiboD1ARVr3ZHLg
-RXalRQ6GYUaoCSoERQJLspjkKZ7vDEb9kqxDJ4CyP2/zAJV9ABfKW3ZwuBufX3R7
-eXF2Z16bH3JDY5uXOnfr0EuxkzuJEs88pM+n66nBTUCQtPoGLgPAXvMJSJYu8n2B
-3gHSnZpTLFq4+tniOd8+tyZ/1sgbEO+tMei830t3o7MM7BPCNx9/RfqgBfOSSzXE
-3iXYV7IkIdL+We7URQi4O64o/gM2nAFome0t0klQ7PKxwD/u7VGNIunny42Jzypu
-/qgf7oS5FOsbq4NgS97Ac9emZyJYrh7/sl9NLC3G9YcZsRylb51qf57cntxBe97N
-2EUi2g0HvxsBkJBWPw0U5T9GT/tyGDlCKRBP+r+zHNy66KNLjJwqDnJDHzRqYtdP
-/hBKtlndgQ3dtMH6qzhdLe9oAGKcP74DZhTWrKp+Q+IkfA==
-=NHtl
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmitpy0ACgkQbkoCnkKh
+yHkZvg/gkZpvSDopHubXdcrG85OLARawpwl8CTyFP7rgFWyPVRlq7xm48TvMkhbr
+hjWH+IYDSeOaDHL/qWVDZIqO9qeCcra2dfBF6mCa9eshZScMisKyCG2DP8aAQZtW
+4GU4nmOlHBspkGU4iZ9jh9vQMw6ifnf9vg4Ay4m8bUJJp3mebDMS/IeKoyXotkin
+y39dHL4M0hrQTneZxe7Qhx2XsdwP2dH2lOFJOv0LWwSfewpICa8NpBu165h5MDs/
+tzfqGmbM4oQ4SuGb+q3n23Gotrj7E6VecfOrLy7zmG1AQwfba1//wTANx4xq8VA6
+thjTVLLZO2g1YaBBUWikZgor1vaB2RgHdevcJ+iehfnlof7/z2zl6oVWRlyVREuw
+hFd08o/7yPCTfTXw/ulmYMeKgCjGmQ/GYVnfGvj0RT4YHmFZj2g+wINRXER8BIuQ
+G0Put7nlO/Vz2ClOFAXU1UdEhpChmbEL9GtkoIPeqDDBX8AT3T8s2IPafAnB65P9
+OND+K3nqECW+jqscVfz6BXDUVXv8hH2eHAouxywd3sXODjj/CK226PO1VncILlPl
+r4H+YlmdOeMF7SkMTJVGwMjn6+kZpabslYAgFdsw04EPtFA/549Y35j2r1lrOvxn
+68Z2QYYzdDWK7UpwHIubufmmNXhRUhehLPoejEnoQjB/kg==
+=mjPq
 -----END PGP SIGNATURE-----

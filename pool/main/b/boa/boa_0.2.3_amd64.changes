@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 26 Aug 2025 00:00:00 +0000
+Source: boa
+Binary: boa
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.3
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ boa        - Boa is a wrapper script for building Debian packages.
+Changes:
+ boa (0.2.3) stable; urgency=medium
+ .
+   * docs: Enhance README with detailed installation and usage instructions
+   * fix: Remove unused signing configuration from boa.yaml
+   * fix: Update build command options and refine signing configuration in boa.yaml
+Checksums-Sha1:
+ 798f7a435d95184927e1a8ab4fa8d5cfd30acb20 8405 boa_0.2.3_amd64.buildinfo
+ b17e5f81e855df121403e62ef8f09c09c9a110ba 10616 boa_0.2.3_amd64.deb
+Checksums-Sha256:
+ f04f5024ba160eddcea6a38d08c2b7e681dcc5593bd8b29f080fe52f1be132e5 8405 boa_0.2.3_amd64.buildinfo
+ 5eb337773f1315e336d650f89235ddcd8aab21786db0911cf08dfb9b0911f55a 10616 boa_0.2.3_amd64.deb
+Files:
+ 550662261216364b530430093065a85e 8405 devel optional boa_0.2.3_amd64.buildinfo
+ c6390f62a0607274eff035874289f47d 10616 devel optional boa_0.2.3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmitpVwACgkQbkoCnkKh
+yHmnQg/gk9f6LexMEncMvAX19ukB1uyeGOlrKf1o4eX0aJ35HWVomRh6NWxNQrWs
+B8w2UyDgreCMocpd0Z7qTHErJLcDpPORSQhnbGhVq75tHx/0WkZ3Uehlb2xkXtyd
+b2KHlpcqDlWu8gHkFsNowxQ4eav4GxfM3JOCVK1YZXJtwSuxByXAGTFhnIKfdf+1
+Ky6KIeLzsgvubRzGoC+egLtxTEmk2ttCgts/6bQU17VnVZ/on9f9RBoX4wI/k+5y
+lBrUAz1eWbxrm6AaOyyoYZE9PWvEwotgKX/fHEKsiuhKOI650yXEIZf1saCRBxbS
+won+M8uz9C1Ap96FBezAky39i4jRe7e8M5hQUu2fYXYw2UCJ7G8OErT5bndwZfS9
+mRXwjc7k2Tz4TsisMDTLFfe7/6NkDtpIO41DNn/SMwr5CuQckBgEU4FjV/T6R9S3
+ChP+yJpJIeTs8q7DYPOVBBedTzzpSTh9TQ3HEFuZSLe3u6nmXUoCrGom9cMHht69
+ge/+lpJorPDCMgbrnLGBaBo8s6zYVXEI4mSXAc3CxeMstG1h/mYc3y6XSRMTZQiu
+yaa1anuWrjbpv8laYy0Z6R6Pe2jSITEZ1oFAOv0mBZgkxMq2YNyjzxM5fqr9Bn9N
++i0ozDlKH6wh2glATx74brletLB6GYrHRoNJoFIxtbSb/Q==
+=pBdC
+-----END PGP SIGNATURE-----

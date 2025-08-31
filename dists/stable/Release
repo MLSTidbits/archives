@@ -2,21 +2,18 @@ Origin: MLS Tidbits
 Label: default
 Suite: stable
 Codename: stable
-Version: 1.0
+Version: 1
 Architectures: amd64
 Components: main
-Description: MLS Tidbits Archive Repository
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-date: Mon, 25 Aug 2025 01:06:46 +0000
+Date: Sun, 31 Aug 2025 13:38:41 +0000
+Description: MLS Tidbits Archive Repository
 MD5Sum:
- d06747c3f3d722c6c51ab30f34153f3b 3928 main/binary-amd64/Packages.xz
- 3a6cd9d69db1bbd51acc8849e99ae101 11756 main/binary-amd64/Packages
- 523c46218abf57f0f5f18282bed7880b 4082 main/binary-amd64/Packages.gz
+ 8400dd451108ba3fff6ccb50c9374b47 4304 binary-amd64/Packages.gz
+ 9f7292d9b4150122789c33a7e44594df 4140 binary-amd64/Packages.xz
 SHA1:
- 3627296106b0989ac2205018169f1c0bc6501109 3928 main/binary-amd64/Packages.xz
- c59faf2a84179c8adfd9f1ef79e9817500b0e8c5 11756 main/binary-amd64/Packages
- 25a0c0689a188fb455a7d52cd5c5e9019fc9e802 4082 main/binary-amd64/Packages.gz
+ 65d5e9deca32d7397c562b012e5c003ba5ea9273 4304 binary-amd64/Packages.gz
+ bd1715f616c2bc8ce64d39df1a3aba5e3c1bf6e5 4140 binary-amd64/Packages.xz
 SHA256:
- 225c48e2813ff085b73bd33d9e36ec78664231ce194dc9af75e82e04d77b2801 3928 main/binary-amd64/Packages.xz
- b61c933076f42c410976ea0e9ab5b293a8fc884a207bb170c5f53750125df597 11756 main/binary-amd64/Packages
- 9de3288c90dcc5a118bbdc626233084daa04d1a41175d7e8013712a12a8ed1b7 4082 main/binary-amd64/Packages.gz
+ 33d4178fff25efeb1924b53af45e6af81b501bdb3a498011f30992ccf6fd7aa8 4304 binary-amd64/Packages.gz
+ 737aff260ab1321bedcc61cfedb665f85a9ec1f380d780c4424374f316e5248b 4140 binary-amd64/Packages.xz

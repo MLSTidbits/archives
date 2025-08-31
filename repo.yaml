@@ -1,0 +1,41 @@
+format: repo
+
+# The origin is most likely your company, organization or project name.
+# It is used by apt to identify the repository.
+origin: MLS Tidbits
+# The label is a short name for the repository and is often the same as
+# the origin.
+label: default
+# The suite is the name of the distribution or release, such as "stable",
+# "testing", or codenames of Debian/Ubuntu releases.
+suite: stable
+# The codename is an optional is offend the same as the suite.
+codename: stable
+# The version field is used to specify the version of the repository format.
+version: 1
+# The architectures field specifies the supported CPU architectures Common
+# values include "amd64", "i386", "arm64", etc. NOTE: more then one architecture
+# can be specified by separating them with spaces.
+# Example:
+#   architectures: amd64 i386 arm64
+architectures: amd64
+# The components field specifies the sections of the repository, such as "main",
+components: "main"
+
+# A brief description of the repository.
+description: MLS Tidbits Archive Repository
+# The maintainer section provides information about the person or team
+# responsible for maintaining the repository.
+
+maintainer: MLS Tidbits <contact@mlstidbits.com>
+
+dists:
+  - binary-amd64
+
+# The key section specifies the GPG key used to sign the repository metadata.
+sign:
+  enable: true
+  # Please note that only gpg is supported at this time.
+  type: gpg
+  # The name or fingerprint of the GPG key used for signing.
+  key: MLS Tidbits Repository

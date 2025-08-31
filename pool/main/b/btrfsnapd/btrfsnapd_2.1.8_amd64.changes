@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 26 Aug 2025 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.8
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+Changes:
+ btrfsnapd (2.1.8) stable; urgency=medium
+ .
+   * feat: add initial configuration file for boa
+   * chore: clean up comments and simplify installation process in debian rules
+   * feat: add installation and man page files for btrfsnapd
+Checksums-Sha1:
+ 8f5a9f2af6fb7b3cb758df06b857a754cb57db16 8349 btrfsnapd_2.1.8_amd64.buildinfo
+ b082f8c4586f3a8f85beab1b3c66a18d2b9dada5 23244 btrfsnapd_2.1.8_amd64.deb
+Checksums-Sha256:
+ a19f3dc81508df917f23441023db617dc7e2ecc9bc2ebfc5bf946411fd66654e 8349 btrfsnapd_2.1.8_amd64.buildinfo
+ df115995634a5f096cb9fb35fc568ed90a27267645372e17acc605d60af3db5d 23244 btrfsnapd_2.1.8_amd64.deb
+Files:
+ c8beff8a6938b2384c8052fdfdb2306e 8349 admin optional btrfsnapd_2.1.8_amd64.buildinfo
+ 737afe74da63b632693553a7d154b6d3 23244 admin optional btrfsnapd_2.1.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmitpy0ACgkQbkoCnkKh
+yHkUVw/gnoR/HAAdfqE85KHG9/Af0S2pl30EKSpA+o4hcZeYf1y7X1DoNWtfHqcF
+fYzYthBxOqpCnhRw4Ez6Nz2+tW1K06AWROUjKQ5qR0iubsb889LldB6pjnkofStH
+J0nsE67Xiqo7IlbTENj0F3cGxDAUW1w7ohhsjarCiE4KDf2+RH5OMIPNLET3ghQ/
+E5y4HRRtUqB3Q8aJtDgL8u0eu8U/xPQ8T3y8aKPs0yT+fBbWFadqLd3R1HI4mSG/
+6XV6TeGD5tDEqTvNfVnDb3rF0afvR4/4TchC3+N/fyAnXbj6ON53WBrw0qcp/yNN
+7qgJVXB11FSiWMwcv2y7FfgPAgR52eBosgsBfulVqtnOPFOyJuaQKW/4OiRYyY19
+BBVyzTDnKf1hTXo/J1I1v2tYotzmLGqGP4c6MBZYI2jvbNj3VY3HE+Ri9zzHlwe1
+CNo7uJmZGg0vH6xFymDk2R2BnpI0K18L6S6eavKkZ2T+qSrthiZa+fMOjo6PshLE
+0kCB6eqtZKxx9truH587hR8s1jkrKO2p73E4NcVPHClxJEtOVSbkNHTqCSIbqpvr
+UKY7bm0dtFPQNVYklfjpp0n9/5DAP0z/YZspxg8KUtz9pJj677L113Kk0izTdM01
+ew0eHKUGXusjqTqX0B7tVqjT6MBiSt9ZdTpZ1581RVhYCA==
+=84oX
+-----END PGP SIGNATURE-----
