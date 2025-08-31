@@ -6,14 +6,17 @@ Version: 1
 Architectures: amd64
 Components: main
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Date: Sun, 31 Aug 2025 13:38:41 +0000
+Date: Sun, 31 Aug 2025 17:48:27 +0000
 Description: MLS Tidbits Archive Repository
 MD5Sum:
- 8400dd451108ba3fff6ccb50c9374b47 4304 binary-amd64/Packages.gz
+ 9ced21fc12dd9693f1a5f6f8b5603ee9 12443 binary-amd64/Packages (2)
+ a87d3c0ed5e6a1a7fa545c69ff11d3ae 4304 binary-amd64/Packages.gz
  9f7292d9b4150122789c33a7e44594df 4140 binary-amd64/Packages.xz
 SHA1:
- 65d5e9deca32d7397c562b012e5c003ba5ea9273 4304 binary-amd64/Packages.gz
+ e3b44f0e306e7f4af2bc1a052aa67f75253b7cd9 12443 binary-amd64/Packages (2)
+ 0e6655f1fde30bd98148cbe1b5ef8fd3729d2b6d 4304 binary-amd64/Packages.gz
  bd1715f616c2bc8ce64d39df1a3aba5e3c1bf6e5 4140 binary-amd64/Packages.xz
 SHA256:
- 33d4178fff25efeb1924b53af45e6af81b501bdb3a498011f30992ccf6fd7aa8 4304 binary-amd64/Packages.gz
+ 38f4eaca9b0816d2c2a4861a85584f0922139b2dff3c39b58c4d65b3a2390b7b 12443 binary-amd64/Packages (2)
+ 160209a007e0791cb9d69a7d039aa007fc40989ac61488731319139708cbd82a 4304 binary-amd64/Packages.gz
  737aff260ab1321bedcc61cfedb665f85a9ec1f380d780c4424374f316e5248b 4140 binary-amd64/Packages.xz
