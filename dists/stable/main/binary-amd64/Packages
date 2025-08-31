@@ -1,0 +1,322 @@
+Package: boa
+Version: 0.2.3
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 35
+Depends: dh-make, yq, jq
+Filename: pool/main/b/boa/boa_0.2.3_amd64.deb
+Size: 10616
+MD5sum: c6390f62a0607274eff035874289f47d
+SHA1: b17e5f81e855df121403e62ef8f09c09c9a110ba
+SHA256: 5eb337773f1315e336d650f89235ddcd8aab21786db0911cf08dfb9b0911f55a
+Section: devel
+Priority: optional
+Homepage: https://github.com/mlstidbits/boa
+Description: Boa is a wrapper script for building Debian packages.
+ Using a simple YAML configuration file, it automates the process of
+ building, cleaning, and installing Debian packages, making it easier
+ for developers to manage their packages.
+
+Package: btrfs-fstab
+Version: 1.1.4
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 52
+Depends: btrfs-progs (>= 4.0), util-linux (>= 2.20)
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
+Size: 16866
+MD5sum: dd8841034d81d23981f2bed17e4d9ac1
+SHA1: 853bcb558d7ab2cc1e837e2f901ea0a09bb52422
+SHA256: 24a1f001e3cac437438351f475a58327e7f6aaf3f701c8707c1ca81ea6982cd5
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/btrfs-fstab
+Description: Generate fstab entries for btrfs subvolumes
+  This package provides a script to generate fstab entries for btrfs
+  subvolumes for customized Ubuntu installations that use btrfs as the
+  root filesystem.
+Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
+
+Package: btrfsnapd
+Version: 2.1.8
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 75
+Depends: btrfs-progs, systemd, coreutils (>= 8), grub-common, grub2-common, grub-btrfsd
+Filename: pool/main/b/btrfsnapd/btrfsnapd_2.1.8_amd64.deb
+Size: 23244
+MD5sum: 737afe74da63b632693553a7d154b6d3
+SHA1: b082f8c4586f3a8f85beab1b3c66a18d2b9dada5
+SHA256: df115995634a5f096cb9fb35fc568ed90a27267645372e17acc605d60af3db5d
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mlstidbits.com
+Description: Btrfs snapshot daemon
+ Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
+ GRUB to allow booting into snapshots. It provides a simple command-line
+ interface for creating, listing, and deleting snapshots, as well as
+ restoring the system to a previous state.
+ .
+ This package is designed to work with Btrfs filesystems and requires
+ btrfs-progs to function correctly.
+
+Package: ddnsd
+Version: 1.5.8
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 56
+Depends: jq, curl, coreutils (>= 8), nano, systemd
+Filename: pool/main/d/ddnsd/ddnsd_1.5.8_amd64.deb
+Size: 20024
+MD5sum: f1ffd34e4c197e8af1f1e348298effe0
+SHA1: 84ba6a4e022128427d4158c9a5fd1a4f3deb8e9c
+SHA256: cba9c8a3c36797e078fdc71cd44e94329f88b874cb657c3137d987f3000f1bc7
+Section: net
+Priority: optional
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: dh-gitchangelog
+Version: 0.8.9
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: git, dh-make, debhelper
+Suggests: devscripts
+Replaces: dpkg-changelog, genchangelog
+Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.8.9_amd64.deb
+Size: 11664
+MD5sum: ac4c49f04d758b7a5429f96057426b9b
+SHA1: 5726e17f43c0c81339ed322b408a03ab1240bb25
+SHA256: 91df0590964c099bb48795f538764446aa3c82bef052a33583243c404be9a6c5
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mlstidbits.com
+Description: Generate Debian changelogs from git commit messages
+ dh-gitchangelog is a tool to generate Debian changelogs from git
+ commit messages. It can be used to create a debian/changelog file
+ that follows the Debian Policy Manual and the Debian Developer's
+ Reference.
+ .
+ It is designed to be used in conjunction with git, dh-make and
+ debhelper, and can be integrated into your workflow to automate
+ the process of generating changelogs.
+
+Package: dpkg-archive
+Version: 0.0.13
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 29
+Depends: dpkg-dev, jq, nano, yq
+Filename: pool/main/d/dpkg-archive/dpkg-archive_0.0.13_amd64.deb
+Size: 8190
+MD5sum: f435f233888527adadc3c63c9ae26c3b
+SHA1: 09dab58ed46030be49ea520b06dfa7e24b077549
+SHA256: ade969a5307e4289a63cb1342123525a200a798459575c453542807ec966fa86
+Section: utils
+Priority: optional
+Homepage: https://github.com/MLSTidbits/dpkg-archive
+Description: A tool for managing Debian package archives
+ Designed to maintain deb archives, providing a way of keeping
+ packages and Release/InRelease files in sync.
+
+Package: genchangelog
+Version: 0.6.5
+Architecture: amd64
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 30
+Depends: git, coreutils, dh-make, debhelper
+Recommends: devscripts
+Replaces: dpkg-changelog
+Filename: pool/main/g/genchangelog/genchangelog_0.6.5_amd64.deb
+Size: 9426
+MD5sum: 788ac39cea80f7eab55765a413022c72
+SHA1: d5976d3673e79318a4934a7e6c435ae59fb78ee3
+SHA256: 7670b6b9b5ebee37d783feed1517aac1d7c61f3cf59cbbecf9a71ac8cf4db775
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github/MichaelSchaecher/genchangelog
+Description: Generate Debian changelogs from git commit messages
+ genchangelog is a tool to generate Debian changelogs from git commit messages.
+ It can be used to create a debian/changelog file that follows the Debian Policy
+ Manual and the Debian Developer's Reference.
+ .
+ It is designed to be used in conjunction with git and debhelper, and can be
+ integrated into your workflow to automate the process of generating changelogs.
+
+Package: grub-btrfsd
+Version: 4.7.3
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 101
+Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
+Suggests: snapper, snapper-gui, btrfsnapd
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.7.3_amd64.deb
+Size: 35456
+MD5sum: 47555cb81ccbc62db4d0a17638197977
+SHA1: d030d9bbd5f8ee532784ba83126c69223b1fe92c
+SHA256: a337234e7c62f272c0915837ccbadc111eb436398d1674c4829657fcff24d59f
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mlstidbits.com
+Description: Add BTRFS snapshots to Grub boot menu -
+ This package provides a daemon that monitors BTRFS snapshots and adds them to
+ the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
+ .
+  Take advantage of BTRFS snapshots capabilities.
+
+Package: grub-theme-minimal
+Version: 0.2.2
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 415
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-minimal/grub-theme-minimal_0.2.2_amd64.deb
+Size: 182370
+MD5sum: c482a5d15dabfa4ea18924f52e26326d
+SHA1: 4913413df165a97cd879c0959765427e539eef19
+SHA256: b6c77c562e4d95b8d51cb232b130f9db4b4c3862b31cd740165b91a3046ff314
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mlstidbits.com
+Description: Minimalistic GRUB theme
+ This is a minimalistic GRUB theme that provides a clean and simple interface
+ for the GRUB bootloader. It is designed to be lightweight and easy to use,
+ while still providing essential functionality.
+ .
+ The theme includes basic styling and layout for the GRUB menu, making it
+ suitable for users who prefer a straightforward boot experience.
+
+Package: grub-theme-polkadots-dark
+Version: 0.4.0
+Architecture: amd64
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 860
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-polkadots-dark/grub-theme-polkadots-dark_0.4.0_amd64.deb
+Size: 448956
+MD5sum: d0409d1cb6a318f749ba3644134646b3
+SHA1: 0aeb4988264bb6a6bcd55bf3b33cc5e0389886ee
+SHA256: decd4e5b7af78664a861f921d9cf3da58e2a07124e638d8ce43a016eda0aed4a
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/MichaelSchaecher/grub-theme-polkadots-dark
+Description: Dark Polkadots GRUB theme
+ This is a dark version of the Polkadots GRUB theme.
+ It features a modern design with polka dots and a dark color scheme.
+ .
+ The theme is designed to be visually appealing and functional, providing
+ a pleasant user experience during the boot process.
+ .
+ It is compatible with GRUB 2 and can be easily installed on Debian-based
+ systems.
+
+Package: mkaptrepo
+Version: 0.5.8-ced452c
+Architecture: amd64
+Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 84
+Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
+         gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
+         grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
+Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.8-ced452c_amd64.deb
+Size: 28574
+MD5sum: f33518e8480eeb4ca0925f687e01c21b
+SHA1: 8e9883ad390e14a228fff84ba17016e46a08dffd
+SHA256: 87a7739f6d6aaf490e0f9c7146e59818a0bf63fda98d4d7633188c7c8baf1165
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/mkaptrepo
+Description: mkaptrepo is a tool to manage APT repositories.
+ It allows you to create and maintain your own APT repositories
+ easily, including the generation of Packages and Release files,
+ as well as signing them with GPG.
+Build-Depends: make, dpkg-dev
+
+Package: plasma-wallpapers
+Version: 25.03.12-947db95
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 72804
+Depends: plasma-desktop
+Filename: pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
+Size: 73740570
+MD5sum: 88510db823b4c55e5a331a58d3e1e603
+SHA1: f758037b3921082b9de4f7e29c401180b816bd49
+SHA256: 1144e16ebaaf4eac2205df8928385ca69822efea2607cad8d11c0cba567ffad2
+Section: kde
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers
+Description: Wallpapers for the Plasma desktop
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: plasma-wallpapers-poses
+Version: 25.03.12-e8495db
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 27052
+Depends: plasma-desktop
+Filename: pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
+Size: 27329466
+MD5sum: 4b81c737ca52234d4ce33f49c83fd809
+SHA1: 16699cd89b383734c20b0ac5ceb57676da159c64
+SHA256: c796d9fa8c0ff98c19ef6a22818a981d781679ab4920ada27c215f6a23eda22f
+Section: kde
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers-poses
+Description: Wallpapers for the Plasma desktop
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: starship-update
+Version: 25.04.13-62e443c
+Architecture: amd64
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 24
+Depends: cutils
+Filename: pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
+Size: 5066
+MD5sum: 0e53fa1454655742857528fcbe672a18
+SHA1: 3471689555f67065188a5a1da94e415e372fefe0
+SHA256: 1981e8458ce24fc4491435fb9ef5ec855de7ed6cec0013abd45fa16a0b1fc7c6
+Section: utils
+Priority: optional
+Homepage: https://github.com/MichaelSchaecher/ddns
+Description: Install and update to the Starship prompt -
+  The Starship prompt is a cross-shell prompt written in rust that is fast & customizable.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: zswapd
+Version: 0.9.4
+Architecture: amd64
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 50
+Depends: bash, coreutils, util-linux, bash-completion, systemd, nano
+Filename: pool/main/z/zswapd/zswapd_0.9.4_amd64.deb
+Size: 13746
+MD5sum: e99ef494bbd08b42729457db1db39761
+SHA1: f4d02a85b19aca92eaec5ce03f7507ce8edbaf8a
+SHA256: e07f8ec992feb4f92564069889e0c2b734b50c161ac6b4ab16dd1555288acd6a
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mlstidbits.com
+Description: Setup zswapd  as your swap partition.
+ zswapd is a daemon that manages the zswap compressed cache for swap pages.
+ It allows you to configure the size of the cache, the compression algorithm,
+ and other parameters to optimize performance.
+ .
+ This package provides a systemd service to manage zswapd automatically.
+ It also includes a configuration file for easy customization.
+

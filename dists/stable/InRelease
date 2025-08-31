@@ -9,31 +9,34 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Date: Sun, 31 Aug 2025 21:56:12 +0000
+Date: Sun, 31 Aug 2025 22:10:41 +0000
 Description: MLS Tidbits Archive Repository
 MD5Sum:
- de49461b41c6b64194d927ac4226307a 4304 binary-amd64/Packages.gz
+ 9ced21fc12dd9693f1a5f6f8b5603ee9 12443 binary-amd64/Packages
+ 0056a3984dfc5e60c33edb7b9f1cdb41 4304 binary-amd64/Packages.gz
  9f7292d9b4150122789c33a7e44594df 4140 binary-amd64/Packages.xz
 SHA1:
- 99cbfefec8f7248957827c7870e724d1e992fd96 4304 binary-amd64/Packages.gz
+ e3b44f0e306e7f4af2bc1a052aa67f75253b7cd9 12443 binary-amd64/Packages
+ 48a17a77ea932a95c2805c807c4308cdc35e629e 4304 binary-amd64/Packages.gz
  bd1715f616c2bc8ce64d39df1a3aba5e3c1bf6e5 4140 binary-amd64/Packages.xz
 SHA256:
- 44f34ab176b282a36bb96788fcf6ea6b4d12b090b2270c7c3a7b669c038e00ab 4304 binary-amd64/Packages.gz
+ 38f4eaca9b0816d2c2a4861a85584f0922139b2dff3c39b58c4d65b3a2390b7b 12443 binary-amd64/Packages
+ 80a7fbe566b5cc920225d6bdecd5087c5b5f93156eb688d0e50b66e450987b37 4304 binary-amd64/Packages.gz
  737aff260ab1321bedcc61cfedb665f85a9ec1f380d780c4424374f316e5248b 4140 binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmi0xQAXHGNvbnRhY3RA
-bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyaomsg/gv7lXzdgWpRrSJMwPD0a5Og25
-ReNxKr+13+EwhOOFanMIa6D5Oi3OaA8LmExG5vVQRVWZqyaHYQt/zYlNQFnYwOZ9
-8ryBCpl1YexOhCwu99hrb1BS0Ko71Qi3DG9s1XPZueJVAq5WZDHp2IFayhPtS7op
-/fTwl8JHHlyXd0v2HERZw8UyIi3XkESRaDF35CEQhvc0V1AEIwYXdx/bjjBcgA3/
-Lbqrd5mZMO7j0dEUXtUf3vXiOBSde7UOWrhGVmyqUErrq5KTBklL5BnnT2sIEzyi
-yaikv1luw7RRAlKopkHYnfDVYpKS9PPnkTaxF6D9cRUcPRpSSAkntvCjHh2R014N
-nLsa23wKpBtv8v3Q7PUbrIFuRAGv6AgHJvGJjIxYUVlN3B4LIsQXlA2i/7YAxiDg
-owAGuqbBdU8zgVK8dzaIHMWZaUE/lQNxDribsJqZivzwN2v1LSRVozPWnFeUGiSy
-NnDBV/FRPZn3k8XO5ruJhgwi/UnZ5+qz7ud9BrRen8g0DJT5RUY9mN6v5ue4GHlN
-MLDcs2FNZBPaL0LkV9pTL1OxAAsDg9CbkLKNP9wHnePZE5vEc4VxuNYqa+Q8hLQW
-XlC6h9jES6rrdW4Ny5MLC5Y4OG3K/1RACO+PDpnhzhjZky/heqHT4rdTPzXoH2zi
-WKDJG4AvvhO7XA==
-=Pt18
+iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmi0yGUXHGNvbnRhY3RA
+bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyaoFCQ/ePtGjSAx+zzMprrFnKmwLmWXg
+KRQOjO/0vNjfBAdmtSWA0zbmbJRNJOB4gqpAoQ4+vS9UFjBZ+IyAKdDgvyjxunb4
+G+gxLhjfO323jaCCrIy76JnaVwZka5s7D60e/Ln+vvt5lhb6tg8F0E7y1GUXc/ev
+kitLkzNsnsDzsemWzfv+Ph+OYl4zVsCIZBTtTauJVx9+kVSOZsby7c8qBu4b+SSN
+tJYRVvZz8mB/mPK+CAOwiTZGnTDw1xEgBDhNP84zoHbPVhVA5Rh1qErAzfi1CW4m
+U6Q+iZ22f2CGc+F5sJJlmPaV7u9N0SYXexAk1Tv5xeWXwcoriSgM6QgOr017y2ZJ
+usvxixDbDSspzTwEUnHIC4eUUF5Vd1Krdtex/rKohBqBAiijQWzYZtv41qW06mXr
+mqfm2cls5IieIJZZFpwHBJeeUSGXEvgJDVOVFAPtRRF4vcgHjmoW6M2E5oFJTf0Q
+Suk17+TC88h7vn7P705wa/ojmIRtWt/rm0cmnJULj7LHkNaaL8E4sSObwGExYE5P
+ztemWxBxvdA5mBBnSKcbDIsutCpkFwrgSMfF7IKCtZC2ffdqDncp4hPCq6q/XnGF
+huGdU/xzWxarvaZZcHzDMuyg+92PUbbgJAdUOr48YylQt2gd5Oxj2Vh5iXUoCEpP
+9nnHixptAwnNHg==
+=FF1g
 -----END PGP SIGNATURE-----
