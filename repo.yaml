@@ -12,7 +12,7 @@ suite: stable
 # The codename is an optional is offend the same as the suite.
 codename: stable
 # The version field is used to specify the version of the repository format.
-version: 1
+version: 1.0
 # The architectures field specifies the supported CPU architectures Common
 # values include "amd64", "i386", "arm64", etc. NOTE: more then one architecture
 # can be specified by separating them with spaces.
