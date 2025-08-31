@@ -6,14 +6,14 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Date: Sun, 31 Aug 2025 18:36:16 +0000
+Date: Sun, 31 Aug 2025 21:56:12 +0000
 Description: MLS Tidbits Archive Repository
 MD5Sum:
- d71fd3265f24aa8e4ac850e8aada6ee3 4304 binary-amd64/Packages.gz
+ de49461b41c6b64194d927ac4226307a 4304 binary-amd64/Packages.gz
  9f7292d9b4150122789c33a7e44594df 4140 binary-amd64/Packages.xz
 SHA1:
- 2ff6cfe8a29fac68907d62e97dc1279df0d89e23 4304 binary-amd64/Packages.gz
+ 99cbfefec8f7248957827c7870e724d1e992fd96 4304 binary-amd64/Packages.gz
  bd1715f616c2bc8ce64d39df1a3aba5e3c1bf6e5 4140 binary-amd64/Packages.xz
 SHA256:
- d84123e9bdfeb820924724dfb719ea637df672aba651d01b5f855b2a6fa4494a 4304 binary-amd64/Packages.gz
+ 44f34ab176b282a36bb96788fcf6ea6b4d12b090b2270c7c3a7b669c038e00ab 4304 binary-amd64/Packages.gz
  737aff260ab1321bedcc61cfedb665f85a9ec1f380d780c4424374f316e5248b 4140 binary-amd64/Packages.xz
