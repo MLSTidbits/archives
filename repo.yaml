@@ -5,7 +5,7 @@ format: repo
 origin: MLS Tidbits
 # The label is a short name for the repository and is often the same as
 # the origin.
-label: default
+label: Archive
 # The suite is the name of the distribution or release, such as "stable",
 # "testing", or codenames of Debian/Ubuntu releases.
 suite: stable
