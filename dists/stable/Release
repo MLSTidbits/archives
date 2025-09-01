@@ -5,18 +5,15 @@ Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: MLSTidbits application repository
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Date: Sun, 31 Aug 2025 22:16:33 +0000
+Date: Mon, 01 Sep 2025 00:50:04 +0000
+Description: MLS Tidbits Archive Repository
 MD5Sum:
  9f7292d9b4150122789c33a7e44594df 4140 main/binary-amd64/Packages.xz
- 9ced21fc12dd9693f1a5f6f8b5603ee9 12443 main/binary-amd64/Packages
- e3aac3a4f93f9010499eebab74512336 4313 main/binary-amd64/Packages.gz
+ e129ec7b3c7256e0808a5e794c4d54d7 4304 main/binary-amd64/Packages.gz
 SHA1:
  bd1715f616c2bc8ce64d39df1a3aba5e3c1bf6e5 4140 main/binary-amd64/Packages.xz
- e3b44f0e306e7f4af2bc1a052aa67f75253b7cd9 12443 main/binary-amd64/Packages
- dc4e95545d14c012fb9ef9186553edef9332ca12 4313 main/binary-amd64/Packages.gz
+ bdb086e3b3d8391aaef06309e8d97a78b83ca864 4304 main/binary-amd64/Packages.gz
 SHA256:
  737aff260ab1321bedcc61cfedb665f85a9ec1f380d780c4424374f316e5248b 4140 main/binary-amd64/Packages.xz
- 38f4eaca9b0816d2c2a4861a85584f0922139b2dff3c39b58c4d65b3a2390b7b 12443 main/binary-amd64/Packages
- 73bce43e7f7dfbe23649b79bfa243e4e8ad2b6fecf68762da504e3c624db1e16 4313 main/binary-amd64/Packages.gz
+ b04d75186b1f26ce0866702c9762441395a322764f1c185c8eed6d4a82ebbb00 4304 main/binary-amd64/Packages.gz

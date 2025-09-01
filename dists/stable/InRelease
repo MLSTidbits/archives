@@ -8,35 +8,32 @@ Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: MLSTidbits application repository
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Date: Sun, 31 Aug 2025 22:16:33 +0000
+Date: Mon, 01 Sep 2025 00:50:04 +0000
+Description: MLS Tidbits Archive Repository
 MD5Sum:
  9f7292d9b4150122789c33a7e44594df 4140 main/binary-amd64/Packages.xz
- 9ced21fc12dd9693f1a5f6f8b5603ee9 12443 main/binary-amd64/Packages
- e3aac3a4f93f9010499eebab74512336 4313 main/binary-amd64/Packages.gz
+ e129ec7b3c7256e0808a5e794c4d54d7 4304 main/binary-amd64/Packages.gz
 SHA1:
  bd1715f616c2bc8ce64d39df1a3aba5e3c1bf6e5 4140 main/binary-amd64/Packages.xz
- e3b44f0e306e7f4af2bc1a052aa67f75253b7cd9 12443 main/binary-amd64/Packages
- dc4e95545d14c012fb9ef9186553edef9332ca12 4313 main/binary-amd64/Packages.gz
+ bdb086e3b3d8391aaef06309e8d97a78b83ca864 4304 main/binary-amd64/Packages.gz
 SHA256:
  737aff260ab1321bedcc61cfedb665f85a9ec1f380d780c4424374f316e5248b 4140 main/binary-amd64/Packages.xz
- 38f4eaca9b0816d2c2a4861a85584f0922139b2dff3c39b58c4d65b3a2390b7b 12443 main/binary-amd64/Packages
- 73bce43e7f7dfbe23649b79bfa243e4e8ad2b6fecf68762da504e3c624db1e16 4313 main/binary-amd64/Packages.gz
+ b04d75186b1f26ce0866702c9762441395a322764f1c185c8eed6d4a82ebbb00 4304 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmi0ycIXHGNvbnRhY3RA
-bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyaod1w/goGHVIj0fQxV3rZZDzVNjmNqw
-3UM276vYyo07ktyqVZvuHM3fhW6s3OatsvcJulqFBX2LFM8qFFiy4Mg/nMxstKc8
-h4l8ds/Dt0pTkcFOJqLd8DkThn243De6oHEFwQMcFknpF3/SyXwQymV4znys852l
-DbojOH6wtQU97azlZ8dAb+W81WEpjpoQpGsiEPU9AzFA3h4zgidJ9d/A+1LONTzx
-GmMVIl2RUplM4PPM5ppY4KpnK1g5qOKkrDD40yIFA8H5/g9k/ZFWXUvRNARssUVm
-vGwP6IRRCiIo2jfd/p+e+7o2v4YDWfN6EZjdpK6HZxo/6c9dobpcTVF/M/izV5z0
-Adba6o9VlDQyy52WFe+DZT2rF5t2ckHZeLcwq7544TLQOnfHg1nlxCDQVZkJBQAZ
-Xh74yYz249ANZ5RfxI2SZWs0FErvSHMU8HBaEDDPjBg7M5lc1ZN+peaQ3OeJJFVj
-nxmGHeVDwlmMQODnL82Jq1EwUL/suUXH5IGYMW3/qmm40OuOqbAYMCRyMY8147zv
-fRrhqEjFvaIoihHLsmAUZVjozPzzrn3sk+bZXUYKxqIMCBLpCLeIZF8gLFtOkTr+
-2nhyv5I5t/orbIaWVGrQLKr+P0i3SrMz0IFF9nD21earCjH6JgTkC72xjJC+SAn+
-Y2c+g5Vn4CrOvw==
-=uxRW
+iQJHBAEBCgA1FiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmi07cEXHGNvbnRhY3RA
+bWxzdGlkYml0cy5jb20ACgkQX0kxBVMSyarjhw/eKAVWnoSu18IwXPvUsNA7/T8F
+t2Ow2eyW1/v5UqCBkdmzgA8hwgSB3BwHG2jJEqA8SPvVBIo9YfKEnWkWF87APmBB
+isUeQlGRh4ZPQTnlzfi1v2gk4hmarCu2AUVuFxKINrQpEhWQWOAyodMvmx3Z4mjT
+QjcWWv5Aj2PZaV+T30kmpSWFEZezsy4jhaExD75fd3IfOL3ztJEtlKrAnzYAlUFW
+HgwseXuMnBl5VcVqWPArwzSsWPDNPA6PYAC+5vjArsaI2LScLCqDCH+p3gpkdFLG
+YcbaoW/VP2aCAqMPUAmUBy7q6+qsrWZFspHX0DZzKUtMwuMny0KDhyxFTFZ6hx9i
+l+cTeWfzQSNwrmS4Js/Zp4ZQCnGQAO+qeAFv7dCQjMQ62nvVB6dY82jU8+scVaHJ
+hGVtN+RoSv7uQjB4ml79p/1Orq9SBnvSwOXihnsgV6fSxucXc9Ln8vpQb3WXz3Dd
+hv4EL6JmJBUMqZKMp17qNSVtPtotBTpUWYfckkemLIkh6L3m0mJePGL4vmkCfhpV
+Np/gPBlDj9Sc2pNpohBsmE7ooPL5Ikf95T1sgLXnCUfIQ57LC+VboWBD7N99IuMu
+w4c5zoj9L8BYIgKdU1p632QUFhCIcWnw+rcN2ISOJiNuN1m6HnIIN+gheTyh+zHD
+dJqVQ6xvF9hCxw==
+=UADy
 -----END PGP SIGNATURE-----
