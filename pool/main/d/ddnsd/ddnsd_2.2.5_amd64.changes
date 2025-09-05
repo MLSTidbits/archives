@@ -7,7 +7,7 @@ Source: ddnsd
 Binary: ddnsd
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 2.2.4
+Version: 2.2.5
 Distribution: stable
 Urgency: medium
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
@@ -15,8 +15,9 @@ Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
 Description:
  ddnsd      - Dynamic DNS client for updating DNS records
 Changes:
- ddnsd (2.2.4) stable; urgency=medium
+ ddnsd (2.2.5) stable; urgency=medium
  .
+   * refactor: Enhance logging and validation in ddnsd script
    * refactor: Update EnvironmentFile path in ddnsd.service to use config.yaml
    * refactor: Comment out debugging options in ddnsd script
    * refactor: Move `/etc/ddnsd.conf` to `/etc/ddnsd` directory.
@@ -33,28 +34,28 @@ Changes:
    * refactor: Rename restart_ddnsd to restart-ddnsd and add configuration editing functionality
    * refactor: Remove edit_ddnsd_conf function and update config command handling
 Checksums-Sha1:
- 7bfbb5a091f4d9009ecb2e9138335c1841ceec64 8443 ddnsd_2.2.4_amd64.buildinfo
- 036b13ce07d761a4ca37a110593579e3951a6e4f 19978 ddnsd_2.2.4_amd64.deb
+ bc7172c58d4296c6abe9951edab2db2a4c7ce859 8443 ddnsd_2.2.5_amd64.buildinfo
+ 38d4b425b7aa35e5b32404f4510c3e113dc36a30 19932 ddnsd_2.2.5_amd64.deb
 Checksums-Sha256:
- 5f6e41cbfedb5d92c5e74b721554e1e6f9f6ae72c7c923448b1123865d172e22 8443 ddnsd_2.2.4_amd64.buildinfo
- 7709f077a3e64545452c86e9d9acafc0be69dd1214d2a47ca1dd724064a89b46 19978 ddnsd_2.2.4_amd64.deb
+ aeaa1ff10ffa69e7cae657dda14cbb37f2ee9028302716e7117db0173295923a 8443 ddnsd_2.2.5_amd64.buildinfo
+ faf3b7c65d914205f00955145c1f30f0408a731526e4d6dcdb413b6d5894cfa2 19932 ddnsd_2.2.5_amd64.deb
 Files:
- c1aa2d09108f6f372f4eb97c78fc9787 8443 net optional ddnsd_2.2.4_amd64.buildinfo
- 02234a4e7b24676fe62ab1bea9cc999b 19978 net optional ddnsd_2.2.4_amd64.deb
+ ca0dd0eceab48c97b40e84404e525040 8443 net optional ddnsd_2.2.5_amd64.buildinfo
+ 9550a977ed7c70ee145d677c7b67ea1f 19932 net optional ddnsd_2.2.5_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7KakACgkQbkoCnkKh
-yHn1rw/grkWy7MndS3U687sAdP+xFwOtwKZxnHkZBZlnILVkrI+7IpuY+vXeWJfx
-I9pAKCbxHrPIHWMFdyRlBEOmQBCq3nP2CMqd5SYfDcUud6xdQ3cF2NsFtX3PWB9E
-/p9CLLekdZuvgGdaT06fIYnfJKDkIfYjBzg10bKDBpMP5yY0k2dwc1f0ElshddFR
-PRX4CZAR8xhTRsmd0OTofaJJ1SdsEzzucEQwbzGB/W3cLDsp6JkGEp2qkq6sFq95
-uiQWTzUvyuRTFG4SW33519vfZCKUV2o+PMRn80y3Tt6YaSbKuaPCEXTGaNsdDOva
-Z0eC+K1BCA9w97cxnU2P9h+rIE5ZReLtJWcXN6LSX+kzSeIQm35TWCXbG0pyCAqi
-H1YIxz+J8IqL5snP0L4IWK5g3FgYM7W/wuHRnJ0VrWI8dKXx/FOhbVgjdXy5wDNL
-n14yFT4kCjNmasa83squ1gNeFLxvYiDyBNSLr8dJJVA/PSWqU7UGG0ZQmd2X9YCJ
-040ueIU9IXGXoxXiU5OczipuS9GfWj3hQOLflhci6+A9LqsrQ3+jHu5I1Lr70hYR
-mOJ4tJfYHxzN4tF6Ubze0T8jisahiVwAhz7wzNx5joHcEWRmZ+N8mOPpH2C0xL8P
-76S0UmgO3LoHgq0HLG+w6wM9BWrrKvsNSCN0CY3EDLW34Q==
-=5Srt
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7P58ACgkQbkoCnkKh
+yHkQuA/fb6XFMm6GlI8O78psTM+2uOKZB9fPKCXmCfJuyY87ZjaCDAxclKCADE/e
+TGCA10xXEgQdVm3O1IbZcX8YjduErwixkWgjdgM+bfhRZuL0fMQANXSdy+pcBCpy
+/VPVPg0iuzp6EaMCoizr/MWSQ8vBbrWG1fo+FkHVu+xRVn4eWfEGccqfTa2sAueo
+1h/87ZN+as2IIQ6bCgRVfTaGC/4eleccx+24kR0YYACEtuo4aqsgrpr0BtCgFUjC
+Jq8dV/wgQF8yHO7bH1uyQ4lP6ljk6/3VO/eFS5a1c/xPSwSwnVtp6B7QzNVP6PpZ
+w0arCaZnbdk1at4cb93tP5KnOFr97zg4oYsGuOq9uLVy0bIy3RU98In9xaR8AQRZ
+OHQNm+MxYgVVr8J4QCPLMPq3yvf8otZ4jso0vRmxJJ+6+laWut0987R+g3E/uV9m
+Mdu6xu5YLlX6bcR+/BoeugxHLUadKZ3H6jPOPeAKitjid1P26UHIj0NKnKKGl3NA
+OYJ/qRNMRkcv9g/dcnE1T+/RHkYnEseika6b0kBtS9o8UKwbOBLb/R03W7nu1Gor
+WttwCsB02CO+yev8oAQqkjWz+SJQ6Sh2JKVUpH5hmUI61dS6D/+YxTS+jVrqMV8h
+7gNWV7ZOmYTpENmveTnG4DuUM8+BwTj/6eKsBIIH51qZmw==
+=mKPw
 -----END PGP SIGNATURE-----
