@@ -5,16 +5,16 @@ Format: 1.0
 Source: ddnsd
 Binary: ddnsd
 Architecture: amd64
-Version: 2.2.2
+Version: 2.2.3
 Checksums-Md5:
- e54f6e112f4d4c3f7698d5de3ba99831 19948 ddnsd_2.2.2_amd64.deb
+ 96c765ad5a4ce6cbe3033a33739369b1 19958 ddnsd_2.2.3_amd64.deb
 Checksums-Sha1:
- 5afc358698a32d9fb2daf6771da0a1a1c0c00243 19948 ddnsd_2.2.2_amd64.deb
+ c68d7bced573e76f3429ac96a021638fc15797e2 19958 ddnsd_2.2.3_amd64.deb
 Checksums-Sha256:
- 36651e92e8bb235df76651f9aeaadae65411d9d68c8d0f9dafa88f584e1b409c 19948 ddnsd_2.2.2_amd64.deb
+ a6f59631868e796711882583ac93a56d291d1416f780bbb088a6471dfc1710a0 19958 ddnsd_2.2.3_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 05 Sep 2025 12:05:22 -0600
+Build-Date: Fri, 05 Sep 2025 12:11:03 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -227,17 +227,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7JmIACgkQbkoCnkKh
-yHncsQ/gjDpclX1lGMVhYb5QNJzNpCNxvKoLxI6kS3U/ylZCqHyuEskci3JJIoWh
-EsbtkwqHwSYLc5M9LkCuKW+8m7oZi2PvjtUOgcXwVhcR7xB1MKSf9Xkmm83SWz20
-OV9aVNHsQ09FkPhyqt1DcmRnnGvCqQtyiim9k3AYOrG4AL72WiTxG64in1iTaEYj
-uOBvacTnF5+5Q/mL425q0VkW4DiSEYkSOMLoklk3eMxfCEq6R8EXFb2X27XeH96Z
-QlXkEWxhT0gxtwnYD0xwsug1c9IbxCLwcySvIZ3lh65aaMDY5geBFrLQlHHhueZ4
-8OvTqV6/WPi8QcB5CNl/b8ACj7pZPkfSl5s27k6XeL+f/Ak5IMk35LGE/ATehQHn
-fVR0Iow6s7+MHYqrCOniOCLRmJgrDxD11Rt/YujbtsH4EHO3XYBjCbPVRNLl4Ph1
-vFHF6SF/1V6frCNHZFrp/fuTcdEBAtjw28UqwWqL03F1EuCffhaPWwPBECTD94Wg
-6Nurh4PRXhBaKpPKBK/E4BhjlX18NshpO48U2DJXfvn0ZdEeCgytZiXA6dhUriLP
-bw+WF9vr/r5dU6zlYbaSBJPDxjUTI7KYkMcDXIskK6k2yT2J/814LUm8pFLZeL5P
-m16WWh3aD7zctSsMTT3fAaBLnIdRv4nRAW4QVgpFPQYF2w==
-=tVNb
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7J7gACgkQbkoCnkKh
+yHkWPg/ePVYvi5D1i9LcqJIBnFhlyl+rt9By9dIY6IItBI+wXZcgiyjRJvKq28VN
+ualNIg5ILIImoJGl04UdTbFm0gNA6GTZLo1MLvjssJBTZBQI5NX1f0X2oVq0WNJo
+4khn+7A6uPDgpgc0rJX7I6UJ2MMz8wG5Mzhiqszrquj0mKrbF30PYTlvifqgFS+4
+xOkQ7IpL05VPivUDD5+pOe5pYEPElfc36GfDztKad2HAa7pYObpNOPmAB8ukLm+T
+lpTVSuCH4rvt1EuzAHk3iOG1P6hmAfnHy9mNVTJ/kj8NrKyFAO7sYoR9U5N+eTqR
+JMmaa1F52TWkvoSnEeL2SH9e38Gp0Rl1fXAqsHdgS7JDJtfnYaIZ4F2lBoIMwZ/G
+w0zfte6qz4kGkATS4rQPDaqjFE1HwECpfDtNMPRJ3GEXqQbzE4irJgiXe7Ho4SuE
+ySzHrvxdhKmeMKOcVym7ya2Eb1BvTNYOgEDr6iV0DgcMIkBdogiM8eMStKiXvRjK
+roGBMdMeh0z6nCTi65oOcPqyF84Gmo9EL6AXoJYfrLG9GwgWCMt4BTM5UNPhRUdP
+SG9eyEpc4ESkVc9eJ+JCW/w5GjrqkdeCPTcsWqQwzDgfO4kj8DtUNL6vh76EGwed
+pQeNqlDCR/UU9TbBxTGZMneX0LRaeiOe02V2XjowugdohQ==
+=3825
 -----END PGP SIGNATURE-----
