@@ -5,16 +5,16 @@ Format: 1.0
 Source: ddnsd
 Binary: ddnsd
 Architecture: amd64
-Version: 2.2.3
+Version: 2.2.4
 Checksums-Md5:
- 96c765ad5a4ce6cbe3033a33739369b1 19958 ddnsd_2.2.3_amd64.deb
+ 02234a4e7b24676fe62ab1bea9cc999b 19978 ddnsd_2.2.4_amd64.deb
 Checksums-Sha1:
- c68d7bced573e76f3429ac96a021638fc15797e2 19958 ddnsd_2.2.3_amd64.deb
+ 036b13ce07d761a4ca37a110593579e3951a6e4f 19978 ddnsd_2.2.4_amd64.deb
 Checksums-Sha256:
- a6f59631868e796711882583ac93a56d291d1416f780bbb088a6471dfc1710a0 19958 ddnsd_2.2.3_amd64.deb
+ 7709f077a3e64545452c86e9d9acafc0be69dd1214d2a47ca1dd724064a89b46 19978 ddnsd_2.2.4_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 05 Sep 2025 12:11:03 -0600
+Build-Date: Fri, 05 Sep 2025 12:19:21 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -227,17 +227,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7J7gACgkQbkoCnkKh
-yHkWPg/ePVYvi5D1i9LcqJIBnFhlyl+rt9By9dIY6IItBI+wXZcgiyjRJvKq28VN
-ualNIg5ILIImoJGl04UdTbFm0gNA6GTZLo1MLvjssJBTZBQI5NX1f0X2oVq0WNJo
-4khn+7A6uPDgpgc0rJX7I6UJ2MMz8wG5Mzhiqszrquj0mKrbF30PYTlvifqgFS+4
-xOkQ7IpL05VPivUDD5+pOe5pYEPElfc36GfDztKad2HAa7pYObpNOPmAB8ukLm+T
-lpTVSuCH4rvt1EuzAHk3iOG1P6hmAfnHy9mNVTJ/kj8NrKyFAO7sYoR9U5N+eTqR
-JMmaa1F52TWkvoSnEeL2SH9e38Gp0Rl1fXAqsHdgS7JDJtfnYaIZ4F2lBoIMwZ/G
-w0zfte6qz4kGkATS4rQPDaqjFE1HwECpfDtNMPRJ3GEXqQbzE4irJgiXe7Ho4SuE
-ySzHrvxdhKmeMKOcVym7ya2Eb1BvTNYOgEDr6iV0DgcMIkBdogiM8eMStKiXvRjK
-roGBMdMeh0z6nCTi65oOcPqyF84Gmo9EL6AXoJYfrLG9GwgWCMt4BTM5UNPhRUdP
-SG9eyEpc4ESkVc9eJ+JCW/w5GjrqkdeCPTcsWqQwzDgfO4kj8DtUNL6vh76EGwed
-pQeNqlDCR/UU9TbBxTGZMneX0LRaeiOe02V2XjowugdohQ==
-=3825
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7KakACgkQbkoCnkKh
+yHk37w/fe4V7fGJHJsgzz8JM8DrQBQEWkQ2xhury61hADw3XhgCUrkKC2hMnoSuJ
+olpv8H+Ev0zfiXUboprfrkt3jJ+useFgjdjGaJ8jqEzVLNUqDWUfRMC9K/XtR51C
+DUsV4v8zyLJYbGdOVL57MlELlw/oP8ATMHU/kNTTVOclQF4Jh9uA5JLzqjIkwK2x
+rXN5tJ7yH00Qyu07ua4XwtYi8Z5PmYNdISwDQRK3uknzaNbZi/9yNFr9Afd67q3s
+nadJAfl5eOpiNReFTwsO8MuTosHMdRYZ+YtUjbGm4pmzOJFoc8mfGFyyh7ldJPwi
+zdmH42xOWAj9bICw4KyvZcVeN6HXghGvk9a0CzWgj5m3oQ5TJ+MyH+5C1ou5UgKj
+FGaDMwp1c7RNTAZyi3C16O4rPVmIGTb00JbqSt64SEPWEkn5Ph0l+GSmpOcXc4fV
+VNcCWyn4hU7N7e/tWiEe417zvass7CaqspvnjMeTSfhmsLKwjaMK/xBy3Y5tZ9XW
+KpkdpExjOiuerrFKvtRjc19wvPZoyEIe8Z6npFtUbCsxjHioLJEjj6HSvglr5ND2
+NmK+mZqktuS+8FFtKZPOVyDVmhZemUrlkcqCCdYy58KDWPxemg61h4KCOPUeINJ4
+JMr1rKrmFp1InGZ+ZErcUP1RebfJNjwdKBkNXB9Zz5gPwQ==
+=La8m
 -----END PGP SIGNATURE-----
