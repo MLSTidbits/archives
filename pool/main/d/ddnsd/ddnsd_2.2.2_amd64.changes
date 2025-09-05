@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 05 Sep 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.2
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.2.2) stable; urgency=medium
+ .
+   * refactor: Move `/etc/ddnsd.conf` to `/etc/ddnsd` directory.
+   * refactor: Update package dependencies in debian control file
+   * refactor: Improve event logging function and update configuration file path
+   * refactor: Remove configuration file existence check and example copy logic from ddnsd script
+   * refactor: Replace ddnsd configuration file with a new YAML format and remove legacy config
+   * chore: Update source URL and correct email address in copyright file
+   * refactor: Remove configuration options from ddnsd completion function
+   * feat: Add initial configuration file for `boa` and remove legacy configure script
+   * fix: Correct copyright email address in the ddnsd script
+   * refactor: Rename DDNS provider functions to use hyphens for consistency
+   * fix: Update variable references in restart-ddnsd function and improve error handling
+   * refactor: Rename restart_ddnsd to restart-ddnsd and add configuration editing functionality
+   * refactor: Remove edit_ddnsd_conf function and update config command handling
+Checksums-Sha1:
+ 461804364d685276de1f43685f5ad38ea59ac6b6 8443 ddnsd_2.2.2_amd64.buildinfo
+ 5afc358698a32d9fb2daf6771da0a1a1c0c00243 19948 ddnsd_2.2.2_amd64.deb
+Checksums-Sha256:
+ 95982a2289afb8204b2bfa53fa400a57f9280baaa892fca2857ca13e457c9941 8443 ddnsd_2.2.2_amd64.buildinfo
+ 36651e92e8bb235df76651f9aeaadae65411d9d68c8d0f9dafa88f584e1b409c 19948 ddnsd_2.2.2_amd64.deb
+Files:
+ 594062964defb29f6855b212c7105e65 8443 net optional ddnsd_2.2.2_amd64.buildinfo
+ e54f6e112f4d4c3f7698d5de3ba99831 19948 net optional ddnsd_2.2.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi7JmIACgkQbkoCnkKh
+yHmkdg/fXzKpzZY+5WJ5uVJp7nXcUtsPVNNZtVtJggJ9v8PUSNlSjAA6zI0o2HWp
+mu5d+ub2M3ol3UuG+1aHnOVGQ5Al6owoiSKMSz8xan23JvixLlQfW+Df8yy0yf/l
+90C6MdqjnMBkkTQycmNi0TMKi0L4CQpbcK3xfKTU7JK+mn53ouKtWJZhfGfojmnu
+p6jogqsRLyLMAxkLAqr8/4mzaUzdnlO6m4YlJq8T9I/eIF8dOSRbUE3PNLZ9HwTa
+oL4xsv9Ud3v7it/EQS5AFsBdXFgYXgxaIAheK+uW2hNPp9eejewYxQktRJu9XmqC
+YfBTAgi/Z/v8Q8wsEqz4fzP92CRElouDCeVB33k8PPQhp/zuQhDBSFzI1VVuYokc
+RoMr4BY4GINDbxE6B6U06QDS3ZtL+vCnseO+aKRjkfyP+KObGoe+eCaXTxE8YrB6
+XrBx8lhaXbwIkLAfkXf6sWHuydsOeSxTVuvMvEuzkmY1ofJVIFw9F0jAR/Y2M1pt
+QDhIsxbtqyPa38fQ4nE0ycvwfKvfLxEuuqvz9wcb3hguNy81dW5hk7ng9EJoX0Zt
+rI07RTr+23rctZ9IhuhY/cvjbQQTXs8UY1RCj0Bzpi/np1gbjgPbgdp9J9KFcO5W
+OuB80jepxiI0jtMNmuIk5eHqAhtsOs2uVnA9xg38ZynJfw==
+=NZCh
+-----END PGP SIGNATURE-----
