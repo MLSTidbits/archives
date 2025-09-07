@@ -68,18 +68,18 @@ Description: Btrfs snapshot daemon
 
 Package: ddnsd
 Architecture: amd64
-Version: 2.2.5
+Version: 2.2.7
 Priority: optional
 Section: net
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 56
+Installed-Size: 57
 Depends: yq, jq, curl, nano, systemd
-Filename: pool/main/d/ddnsd/ddnsd_2.2.5_amd64.deb
-Size: 19932
-MD5sum: 9550a977ed7c70ee145d677c7b67ea1f
-SHA1: 38d4b425b7aa35e5b32404f4510c3e113dc36a30
-SHA256: faf3b7c65d914205f00955145c1f30f0408a731526e4d6dcdb413b6d5894cfa2
-SHA512: 736494662f4b527413deeed7cd8df30cb5bd663f9d5832bbb0da867f176e27b0a037ebc131dad6c73e721bf5f16e68220b4b0782ba40b771fa0c51e13593b07e
+Filename: pool/main/d/ddnsd/ddnsd_2.2.7_amd64.deb
+Size: 20338
+MD5sum: 7b044709bebe944c435a0bb666878460
+SHA1: 457c6b6db3a96a86734669ba0598e2f5ced6e46a
+SHA256: 77cc377dc7f164f991a52e5885ab53051c91518d36091ae1fc0952191403cb49
+SHA512: b3839acccffdae66c2afa84baf196bb52e17524cda07d9f37a4b29e29876755381ab3c21604fa79b1fb395ae94bc0bfeb447b9ae40f2d2723f8a3e7fa32eadd5
 Homepage: https://mlstidbits.com
 Description: Dynamic DNS client for updating DNS records
  ddnsd is a dynamic DNS client that updates DNS records based on the current
