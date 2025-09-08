@@ -23,7 +23,7 @@ After adding the repository, you need to add the repository key to your keyring.
 
 ```bash
 wget -qO - https://archive.mlstidbits.com/key/MLSTidbits.gpg |
-gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg
+sudo dd of=/usr/share/keyrings/MLSTidbits.gpg
 ```
 
 Once that is done update your package list you can install packages from the repository using the following command:
