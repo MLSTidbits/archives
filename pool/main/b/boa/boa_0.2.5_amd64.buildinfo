@@ -5,16 +5,16 @@ Format: 1.0
 Source: boa
 Binary: boa
 Architecture: amd64
-Version: 0.2.3
+Version: 0.2.5
 Checksums-Md5:
- c6390f62a0607274eff035874289f47d 10616 boa_0.2.3_amd64.deb
+ dee3a9b239f24b496bfaf7f088b7ce48 10822 boa_0.2.5_amd64.deb
 Checksums-Sha1:
- b17e5f81e855df121403e62ef8f09c09c9a110ba 10616 boa_0.2.3_amd64.deb
+ 28098b739fa98e75f5e0a686e1eeedc218e314de 10822 boa_0.2.5_amd64.deb
 Checksums-Sha256:
- 5eb337773f1315e336d650f89235ddcd8aab21786db0911cf08dfb9b0911f55a 10616 boa_0.2.3_amd64.deb
+ 31daa026d87c106f59267bc93e7c168670680f6efb2ac9985769c0dcca5b6575 10822 boa_0.2.5_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 26 Aug 2025 06:15:24 -0600
+Build-Date: Mon, 08 Sep 2025 06:27:30 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -186,7 +186,7 @@ Installed-Build-Depends:
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.4),
  libyaml-0-2 (= 0.2.5-1build1),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-78.78),
+ linux-libc-dev (= 6.8.0-79.79),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -222,21 +222,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1756166400"
+ SOURCE_DATE_EPOCH="1757289600"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmitpVwACgkQbkoCnkKh
-yHmR2A/cDRHPTRHpJFx4k2c3DelNwtPdW908K/JsE0Gbbu3ocX5IyQUb9Mf+38US
-/tXaCkxsVa2tSze3yqmRc6/ZPKM1am67fX3lRtbNNXY0xSMEGWjYY2OdgldOPubI
-qzw6Qw1r/ZT5osztjIVsfcjwfa72bBjpF3EUnNSKWy0er7ODLPxnO9bNZYMCsToE
-aviMX+g97rLlHI+Bzx7TnCZ03izdKDVvBUth5a0/bcEtpmn14UXFZXWHar20EniG
-Ppx/9OkxUh5dZydf6KQHHD1SoY18xamMVrJAHdECcDpSVBeauKmrKkHaHGLTQ1ko
-cMcWrxtOmn8cwBUED5fDSJ8lOwAxKVH6ENohajWjIA5/WwKCmFwYLM1fo6M6Dgnz
-naPRG+jfzRNkjiUiKULOyCmc+UlBUe0anlgS6DK7Nnojzu8LwOCe84wWAu12yQWo
-gM7sjxFWaKRGiIKStwQ6wz+KiI9O69ZYWHo23WlkWrB4iLCf1tgJ07NcnaxgwHiZ
-UR6+ab1LWbXH+BYkkzNkUKuuMrujsYHXJt52IHKRJTbKc2Tr9gGq+sdvXb0QRNXB
-QJB3pg5V3RNaZLsCeJJ0B4oYjoS4Zhw2ld/UOpoL/OB8u/pkn6QNZG0zAzrya4eH
-63PnHlWZ0EHRSFBjodcKDbaF8Jjn6V0khaDNBnoMSAjiWQ==
-=hIir
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi+y7IACgkQbkoCnkKh
+yHl6ag/eM0uK8VEeJPeaG8R/iiL/vbSysA2VTmnKUOHvanIRvv9k5xqxpNFYujW9
+JBWKirT81uzlmKJckYDdBv60ZdPKS39fnD5hBOzCa4CeVzVdi/oPa3jLbK+gvLPN
+zN90oiaJ7YI7yUT0qvR3Au2AJqlGTrNGG7BtzPuVx2t3pBIUaIyJBGUDGuBFROze
+JeGreNciFSC/l8HQPsk6SnNTMfOR7SF9nTMJa+dI3Aa8owM28ViAMoeuYWzkTH81
+23lB89Nbn4zGXu7Pjd9MEyAe7Rrp6Wz3qtkyOvB3/VVj+XD5k1lf0nwbHM974Lhu
+kJBlUzrgXRDTm6HybypzvF45mnBR+msbeK0Hhbb076uDL4b7n0n2/4V56ZZPUCZU
+pX5lK2PfffJEUnzXB8GV1KkI4Udmiu6bbJEFb9k50nf8uB5hI0RXnAcEVqtvmfJ2
+yVXcU7s2c3H62ePNzbjvNTgO4OmFmCj6Q2tcOe1x8YwYvWIBvsZCta9aEGV2M6BU
+ZtiSrawuJA43G0erlFsm/nQ+HZ17kiD71NLHzGvO3ydGQgXeoGhac7v58VpJQU0I
+NCUI/ntLm0hgaWD3QSdKRNgU90X22+sLd5MPwQFKYqTGFkdMAfwcFHow2IjHWLUe
+Il11+SDpLtcklXVBbGrO494jMz9q2Q+gEaetxIpeRB9QAw==
+=UzBK
 -----END PGP SIGNATURE-----

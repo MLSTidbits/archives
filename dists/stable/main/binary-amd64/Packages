@@ -1,17 +1,17 @@
 Package: boa
 Architecture: amd64
-Version: 0.2.3
+Version: 0.2.5
 Priority: optional
 Section: devel
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 35
+Installed-Size: 36
 Depends: dh-make, yq, jq
-Filename: pool/main/b/boa/boa_0.2.3_amd64.deb
-Size: 10616
-MD5sum: c6390f62a0607274eff035874289f47d
-SHA1: b17e5f81e855df121403e62ef8f09c09c9a110ba
-SHA256: 5eb337773f1315e336d650f89235ddcd8aab21786db0911cf08dfb9b0911f55a
-SHA512: ccbe040ee8e2f1ae9d4f40cb4359b7d80b60aef19d2d5f7549d218d6d1194303aa136639d1ab66e9681f05d5dda11346db3951018eb5f0ea6b87be0cd2b60206
+Filename: pool/main/b/boa/boa_0.2.5_amd64.deb
+Size: 10822
+MD5sum: dee3a9b239f24b496bfaf7f088b7ce48
+SHA1: 28098b739fa98e75f5e0a686e1eeedc218e314de
+SHA256: 31daa026d87c106f59267bc93e7c168670680f6efb2ac9985769c0dcca5b6575
+SHA512: 029e3655467c2387c3532b26b82b7479cc91654489452821b6f78574ec307cf2b530e3ef0e20e54ccb23dddf8171d4f53bd5222c2264e1b825f19aaeeffa5ea6
 Homepage: https://github.com/mlstidbits/boa
 Description: Boa is a wrapper script for building Debian packages.
  Using a simple YAML configuration file, it automates the process of
