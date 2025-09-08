@@ -1,7 +1,6 @@
 <div align="center">
-    <span><img src="images/logo.svg" alt="MLSTidbits Logo" width="200"/>
+    <img src="images/logo.svg" alt="MLSTidbits Logo" width="200"/>
     <h1>MLSTidbits Repository</h1>
-    </span>
 </div>
 
 ## About
