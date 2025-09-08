@@ -17,6 +17,7 @@ Description:
 Changes:
  ddnsd (2.4.3) stable; urgency=medium
  .
+   * refactor: Enhance removal commands with verbose output in postinst script
    * refactor: Simplify local variable declaration in sign_handler function
    * refactor: Simplify IP address status check logic in status info
    * refactor: Update output format to include token set and lookup service in status info
@@ -35,28 +36,28 @@ Changes:
    * refactor: Remove old configuration files during installation
    * refactor: Migrate configuration  to INI format  avoiding null/empty values
 Checksums-Sha1:
- db997b4c262c7540dc45d35d236ce798cdee2119 8415 ddnsd_2.4.3_amd64.buildinfo
- 856d7e4da6dfd44d5596eddca7abaa790e785398 20248 ddnsd_2.4.3_amd64.deb
+ 19e4cb85330b7011479d03f861f091208d2ec14a 8415 ddnsd_2.4.3_amd64.buildinfo
+ ccd7616b4290cb57f0900c6aa48c3cd262a90c08 20286 ddnsd_2.4.3_amd64.deb
 Checksums-Sha256:
- d6db661fc441bfdc89649fe809b105c730f3ddfa37401d8efe2a46bcf5ad72c1 8415 ddnsd_2.4.3_amd64.buildinfo
- 943950a6512764a26f92397ce300a87455fc3721a431f5b6d2a9ff1032f709bf 20248 ddnsd_2.4.3_amd64.deb
+ c5bb219428fea9b41e388be559b1cde6579e3ae1c5cb360c9fe77740c3055415 8415 ddnsd_2.4.3_amd64.buildinfo
+ accfaefb95d7975a5692394941290e488a3fe3a7e55df932c31c5e0acb102c65 20286 ddnsd_2.4.3_amd64.deb
 Files:
- 9e7dbcbf54af32c71832eb0d0cf70944 8415 net optional ddnsd_2.4.3_amd64.buildinfo
- 84be366b3b681a02c8fc0db067213411 20248 net optional ddnsd_2.4.3_amd64.deb
+ ede9f30c12bccb9de10737df7e32c716 8415 net optional ddnsd_2.4.3_amd64.buildinfo
+ 559a3486704e39bf5533f920ff017eb8 20286 net optional ddnsd_2.4.3_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi+Ld0ACgkQbkoCnkKh
-yHnQqg/gsAxyhpN9NyLUwRq87RmsiTj8YrNJYJCFL0xvjq4eqZ+w3LBtlqBqxwYh
-tHfSlPMRouX399d5NLOA+/5JPGJ8FQbpmBhSGibmmL1zxioKfe0RDF/BPv1mN7tW
-xg6Le9q2jaweoDMrzO1+lQCn+nR/V1GFBA54jKog1xM+VCAHvwXQvNknfY9yNzmW
-B4j5BhlWZycjzn60IyP9/axuRI5YJxlQS6JNQSGmBb3GGnlM7lSP1fKWfjR/+BfH
-KwtCR0ANzhAtEpw/0a39QFtvFJAndgD0hd5MINPgFNNq1ymsewzk+fQp6bp6HyJH
-HrhLHXEtcpx3VeUvdZywXq2psw6BTHyc3YxvNsukKl4jE6WqZdBpvQxfTQCJhO1C
-1L5PhRiWbxBMVbF1D5x18Nm1cE1sfLiocPsKG96ckGkmlMUCyL7FTdBIVeRV5X63
-LTxPlF6xHhESksihvi+TUZvFdGyqz//6GvsXDqEG2Puwki8BLMm7zKvtGFg4DjE/
-Ot4by/BO7fAtrFz9MR9VBFxmJUxWdNvRdLeE+HonS1GbFf5uutNrkExt++fGKOg/
-flVcTrL6HHeYk7564+wau/3T5D8Yg297puik2XomrlubtayRHbY384VQ+RIb5yNr
-cOorw0F0u4Ef6F2xV90HvIbL6Ua2sX2FH6wFjwt5oYOJSQ==
-=TM/d
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi+REIACgkQbkoCnkKh
+yHkbqQ/dGdtxONRQiQbnplse6L5OEdo18G0HFqeumxuw8FvlCovjMKtWBNu9jnh+
+KNRwWeRne7tjxq2BiSQtc5GzQvDlsAiV63OTOBVTv0EPweBr1f4JAQ8uVdmaQi9o
+t4pd4G9eRFaWS8Lbn2j6uLcDOpRi8ZZ5D2AMJk5AAm/ZMvFV9VKyakiF9sJA2J50
+aomQ2o3FroWvMe56Yw4TJw1p7YmsDsG1Hfl4uN6yW9CV6gTitougLEGQT9Ho54Y/
+JLQMx8GwwlRNoWqb/DUsAzrB94+S1i2KxVukA8JnKfOBWpl266LPY5tUemdSTUZr
+UjTT+azkJ7aU3DBRICgPuYEeIExm69uBlbnC/aqI2/YhQ2WfkK7/TzidAGYYpnVz
+rYOKCoRc30f3hEYrPvsG/2KZOZBSvafQ/aA1p2TXFFPFGGq17D/XkWwWuvbhwy4d
+OfvemPgKY1OdtR3L0fK8R7fdn0xx/0t7G9qUPTbD+Z6KPLPdMxoXvH+G2KZlwTsc
+AoliW8It8HXAqRFizXzRe66MNR5rZpv98kb63k1LuF6bLz2CEECo8GScHT5Edt/B
+ZykpHsK0oJanE2QdYSK2rRERb+2fOzh72uS3Nt65xRCEE30vHbGQmD4Ky6SPK/XK
+RxuwFRx0ntOuC+IbDAEGJ6baQ+0px0v2ThaYuAwFmFXsPg==
+=0D/P
 -----END PGP SIGNATURE-----
