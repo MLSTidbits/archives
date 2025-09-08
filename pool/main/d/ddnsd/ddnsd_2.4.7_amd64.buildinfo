@@ -5,16 +5,16 @@ Format: 1.0
 Source: ddnsd
 Binary: ddnsd
 Architecture: amd64
-Version: 2.4.3
+Version: 2.4.7
 Checksums-Md5:
- 559a3486704e39bf5533f920ff017eb8 20286 ddnsd_2.4.3_amd64.deb
+ ff63158d86d274d869e755703e24b6c8 20356 ddnsd_2.4.7_amd64.deb
 Checksums-Sha1:
- ccd7616b4290cb57f0900c6aa48c3cd262a90c08 20286 ddnsd_2.4.3_amd64.deb
+ b6e84fe29f49caa097725a4050bfd432bd1a8117 20356 ddnsd_2.4.7_amd64.deb
 Checksums-Sha256:
- accfaefb95d7975a5692394941290e488a3fe3a7e55df932c31c5e0acb102c65 20286 ddnsd_2.4.3_amd64.deb
+ d8b2eb4572704d85c0d8f2ed4c64ec6abb28512c2c24944d2010f44fd1a08f7e 20356 ddnsd_2.4.7_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 07 Sep 2025 20:49:38 -0600
+Build-Date: Mon, 08 Sep 2025 05:21:15 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -222,21 +222,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1757203200"
+ SOURCE_DATE_EPOCH="1757289600"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi+REIACgkQbkoCnkKh
-yHmgjw/fVZ/yZEzUmabol6s1F3h6cgQE+oLKpfkr/dZc9EKJPKbL6XY/6z0F8+9i
-cxnnAutH8R3Vns5WY7Yu1ymO2tx/X5eVtZt3FYmJxaq0TTfxt5OmDftqCcYejuE0
-yx6GNN9LVKsAQeVsOxbXxGBaKKFPEPqjbWB6rnyKwW0F/NibUuOK2eC+96Q3GXQ0
-6Pthr+gp/4kwV/+56URePyB2YH+pHzYG4Q1TvZ63ROQ4ZjavZaup/PJqA7xLLNQb
-fvvYGSaJ8cg+Ga+jFxVSFr+z4U/UvEiVi6UkVUixfcmnS8mAZEjH+fpBAIBlcQ96
-rUjTOakJmXeUX0hu78uaqoohMjPnQksdHO35wYtZ0/2RsEbsCyv8FF7Hm0zKtMVl
-THQisxhUj6Q3eFTxU9kqMDvChJgF669qGwKh6QwBObCVKwjGll8bzF+Aq2/DOrp9
-uulBsqoZ9s02l2qyS/Advq+xbTJ78QO0jNA5vsTzSlCAb3kFhy0cK1kK8DPsD+95
-GczGbKDXZ3TCD0I/BwsvtF67tX9f7YjNPR0JZ/4eavwdN/HRpOpvExUcD3d/irHr
-4h/P2RCMAfo37yJX9GD5HC2Lj0LmNjCa5gv4nBbEl4Q41PXAURo62xH+XzkDvO4t
-IrLfQ9KNwoTBAgkJXGnmkNuaDq0bS/mFkaGBPeEMpMZfTA==
-=0HAl
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi+vCsACgkQbkoCnkKh
+yHmRVg/grLj45611Xt/RE7fdtOXDPjN9gRvUDvG1UHkvNDj+rqZenO/pIU6ZoD2v
+xBpYfXWfQTz7GAlvX6N775E35vLzaYnoB8A0E0QpzChXjjLvNn+Rv3ySPbuglq1/
+SMeHhSwvdyrGnrkVHTBwX3lZNmH7Rq5PjspZ7jZZ6cJ0yNKh3FEJBt7b3tT5kIBX
+nwLmNUjrx7pMbk7mwkxcZUYFvEnfJzcpl9cvms2hlw27h2a+moCSqBDPNUryivyo
+rxt7C36NqtCkO8AQXEjJgBQUN3RSEDaSWgxq+HgO0Lk59uGMTU3ILb96Ym9/WNv+
+Ml95ZcO+GnwQTUmMMm4QA5LnxXCye/e3832f9wRL6QKtfg9F7Bo/XAFhlZiSoz6F
+lPv1SThMOQdnREKNxcak8ONmKVFA+MFeT2qasZuXXLMAiBBkg/zcW72cfc1SCeIt
+B5mc0HOc1x/fPKvFHGaPE/N5kvUoYu2zXT8JUNgQYQuC9uZbMy4IxswMkau7Zhry
+Tq1dLfJd1XRwxXTXxmrdX7Bot1z3cq7RvVOHsz0kzgwGD+CVCTuuqfh9TARikuO4
+5S03GGSkQRH/5THWWrZqnc0iL4NUTyZDm2s4Uox8gIcTpJReOMje0y76Tm89LKpz
+h5pzI/Hr8Kyyw3xL/2igqdwVJ882RO6AaS4F65A8uUSHug==
+=qDvm
 -----END PGP SIGNATURE-----
