@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 07 Sep 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.4.3
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@howtonebie.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.4.3) stable; urgency=medium
+ .
+   * refactor: Simplify local variable declaration in sign_handler function
+   * refactor: Simplify IP address status check logic in status info
+   * refactor: Update output format to include token set and lookup service in status info
+   * refactor: Simplify local variable declaration in duck-ddns function
+   * refactor: Add shellcheck disable comments for local variable warnings in functions
+   * refactor: Improve variable declarations and error handling in Cloudflare DDNS function
+   * refactor: Simplify domain and token validation, improve IP address handling
+   * refactor: Update EnvironmentFile path in ddnsd.service
+   * refactor: Add example email.
+   * refactor: Removed CSS styling in README
+   * refactor: Center logo and update styling in README, adjust logo height
+   * refactor: Remove unnecessary dependencies from control file
+   * refactor: Improve readability by quoting variable in ddnsd script and update example domain in config
+   * refactor: Update error message to reference configuration file path
+   * refactor: Update configuration file path in installation script
+   * refactor: Remove old configuration files during installation
+   * refactor: Migrate configuration  to INI format  avoiding null/empty values
+Checksums-Sha1:
+ db997b4c262c7540dc45d35d236ce798cdee2119 8415 ddnsd_2.4.3_amd64.buildinfo
+ 856d7e4da6dfd44d5596eddca7abaa790e785398 20248 ddnsd_2.4.3_amd64.deb
+Checksums-Sha256:
+ d6db661fc441bfdc89649fe809b105c730f3ddfa37401d8efe2a46bcf5ad72c1 8415 ddnsd_2.4.3_amd64.buildinfo
+ 943950a6512764a26f92397ce300a87455fc3721a431f5b6d2a9ff1032f709bf 20248 ddnsd_2.4.3_amd64.deb
+Files:
+ 9e7dbcbf54af32c71832eb0d0cf70944 8415 net optional ddnsd_2.4.3_amd64.buildinfo
+ 84be366b3b681a02c8fc0db067213411 20248 net optional ddnsd_2.4.3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmi+Ld0ACgkQbkoCnkKh
+yHnQqg/gsAxyhpN9NyLUwRq87RmsiTj8YrNJYJCFL0xvjq4eqZ+w3LBtlqBqxwYh
+tHfSlPMRouX399d5NLOA+/5JPGJ8FQbpmBhSGibmmL1zxioKfe0RDF/BPv1mN7tW
+xg6Le9q2jaweoDMrzO1+lQCn+nR/V1GFBA54jKog1xM+VCAHvwXQvNknfY9yNzmW
+B4j5BhlWZycjzn60IyP9/axuRI5YJxlQS6JNQSGmBb3GGnlM7lSP1fKWfjR/+BfH
+KwtCR0ANzhAtEpw/0a39QFtvFJAndgD0hd5MINPgFNNq1ymsewzk+fQp6bp6HyJH
+HrhLHXEtcpx3VeUvdZywXq2psw6BTHyc3YxvNsukKl4jE6WqZdBpvQxfTQCJhO1C
+1L5PhRiWbxBMVbF1D5x18Nm1cE1sfLiocPsKG96ckGkmlMUCyL7FTdBIVeRV5X63
+LTxPlF6xHhESksihvi+TUZvFdGyqz//6GvsXDqEG2Puwki8BLMm7zKvtGFg4DjE/
+Ot4by/BO7fAtrFz9MR9VBFxmJUxWdNvRdLeE+HonS1GbFf5uutNrkExt++fGKOg/
+flVcTrL6HHeYk7564+wau/3T5D8Yg297puik2XomrlubtayRHbY384VQ+RIb5yNr
+cOorw0F0u4Ef6F2xV90HvIbL6Ua2sX2FH6wFjwt5oYOJSQ==
+=TM/d
+-----END PGP SIGNATURE-----
