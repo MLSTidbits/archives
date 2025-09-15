@@ -5,16 +5,16 @@ Format: 1.0
 Source: bashship
 Binary: bashship
 Architecture: amd64
-Version: 0.2.4
+Version: 0.2.5
 Checksums-Md5:
- c54a2d9c89570b5d6c6890be5c9f5c43 12920 bashship_0.2.4_amd64.deb
+ 8dcebe6d5781ee185986ba30e4083331 12940 bashship_0.2.5_amd64.deb
 Checksums-Sha1:
- 0938c8421a3f8b261c6dc975d3e12b5f06122bfb 12920 bashship_0.2.4_amd64.deb
+ 95472081fe70b16c23820ae721b02f86f686c15a 12940 bashship_0.2.5_amd64.deb
 Checksums-Sha256:
- eaa43a5691dfc96c619dd1c87087e8372309b430025ebf40d3170e5a39b26cd3 12920 bashship_0.2.4_amd64.deb
+ 57ff93994ca1dce80b8523e5fc65c9eb9903875526b942e06d035e879dac9579 12940 bashship_0.2.5_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 15 Sep 2025 04:21:42 -0600
+Build-Date: Mon, 15 Sep 2025 04:29:43 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -35,7 +35,7 @@ Installed-Build-Depends:
  bsdutils (= 1:2.39.3-9ubuntu6.3),
  build-essential (= 12.10ubuntu1),
  bzip2 (= 1.0.8-5.1build0.1),
- coreutils (= 9.4-3ubuntu6),
+ coreutils (= 9.4-3ubuntu6.1),
  cpp (= 4:13.2.0-7ubuntu1),
  cpp-13 (= 13.3.0-6ubuntu2~24.04),
  cpp-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04),
@@ -235,17 +235,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjH6LcACgkQbkoCnkKh
-yHk3rw/ff9T8w/cvjcYubcl5cYCUnN5AoFXqDyCrXsybJ3tYfp21u4mnGnV9MGel
-tN74oBgYuRVwh8kCJUk2kIg64jgKK7uIdui6tt+6fQPy8eZcFyTZiljqZjOm/xVn
-/RNtbaeNp+6skrpaqXYN4Sw/Zd73NVs1gWqIIeVCpNzT1saTLSgqDA4JmIrAP0tY
-BOfteFpLrpojmJd8WQcfx0rXubRAISdiSQgrSjgO/siojYvgwYoadJmUb+MNehZ3
-YGvTVk0P+OZFRZB3yJ3yOtDBbV3y8qoegVKaJ2RAbnjPaM4PoKyCtj/L7FiujpbZ
-GJ1RTLIVV9AfMn3yq1GuAPfsDQKLfZIpGHopOjVQmz0ry7FG8mWBSYtOFfZMgbsB
-w8epOIRbyEp7RsTPIUKJhdTjPzgTHxx+Q6fSe0bJM1yfdhFA5pczi56/fjL7t6AY
-X3PHixkCYkqFqtC1M0vz9yVgsmngZ9Yd1HI6EaCz64BwoITLFylN4JyjbnHpANeN
-DaAX75hu/ihDWQsZhmSqfz/uk7JlOa9hasvuGCylMYezg1RprJPeUYHfr8XRbSKk
-3O77iv7ha7Dy/48ceT8719muWPBhVdUxmH25RYTzRbe2dk+NHtp3JIVSFBO2mTb+
-Dv+SLcx+IxZMOljMEESnkEiNG15JyJ0lYPHBfZeSPqC0tw==
-=xiGP
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjH6pgACgkQbkoCnkKh
+yHkjog/feSXKGAgBmLhFLBXBDLjoxqezcTUM8LGxzQTRJnBBY2FWbthKhm2O3BI1
+whQG6BEE08l9fvjiQwP7/S+8TDSwnFFHS8LPj8wNiAUlWdBhiTNR6iI0KOvw5jYM
+GlIfyN7PKHugndUvzJ4bc1uC74+gaBundVWHsavOT5WgmGdGxSXN4jKN/XaJlfPg
+W2b/kLH133UMNdP4cvZ5G2a9SsazU/lpBk0BI395AKERdflV6YbIssUYTihkDtGh
+77e5VX+x93NS4Gy9yfu7Yb4tr4WBc+djGXxJdiumcunZi4lRUXd3HpvHO8Ti6M4o
+isNMagIcLS5xItdwLvMHX49yZFpbNqey+s7Bf45bMXbWzd6jjfuF8tnUvYHiRZh0
+Z9dKZ3gMA3fTlME+e8TjK4Xre8K4vOsZWW3aFYtC37L7QQQM/+PFzF5ufMPiTjy+
+jDmb47hv2BZNOjtmJByVMfZaA/+qkeA/S8Dgtby/W8rhhnoojo7MHm+j588x1CMT
+lhrTpuUo/AYoy08ADatAVgDK+gsrp2e+XOtjJyRZuTKzvdzWMw6EsdOpPWfJl3lv
+VXE3BhyfXBKy5kmyM4w44QAn61wN058MCqOnXHWrGFeigTV/zUBi2QamSPN1T1X2
+OyUN63dL4Xelv/OuWREYPz0O6AQtnf1Zs/8nqWwwQ6LPJQ==
+=pT4k
 -----END PGP SIGNATURE-----

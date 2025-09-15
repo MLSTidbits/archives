@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 15 Sep 2025 00:00:00 +0000
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.5
+Distribution: stable
+Urgency: medium
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (0.2.5) stable; urgency=medium
+ .
+   * chore: Update author information and copyright notice in bashship manual
+   * chore: Remove obsolete logo.svg and update bashship manual page with detailed options
+   * fix: Update git status symbols to use GIT_AHEAD variable
+Checksums-Sha1:
+ 81358bd74772ea94dc3d5b1a34fb839d529c5a08 8699 bashship_0.2.5_amd64.buildinfo
+ 95472081fe70b16c23820ae721b02f86f686c15a 12940 bashship_0.2.5_amd64.deb
+Checksums-Sha256:
+ 218d3b70074e6045620a725188c3d0849e11510a4d61231990918a50b1aa033d 8699 bashship_0.2.5_amd64.buildinfo
+ 57ff93994ca1dce80b8523e5fc65c9eb9903875526b942e06d035e879dac9579 12940 bashship_0.2.5_amd64.deb
+Files:
+ 812f1f63baa72ab152d79b43ec4928d8 8699 utils optional bashship_0.2.5_amd64.buildinfo
+ 8dcebe6d5781ee185986ba30e4083331 12940 utils optional bashship_0.2.5_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjH6pgACgkQbkoCnkKh
+yHmtjA/gniv4l3tnraaMtboeHYLYxciP4dZXkmfKOZlO+iWMEiYtLdLCuDkcKkzj
+z8KCyfqoOM0ZW3ygycmUq0ZczvivgGZhxLvUZ76sNEMujB0cDUHRQWPrKhtVoySE
+1DHxU9tNxgnk9jaSo4Qy989InwOAFzlV51IdQb35dboXDw42tLQWWH8utG3209xh
+qlQzjOd5UzyoBPfydUhu61XUHcqXxsiOIoXMuuJ8oYjJn2ewNwJ7PDKaoQwEEvbM
+8XyeIh1hq+zz/VQ8SgLttIXMJmvZdpalIoKPMx06opmmPlTdcojOws7uiCMtZeAy
+PU+9Q/dWJINmZA9jmdrvjQgRckG62nP8HXkG+Z9eCsrhfq8fxvthPOkcuE7CxX0m
+dzOfagPABdgS8jWuJ69E2I5E14GkRhvTzhjezxyMZsB+OdcdAGnezo7EOHlgDHmr
+Pi9yJqH6Jfn3pS6/MtDSg9DQz8jwBvK2irryNKkiJY7+iaWC3+2Kmehs+opxX3bw
+8Gbv89F2t2+bfMYTIYBpK5m2mcbiz9AoJiifl729Dwp7hWnjexpK5EbC6fLaqott
+8d9FxZaVvTYTEF0QJqUFac5NMzMHLCmPNOE4EuPf+64mg/dkEIhtvQGJQSDfrryp
+046jcabn7zEf7HIF23/J963zYxZFixfV4DD5foD+n/Xw1A==
+=ef/D
+-----END PGP SIGNATURE-----
