@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 14 Sep 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.5.4) stable; urgency=medium
+ .
+   * refactor: Update Cloudflare integration to use zone ID instead of ID for improved clarity
+   * refactor: Comment out default values in config for clarity and safety
+   * docs: Fix typo in installation instructions for clarity
+Checksums-Sha1:
+ 24fbb4c66988a187acfa57f0aa9638c57dae4c7b 8415 ddnsd_2.5.4_amd64.buildinfo
+ 21636137abf19d4503762ffe0a87341013ff5d2f 20544 ddnsd_2.5.4_amd64.deb
+Checksums-Sha256:
+ 7e99f2e5e676de580bd734e20ca4f713b2765877f17da21ec719eb658d0d61cc 8415 ddnsd_2.5.4_amd64.buildinfo
+ 86ff056e5b0e5fce2ccc2f938705ceeb765ac63f93ecfe8f618a1668f680061b 20544 ddnsd_2.5.4_amd64.deb
+Files:
+ 32d73e16fcf2e0dd38553002e2cee932 8415 net optional ddnsd_2.5.4_amd64.buildinfo
+ 15af6b41f2e23b8a322ae8e315a42286 20544 net optional ddnsd_2.5.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjHceoACgkQbkoCnkKh
+yHm0Jg/fehnqepQItBl1rQej15s40xNIh533gsokhhdUyoT9jKUTqm4cPCESOtHu
+hwqWWddBqEzXVKRUp+VMWqHGMCO6I8cyoBiTrj4DRxqe13E0YcxwyLRT29jtvAfq
+0af4mNacXrhwSgThsWYEYVpnvjSjGca6+h/enPgZKJihvBRJmBurql5mTZLBkuL5
+RUxhS33Z3BN1+JQY4LX60X4PYgSJAuz540KLEYe4FnuicfFVMd6qASoWLvbsSBlM
+6KOsMmfQcWEnfUcjCt+9i/v2vH1lTf2A8HGakgVXsC3Skpg2ClAwA0kyUYmbDHnA
+j2AzMric4hirgJ+gZGA+9WawgEKrHyjjwPYD4ioSZ+MJwp4ZcF/vgkGDnfXP8E0B
++R1s1qJzITrfF5nWgagRB2bxVKoBxqM4JIOFDGngS3c2X37htkMgOKHNRHm15dzG
+4yKFadRGEdCQcikKEgYsG9+VuBrdKM8u9vG52vTgILkWZYid6tvLYqSCJgwPQna1
+MPLiDNsEbFbgNKTgoa5TyoNOPlQzR5+fFguV8Xnwd6f7/TI8fpS6U0PoEwKa17Ks
+ZDnYFqyxCcWJ/Y2HJOhrZNe4s65KP7PevkKWs5PsEwrQFmv0YLP7Txnm2A6g8kaY
+pi9z8VLp4fRsSmXEW5iI0WpzBuBZgfQJDqn1Vwe8lL6Kag==
+=OKxI
+-----END PGP SIGNATURE-----
