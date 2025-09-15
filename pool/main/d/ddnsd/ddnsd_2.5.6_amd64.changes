@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 14 Sep 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.6
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.5.6) stable; urgency=medium
+ .
+   * refactor: Remove obsolete configuration file handling in postinst script
+   * refactor: Update configuration file path and improve error handling for missing config
+   * refactor: Update Cloudflare integration to use zone ID instead of ID for improved clarity
+   * refactor: Comment out default values in config for clarity and safety
+   * docs: Fix typo in installation instructions for clarity
+Checksums-Sha1:
+ d1758b16461ffe66d99f21fa485dd5be71adb6d6 8415 ddnsd_2.5.6_amd64.buildinfo
+ aa323664d77b3108aec565717f3574ff8b0f1f88 20542 ddnsd_2.5.6_amd64.deb
+Checksums-Sha256:
+ d04931a20d4df1e7022851948baf3a9bfe70589d72ee017689794a17b2d0d237 8415 ddnsd_2.5.6_amd64.buildinfo
+ 4b556d852545da55e656f1c6d05106bb0e4ab672528d78b1bacfd726d1331bd2 20542 ddnsd_2.5.6_amd64.deb
+Files:
+ 432caded78f3b313b96b6ebe225f8c60 8415 net optional ddnsd_2.5.6_amd64.buildinfo
+ 931d4442bc77f167a69e0531e108ff7b 20542 net optional ddnsd_2.5.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjHdMcACgkQbkoCnkKh
+yHnffg/ePGX48bJhpnDMi+ZxwRQsfXdwyASUOBaHp6w7XVDWoI9SAH73JDPhyKV7
+LFN7SEgW9zCvUw2Hd5f5JYEChp6NKUJwnm4QlYpp0Pj5rqaeJGDIQ+6Jgtc0SX5B
+D/ZjWOl30l3BoaBdxtq4UnA3/qdYo60xRJxWV/Z3SYL3AZUnnDYhh4Us0oWP+rhW
+5R+OHHaEY2V6WV+BI80v64lkys7hgpUqsF2hmXn6hF/Y0QVpO89D/FA+Q7Ybd7xJ
+YqeTgmws8ZOtfFfIevpgtjeA6QnlnftplSxEWEE/E38ouox77QJ7J5Y5TEKepUZt
+TF5nZmnwPSVJ6yTUCqRec8dwZT7rOSlfryVhx11RcxE3tptv8qtGaW0oWZtGYfQ6
+sbtYRWFh2lTf4pCL7/wOz2JNHgMk/BAQdkIN5Suwa8xkZldYKcrczYxkTz+rfWgR
+aj3Pk83PrAUev8r6RcwXEgJeq3gyLSrqsjJ29HBrut1uZrwiyiApX4V1HJxYpdIa
+aRgLnGXE5K9TA6g6sIUPiz6FbkFK+A95MpHZZQkME2cghyIKsLu+MS9TLurLyn4z
+7aT3LXNvYzy2vDas5+VSy+b9m+jENJOd0CpUKMERklVha2axUHz4cIB0MRjt21Ep
+zkzLBZv8BhsljXLiE6osbgQRaR4iELjLiSp3ezJTDaqZ+w==
+=ABgj
+-----END PGP SIGNATURE-----
