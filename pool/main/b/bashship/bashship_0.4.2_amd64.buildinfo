@@ -5,16 +5,16 @@ Format: 1.0
 Source: bashship
 Binary: bashship
 Architecture: amd64
-Version: 0.4.1
+Version: 0.4.2
 Checksums-Md5:
- b879e6eb6dde5088e839ec9147c12ab6 13824 bashship_0.4.1_amd64.deb
+ 0c524602f1ea2264f37cae35da3c7ef4 13844 bashship_0.4.2_amd64.deb
 Checksums-Sha1:
- 4da7e6971b3c2dcf4712a2bd910e7d0f5ee2513c 13824 bashship_0.4.1_amd64.deb
+ d331746c1b87fb929aed2983d927f559d8ead367 13844 bashship_0.4.2_amd64.deb
 Checksums-Sha256:
- 37922f43d77c505f5e5534a4a023a219d3f4851b042d7bda8f8ae84c26ac5dc3 13824 bashship_0.4.1_amd64.deb
+ 5d695a9830d4870ed08c50ba8571f0e0e2fcb6aee12f8a0e5bef58c8b195ac48 13844 bashship_0.4.2_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 18 Sep 2025 06:01:42 -0600
+Build-Date: Thu, 18 Sep 2025 06:17:40 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -190,7 +190,7 @@ Installed-Build-Depends:
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.5),
  libyaml-0-2 (= 0.2.5-1build1),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-79.79),
+ linux-libc-dev (= 6.8.0-83.83),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -235,17 +235,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjL9KYACgkQbkoCnkKh
-yHlB4A/gouMFkLoD+My+AYyjyvWH5A7yWQ1J9fJmNZL8dRGVcSxYNhBM5Mo+ei2R
-yxbAYdrrtrCbpk8ML1FCRcs0pJnv5sD9JsT/STeIZbbuz51Mt1iBndsXZG6N+egh
-OZakx0zQO+jjjwQxUCfpygXo3jKGdFLtfdiABXVSI8bo6OGTyKcWRpI2PDcm9kt2
-Wm6xIo86+q4u7Ck6kFtAfdqnLCcZi3rXljFeUtYw9PfnjkC537n0ssmXhol1sVw+
-XQtKJhAFocBkSSodrxus7vkOmYGu9jWrRey3pyyxvgzCn0CO4BQ9IuLlSfSMlkjI
-XceeDdPLIEf5Bkah3XvfhPJxi4Meg1BGodOokMey3BZXy9u/FZhd5EF/4jwj/s4o
-LxT2c28XKJ7Waj7csN6KV/XXapytXOwEaKevKyadnp+6KQoJ4qU54M/bmkAyVPLj
-ahEkCqVUQ5mbJ7/LekQB9B+fPmAcmirs4lcsyDLykD9l3xOXrRlBGXd28uZsJl7C
-h2PwUuuBVUMR70ELKU4kKDnU5npaxdsvHMK+nrXyWsjkLzC5b2bUP8adzLWnb3xm
-XgsfwfWdakxoG8lKJW+d+QgEBDB0Y+yf+K1c3v6ynJgx+Ic1PPF6SepDSAxFLAI3
-hb0kVbwDeFXoJ4z1pPJQ4xdq06PBRpww52dux2l8uwAoZw==
-=bPSQ
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjL+GQACgkQbkoCnkKh
+yHmREw/ff5YPHmToi51iEh82RqJX7r87bs++L3t65aPCeeCjPPFpxMMH7EFE0eVz
+C9hZOuZSq2eBZiB2loxyvGk+hQ+AiewYhmNECLX9gbVodtVxQwj7/Lsh7F0vkEvO
+v1/byBNnhDF+gVX4KprW0HLJvtAI83Vw/YjfN7i26HMhGnKaG3r+Km64QjWOqGmf
+mm1YiUO4zofFitxuwQJ4vJOZLTQsUvQDPRGFEjcOGDqU0aWv2jKqz+eLxVvKOxk3
+i2pnzVzBDkMG073NFufPexAHS2zVOuYaxLjpwk0oN17bXEwCBGKwh0m/uZf8dqGN
+xA2KE9CP3//Tn0ZpecsOz2CeCSfwv2oL32BxEAfkX9RMLOOkrcC7AE49L+duMx6Z
+xtLTezMWbUsHm2tFZFpGZxMIxka0+2OCl2yc12fyeQF3KZgMpXY5+jDVtznN9hhf
+t2mJjMjjhleP+Fu0wxiRBJYgfsgvSxHFj20E9Rl4aCEpiYGnGnifkDInl0eCYRk+
+WT5Z5Kna2tql9B2MJowlTLJmnsb+Z7D6SkWCOAfMX7SKJX9xJvQSYSaFOXdajFY4
+C+KY94fnmCkm2otTs50ZxZoUQ8nrHNoueD8wxlFNEFFREkoVg3JG5OddTa23Ole9
+yWxITjHjERbAxSAByQJzH7xSCr9mY3d15JI/U4IvUN3Bhg==
+=P0cJ
 -----END PGP SIGNATURE-----
