@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 18 Sep 2025 00:00:00 +0000
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.7
+Distribution: stable
+Urgency: medium
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (0.3.7) stable; urgency=medium
+ .
+   * refactor: Fix variable usage for bold and reset in prompt functions
+   * refactor: Improve prompt configuration handling and variable initialization in bashship
+Checksums-Sha1:
+ 5c38f70eaa44d957bfc5e5bdcdf943057b0ea9bd 8714 bashship_0.3.7_amd64.buildinfo
+ b748fb8a2e3e19d403ae9a76908e80baad901b77 13670 bashship_0.3.7_amd64.deb
+Checksums-Sha256:
+ 6a3b6f229af5b0c9e2a29fd2e2990b47dfb47644cba63e73dab79ed8180515f0 8714 bashship_0.3.7_amd64.buildinfo
+ 72d6e946956022fa5c76edecf50af864f76bc77696121ee1ffc2608345f662fb 13670 bashship_0.3.7_amd64.deb
+Files:
+ 743b49cd71698fdc540db17db3bc2492 8714 utils optional bashship_0.3.7_amd64.buildinfo
+ f4ac421f42d112105547b5371f670d7b 13670 utils optional bashship_0.3.7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjL4q4ACgkQbkoCnkKh
+yHk8Dw/dFzKxWiBEIjIwwTNJWdrSW0zEV8E9dzV4mQZvF/SfIdhl98nMR0sEwy4p
+TyH4PJ+WbwT9kBgCVkTbqlCEXJ6djcIriWIsXgAaQcHA1hvJsTOyEaABWWAWHO4t
+ywbPMgz5mtH+Z87E7vWCgOnl4I3IPx3dIk737mw6bB5lxpqn5qrd1u8Cf2NxmMVb
+7jVNVRmch/KakXRd/+MhFpYG9DA0rXm7klX9nise5nrt55Z6Bq2soS7gHDjVECF8
+Fv3w1ugRd+wwSLtV4/3pjoWZFRI9uD92tuB+QLgXAAsKXI3SUIealNXmzx8jN0WF
+Twcq/MOUnlCioAUAOwilaKcKHQPF1b60hLl1eAD/Oesdu1Ih4AQT0KrWFi7tZI96
+REls1uIzUEAvSOfjqoZFF4eMaC0w4nTHbLm/0b3dswNyDf8WRVWdqazEaHozOkfi
+Ms6CIefiaJchsv+EgePWe5Wm1dfheBz/MBSwZEwEXmEeWKUiSA8TUQ0K3m7Djxs0
+ENu0OFy4J1WGjTXre7RvaS4GC9hXliuri+H/dfiFKnemchtdgPOvDydB82/VJEjB
+KFv3eiWdBf2zjvz28o08NgfGslkcWYbEJCaM1r4LK40aUCpvzK5SDnb00JA/SYIU
+SWrf4tKB4sWEjJfEE2ZcmDUX0ZOMKV4zolqJ8RdVJChGKQ==
+=JPyg
+-----END PGP SIGNATURE-----
