@@ -5,16 +5,16 @@ Format: 1.0
 Source: bashship
 Binary: bashship
 Architecture: amd64
-Version: 0.3.7
+Version: 0.4.1
 Checksums-Md5:
- f4ac421f42d112105547b5371f670d7b 13670 bashship_0.3.7_amd64.deb
+ b879e6eb6dde5088e839ec9147c12ab6 13824 bashship_0.4.1_amd64.deb
 Checksums-Sha1:
- b748fb8a2e3e19d403ae9a76908e80baad901b77 13670 bashship_0.3.7_amd64.deb
+ 4da7e6971b3c2dcf4712a2bd910e7d0f5ee2513c 13824 bashship_0.4.1_amd64.deb
 Checksums-Sha256:
- 72d6e946956022fa5c76edecf50af864f76bc77696121ee1ffc2608345f662fb 13670 bashship_0.3.7_amd64.deb
+ 37922f43d77c505f5e5534a4a023a219d3f4851b042d7bda8f8ae84c26ac5dc3 13824 bashship_0.4.1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 18 Sep 2025 04:45:02 -0600
+Build-Date: Thu, 18 Sep 2025 06:01:42 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -235,17 +235,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjL4q4ACgkQbkoCnkKh
-yHnLCA/feT2vrxsfalNhCZnrQ1injuyj36VwzzHHYrRmvd3ppqo5k7UTHYS3IALz
-QE3O7Y7bc+ccoF8FES5g+5OVeK1Y5PC59R7f4ouwzDO9UgCXJwIKY4Ys/2abza0W
-4w3vcwCVqKq87RKcKuge5poM3AQJQD+zalEAQPUyE/5XFfqZNHXnIwpl9oyX+cDq
-9WlUCy4d7VafwYz+LqiKAgPZMaUcK7nKQAbgVq+QOu685oQpsf/ElIvB1OFn8qM0
-1/jicr+RD6QKdkQZKX9JAHTg7LU8emJTzx7iSd53ZcNKZbMqSQFh3OkAFus95Abe
-AcSiJCnxMmS3sqKdXjizZ5AbUfifUpsPbCOZMTH7iOE452bA46zUmVCzjM/PaFc2
-QqOH3ULw0ERTOHwuIyGedhtOxN7+v04aDlBLOx890NHZVluobTjS3KfrfG//IIWs
-tD3/lyKQwYMtRU1I/31IWq55GSkmmd+W9tq+a+yEeKVt6X6eeOHbhUywC4DFeDFi
-rCG1ov33ZyZd+gNiOyKjT9Y/+HGaQXE4L5b6q6uWWv1ROMzczGRKdAOWevz2g798
-/t8y9x/sAuA4IL9NqNWFf888iefXrfnhOzQN7EzJrygsdcEtIqdnMaRoDbSQRyYe
-HOdUH+sHHK0qL0m5a4eTs25IT6TvZam2RQPWxiZDKOndCg==
-=6RbU
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjL9KYACgkQbkoCnkKh
+yHlB4A/gouMFkLoD+My+AYyjyvWH5A7yWQ1J9fJmNZL8dRGVcSxYNhBM5Mo+ei2R
+yxbAYdrrtrCbpk8ML1FCRcs0pJnv5sD9JsT/STeIZbbuz51Mt1iBndsXZG6N+egh
+OZakx0zQO+jjjwQxUCfpygXo3jKGdFLtfdiABXVSI8bo6OGTyKcWRpI2PDcm9kt2
+Wm6xIo86+q4u7Ck6kFtAfdqnLCcZi3rXljFeUtYw9PfnjkC537n0ssmXhol1sVw+
+XQtKJhAFocBkSSodrxus7vkOmYGu9jWrRey3pyyxvgzCn0CO4BQ9IuLlSfSMlkjI
+XceeDdPLIEf5Bkah3XvfhPJxi4Meg1BGodOokMey3BZXy9u/FZhd5EF/4jwj/s4o
+LxT2c28XKJ7Waj7csN6KV/XXapytXOwEaKevKyadnp+6KQoJ4qU54M/bmkAyVPLj
+ahEkCqVUQ5mbJ7/LekQB9B+fPmAcmirs4lcsyDLykD9l3xOXrRlBGXd28uZsJl7C
+h2PwUuuBVUMR70ELKU4kKDnU5npaxdsvHMK+nrXyWsjkLzC5b2bUP8adzLWnb3xm
+XgsfwfWdakxoG8lKJW+d+QgEBDB0Y+yf+K1c3v6ynJgx+Ic1PPF6SepDSAxFLAI3
+hb0kVbwDeFXoJ4z1pPJQ4xdq06PBRpww52dux2l8uwAoZw==
+=bPSQ
 -----END PGP SIGNATURE-----
