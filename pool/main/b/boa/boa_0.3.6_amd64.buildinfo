@@ -5,16 +5,16 @@ Format: 1.0
 Source: boa
 Binary: boa
 Architecture: amd64
-Version: 0.3.5
+Version: 0.3.6
 Checksums-Md5:
- 18c2cf0574ff776aedcacc33602979ca 11434 boa_0.3.5_amd64.deb
+ 1bbad7b08ec4a3f9b1bb6856c3ea5721 11458 boa_0.3.6_amd64.deb
 Checksums-Sha1:
- 859acd0eacd295037b3ee24d8510b05800e78757 11434 boa_0.3.5_amd64.deb
+ 0170558b3307711c0d18e6b9e08f85c3c400f9d8 11458 boa_0.3.6_amd64.deb
 Checksums-Sha256:
- f8ab8e2829b35c6dd7956dce504ce9d0d83864e3e0988d910ee5f696be7acec1 11434 boa_0.3.5_amd64.deb
+ 7d280e6a0613904a60485db1f9fa5ac8650d64c5aa6736ad185ecbd9ba1b4385 11458 boa_0.3.6_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 23 Sep 2025 04:23:28 -0600
+Build-Date: Tue, 23 Sep 2025 06:14:04 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -226,17 +226,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjSdSAACgkQbkoCnkKh
-yHlaqQ/eJ8AdyIoxsmeB7pkI82B49An2d66zNtfU+uVC+Qozj074mzE8SiNA/NXF
-K64FPh5exgrfC0Cw5jxe7pqaflHl4jphXp/VC2zRVdaxI1TPdvMsEBzNdg9Jk2x2
-iW3fvFdjzb/P9YWaiXVuk16G9Z3OO3tBqWtfzvnsPx/L9ItFq6zhG3X1xHOyztKK
-nZb+uU3av28LS4zGpEfLNnPnZ7N9WehkfQzFtyhwc/GFswniPX+xq+s2YDCEn+h2
-DkCSj6revpkj7LlJ9d0fN9X7aellkRNzzJVdZZXkbDOp7i5dK61b8mLwVQ1iONkH
-8/72fJwF1k76hwqlYl45t6tgySkM9jzFcK8z2F2iIyjvPxWhpExy8NJPX8zAtwQy
-bbUILihoNKiEWOnt21T9olgTmypYRQPhErIoF8d8Zf9dE/NRVo+RBaMj/f4SqD3n
-x5f4l90uce0UNAmJlx6tSDjJ8+Cy6aMteYFbFtDsNdqQVZLkx5n9G8IRoditoOMh
-Y872Zq0Sq+tlIyP2jrO3Gks62KUAhbzPsj9ntp5E49jbHlb6j3qhlJSANzEF93+Z
-kAs0DKHmz5eXh0L7qjvcAhcD7nvKuTfEcjBrkrJ+a1pgmkGTHDlVl9+/64jT/mjE
-9k+rm5F2KmKpSKtt5FOHm8yk7sAV4rDvDkY0sVMNydqFIg==
-=cmEK
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjSjwwACgkQbkoCnkKh
+yHmiCw/grjIGHkRFsZ6rQ7tXRGmYL8gkSqnDBLBC+iLw5DHC54G6jFW3eBIHA98I
+QSwT9aN8PBmcfF9KEx9nYluGiWdFdy7uaWXts7ds71bN0pn7bWgv9eVWxkNL9Kxj
+z/mjOor2j767YiEAQFOik9g70Kl8AwflOqepwtPXVnkFEFL/nYqXpcJwvEHmg/o9
+gsYSwwuFlpSTt6unS4jDCwue2BgwYhbMxQ5Ic1gEa8mGHboIyCBDKiTvEw7J9CvP
+f+7lWPogk//BRkQnY70VKWcrX1SH3KXOoVP2AUslJYAso0bvDh9a2lP5VOoX48NB
+N21ybBtDSTpVRFB/Cd4YGPDdZa4X8J8tCxhZPNTKv0J+/wnbT2tJU10/fLTBj4CP
+Mrx1d5TDGKZctkTmZ1KzK+lzJAKgXSjr2sc61pT731G2oHJ2OD6mA8Wm0hb/+v7s
+CA9e2izGU0rf4VyZSuqwYcjx+XWwhCizyvQwLkWAWKWWLE2b7Rd75fbzSBdSznm8
+VYeN49D/GWnAX6fZvlQ7P0AbwpW5og+uQegtmzzx+Y7CSvDmZKrrV8laD1DwxICa
+Cfqj5ddAnM1fTYzGqNJ03DhqYoY/KalRugFJkODNiaY2bLC8UeOc2IhnYgqDSbD6
+mSeZlCO7ZNrKqMkIKaIC56dV4bVvUUJILAKI9tkthX7G4A==
+=AMzB
 -----END PGP SIGNATURE-----

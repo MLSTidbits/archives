@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Sep 2025 00:00:00 +0000
+Source: boa
+Binary: boa
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.6
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ boa        - Boa is a wrapper script for building Debian packages.
+Changes:
+ boa (0.3.6) stable; urgency=medium
+ .
+   * refactor: Update README to enhance configuration clarity and add new options
+   * refactor: Package dependencies for improved clarity and structure
+   * refactor: Remove unused package definitions to streamline control file
+Checksums-Sha1:
+ 4f8fe6d4232ff94c35e946f4255742415bc2e2b6 8407 boa_0.3.6_amd64.buildinfo
+ 0170558b3307711c0d18e6b9e08f85c3c400f9d8 11458 boa_0.3.6_amd64.deb
+Checksums-Sha256:
+ 5b068d3c0a5dd7db417a2e5267ae66a18fbb426c63137ff733af6ab69bf80ad1 8407 boa_0.3.6_amd64.buildinfo
+ 7d280e6a0613904a60485db1f9fa5ac8650d64c5aa6736ad185ecbd9ba1b4385 11458 boa_0.3.6_amd64.deb
+Files:
+ ef065b5181e7e1581761a255eb0b1f30 8407 devel optional boa_0.3.6_amd64.buildinfo
+ 1bbad7b08ec4a3f9b1bb6856c3ea5721 11458 devel optional boa_0.3.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjSjwwACgkQbkoCnkKh
+yHlE8Q/glcZ74mtPjn38ocWAKJEddx06ha4TLahUIidhNI6Tz/TgJiW3QGwsdivI
+4HKcikctGz789oLk4C3XqXF2QeDtynQWYLKxEh0y+QKZx7lAld3IpmIzPdrA4ZqF
+trE2cO/ZbjwuXpuKx/fgvzXqmFUG9DUzSYfJv0T/tkiHTLUuf/ThQnyj8ZaJ1IjC
+E4RtAwH8N/3lvmwyUoCsy6do6z0b2isVfSJMLSVGN20MQN2liaMAW/cO3FFs8eoD
+w3rIQNqN67z2dlqNxrGD3PUuLeL2MPLJ+G6Eu1o809zt3b4CRJrNbprm0TD4RYB1
+p7PTOoPwu9KyP++ymuQ74vUP/ZrnNiD0hBDtMxd1IkaUqvsrRqy8UjVBc3BbSv78
+jC4qMX6hz1vpbUbkyiHmO3oa+7VGm0E6gOvlRwSoNwfsYJ/0kbX3TrzeN8qRUVif
+v7lSarllwD68JHkewv3ywYXF3dbd+txS8nbiA1PI5ala7B9B/20bJvPcryao11FN
+ktfXOR0wi8+JF+igsR5NPfBgD69X36rkLEtH9YqTrwz8eOgTTZIh69+PLgm+5RAH
+XII8ahqr3+sp3PedT5OH8FTTx9vRjydC5J08WaaHJbwF5UNB/NMXZvOC5hgMuldf
+P+SCybA2RKtEIXG08YskDroANFs6bxcr1FQg20jJQDzl0A==
+=6vUY
+-----END PGP SIGNATURE-----

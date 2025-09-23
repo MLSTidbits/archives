@@ -31,18 +31,18 @@ Description: A minimal, fast, and highly customizable bash prompt
 
 Package: boa
 Architecture: amd64
-Version: 0.3.5
+Version: 0.3.6
 Priority: optional
 Section: devel
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 36
+Installed-Size: 37
 Depends: dh-make, git, build-essential, cmake, dpkg-dev
-Filename: pool/main/b/boa/boa_0.3.5_amd64.deb
-Size: 11434
-MD5sum: 18c2cf0574ff776aedcacc33602979ca
-SHA1: 859acd0eacd295037b3ee24d8510b05800e78757
-SHA256: f8ab8e2829b35c6dd7956dce504ce9d0d83864e3e0988d910ee5f696be7acec1
-SHA512: dbe472484d717278a2f31e7d82ef3904a0cbad0ff15119707e50a071bf4ae6416bc62fd6350a92d8a4eabee607aead0d1fc49290a5b0620bd495d7b3e110234b
+Filename: pool/main/b/boa/boa_0.3.6_amd64.deb
+Size: 11458
+MD5sum: 1bbad7b08ec4a3f9b1bb6856c3ea5721
+SHA1: 0170558b3307711c0d18e6b9e08f85c3c400f9d8
+SHA256: 7d280e6a0613904a60485db1f9fa5ac8650d64c5aa6736ad185ecbd9ba1b4385
+SHA512: 7e1d09fdea8f0af8605abad84ad2c34a8159e608c06c905e42bcbd7a46d2dffec68f482f4775eea28437327b484ffb332d413a12e8a3adbf0be10ff6bdcfb457
 Homepage: https://github.com/mlstidbits/boa
 Description: Boa is a wrapper script for building Debian packages.
  Using a simple .env configuration file, it automates the process of building

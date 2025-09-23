@@ -7,32 +7,32 @@ Architectures: amd64
 Components: main
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Description: MLS Tidbits Archive Repository
-Date: Tue, 23 Sep 2025 10:24:51 +0000
+Date: Tue, 23 Sep 2025 12:15:28 +0000
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e                0 main/Contents-amd64
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-amd64.gz
- ca736aca85cfc18b901fd4d886642a23            16108 main/binary-amd64/Packages
- 1e1d732bf987db696f2edbb9285bf964             5819 main/binary-amd64/Packages.bz2
- 785162b8e8876bfe623108fae12bf258             6157 main/binary-amd64/Packages.gz
- d6f5bae04aa79670526602e51e124939             5756 main/binary-amd64/Packages.xz
+ 5178d2a56ee07c5e68d2635876c42e9b            16108 main/binary-amd64/Packages
+ 88605ae31096f4b57717f66fb7cddd87             5821 main/binary-amd64/Packages.bz2
+ e0b72f7a9d6a80cfd61d02a72c654a61             6162 main/binary-amd64/Packages.gz
+ 64420ae420e3a60a9c84c36558c47d8b             5760 main/binary-amd64/Packages.xz
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/Contents-amd64
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-amd64.gz
- 3ff93718b8e9b8614396755d0f72b40ca33b53d5            16108 main/binary-amd64/Packages
- 97d7b7c3fa86c99fb7e04df5b6c86b604465301f             5819 main/binary-amd64/Packages.bz2
- d760aa9f69b5750aa5cd80118dd7400858605716             6157 main/binary-amd64/Packages.gz
- 0db25d523927ae5921ce54dfac25720749df5894             5756 main/binary-amd64/Packages.xz
+ 18fa5eeff530a7836a11804babdded0f02363c66            16108 main/binary-amd64/Packages
+ 43a3b99f3f874d41d77b64126d12c10865e24350             5821 main/binary-amd64/Packages.bz2
+ bae9ef67b070475d5f9a00175fb3436704d0f25e             6162 main/binary-amd64/Packages.gz
+ c99cf7fb78d6d569ddfe9f828d9d07fd4988d234             5760 main/binary-amd64/Packages.xz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/Contents-amd64
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-amd64.gz
- 4d0deaf994b5bc11955ab68f54343af37060df8950a9d29d8c6a382b9a949986            16108 main/binary-amd64/Packages
- e9636bd47d6f7e908c1f9798c4b0c73af71fde3c5031a34692bf89d1edf6edb2             5819 main/binary-amd64/Packages.bz2
- 316df543fee05966227dac5fc7bd880e18410359f05ef57d25b8f8b49c05e444             6157 main/binary-amd64/Packages.gz
- 6afcef9f63da756944c52bcd96e99d06ed2738f68edfc63f1bfb3bdcdaefe42a             5756 main/binary-amd64/Packages.xz
+ 2117d716b3b5128df6c88eb1c4c3da35a03ac4b605c6d3bed061d952623453ae            16108 main/binary-amd64/Packages
+ 54874178d82dbc69360f5fb330f8a7e35a2c381df42df0a362be10ad4f57c337             5821 main/binary-amd64/Packages.bz2
+ e3fec5a435949054212f675c2e84564a1a8f1bade0d7f2a62d22c184d8ec504d             6162 main/binary-amd64/Packages.gz
+ 49ef44244f81b029c2f9a360479835320c14811c1141aa3b451cad327b91e83d             5760 main/binary-amd64/Packages.xz
 SHA512:
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/Contents-amd64
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-amd64.gz
- 57de391c1d43e98ea7cb59658a0b79d7e9a4163c9f28c3813912137e7d337450f2fc2f082a6c612b223a062608f479d699c275d4c16c114723796efc6913e856            16108 main/binary-amd64/Packages
- 5e2eb06be32360af1bc4edcb4ee65fb3a01f0da67304eac92ba8efc6cc700f43113a87a2f77f1cdf682b7ba4cc780f7cb37444e274bf080bfc92c50d78416a51             5819 main/binary-amd64/Packages.bz2
- 6b5a5bd2208e94e2f74a8cfc2f170f3ab670feaefe9122e88f7c6c28da5117f7d4feddc90ab4e5c0ee9d25129de146549c60527ac72e69376d99c047a0786366             6157 main/binary-amd64/Packages.gz
- 1a49e29e835b9018aa568a04a9418313f73eb7ea90c95ea7ad03c7aec468c11d73a31cd4a32cc0b26081a7d1e5198ce7bbfddd340ebd1f8336231432154d8e3e             5756 main/binary-amd64/Packages.xz
+ 4eec74571ed6e6f69c0274e487ae1f41a1fc16d6b087bd4cf605d642d03fd081f2ff9ac7696858d5e123f5ab87ecdc5b7c56ee40801846592ccc92db54a0d369            16108 main/binary-amd64/Packages
+ b2eb8289058c1bab6c141476a54aa49f59ae0d0e3193dd6706e8eab5e376d3ab62ea4937c4dc557e14dcf64d7821f3e763c0d5ee0da501a8d8650b9fd344c47a             5821 main/binary-amd64/Packages.bz2
+ 9cc37a674922e990c894b6cfc93cd1d466f44a2ec0dc2616ed6193e12739d8b74ad22aa6a1f1d06286e474544863c5e08d8a1f32fa57ad150f840bc5fb47ed49             6162 main/binary-amd64/Packages.gz
+ 21baa2c3a623e4dca7c9568d7bc511f74118e24f9e342a89f9f8f74ca2be5b17b610984d7e11c38f8b6433cfcce8c8eea5a7b0f8309b5bae14f7f0ee2c50c42e             5760 main/binary-amd64/Packages.xz
