@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Sep 2025 00:00:00 +0000
+Source: boa
+Binary: boa
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.5
+Distribution: stable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ boa        - Boa is a wrapper script for building Debian packages.
+Changes:
+ boa (0.3.5) stable; urgency=medium
+ .
+   * refactor: Package dependencies for improved clarity and structure
+   * refactor: Remove unused package definitions to streamline control file
+Checksums-Sha1:
+ a2fb78a59ef3d991bda532369131d8543e01ca21 8407 boa_0.3.5_amd64.buildinfo
+ 859acd0eacd295037b3ee24d8510b05800e78757 11434 boa_0.3.5_amd64.deb
+Checksums-Sha256:
+ 3bdd9b1cb6ff3520826c732f9f4ff744068c5982a18968f02ae7309d3433564a 8407 boa_0.3.5_amd64.buildinfo
+ f8ab8e2829b35c6dd7956dce504ce9d0d83864e3e0988d910ee5f696be7acec1 11434 boa_0.3.5_amd64.deb
+Files:
+ 703f8b8e94ffd5e9b09a73fd399f5e7f 8407 devel optional boa_0.3.5_amd64.buildinfo
+ 18c2cf0574ff776aedcacc33602979ca 11434 devel optional boa_0.3.5_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjSdSAACgkQbkoCnkKh
+yHngkA/ZAXz3efa+uNn7bOpk2m27mgp+3DVYMLmVOBS7/Hy5VF7gfBVXbYI8R5lt
+w8125HPC+tYSzRcDeydcQSGtgpt2NNOJr+rQ7ND/sFLgiF8mgwHMJqRBatBmM1f1
+Norn6NRs6hCIBMOLeD9sIbdIbnhxu4CChxPjMyYM9gCeKvv1CWiOfhFaHn8Xw5X5
+iS58Rbu2TSiRM38XSrjGj9AsRvd1mY6qJOObbJewWlRfcDZzBhrcQWhHfuoHq7I9
+VK0+5qP2h5EFIyZnF6I8Hob3R0dicYVRaYc8VpQRO36cNqdvKKFRYGt6cRjAUYEn
+FLrFsi16IaY69ngNp3NkzQ1lr5dHEKqUCSt8ATg/9mGQ+tMgVXYQ9eD9kbYP0Yib
+QHmBJ7eGGfgPUyywgLnWUejXHFUSkYmb6FUWJvYMv5omqLc7VDydLMWl883q4o+l
+LryEufJouoWf7hwmqp5khR+boTeo34OfVmepGT55JvQqgqyDJuZTjSd6/QoIoKom
+G17sFJi7yWVaoLIP6e+3RmWL+Mi74IhgI6Km4lMtCTw+CGoa0Rh7TJlUKAetVMn/
+o4NLqOwrFE1efaHxnctnvOxgzHIgGF17xk+3AOG4WZVIFEVkFbZxoiKdzFSpOWBD
+GcSNiElEeNIVjrPwAv+8KIV2hVjGD45EtHsycw30DcsCLw==
+=BnMw
+-----END PGP SIGNATURE-----
