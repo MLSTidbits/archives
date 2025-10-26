@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 15 Oct 2025 00:00:00 +0000
+Source: depot
+Binary: depot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.8
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ depot      - Create, manage, and serve a custom APT repository
+Changes:
+ depot (0.7.8) stable; urgency=low
+ .
+   * refactor: Improve code structure and add preflight checks across multiple scripts
+Checksums-Sha1:
+ c68da90266f46af2fc6a9bbb3849f83a62e13f56 8417 depot_0.7.8_amd64.buildinfo
+ 573e78fe2153af0ea32c2a99a2f7c82cbb9376e1 23460 depot_0.7.8_amd64.deb
+Checksums-Sha256:
+ 81a0828a6fb099db343a817562ee5ca1ac42a7b35645d940614eca73a3b487ca 8417 depot_0.7.8_amd64.buildinfo
+ 11978aef362ee8a53b5dcafe0fab99b5961a3d57d255dd894955739f0eb3379b 23460 depot_0.7.8_amd64.deb
+Files:
+ 368726d8dba8630e1965de1ef1af0c69 8417 utils optional depot_0.7.8_amd64.buildinfo
+ 90ec6ade027766871f26687e9d36d6b9 23460 utils optional depot_0.7.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjvhZQACgkQbkoCnkKh
+yHlGbA/eJ+AEJ2ac/3Udc455ie61L9tbbuADs/ME94XnkysFYpa//2Q7wS7rcnOA
++MGsjisiZfOHTKfXqnIoVT0Nriu6vgBgU1lwsb0CvOdXGwcyR/OVtUeaKMbiVbPM
+fS2NjgdXMGxBACKXivxtZGPdpQ8KXRqJzwbZCDxJZ8XxL7/0o45uGd44DvY59fDY
+8n2E6qBYMqpMmPmMrFzyaw/V5k7ZrLATirVcyNk9unaV9yBnbbPvGkTaEMH2yrZX
+XfUqHM7fGThBKxqx1Dq6XBZtGVHGCK0jsI8NwElqr8oj2oylawCg54svay3ysb09
+93WDSnYPTDLPIQc6N1+fuoC0UBZQbbnaDIqdnomLL9k3HxorhwdGYgM9hgky4e4Z
+MNgdpy01exFy/8RGhE4LQTIrkwJlVLrNMgbd6qkXEFSyrmSMg8HqYR8bsWs63Gf2
+tOF5ohXQJg8F5UDJwX9++V0d+7GQlCpegP48pM/bAw3lXXU4UGFyMQGnHVVZjggq
+7fof/6VchVb+ETls7ylgE5OA6Am0LOyrrOF5MqRo+tl2lkc8H3R/7bjb2IPw2I9Q
+geum//Jy6HpxWdNJxEJ5s/kFys1Q+BRGZeEIxSULg5R+m7HhYXIwJZt9Bk6/dQ9M
+nXKP8EnCPvGm9xFy5xMg4unUkJySwypU/UsQg1ASvLa/Jg==
+=H5O5
+-----END PGP SIGNATURE-----

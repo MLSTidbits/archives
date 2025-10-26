@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 26 Oct 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.14.10
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (0.14.10) stable; urgency=low
+ .
+   * refactor: Update manpage configuration and improve section references
+   * refactor: Remove obsolete boa.yaml configuration file
+   * refactor: Implement retry mechanism for IP address retrieval in monitor-ip-address function
+   * refactor: Add shellcheck directive to config for improved linting
+   * feat: Add example environment configuration file for BOA
+Checksums-Sha1:
+ bfdc2a6d03935f1507a8e78781138ac4d3e1d99c 8425 ddnsd_0.14.10_amd64.buildinfo
+ fa86f2a4699327c9bd1bcff59e8980a5771a8093 19570 ddnsd_0.14.10_amd64.deb
+Checksums-Sha256:
+ 1d54753ebfe4b7baecb69c20b3dc384cd7bf60e9d359f7815ab9ccfb6a78eff3 8425 ddnsd_0.14.10_amd64.buildinfo
+ f6a8c676d96abd5f0e6b4ed88dc09a7982af0f8939c6bf4b9d86396288cfb9f1 19570 ddnsd_0.14.10_amd64.deb
+Files:
+ e37dbf6bfe7d0d3e990f12bed2892147 8425 net optional ddnsd_0.14.10_amd64.buildinfo
+ df326e996847901d09f678307648639d 19570 net optional ddnsd_0.14.10_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmj+PaYACgkQbkoCnkKh
+yHlgng/eM3GFmrizvH4rqMQeBV+xl3TeQ9LTSNHy/M1M71YeifwfRXbQLC31Th51
+205T0DMp4AahFuPL/eQ66KULnXNqJGc2YT4uAiM0dkZlnSbXbTG8NjrSA7GEZ7nG
+lGUOAMllOyrc408xIylSEsruaQQgVWT0sbmRwdrkskm9l6TipcJQQQiK8N6AmMXA
+DgTffjYpBrbo68T8bVAHDjvc/AcaOPz8xB+XJXV3fkYyyeCisH0hX9uysL18U/rf
+hN10zE7ttf+Lq2NmmJERvngsvikVAlk6gSLwcFe046DG18s9g7hb/8YhLo4Or98f
+UYAv3mzh3GkkyDYQJP40ymHdP0tOwEfwxd4sxQ0be8unakMTErp22q7Fy/QhcR/2
+DPnxtkP03AKodYkYgWoBaBcPQvUh5IfitZHkOMDZYEsXbxguJN8mr5GRrXsga6pg
+gMyLEaDPww7udCS8j7lwqFMKBGoct4d6FQydAEPLuXksI3PPafxfdoo/CnlgI2tx
+Dd16LRn67wt1xdv1YbMo+KAGBkx4tXaY2hOxZ/OjAjvHXJPorZwD5ADyHaWHkqlg
+iVkIpgqXER15VbTA3TbTsqgLbN4N/Mzs6rlzDOfpKRICHvWam67Xpn3/cpOpxUEC
+Cd0gHCaevOfYDqPTDqsb1Rt5puSs4V1QJ4tvlwEwSqZhyA==
+=rpI1
+-----END PGP SIGNATURE-----

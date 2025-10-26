@@ -1,0 +1,10 @@
+# depot repository configuration
+REPO_DIR=/home/michael/Workspace/Organization/archives
+ORIGIN="MLS Tidbits"
+LABEL="default"
+SUITE="stable"
+CODENAME="stable"
+ARCH="amd64"
+COMPONENTS="main"
+DESCRIPTION="MLS Tidbits APT archive package repository"
+POOL="alpha"

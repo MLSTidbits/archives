@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 17 Oct 2025 00:00:00 +0000
+Source: depot
+Binary: depot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ depot      - Create, manage, and serve a custom APT repository
+Changes:
+ depot (0.8.0) stable; urgency=low
+ .
+   * fix: Improve update-database function with enhanced error handling and dry run feedback
+Checksums-Sha1:
+ 2d91d2c326b14c86e6d3cf2b755830654aa8b5cf 8417 depot_0.8.0_amd64.buildinfo
+ 23b01e3c9bd72f6a75c5b8645703d8e77406fb59 23762 depot_0.8.0_amd64.deb
+Checksums-Sha256:
+ c6a663e070d4299add166481b37fbb2fdedd1456f188cf907da9afa9a170c1c4 8417 depot_0.8.0_amd64.buildinfo
+ 56b9a29a8956d5bea62fd1d779ee90cc72313a148081eadf099339069f468720 23762 depot_0.8.0_amd64.deb
+Files:
+ 071cd139e7a53a091c093312397d5f88 8417 utils optional depot_0.8.0_amd64.buildinfo
+ 9b78aaa904f8d7e23b68f920a4d2e701 23762 utils optional depot_0.8.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmjyf+oACgkQbkoCnkKh
+yHllFQ/gr4hCOqtEiBzDJczB4dhK97kn3N98JKXjlL2JWgz+BTA9fVXfo4KsaKTu
+ViXtpRfajg7mGdcJgzqiYTe38X93opt94wBHKThF2dDJZi4BMj836iFg8xoh1hva
+2rKuK0Fd4Zsm6gicZNxFl5tIh/jajRJJQZpnBdV3MkdQ/agTehb5xScttMxsd2gf
+qu79icmGEfyoQhjZNN1eSMV5h1lt79PB0oB0iL6Xw27ikekivI44e0vufkxLOwiC
+aWwo7734nj+6BqHVuNTky9p4+WpnCfYK1Rb5v9k4abVjh1S0Ng7CknBtAFcHB+SI
+3jfP0epSDh+dTpKRlUNXOXQEIaxBeYuhrbopIsUmeQYQBKF+LEZo9Ft3X56Uf/HR
+ZbnPRWRVQJGIVxqYtdWUAf91fn7xNU4G73bYbbtf05stuNRD6NJ7ni+DEOhvLl+P
+BGCjWmrs10KFBblE9oYrDvcpgDRCvqUqpp8RkfMsuT4jk9jASSN4QQMY+st7pHsM
+891RHWtfbZPbluiURAfN2WuHfW8fLSgxpARCxg0zM0ne4IB3KPia+zvrhMqvaely
+Fg5mrA2GHO4/nALAIQdJ8I7cyqzSb+b5Ch/y4v78kw/bHcltvi2n8SgYlbL+arSB
+SeXU8ud1Rq1q3ik2jlrTPVzsB+VX6ZxsHdFvGVa8DQRuKQ==
+=vWcU
+-----END PGP SIGNATURE-----

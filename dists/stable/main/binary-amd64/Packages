@@ -101,6 +101,29 @@ Description: Btrfs snapshot daemon
 
 Package: ddnsd
 Architecture: amd64
+Version: 0.14.10
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 54
+Depends: curl, nano, systemd, jq
+Filename: pool/main/d/ddnsd/ddnsd_0.14.10_amd64.deb
+Size: 19570
+MD5sum: df326e996847901d09f678307648639d
+SHA1: fa86f2a4699327c9bd1bcff59e8980a5771a8093
+SHA256: f6a8c676d96abd5f0e6b4ed88dc09a7982af0f8939c6bf4b9d86396288cfb9f1
+SHA512: 7d535a287c6690a8496bf4c6bcafccb03ec0c8b922a65f42d4065908b1d855bca3f70e4ca4131d66af98735cb9d4c87ab071e92768ae568e35d923afdfd39812
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: ddnsd
+Architecture: amd64
 Version: 2.5.6
 Priority: optional
 Section: net
@@ -121,6 +144,68 @@ Description: Dynamic DNS client for updating DNS records
  .
  It uses an external IP lookup service to determine the current public IP
  address and updates the DNS records accordingly.
+
+Package: depot
+Architecture: amd64
+Version: 0.7.8
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 73
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_0.7.8_amd64.deb
+Size: 23460
+MD5sum: 90ec6ade027766871f26687e9d36d6b9
+SHA1: 573e78fe2153af0ea32c2a99a2f7c82cbb9376e1
+SHA256: 11978aef362ee8a53b5dcafe0fab99b5961a3d57d255dd894955739f0eb3379b
+SHA512: 291cb71b378f88047099c631e6f5418ab57cf6f2fccd30a2f89b27e2e1f4e3f5ede1862f086a9313dac18ac1645edbb7acaaea61d83f3dd3c252ecd2e6561f6e
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: depot
+Architecture: amd64
+Version: 0.8.0
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 74
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_0.8.0_amd64.deb
+Size: 23762
+MD5sum: 9b78aaa904f8d7e23b68f920a4d2e701
+SHA1: 23b01e3c9bd72f6a75c5b8645703d8e77406fb59
+SHA256: 56b9a29a8956d5bea62fd1d779ee90cc72313a148081eadf099339069f468720
+SHA512: 464f12fe79f043e2448c0b123f5e543732bee3c931c5b7898ecb47ae608f79b9664edea99ac296fa8c1f58dd985dd25f8c6e1d560bc96d0d88e74f69698b815c
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
 
 Package: dh-gitchangelog
 Architecture: amd64
