@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 26 Oct 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.4
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.6.4) stable; urgency=low
+ .
+   * refactor: Update manpage configuration and improve section references
+   * refactor: Remove obsolete boa.yaml configuration file
+   * refactor: Implement retry mechanism for IP address retrieval in monitor-ip-address function
+   * refactor: Add shellcheck directive to config for improved linting
+   * feat: Add example environment configuration file for BOA
+Checksums-Sha1:
+ 04481ceccb11ff556d6db98d04ee3442c6646daf 8417 ddnsd_2.6.4_amd64.buildinfo
+ f3b8b79084cfa5936c00ffd6205729f2cf03975a 19572 ddnsd_2.6.4_amd64.deb
+Checksums-Sha256:
+ 03d388a0b967ae9acec7b9c378b884a22e49b21eef2fcbfb429ba1488ea10033 8417 ddnsd_2.6.4_amd64.buildinfo
+ acb4f0e71c81fef3ca8e8d349f7641e21b8178ddde7466d968aa9e58bc442f22 19572 ddnsd_2.6.4_amd64.deb
+Files:
+ b85cf8f7c1319c6637c80ec7b88ffb34 8417 net optional ddnsd_2.6.4_amd64.buildinfo
+ 04fbb68909b42c62235790c2445fd3a7 19572 net optional ddnsd_2.6.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmj+eFIACgkQbkoCnkKh
+yHlYig/gsxsEFZYVoqkKovRV3jQNky8/QT5HJZ40ZHjTTbvdcG0oNlM8fmKCKhw2
+d+VK/3ORAwAq7qfazXdC6BySSU9AmkkgZ0M83JcwcJ1gTP6yLjPTiaIaDL47KmLD
+oWCew64T62rHdN/L6ClDTKu649EyIZ8bc04MS9SykaZaP5ecKBnieJEfErY5BPrY
+QrfJUZnKaHLNxC71BoHSUEVQLozZw8V9amTtAFqq1bN904+TjXRJlOZokHddUOpl
+c+DQ6mlJxGWx+YFay4+ImrtC3BxrsLuOYexxJlOODv96hQi7w2UN98UBhQPG/9L5
+3WGyjqd6aDPcwl/7WylqWup5jWlzecAvgHqDuRp0ic7T4Wg3x+1pT4MbBeaa41/1
+egDA5FSJYqYBLAkDsHE/qf1ADndvNFMFe1eGUZRDAWY67mtG5X3o4V5ZxRwmiZpz
+F+3DJRQDo7+AScMaYM02TJtax9FVjn41p4NjNpDtV5ZG815B1J8t7DGsUjTVHhvD
+k0fJPApdoPvafB7EebEAEZp5zHqhWh7rb8eI0I3gdM9PbmnGFHwK0lzIM/PA/Co1
+xxj3Rj6u4lRFI6IB/TFQwS4TS7soGfGq+OZVI5e3RllhElCksChDChciLncu7vAK
+6rZ0f/xiSMQirZ0/pdZQ0sTdVcNgiiAcXeGa3DQUlbuT0g==
+=WHFo
+-----END PGP SIGNATURE-----
