@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 29 Oct 2025 00:00:00 +0000
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.4
+Distribution: stable
+Urgency: low
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (0.2.4) stable; urgency=low
+ .
+   * chore: Add environment configuration file and remove YAML config
+   * feat: Add manpage installation support in debian rules
+Checksums-Sha1:
+ aa64f1eafa478fb0478211869ac373e054a39987 8746 bashship_0.2.4_amd64.buildinfo
+ 0e0f201b8f0556824629aeb66fb97e96c0994288 14650 bashship_0.2.4_amd64.deb
+Checksums-Sha256:
+ 06cee908d20c74e2144128e7960ed13868424bd4236c308bb3548212c8c394a3 8746 bashship_0.2.4_amd64.buildinfo
+ 119cd0519fd825e60a1852503098df27ee9959ac69a7e3e17cc54579690c1f98 14650 bashship_0.2.4_amd64.deb
+Files:
+ fe5db156799325a6344542c5732e44a8 8746 utils optional bashship_0.2.4_amd64.buildinfo
+ 27ee8fc6f539f5ef5a03b664a991507a 14650 utils optional bashship_0.2.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkC2RYACgkQbkoCnkKh
+yHkeoQ/cDTYsdZk1Lo80AnHGdaFVHqwAmbiNIQceVJEMV0lGM5Q4pO02mhLnmqUN
+1VvK6Bs3bfl8gxHlvY5T29Wz6bgrtESWUq/2DsOpg7pyaOHJaQ9/WSbln6DwttsJ
+MlkYfmhjiX+WpVuMuMAwusuIu7a8w0atcQ8au9xjamoJqKQa09II2lL9YKMVe2wy
+ZBZgj5OJD31OD2LQtsTJKbu+OXmHJ2l30GRBlByOEtR2kHg8PrFqi2lv7CjPBteL
+ZP39NNeK5z3Mz4qcpFbpuqd87Ic0xptgqQmbqB8JpMKmZ/PChIcXBfv68Yq30pUW
+6jsUsMAH3oazkNEq8ypKV7hsuaYfJX/pRxL2m7Z95N1kIR+1mAX+/eTtbmwTx3b8
+fb3OHxlR7GME7dRnx8jW7v+tFR84ou/Ofni8Iq4zoqAhzgg/QJkddD2ju24VkWHL
+JNvCIOwk2R1PhTIhdProUSKfX+isOG32vWcnL1jRE+GMnZ+vv6/bNSmIfpVHzh4j
+ZcrolfC0b2TuUMLz+OIOeJ1dsRD1h5OWYdEFh/MTnrIjVO3QLxIRTB/l+n7hipY0
+WYZvBsoqsl8VobZvmDb66pRok6+R8EeKVHYOPtXfYRSaK5FQInhNKHTVnG4qnB0o
+qLXqz66+EObuSX4IUahgTShgT2cFKYoiBYZb2EWWzxxCdg==
+=QEj8
+-----END PGP SIGNATURE-----

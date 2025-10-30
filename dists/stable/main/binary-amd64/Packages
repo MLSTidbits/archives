@@ -1,18 +1,49 @@
 Package: bashship
 Architecture: amd64
-Version: 0.4.2
+Version: 0.2.4
 Priority: optional
 Section: utils
 Maintainer: MLSTidbits <contact@mlstidbits.com>
-Installed-Size: 35
+Installed-Size: 36
 Depends: bash (>= 4.8), bash-completion
 Suggests: git, curl
-Filename: pool/main/b/bashship/bashship_0.4.2_amd64.deb
-Size: 13844
-MD5sum: 0c524602f1ea2264f37cae35da3c7ef4
-SHA1: d331746c1b87fb929aed2983d927f559d8ead367
-SHA256: 5d695a9830d4870ed08c50ba8571f0e0e2fcb6aee12f8a0e5bef58c8b195ac48
-SHA512: 5db380a118979feb022378b975545b0c7527303ffd882a3c3341228f0681217539ac911c55529b6b127b4e91586b9b594d5f4793df90182cbb1d553a33b8bc16
+Filename: pool/main/b/bashship/bashship_0.2.4_amd64.deb
+Size: 14650
+MD5sum: 27ee8fc6f539f5ef5a03b664a991507a
+SHA1: 0e0f201b8f0556824629aeb66fb97e96c0994288
+SHA256: 119cd0519fd825e60a1852503098df27ee9959ac69a7e3e17cc54579690c1f98
+SHA512: 0ce1e6d102825dcceb382618f716a9625a277b7d9fa9e47cce8f4d93f8eb669627ca68f387b34cd2eabe1ac714aa1f520538fd08ef77bf072d8aeeb6d6207f0f
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
+Package: bashship
+Architecture: amd64
+Version: 0.2.6
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl
+Filename: pool/main/b/bashship/bashship_0.2.6_amd64.deb
+Size: 14692
+MD5sum: 444eed68fa4a2f5d9d97276628dc5cbd
+SHA1: f9f553e3840c77dfb4cf309345d57ebb50d84d4f
+SHA256: 88fd771b018ddf24f7524553d239efe07ea68f4c4ab6595662fc2fd68fa01233
+SHA512: c8d8ae8b0f07c831397f162f39bf2c050cb0ca22f0ffb6f7a05e0a64397e4a42b5063ddc6e93b553185bfcd74dec40ec1e0862698da354f4277c2d60d3638b55
 Homepage: https://github.com/MLSTidbits/bashship
 Description: A minimal, fast, and highly customizable bash prompt
  Bashship is a minimal, fast, and highly customizable bash prompt that provides

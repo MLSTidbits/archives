@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 29 Oct 2025 00:00:00 +0000
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.6
+Distribution: stable
+Urgency: low
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (0.2.6) stable; urgency=low
+ .
+   * fix: Rename bash_prompt function to __bash-prompt for consistency
+   * fix: Correct changelog configuration options in environment file
+   * chore: Add environment configuration file and remove YAML config
+   * feat: Add manpage installation support in debian rules
+Checksums-Sha1:
+ 38f6681dd20f93aff8cdb68c3f2f28d0de3b6dd7 8746 bashship_0.2.6_amd64.buildinfo
+ f9f553e3840c77dfb4cf309345d57ebb50d84d4f 14692 bashship_0.2.6_amd64.deb
+Checksums-Sha256:
+ 4000a587626407c2bc65c8331084afeeff83ab19128db3460bda9ede93e25044 8746 bashship_0.2.6_amd64.buildinfo
+ 88fd771b018ddf24f7524553d239efe07ea68f4c4ab6595662fc2fd68fa01233 14692 bashship_0.2.6_amd64.deb
+Files:
+ 963acbcbf0b40b9dc68384f31e854462 8746 utils optional bashship_0.2.6_amd64.buildinfo
+ 444eed68fa4a2f5d9d97276628dc5cbd 14692 utils optional bashship_0.2.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkC2dsACgkQbkoCnkKh
+yHncdQ/gkMO+Kjp3awez9nrDpwuc4FZ5ugXJz+WwclmSWqsVp7434aV7IhEC9oge
+LZF5xZJZG5O8yKQNODwjBcnycyx0kDLHwldZijotcgSrtSlm+mgzc8krPnx3kqRj
+GW/N4qObbE5926tRBf2QOBhlc+ueRBY2cbSLJ9fRozO9sTiTmLBTAB853WAMLd51
+gdLWAha5IAuJ/le2PI4TRN1kePaTS5xIOzITYsoOa0fvOkefcLGJpIGYSzqH9Sky
+Fzl2Ka5FonYnv26XFDMvauxkQFbRiuuHuJKmFzAP5CQwIgD1Ul2XJCVBrqPNjyjU
+p+g1CjvIsnrlrsaytouEc9bkhU3+NKQEhHczVihrBAYIicyvc8ERCx6utqLSLTqh
+xMaHZpnrFBvDz/3BRK6H1/84AxjlHYSbjF5O/Mjwk6oZM4ukVmse4WKYAzuVFVym
+V9coTTj3LpPS6n7ZNjkM9ixez45A5Rc90p6Duhq7sXUDL5HILYB5WHHY0+LbE0DY
+vHTDGvCyH6RrzQ93iCaX40WXBlKwuGennWnpzLV4JhTp5O1bZdYjzvYarREgwWnm
+Asrva9NBToZ7ae9aHynClM4hWkMP1bzZmH0Jtlk1beTb2WP+0qTDNmosTxUCkYZU
+BgyLs9caduMRxeyZRtY8lIaUVXjyeqmkgQPku0qyHD1lJw==
+=YAej
+-----END PGP SIGNATURE-----
