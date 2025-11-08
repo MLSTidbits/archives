@@ -1,0 +1,605 @@
+Package: bashship
+Architecture: amd64
+Version: 0.2.4
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl
+Filename: pool/main/b/bashship/bashship_0.2.4_amd64.deb
+Size: 14650
+MD5sum: 27ee8fc6f539f5ef5a03b664a991507a
+SHA1: 0e0f201b8f0556824629aeb66fb97e96c0994288
+SHA256: 119cd0519fd825e60a1852503098df27ee9959ac69a7e3e17cc54579690c1f98
+SHA512: 0ce1e6d102825dcceb382618f716a9625a277b7d9fa9e47cce8f4d93f8eb669627ca68f387b34cd2eabe1ac714aa1f520538fd08ef77bf072d8aeeb6d6207f0f
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
+Package: bashship
+Architecture: amd64
+Version: 0.2.6
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl
+Filename: pool/main/b/bashship/bashship_0.2.6_amd64.deb
+Size: 14692
+MD5sum: 444eed68fa4a2f5d9d97276628dc5cbd
+SHA1: f9f553e3840c77dfb4cf309345d57ebb50d84d4f
+SHA256: 88fd771b018ddf24f7524553d239efe07ea68f4c4ab6595662fc2fd68fa01233
+SHA512: c8d8ae8b0f07c831397f162f39bf2c050cb0ca22f0ffb6f7a05e0a64397e4a42b5063ddc6e93b553185bfcd74dec40ec1e0862698da354f4277c2d60d3638b55
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
+Package: bashship
+Architecture: amd64
+Version: 0.4.4
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl
+Filename: pool/main/b/bashship/bashship_0.4.4_amd64.deb
+Size: 14730
+MD5sum: eea63c1ef7b71715dfe137ac4cb5dd7f
+SHA1: a2117e2e33195ed0dccea869817b976062e0c3f6
+SHA256: ea82986ed0923877efba834bb8ff0e3cc2d8bd74b806097d7b70800d13891607
+SHA512: 992032cc5eb78fce4de3d63a186968ea546b1ace0a53ec2885f918fa0ed326cc612b441be1736d32e4b8625f3713da0953c1a353355e1565fb5fa313df8128ac
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
+Package: boa
+Architecture: amd64
+Version: 0.3.6
+Priority: optional
+Section: devel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 37
+Depends: dh-make, git, build-essential, cmake, dpkg-dev
+Filename: pool/main/b/boa/boa_0.3.6_amd64.deb
+Size: 11458
+MD5sum: 1bbad7b08ec4a3f9b1bb6856c3ea5721
+SHA1: 0170558b3307711c0d18e6b9e08f85c3c400f9d8
+SHA256: 7d280e6a0613904a60485db1f9fa5ac8650d64c5aa6736ad185ecbd9ba1b4385
+SHA512: 7e1d09fdea8f0af8605abad84ad2c34a8159e608c06c905e42bcbd7a46d2dffec68f482f4775eea28437327b484ffb332d413a12e8a3adbf0be10ff6bdcfb457
+Homepage: https://github.com/mlstidbits/boa
+Description: Boa is a wrapper script for building Debian packages.
+ Using a simple .env configuration file, it automates the process of building
+ of Debian packages, making it easier for developers to manage their packages.
+ .
+ Boa supports features like changelog generation, GPG signing, and parallel
+ builds, enhancing the package management experience.
+
+Package: btrfs-fstab
+Architecture: amd64
+Version: 1.1.4
+Priority: optional
+Section: utils
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 52
+Depends: btrfs-progs (>= 4.0), util-linux (>= 2.20)
+Recommends:
+Conflicts:
+Filename: pool/main/b/btrfs-fstab/btrfs-fstab_1.1.4-af34125_amd64.deb
+Size: 16866
+MD5sum: dd8841034d81d23981f2bed17e4d9ac1
+SHA1: 853bcb558d7ab2cc1e837e2f901ea0a09bb52422
+SHA256: 24a1f001e3cac437438351f475a58327e7f6aaf3f701c8707c1ca81ea6982cd5
+SHA512: 25c000f14977bc81cd81bf72ce05847e0fd6396811a8a511c6078d0a1c74d4e9bd8fb1e554d58d4ec7b0f6d6b8cac06fd613047d226410fc0457d7aa81298840
+Homepage: https://github.com/MichaelSchaecher/btrfs-fstab
+Description: Generate fstab entries for btrfs subvolumes
+  This package provides a script to generate fstab entries for btrfs
+  subvolumes for customized Ubuntu installations that use btrfs as the
+  root filesystem.
+Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
+
+Package: btrfsnapd
+Architecture: amd64
+Version: 2.1.8
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 75
+Depends: btrfs-progs, systemd, coreutils (>= 8), grub-common, grub2-common, grub-btrfsd
+Filename: pool/main/b/btrfsnapd/btrfsnapd_2.1.8_amd64.deb
+Size: 23244
+MD5sum: 737afe74da63b632693553a7d154b6d3
+SHA1: b082f8c4586f3a8f85beab1b3c66a18d2b9dada5
+SHA256: df115995634a5f096cb9fb35fc568ed90a27267645372e17acc605d60af3db5d
+SHA512: fa308eb811a9da8b8c9b5d1a8fbe7fb11805bcf72d8c256afa4d11441b28272f7c4149f7657aa0c3cdbe8df0af1fe252bcf470f7bedeaad34368b022e47927d6
+Homepage: https://mlstidbits.com
+Description: Btrfs snapshot daemon
+ Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
+ GRUB to allow booting into snapshots. It provides a simple command-line
+ interface for creating, listing, and deleting snapshots, as well as
+ restoring the system to a previous state.
+ .
+ This package is designed to work with Btrfs filesystems and requires
+ btrfs-progs to function correctly.
+
+Package: ddnsd
+Architecture: amd64
+Version: 0.14.10
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 54
+Depends: curl, nano, systemd, jq
+Filename: pool/main/d/ddnsd/ddnsd_0.14.10_amd64.deb
+Size: 19570
+MD5sum: df326e996847901d09f678307648639d
+SHA1: fa86f2a4699327c9bd1bcff59e8980a5771a8093
+SHA256: f6a8c676d96abd5f0e6b4ed88dc09a7982af0f8939c6bf4b9d86396288cfb9f1
+SHA512: 7d535a287c6690a8496bf4c6bcafccb03ec0c8b922a65f42d4065908b1d855bca3f70e4ca4131d66af98735cb9d4c87ab071e92768ae568e35d923afdfd39812
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: ddnsd
+Architecture: amd64
+Version: 2.5.6
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 57
+Depends: curl, nano, systemd, jq
+Filename: pool/main/d/ddnsd/ddnsd_2.5.6_amd64.deb
+Size: 20542
+MD5sum: 931d4442bc77f167a69e0531e108ff7b
+SHA1: aa323664d77b3108aec565717f3574ff8b0f1f88
+SHA256: 4b556d852545da55e656f1c6d05106bb0e4ab672528d78b1bacfd726d1331bd2
+SHA512: e6388d343bc1ed24d8b68f948681ef53c0a87a80f8c36ddb3b855b1b0325ac99d1a1eb825a69c29b30fb6c579525777980186cab131c7c352733d3ec4557aa76
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: ddnsd
+Architecture: amd64
+Version: 2.6.4
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 54
+Depends: curl, nano, systemd, jq
+Filename: pool/main/d/ddnsd/ddnsd_2.6.4_amd64.deb
+Size: 19572
+MD5sum: 04fbb68909b42c62235790c2445fd3a7
+SHA1: f3b8b79084cfa5936c00ffd6205729f2cf03975a
+SHA256: acb4f0e71c81fef3ca8e8d349f7641e21b8178ddde7466d968aa9e58bc442f22
+SHA512: 411cd12ef108e7d30b6cf2845300cc9ed8b7f3c492c859a2ba04f28c46fe6a46352d2c1787574b6a89096a5facba4751ddc60b18ba22b0a471d4b2e18837ebbd
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: depot
+Architecture: amd64
+Version: 0.7.8
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 73
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_0.7.8_amd64.deb
+Size: 23460
+MD5sum: 90ec6ade027766871f26687e9d36d6b9
+SHA1: 573e78fe2153af0ea32c2a99a2f7c82cbb9376e1
+SHA256: 11978aef362ee8a53b5dcafe0fab99b5961a3d57d255dd894955739f0eb3379b
+SHA512: 291cb71b378f88047099c631e6f5418ab57cf6f2fccd30a2f89b27e2e1f4e3f5ede1862f086a9313dac18ac1645edbb7acaaea61d83f3dd3c252ecd2e6561f6e
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: depot
+Architecture: amd64
+Version: 0.8.0
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 74
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_0.8.0_amd64.deb
+Size: 23762
+MD5sum: 9b78aaa904f8d7e23b68f920a4d2e701
+SHA1: 23b01e3c9bd72f6a75c5b8645703d8e77406fb59
+SHA256: 56b9a29a8956d5bea62fd1d779ee90cc72313a148081eadf099339069f468720
+SHA512: 464f12fe79f043e2448c0b123f5e543732bee3c931c5b7898ecb47ae608f79b9664edea99ac296fa8c1f58dd985dd25f8c6e1d560bc96d0d88e74f69698b815c
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: depot
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 73
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_1.0.0_amd64.deb
+Size: 23738
+MD5sum: 042f27cf4d105eb0f8ef058c9c1ce397
+SHA1: 52158a111e394cbc10b0347062bfb192fb5f722d
+SHA256: 3279d50055f06e256c5e6782361be95cbbb2e9b4309fde11f454999a12f9f966
+SHA512: cc49a4a861060e043c040748ef0314ba2b6774b7d571a6d346b7047e0493775571d9209e86482f90f9ffa8498f1095c30fc94c1f69c42542dbb94803b6417233
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: depot
+Architecture: amd64
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 72
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_1.0.1_amd64.deb
+Size: 23596
+MD5sum: d04352a3a15991e65b5df2577c36846d
+SHA1: b35db2d11e56a26651871c4a4c942e16d89d32a5
+SHA256: 9973b9741c9d84f11ed56a5a49f3859082f2d0a8a495658b0849d5326f2071ca
+SHA512: 73f7d416fb2fdf018ab869091af93d37a944a1da5f34f9a13418b7ea579c5cd3e4fdf458e9d4c61c7863d1dc932cb02e5bf2b917b4b5e2d4ec4948b6a55f51a4
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: dh-gitchangelog
+Architecture: amd64
+Version: 0.8.9
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: git, dh-make, debhelper
+Suggests: devscripts
+Replaces: dpkg-changelog, genchangelog
+Filename: pool/main/d/dh-gitchangelog/dh-gitchangelog_0.8.9_amd64.deb
+Size: 11664
+MD5sum: ac4c49f04d758b7a5429f96057426b9b
+SHA1: 5726e17f43c0c81339ed322b408a03ab1240bb25
+SHA256: 91df0590964c099bb48795f538764446aa3c82bef052a33583243c404be9a6c5
+SHA512: 5c965215c307bc0bf8bbd3dca1fd417ed5a30ad2e1a540e331d3061cbf35cdb952aa53882fca0f7aa8d6fc0a68e44536e2f9ff111312e346fa56d7a3c68f33c7
+Homepage: https://mlstidbits.com
+Description: Generate Debian changelogs from git commit messages
+ dh-gitchangelog is a tool to generate Debian changelogs from git
+ commit messages. It can be used to create a debian/changelog file
+ that follows the Debian Policy Manual and the Debian Developer's
+ Reference.
+ .
+ It is designed to be used in conjunction with git, dh-make and
+ debhelper, and can be integrated into your workflow to automate
+ the process of generating changelogs.
+
+Package: dpkg-archive
+Architecture: amd64
+Version: 0.0.13
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 29
+Depends: dpkg-dev, jq, nano, yq
+Filename: pool/main/d/dpkg-archive/dpkg-archive_0.0.13_amd64.deb
+Size: 8190
+MD5sum: f435f233888527adadc3c63c9ae26c3b
+SHA1: 09dab58ed46030be49ea520b06dfa7e24b077549
+SHA256: ade969a5307e4289a63cb1342123525a200a798459575c453542807ec966fa86
+SHA512: de13d6540e4272ce8e83bef40c84de898948f058d9a3f2e71ed5d7495415186bae84d58d33bfb64c77f638ee13a3c46e15b78c0c398cd23e1dee33873b4792cd
+Homepage: https://github.com/MLSTidbits/dpkg-archive
+Description: A tool for managing Debian package archives
+ Designed to maintain deb archives, providing a way of keeping
+ packages and Release/InRelease files in sync.
+
+Package: genchangelog
+Architecture: amd64
+Version: 0.6.5
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 30
+Depends: git, coreutils, dh-make, debhelper
+Recommends: devscripts
+Replaces: dpkg-changelog
+Filename: pool/main/g/genchangelog/genchangelog_0.6.5_amd64.deb
+Size: 9426
+MD5sum: 788ac39cea80f7eab55765a413022c72
+SHA1: d5976d3673e79318a4934a7e6c435ae59fb78ee3
+SHA256: 7670b6b9b5ebee37d783feed1517aac1d7c61f3cf59cbbecf9a71ac8cf4db775
+SHA512: 9cbb8a0511f02afa9a5d82f5a66ef5e9e91df444c0473a17633af16e6de8f388fa522008d7de353a2c5412f984258931df53d28029dd6fbddbe56da25ea87131
+Homepage: https://github/MichaelSchaecher/genchangelog
+Description: Generate Debian changelogs from git commit messages
+ genchangelog is a tool to generate Debian changelogs from git commit messages.
+ It can be used to create a debian/changelog file that follows the Debian Policy
+ Manual and the Debian Developer's Reference.
+ .
+ It is designed to be used in conjunction with git and debhelper, and can be
+ integrated into your workflow to automate the process of generating changelogs.
+
+Package: grub-btrfsd
+Architecture: amd64
+Version: 4.7.3
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 101
+Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
+Suggests: snapper, snapper-gui, btrfsnapd
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_4.7.3_amd64.deb
+Size: 35456
+MD5sum: 47555cb81ccbc62db4d0a17638197977
+SHA1: d030d9bbd5f8ee532784ba83126c69223b1fe92c
+SHA256: a337234e7c62f272c0915837ccbadc111eb436398d1674c4829657fcff24d59f
+SHA512: 2d42c9722e10d12d035878eca977fc4a999f78fcc24f3f40f699f9ef599db08e1cb5bec46c31805451213187b7d21b4d1ba8c5fb18d91e96a7deb86cb79709c9
+Homepage: https://mlstidbits.com
+Description: Add BTRFS snapshots to Grub boot menu -
+ This package provides a daemon that monitors BTRFS snapshots and adds them to
+ the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
+ .
+  Take advantage of BTRFS snapshots capabilities.
+
+Package: grub-theme-minimal
+Architecture: amd64
+Version: 0.2.2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 415
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-minimal/grub-theme-minimal_0.2.2_amd64.deb
+Size: 182370
+MD5sum: c482a5d15dabfa4ea18924f52e26326d
+SHA1: 4913413df165a97cd879c0959765427e539eef19
+SHA256: b6c77c562e4d95b8d51cb232b130f9db4b4c3862b31cd740165b91a3046ff314
+SHA512: b3b73510e1cf10cefcce36ef6d1cf2dbe7b2d5f44cca0847954b6bf532599b4a02f6afe5df18455e4f5cd41cadaebb76d092ea63740f77161f088cf7a73acee8
+Homepage: https://mlstidbits.com
+Description: Minimalistic GRUB theme
+ This is a minimalistic GRUB theme that provides a clean and simple interface
+ for the GRUB bootloader. It is designed to be lightweight and easy to use,
+ while still providing essential functionality.
+ .
+ The theme includes basic styling and layout for the GRUB menu, making it
+ suitable for users who prefer a straightforward boot experience.
+
+Package: grub-theme-polkadots-dark
+Architecture: amd64
+Version: 0.4.0
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Michael Schaecher <michaelleeschaecher@gmail.com>
+Installed-Size: 860
+Depends: grub-common, grub2-common
+Filename: pool/main/g/grub-theme-polkadots-dark/grub-theme-polkadots-dark_0.4.0_amd64.deb
+Size: 448956
+MD5sum: d0409d1cb6a318f749ba3644134646b3
+SHA1: 0aeb4988264bb6a6bcd55bf3b33cc5e0389886ee
+SHA256: decd4e5b7af78664a861f921d9cf3da58e2a07124e638d8ce43a016eda0aed4a
+SHA512: 8da8ba66d403442845a4cb09e4151eced1299c5bc66c0b0270e346764aeb321cd415ec39b295fb6a79eb2246631c8d97fa0417da58e91e6fcfc0c1057d3d7539
+Homepage: https://github.com/MichaelSchaecher/grub-theme-polkadots-dark
+Description: Dark Polkadots GRUB theme
+ This is a dark version of the Polkadots GRUB theme.
+ It features a modern design with polka dots and a dark color scheme.
+ .
+ The theme is designed to be visually appealing and functional, providing
+ a pleasant user experience during the boot process.
+ .
+ It is compatible with GRUB 2 and can be easily installed on Debian-based
+ systems.
+
+Package: mkaptrepo
+Architecture: amd64
+Version: 0.5.8-ced452c
+Priority: optional
+Section: utils
+Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 84
+Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
+         gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
+         grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
+Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.8-ced452c_amd64.deb
+Size: 28574
+MD5sum: f33518e8480eeb4ca0925f687e01c21b
+SHA1: 8e9883ad390e14a228fff84ba17016e46a08dffd
+SHA256: 87a7739f6d6aaf490e0f9c7146e59818a0bf63fda98d4d7633188c7c8baf1165
+SHA512: 22530c68c966aef331ecde76a287f3c880499de0fb0874381b5a533b2f224c063f30fd93493f19467034afa02221e820320578434c62726b78c9dfe09ddec17f
+Homepage: https://github.com/MichaelSchaecher/mkaptrepo
+Description: mkaptrepo is a tool to manage APT repositories.
+ It allows you to create and maintain your own APT repositories
+ easily, including the generation of Packages and Release files,
+ as well as signing them with GPG.
+Build-Depends: make, dpkg-dev
+
+Package: plasma-wallpapers-poses
+Architecture: amd64
+Version: 25.03.12-e8495db
+Priority: optional
+Section: kde
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 27052
+Depends: plasma-desktop
+Filename: pool/main/p/plasma-wallpapers-poses/plasma-wallpapers-poses_25.03.12-e8495db_amd64.deb
+Size: 27329466
+MD5sum: 4b81c737ca52234d4ce33f49c83fd809
+SHA1: 16699cd89b383734c20b0ac5ceb57676da159c64
+SHA256: c796d9fa8c0ff98c19ef6a22818a981d781679ab4920ada27c215f6a23eda22f
+SHA512: 6ea1966d0f37a73dabfeb4b69dcbbb1dc4e1419a72f598739177f01c4f28e377df7f28c27170a2c7afe91241fe1dd379fd8ae4b851af56c9e686cdc520031c6a
+Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers-poses
+Description: Wallpapers for the Plasma desktop
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: plasma-wallpapers
+Architecture: amd64
+Version: 25.03.12-947db95
+Priority: optional
+Section: kde
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 72804
+Depends: plasma-desktop
+Filename: pool/main/p/plasma-wallpapers/plasma-wallpapers_25.03.12-947db95_amd64.deb
+Size: 73740570
+MD5sum: 88510db823b4c55e5a331a58d3e1e603
+SHA1: f758037b3921082b9de4f7e29c401180b816bd49
+SHA256: 1144e16ebaaf4eac2205df8928385ca69822efea2607cad8d11c0cba567ffad2
+SHA512: 4e305e9a77d0dc76b5ac78d2b9821049c05a5e69040a318200bad72282e00a89d0ec7cce41e85bb8b4d536bfc31077e9ab3cc2f2ed669e716c6158e1611d5b4f
+Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers
+Description: Wallpapers for the Plasma desktop
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: starship-update
+Architecture: amd64
+Version: 25.04.13-62e443c
+Priority: optional
+Section: utils
+Maintainer: Michael Schaecher <MichaelLeeSchaecher@gmail.com>
+Installed-Size: 24
+Depends: cutils
+Conflicts:
+Filename: pool/main/s/starship-update/starship-update_25.04.13-62e443c_amd64.deb
+Size: 5066
+MD5sum: 0e53fa1454655742857528fcbe672a18
+SHA1: 3471689555f67065188a5a1da94e415e372fefe0
+SHA256: 1981e8458ce24fc4491435fb9ef5ec855de7ed6cec0013abd45fa16a0b1fc7c6
+SHA512: 9952a8bf3d1fc20dd1ce54c06dbd8b4547f2e94548530d5abda64a465a66ece3bdc751506e2ddf1fc67d64f1566c9baef9e7982889717477de87c8246e2f2b53
+Homepage: https://github.com/MichaelSchaecher/ddns
+Description: Install and update to the Starship prompt -
+  The Starship prompt is a cross-shell prompt written in rust that is fast & customizable.
+Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: zswapd
+Architecture: amd64
+Version: 0.9.4
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 50
+Depends: bash, coreutils, util-linux, bash-completion, systemd, nano
+Filename: pool/main/z/zswapd/zswapd_0.9.4_amd64.deb
+Size: 13746
+MD5sum: e99ef494bbd08b42729457db1db39761
+SHA1: f4d02a85b19aca92eaec5ce03f7507ce8edbaf8a
+SHA256: e07f8ec992feb4f92564069889e0c2b734b50c161ac6b4ab16dd1555288acd6a
+SHA512: b506645bb9a95a55064856435cd0fd29a5484079ad0580fe8bb3e9794be5a5e16a59a6653b2e8fcde2aceff4560cf822d1056058f1156131cc0b25a6e85ecc2c
+Homepage: https://mlstidbits.com
+Description: Setup zswapd  as your swap partition.
+ zswapd is a daemon that manages the zswap compressed cache for swap pages.
+ It allows you to configure the size of the cache, the compression algorithm,
+ and other parameters to optimize performance.
+ .
+ This package provides a systemd service to manage zswapd automatically.
+ It also includes a configuration file for easy customization.
+
