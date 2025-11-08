@@ -7,14 +7,14 @@ Binary: depot
 Architecture: amd64
 Version: 1.0.1
 Checksums-Md5:
- aa6847f85cbea720cb7b8b428ce4d8d0 23754 depot_1.0.1_amd64.deb
+ d04352a3a15991e65b5df2577c36846d 23596 depot_1.0.1_amd64.deb
 Checksums-Sha1:
- e7ca0961239754a9a50b3452af592717de6d2ca9 23754 depot_1.0.1_amd64.deb
+ b35db2d11e56a26651871c4a4c942e16d89d32a5 23596 depot_1.0.1_amd64.deb
 Checksums-Sha256:
- bd5443aae9221c13c1055ad4ef98f85712d651fe17faf76beac7683a934a68f5 23754 depot_1.0.1_amd64.deb
+ 9973b9741c9d84f11ed56a5a49f3859082f2d0a8a495658b0849d5326f2071ca 23596 depot_1.0.1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 01 Nov 2025 05:29:38 -0600
+Build-Date: Sat, 08 Nov 2025 11:29:38 -0700
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -186,7 +186,7 @@ Installed-Build-Depends:
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.6),
  libyaml-0-2 (= 0.2.5-1build1),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-86.87),
+ linux-libc-dev (= 6.8.0-87.88),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -222,21 +222,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1761955200"
+ SOURCE_DATE_EPOCH="1762560000"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkF7yIACgkQbkoCnkKh
-yHnU/A/fVUKjqX+5DNVbm3BujTjHgnSevca4XpggKV2Si8LF4SXY84Ks7VMt7Ngi
-Kywc5u42jeWpP13J6YOS/biMLSmNQjh7oZvmdYMIjlWAqsI/qdRatu3UKTdsCjJe
-aXLa18NWJYVhKmSi9fbH5qun3SRiz2O/OlKRV+UOoSNxfvSkgRqmaZyjYQvujV/v
-snqAtfS4+oM2gmaCqn5VknqEieJpML1TyuHz+bjkK/+gjDIMtapr7VMuw94TZptz
-rG5wjoKscch10AGhyVPkCuv4GA36cs3G8zpXKwlUfp+1LZ9cbq4DUVhdI1saWj4W
-2df3YJRm/+ys37dFmEA4L1tGknVUGChnCqz/XHokUOaAVpsMP0xsLD/NMarARzeT
-jeXFtFtrzO7so6z39g1+F97Xvv0dU7FFrAx+dqdPrZYTmxDcsHDc0swkrQhwbU2f
-ElZdkWayb6jmPtOfZ53OVh/ETxrfNFbWTRoJOTqRqzPwFiC6wnwgVBMAg+4ZmkRh
-LUw6fQu/o6r6iJIj9SxHQGpybbPPbzk+H5w2AWJg8ZwFrUoYgvHmbu3sDCFI1RP3
-KqnpRWWO2Gje0T/JNzNagu/KR/bYPidEwjBVcy8fpeYD6R1B7q9Aa5oV88r2QcDL
-nw3gzFacHCmuM0ZL9pdEBxFHrtyThFQYU9V5IGQAG7XCSQ==
-=LsO+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkPjBIACgkQbkoCnkKh
+yHlFsA/eKkIVxNdh/RwXQ7EQIi2UThU7+VyUiC/8NLO7+ATFgoQhWIMuSFDqWwUH
+zeQvOB5TsIEIcGibodT5qMhMoKub9cCa0prKTbVgEcFwCjhmW6TM8pCqKe27maOJ
+3d0JSSW+X9JZwkK8Nrzs2E33aaxUO7tHCccAUazoHAnvYT2HrHfspNatU3WsTIJD
+ogdSr4BUYIK4w5DmTsJJjNAFdDKbg7PYw+7PSJkLKkvg1FUlf27LmhGO/nfIeAW0
+gdT8tAthhvLckqesMRaHsYiONYsKVZRWEyyJsZBhdv373EQPVoxVcGqWlv3pCyJ4
+HKsr8FjK4sM2xt1rwxd2prBwoi4HR76NSV6RrHiwvYSCeoN649cxhj9Tf71JY9Lj
+VswywN6FgI5k0txLkVFcJ6thSDUZH6ylalqbFAZZHWEZMs2mPp0/HlbaBHBLnuge
+5lBXX9QZjBjvJ6GtS5Uw0Klm4c2EFnag0AecVThuU3ijBm9OsS2d/rfXAHJjjWLV
+UL0BXiPMLyt52xUiFhxNm5VEgbejBakjl1mLw3+kQT3rS1oUi4Vq6rop6vLds3nX
+JhVjR2lxww3zVrT1nI1kajKHEh4N20R3B986vdMwCPnM68OiA4QXpJIa0AK+27Za
+XE9CoHKWMv2GM558GBu8TbtRSuQ0IkVgKm+1Mrcy9mV09w==
+=fIiz
 -----END PGP SIGNATURE-----
