@@ -19,28 +19,28 @@ Changes:
  .
    * fix: Improve error handling and messaging for package addition and update processes
 Checksums-Sha1:
- 00e3871155822bc1b54f5a7b7c021f77fbbe4107 8417 depot_1.0.1_amd64.buildinfo
- b35db2d11e56a26651871c4a4c942e16d89d32a5 23596 depot_1.0.1_amd64.deb
+ 76c5af5a5d8ae3031e97ac982493b4666d6a999e 8417 depot_1.0.1_amd64.buildinfo
+ 303bf7db2d429d6c67865f87883a4b0b68511852 23590 depot_1.0.1_amd64.deb
 Checksums-Sha256:
- e2484072c18dd6674fd2e9b6d42b710155085a0e9670e10d56fd713e6b83fcdc 8417 depot_1.0.1_amd64.buildinfo
- 9973b9741c9d84f11ed56a5a49f3859082f2d0a8a495658b0849d5326f2071ca 23596 depot_1.0.1_amd64.deb
+ b6a5dfae637a9b2662339d15e249c63e4627d1262959292df2545015359c71e8 8417 depot_1.0.1_amd64.buildinfo
+ f21a004829afba18de81e1350463bc77ffb978f853635b8033938fc75a711941 23590 depot_1.0.1_amd64.deb
 Files:
- 71a207390ec164fe8e5120f7b62fca40 8417 utils optional depot_1.0.1_amd64.buildinfo
- d04352a3a15991e65b5df2577c36846d 23596 utils optional depot_1.0.1_amd64.deb
+ 9aa76569099d6094702b5d0d45a32a4f 8417 utils optional depot_1.0.1_amd64.buildinfo
+ ab20291d7bf73bef0a97942e86415621 23590 utils optional depot_1.0.1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkPjBMACgkQbkoCnkKh
-yHlXCw/fakI4P5hgO5WKki4Da6T7ddZ2rafJfd/1dXgw9wjIDQq1oR5Irmnvgt8n
-S+Dxc+vZlbMz/obMQfDp01QsF4RxGyE+/0MtQZFhaeYuR6go34TpabqfaPhNo7qG
-2YBGdFr8uGB8VWNPDBUM7gpFQNbBxniU+o+rYQsXKpq67/BIzLRYCD+MHxmMJX5h
-0U5Ce1PqSIN4LGMWl4EKR4NILmBnkvs9j+1yRUjGDV4aXRxPlHJ/d+kWhLZfDIkN
-xumTruvJ2ERQ8h3YQo74WOtzju8DraBcMXejNWKKiWzwMoiCWfp3dIHK9c2sHJWY
-PnFQ6IxOlSezBFNiGHsVusxmvVrx/XCUXPS5qN8+ReOyZuo/z173VeBaFEL6V9EM
-9NYZDDDf3vPLcSxCkzjrNdK8FuG2IO7u98X35TXHIa2u/LDP+K0fUJiQz51dADiV
-QoQnZpIxHqxuYb2Kn4Wcc1qxruY6y4+yj/3V5z/5Gp0XnTLa+ligRIYGA7lSfiiE
-qEGAgZCxuDOX14JQ/fflIe4SdbP3QxRD9Mobx3KZOGoGVnUQ+69HDUJgEnCby3fx
-E6XqiEs6RkVitW7/JCK93MSn7k5kXr5/hJucUhuFNMb+g2BSc4mL+Iueewdxcjut
-BHaCIWHgE0XFnkY+f/w8Q9vZKwOiakcKtYi3dEvLOAAIbw==
-=XnJV
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkPzUEACgkQbkoCnkKh
+yHm8dA/dEetk6I9WIUH4Nz2m+UZfbvvF62HJ9mOYCV/XQ0X4e0yolMjlLCtrctWT
+JMvjo1RWugBw3+dcgzMXAPfQxp60WRomORnuBSEuJrRhfUQQQ+RSKdInfigN+TNa
+rdsD7ds7GHNBNuRym9RWZShw3V1H8p9XEPPq/ZY0Jxo09jvp7CvqAmmHLKYlbwqF
+9jygG5TiTUcTzrMYfrU8CCiQav/I7VS35ynmNIiVvcJ6IpkJOdIiu9s/NSTCbSet
+RbwltLoIhPSafhww/6HW6h/GDTkR14CytFG6DURMw1Ju2Tj9EwSPQ/pDII1MGYlm
+CObvuMDa9J3W3v4rXPjGzaK+DK4v+8hL0yHMZTm33Hle7Vv7t1OYk1H3PLfQ8QB/
+bA877KPrTu9gw50zpO9+tWfFsZ/giLL7xOQ4Co90VCzcpaZsVnvXpc3/HUodtciX
+YSp24gzI+gwlZzvTJQ/XPVkySniZiMfUor7f1be7510r0oezku/+K6/nPPF77scL
+evoxKXfbgsaYEDZM4qdKo5IONgxcz82F1cPoRWKGB88PP9JaFOLy7TTxu0Fe/5A4
+y45svDaeDt4W70svXvaR4K0sy3+llbE4KbaWqS/YrovaVhuw7OcgIlMFrXsRBXj1
+8/Z9Th7QCbk4rpCR8sSj/RO4gzoSlhgBtJNh7vwquqce0w==
+=2Mbe
 -----END PGP SIGNATURE-----

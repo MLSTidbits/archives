@@ -5,16 +5,16 @@ Format: 1.0
 Source: depot
 Binary: depot
 Architecture: amd64
-Version: 1.0.1
+Version: 1.0.2
 Checksums-Md5:
- ab20291d7bf73bef0a97942e86415621 23590 depot_1.0.1_amd64.deb
+ 2f0054503786dc065d638cb9aae61fdb 23620 depot_1.0.2_amd64.deb
 Checksums-Sha1:
- 303bf7db2d429d6c67865f87883a4b0b68511852 23590 depot_1.0.1_amd64.deb
+ 886aab851eee00acd121bb545b733840859b3a43 23620 depot_1.0.2_amd64.deb
 Checksums-Sha256:
- f21a004829afba18de81e1350463bc77ffb978f853635b8033938fc75a711941 23590 depot_1.0.1_amd64.deb
+ d74872894c1219db633b9653e1cb43dbb083163d93f88de54366e19d05062303 23620 depot_1.0.2_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 08 Nov 2025 16:07:44 -0700
+Build-Date: Sat, 08 Nov 2025 16:10:02 -0700
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -226,17 +226,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkPzUEACgkQbkoCnkKh
-yHnlbw/gkSxTlsS1hUFyN0eAJ4c3Yivnxzk3xTbsvkbPCLM4vGdgLvRNdfaOXDTu
-K18PGviwHjziffGarZ4lWSGnCxJArwmHJ6l7M3bpoMpJVmwCNXYk11leebqg7/bF
-YSeANK/9qfshFRscw8uanjwJNronpHKI0eTSxNV/dnWDm2xdgX89pAcNDSSlk4+y
-5sw+tyvXMzd8XYiPEDt/6eNtethlGrowsYST2l6xtTegqKR7QlisCr3GwtXwbGRa
-osM2ghe7UUYHxLV2PrApCz5A7YVKrifLMP3fAKZ86CdW8iyPdzmluUc8UJXN89BV
-9I8sagWrav6r5cdx9+d1gCZRvfqMeuPxD8WUUkfNNtiUeRZSjFINAHSuG+PJOU2T
-ah9/q8x9RlcIlddapvZpAXXVlqqG7yuz32SS4etMp1jVwfSwBo3X0vbuT7499wTT
-YC6SiF4zBanBuIMnI9IUdpj5NSNEDE7IeNq+ZDIgqQCT0vnMW85qG2xoySFCn5r+
-8ln5eXHpRXzuDPKt/In63oI8ReTEl+2vkkl2PrI9+E9oT9Rin8XmF7nPcnc/fdY2
-ISoCB+ad/AINJb1KsAfmuqSJo38db1w03JV3HI0LNIhxPBiKN0CudEEHinbY6pxz
-k3GdpG/5NShmH4Ve4n47Njrncj5IzH3qQfo+T82Qmv+GpA==
-=zYKi
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkPzcsACgkQbkoCnkKh
+yHmjQg/eNx/5XoOuO8FUFl2v1BbQkyrNUifI33S4/ENSKwSVTBLsUAMdfWq+6tNE
+nZfIp32mFwV5o8th5N1SPqceLOf4M5hMBU2lQxZO238Z/QWGqqgCuCJB5yzxq/4b
++qKBOkdHXE3GuOjj554270W5FqoPcaiJBb4gOy8psu5v+bxF51m66OX/bNEiLKqg
+bXOlxDt7o+HXiXj23ZXyouBEA/r3B+0cHGkHEcUi10FYPUhiR7CFAXbgdllWLy6a
+duer2rxesVOJ57vLka8BJHF6qc7+tWaKDmt3lB0c/K299aCbYleWOUzcVY/6Kmfg
+AmilNL/oK4pRlrX74Il/dEFES2eJLaQhA6Y9HoU440sFLySTItaqnJbVDzbnnLP2
+kOBQ3TJzGCw+ZrRUojjrBL/sJqGDYDcuSZrZIY3ThMweFeM1Vdl+jymMmYCvUPhM
+vhbSgnxpru3MAacH4eZP1S9nNlczmPxdZSr4nDURapmTfT03ysh7x1p2GqnzwiVz
+ApJ1RzK2AuO2rm65046jQqTADcNmZOsXBP1jD2TMwn2j55KPASdrx6gCmjRB2gVu
+Y96hyssZ2zk+nxjmw7IUXbsEWC9fg+7iphFStx2A7CsMHRl67rHxGoXUtWso9j7w
+anU/nk7AWmILytMyjzm8JQle+0tq73XzC7uOl5XGGxpEGA==
+=JPjM
 -----END PGP SIGNATURE-----

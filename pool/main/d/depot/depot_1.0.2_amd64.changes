@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 08 Nov 2025 00:00:00 +0000
+Source: depot
+Binary: depot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.2
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ depot      - Create, manage, and serve a custom APT repository
+Changes:
+ depot (1.0.2) stable; urgency=low
+ .
+   * fix: Correct formatting of generated Release file in update-database function
+   * fix: Improve error handling and messaging for package addition and update processes
+Checksums-Sha1:
+ 0ec2bf6324ab1decd1a3acf68613265b220433ae 8417 depot_1.0.2_amd64.buildinfo
+ 886aab851eee00acd121bb545b733840859b3a43 23620 depot_1.0.2_amd64.deb
+Checksums-Sha256:
+ f7df3347a715294b47a4523b122192e7368f41498e7a107bb24313052ad14ca1 8417 depot_1.0.2_amd64.buildinfo
+ d74872894c1219db633b9653e1cb43dbb083163d93f88de54366e19d05062303 23620 depot_1.0.2_amd64.deb
+Files:
+ 302d408d3467260ba6fe6688e46ade0d 8417 utils optional depot_1.0.2_amd64.buildinfo
+ 2f0054503786dc065d638cb9aae61fdb 23620 utils optional depot_1.0.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkPzcsACgkQbkoCnkKh
+yHkvZQ/eIET8SLmfrL/hRxMBw9t2iBNU8lztHVLXszZxebRF/eQ93StpyWWk5O9r
+ldlwju6RsJnDaj8i2Ah9UkHCMCYLdDZy/BPs1kIkma2wonHlGI8nB4/HWd60QfvB
+4B8CjrttbYgowyk6BoavWIopkXMo4lD9jiifaF8ehBSMLVaGH627onKqhzUPT26h
+aQ0cEas17wfGABSu7psvfBOCb7okIfj03+0NeC/EdYJ8ahLttgrBa9v0os3g0VWj
+Y5RdY0hTuk11hxvW/a+O7+Q4ETpfD5ZBwJ/xGInKqe8tt4u3C4ap9+D1VMpgLkzx
+qI5jOIsDUqdxaon6qUDg69mr/6IDwk33MTIQOL8eOxTKM5Zt2FXRpdA72GY/nthl
+MgiYo07c2fxiY2YJSsveKqkMzFXioWK2GHsqL8qEiWZpF86E1cIBQTSbv/wmhKcr
+gQhv28+ZgtgOKcbhu/jyLdfiPpMXLm4PLmgTI1q5XCwUCFTCtIdfeOiK5kW9QYC+
+cEP1bOpLp9DwN28gLyqI5j3rGYwgVT3TSourdl1uK0rXxL81aWPoJfDS8R2V9AGu
+6E/6VLddzbYHhIoe9OeTX3Ci3vDeE974Tf0TBGeMvYft0W6GIjRw57QHgvhNq2FR
+u5BWVL5ziru/Y0lt2pvZci9flhWkH7QTAigaUhhL+vHHaQ==
+=29q8
+-----END PGP SIGNATURE-----
