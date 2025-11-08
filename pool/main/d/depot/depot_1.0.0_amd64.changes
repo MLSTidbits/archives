@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 31 Oct 2025 00:00:00 +0000
+Source: depot
+Binary: depot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ depot      - Create, manage, and serve a custom APT repository
+Changes:
+ depot (1.0.0) stable; urgency=low
+ .
+   * fix: Enhance initialization verification with error messaging for missing setup
+Checksums-Sha1:
+ 45e6799034becc969c79465395e1b672513d5950 8417 depot_1.0.0_amd64.buildinfo
+ 52158a111e394cbc10b0347062bfb192fb5f722d 23738 depot_1.0.0_amd64.deb
+Checksums-Sha256:
+ 950d7c8b452bbb3135211208ccc9aee5145f5dbfc297d3247ead1eddfeb7e500 8417 depot_1.0.0_amd64.buildinfo
+ 3279d50055f06e256c5e6782361be95cbbb2e9b4309fde11f454999a12f9f966 23738 depot_1.0.0_amd64.deb
+Files:
+ 6bd8e09f56aabf79bd572c6845df6ada 8417 utils optional depot_1.0.0_amd64.buildinfo
+ 042f27cf4d105eb0f8ef058c9c1ce397 23738 utils optional depot_1.0.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkF5rIACgkQbkoCnkKh
+yHnFBA/ZAdr/wprPPmyF5EtbioPn82xGg8B+Uj6wGSbrh3UClbHCuwaADpM8n/ti
+hKV8uWtbaWN7Bc0pNGq5Ec76EhHfSBeGT0eNSJF2o5OunTGIf+/VXWvDDSThZIKN
+59wBH/fuqt+w9bpUm2ReJmmNBkyCLdEclTA4wnGwmLLRuQpes2nBo4dl5rUkHR5H
+wytCWuGu+O3oAQ+RGIuGd5llcSawKa7rvBK15DlPO2evbywGae1e20uHxdmKVyzN
+8ZJOS8ldCw7Nnn+uWouWHvxlQl9MMPtnggOwEV0n3fODqmiQiQBFtXpD9QUmoGCN
+M3t3oo036V30QpLjvhYuBXPpcv6J9i9lxc1ZfaTVhHLGalcieNyO6AxznkipwgMH
+OmRCXJClq1U3npKCLUgox6pN60i21JAlJEQlfl7x93tnqcmfrO0gEi1j0z8Wc7YG
+X1GM/gLsISSWaNKby3G6peYKmiFtsMnNzuR9NloHVZwH4byfrwCq2g9CDw03naKP
+hfpmvM2mjhLJrqISp6SAKbB1cXiTpdNFNd80b+1D1PVbiPeCY0GIxf72K7OPB7F8
+MGmppFuXVqVxgfabLh9rVTqlkxYnJIxT7j4w9kH23opGwJoOQAOppZSCGKRo3vWO
+WE1xyUwqlj56+88xjAjT2tP1xzCfX72T919txoJB2BdrPQ==
+=U0ib
+-----END PGP SIGNATURE-----

@@ -60,6 +60,37 @@ Description: A minimal, fast, and highly customizable bash prompt
  Whether you're a developer, system administrator, or casual user,
  Bashship enhances your terminal experience with its elegant and functional design.
 
+Package: bashship
+Architecture: amd64
+Version: 0.4.4
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 36
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl
+Filename: pool/main/b/bashship/bashship_0.4.4_amd64.deb
+Size: 14730
+MD5sum: eea63c1ef7b71715dfe137ac4cb5dd7f
+SHA1: a2117e2e33195ed0dccea869817b976062e0c3f6
+SHA256: ea82986ed0923877efba834bb8ff0e3cc2d8bd74b806097d7b70800d13891607
+SHA512: 992032cc5eb78fce4de3d63a186968ea546b1ace0a53ec2885f918fa0ed326cc612b441be1736d32e4b8625f3713da0953c1a353355e1565fb5fa313df8128ac
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
 Package: boa
 Architecture: amd64
 Version: 0.3.6
@@ -244,6 +275,68 @@ MD5sum: 9b78aaa904f8d7e23b68f920a4d2e701
 SHA1: 23b01e3c9bd72f6a75c5b8645703d8e77406fb59
 SHA256: 56b9a29a8956d5bea62fd1d779ee90cc72313a148081eadf099339069f468720
 SHA512: 464f12fe79f043e2448c0b123f5e543732bee3c931c5b7898ecb47ae608f79b9664edea99ac296fa8c1f58dd985dd25f8c6e1d560bc96d0d88e74f69698b815c
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: depot
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 73
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_1.0.0_amd64.deb
+Size: 23738
+MD5sum: 042f27cf4d105eb0f8ef058c9c1ce397
+SHA1: 52158a111e394cbc10b0347062bfb192fb5f722d
+SHA256: 3279d50055f06e256c5e6782361be95cbbb2e9b4309fde11f454999a12f9f966
+SHA512: cc49a4a861060e043c040748ef0314ba2b6774b7d571a6d346b7047e0493775571d9209e86482f90f9ffa8498f1095c30fc94c1f69c42542dbb94803b6417233
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
+Package: depot
+Architecture: amd64
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 73
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_1.0.1_amd64.deb
+Size: 23754
+MD5sum: aa6847f85cbea720cb7b8b428ce4d8d0
+SHA1: e7ca0961239754a9a50b3452af592717de6d2ca9
+SHA256: bd5443aae9221c13c1055ad4ef98f85712d651fe17faf76beac7683a934a68f5
+SHA512: aca243eb5ab7740ea39f2f46aa317259f2f1b10124b98bc887c8af47cfd26d55019d64445a9f3a290f429dcf763774d0dec4c359d5084567598486c4f1773ff7
 Homepage: https://github.com/MLSTidbits/depot
 Description: Create, manage, and serve a custom APT repository
  depot is a tool to create, manage, and serve a custom APT repository.

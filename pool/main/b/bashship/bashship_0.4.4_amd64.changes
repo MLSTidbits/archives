@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 31 Oct 2025 00:00:00 +0000
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.4
+Distribution: stable
+Urgency: low
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (0.4.4) stable; urgency=low
+ .
+   * fix: Remove redundant shellcheck disable comments in __git-branch and __bash-prompt functions
+Checksums-Sha1:
+ a95be87c8621863a6509868869fbb3f3cfab5b87 8746 bashship_0.4.4_amd64.buildinfo
+ a2117e2e33195ed0dccea869817b976062e0c3f6 14730 bashship_0.4.4_amd64.deb
+Checksums-Sha256:
+ 860e1c7a81ec4c696cbec64975a17ca26aad24caed72886d896799c1caa47314 8746 bashship_0.4.4_amd64.buildinfo
+ ea82986ed0923877efba834bb8ff0e3cc2d8bd74b806097d7b70800d13891607 14730 bashship_0.4.4_amd64.deb
+Files:
+ 4a68250f0b019f54613328ee81965705 8746 utils optional bashship_0.4.4_amd64.buildinfo
+ eea63c1ef7b71715dfe137ac4cb5dd7f 14730 utils optional bashship_0.4.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkExo4ACgkQbkoCnkKh
+yHlf/g/ghPGi83ApsOLqLzgX3F/Ohf/BFXhKCZBufF1+Ddmhi8pTRLlWd2pwqkzX
+UE5XDG1MhArQVab9kiM+qQ3+6XSSgtFTBD0pJc6fXdWkdj5/J9Yq3mGcoo3YnK0d
+AEBfGRO6sPLS3ZIteB/LbWuRdTCnHlUcSpDI/OPwCEmRDIo9EJ4jkvMrnC7ofCXZ
+9i9YDt4JLVZQr061VyfpwBt9ks//8tAKRaX6Hc+5Lkj0LhjzUMoTGc/1eTVWqLk1
+GH2azjgAvyVrgSAVPAOlaTPPqBRmk2OtUcdNGkJj2BhPV7F/L1NRg2aNdbKVH4El
+hwdbqX7FuHsF0LfAqZZ6S35gXGzYuN4Bu5eWRSZQm8ie9EsiTM8NOmk8dyaF/Lhf
+fRnWME0xxl283fKqWO7JbYybUNW6+jfmsN+qcR7WEvIbVeBn4Eb27sLI37P2yTwS
+t+jZYqBp/3Pbu01WzP+lQ9GwehJ/xA/I98aGvWY9qwCpdzKFR2PQ4BIknbLAWsEr
+sETru+tnZKOizTkB4ySvfO60K2ZJEyr1hhQxRtsEdk9h/eK2WZSW9sIhSARYw0pf
+n3Ub/6E7kn/Xrxjq0MhL8SwYX0FKxqb0DJlZlG6B0q64rjTPy5Ytpu8ja3lpA0oj
+wJIdI0rXxMYlkDXiuCJSw5eCT9IgSCRO9Nwoxt7+WbQiaw==
+=sDyN
+-----END PGP SIGNATURE-----
