@@ -1,7 +1,7 @@
 # depot repository configuration
 REPO_DIR=/home/michael/Workspace/Organization/archives
 ORIGIN="MLS Tidbits"
-LABEL="default"
+LABEL="Archive"
 SUITE="stable"
 CODENAME="stable"
 ARCH="amd64"
