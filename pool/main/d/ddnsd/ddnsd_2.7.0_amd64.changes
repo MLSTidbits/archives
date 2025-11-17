@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 16 Nov 2025 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.7.0) stable; urgency=low
+ .
+   * refactor: Fix typos in Cloudflare API endpoint URLs in cloudflare-ddns function
+Checksums-Sha1:
+ 7bd3972460cffb257cbdbe132a85e0443e05b139 8575 ddnsd_2.7.0_amd64.buildinfo
+ 47bad374f43fc64de12f82e2ef8edfca545289bc 19598 ddnsd_2.7.0_amd64.deb
+Checksums-Sha256:
+ 5989695de632ba7d530851a76c8ea1e0445a71c413990ff3b61047e8ef904809 8575 ddnsd_2.7.0_amd64.buildinfo
+ 6a077d2f2c436d4cb4702111f9bb9faa9deebcde530f363c67e8d4030ab8cbf9 19598 ddnsd_2.7.0_amd64.deb
+Files:
+ 5a1da4a23b89f57c255d9601d57a30cd 8575 net optional ddnsd_2.7.0_amd64.buildinfo
+ 7a2c712f762b3324ae022c7927c652df 19598 net optional ddnsd_2.7.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkbICQACgkQbkoCnkKh
+yHlAVg/cCihd2i4YZapM2Nog8VAzEPgLtN3ZwSHu5pGcQ/9HwJMj1cFrFIDEM2sH
+x7P/Kfk0c8mBadzjsPr4mZy4cs9yMjqPl2vOdyxVi47aQPvTX57Zid0W2v403Qe9
+zlmWnINe4MsGkE/N9dWeAqDL8iXQij4tupHyRLN3ZZYAzC/xvwV/A3wP+A+Mzpvi
+33gpkEGWqcG7NZmKqEz77jqich1slISApd2vPYE2OJ8oKygxhW0d0AgrHyEcTzHi
+V9SQHwzh31UBt5XsFfhvNQwPU/5LOAr6G591XdhyHRFoTaQDxUNubKXUzlkQhC/8
+DlPCdviGljz83uEd+X0G4L3gBHlh9Nnmxt7st3KR5Ki1h+wfmd5RvNrTOR3SZRz0
+XD71f7uBZDuuU4QTG/BV0zwsitsoP408766vhQ3blZhUvM3guFAgsXEDGcYFcIAn
+8RSIGKiGz/eNIH+7+n6OfyK7uV9BCJ8wchr6aV7HtsY8HhEtYj1Zp3SpyzcgR9vN
+adhL5c6QjWb2mmGicvbYp8WkZkFbUdKwNcu15S1mgQvKn7NhR6/RPUPosW19jodx
+fY5qP+rDXz6OtLhtzJwbqzqyZvJ90ryT96Qr3b0OV8MPgNTWpntMG3fSeHteAheF
+nlPayXq4FAQEeksMqk1DGD63PaTe+c2+zR9CA5p3l1vyug==
+=rL9k
+-----END PGP SIGNATURE-----

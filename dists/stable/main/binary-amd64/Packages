@@ -230,6 +230,29 @@ Description: Dynamic DNS client for updating DNS records
  It uses an external IP lookup service to determine the current public IP
  address and updates the DNS records accordingly.
 
+Package: ddnsd
+Architecture: amd64
+Version: 2.7.0
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 54
+Depends: curl, nano, systemd
+Filename: pool/main/d/ddnsd/ddnsd_2.7.0_amd64.deb
+Size: 19598
+MD5sum: 7a2c712f762b3324ae022c7927c652df
+SHA1: 47bad374f43fc64de12f82e2ef8edfca545289bc
+SHA256: 6a077d2f2c436d4cb4702111f9bb9faa9deebcde530f363c67e8d4030ab8cbf9
+SHA512: 433f0008c900bc198f9eeaf55f343fd33c793f032e1ed76e3e737e44601c4907b49f338128c4705407026ea8b8d76eb8cf701b9762285a9e4753f2f1f4b73dbd
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
 Package: depot
 Architecture: amd64
 Version: 0.7.8
