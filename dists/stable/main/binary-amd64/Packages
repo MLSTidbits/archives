@@ -113,6 +113,28 @@ Description: Boa is a wrapper script for building Debian packages.
  Boa supports features like changelog generation, GPG signing, and parallel
  builds, enhancing the package management experience.
 
+Package: boa
+Architecture: amd64
+Version: 0.3.8
+Priority: optional
+Section: devel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 37
+Depends: dh-make, git, build-essential, cmake, dpkg-dev
+Filename: pool/main/b/boa/boa_0.3.8_amd64.deb
+Size: 11480
+MD5sum: fd5ea3894705e7bb3eaafd4faf807fb1
+SHA1: a2911a553cd809ab3b0912ca2e9cdfb72de2b793
+SHA256: 711bc06b122f2f83d0a62ad59d76952749c089db5bff0ff738dde59c3035ce04
+SHA512: c21574ea6f20c70bdffc350b70c00e12697f6c7753c96c1a5775bd2e639d73f40de4f6245e608a1489d5272a77aca5e8b461a7c9c0a8292bf123ae6ae6eee83f
+Homepage: https://github.com/mlstidbits/boa
+Description: Boa is a wrapper script for building Debian packages.
+ Using a simple .env configuration file, it automates the process of building
+ of Debian packages, making it easier for developers to manage their packages.
+ .
+ Boa supports features like changelog generation, GPG signing, and parallel
+ builds, enhancing the package management experience.
+
 Package: btrfs-fstab
 Architecture: amd64
 Version: 1.1.4
@@ -648,6 +670,30 @@ MD5sum: e99ef494bbd08b42729457db1db39761
 SHA1: f4d02a85b19aca92eaec5ce03f7507ce8edbaf8a
 SHA256: e07f8ec992feb4f92564069889e0c2b734b50c161ac6b4ab16dd1555288acd6a
 SHA512: b506645bb9a95a55064856435cd0fd29a5484079ad0580fe8bb3e9794be5a5e16a59a6653b2e8fcde2aceff4560cf822d1056058f1156131cc0b25a6e85ecc2c
+Homepage: https://mlstidbits.com
+Description: Setup zswapd  as your swap partition.
+ zswapd is a daemon that manages the zswap compressed cache for swap pages.
+ It allows you to configure the size of the cache, the compression algorithm,
+ and other parameters to optimize performance.
+ .
+ This package provides a systemd service to manage zswapd automatically.
+ It also includes a configuration file for easy customization.
+
+Package: zswapd
+Architecture: amd64
+Version: 1.3.3
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 48
+Depends: bash, bash-completion, systemd, nano
+Filename: pool/main/z/zswapd/zswapd_1.3.3_amd64.deb
+Size: 14140
+MD5sum: f3815cab2be1da48362ac6d33b0a6d55
+SHA1: fd99b739a9008a42f8a83093bb98c766b50f447a
+SHA256: 97c9a41af5ce84e6aad4500dfff3113ad616472b49c9e8220d240e9a5d5c8853
+SHA512: 2fe77f53d9fbb28e7e999be2506a28ab16a4fcd0c253f95f383c51c8da63cd2825a6f7ae8c759df64c0fde4e699b9730d1788f4a6a76b838916212f358b66a8f
 Homepage: https://mlstidbits.com
 Description: Setup zswapd  as your swap partition.
  zswapd is a daemon that manages the zswap compressed cache for swap pages.

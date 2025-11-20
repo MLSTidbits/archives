@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 20 Nov 2025 00:00:00 +0000
+Source: zswapd
+Binary: zswapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.3
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ zswapd     - Setup zswapd  as your swap partition.
+Changes:
+ zswapd (1.3.3) stable; urgency=low
+ .
+   * fix: Enhance signal handling to stop service gracefully on termination
+   * fix: Standardize variable naming for consistency in zswapd script
+   * fix: Add environment configuration file and update build options in rules and markdownmanpages
+Checksums-Sha1:
+ 172e462ec77e36802651568fa4e1ab61f5b63beb 13866 zswapd_1.3.3_amd64.buildinfo
+ fd99b739a9008a42f8a83093bb98c766b50f447a 14140 zswapd_1.3.3_amd64.deb
+Checksums-Sha256:
+ 26298bd7a05f393f7af135f03fe2ebccedeb903ebab7a549ba0891722dd9595e 13866 zswapd_1.3.3_amd64.buildinfo
+ 97c9a41af5ce84e6aad4500dfff3113ad616472b49c9e8220d240e9a5d5c8853 14140 zswapd_1.3.3_amd64.deb
+Files:
+ 8089cf4467e6a1c8c908dfe1bb7d4aca 13866 admin optional zswapd_1.3.3_amd64.buildinfo
+ f3815cab2be1da48362ac6d33b0a6d55 14140 admin optional zswapd_1.3.3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkfEU4ACgkQbkoCnkKh
+yHlcyQ/cC3e7GakAUkZEOWgVM6dlMq57ksQU9sH/sr7zwTVyrZK2OtqmlA62nQQp
+y0c/2dLBAnYC4LgtxZCfw2VlPfDtgj2hZ9fTyLn25jLcE/OACM7nHKNom3jLDHys
+f7odU06S9wT1woOWjFi//DwbJe9C0HY3n1KYNr+L+LAa9SzDMYWkNGywZXrFXJtH
+JasKi69my7J4h440WkhC6HW3Rlyrp3gKk93qyPmpoZy5aZm9+Rn9/HpAQdoG57b0
+e+o99OfCI9akSZciLyUzRPvhla39bh5CTt5Hi/dhmOzErtQqcjKdUWWxtgr4H6Ie
++gi/HB1t2452kiflfKECSOakHX1Fq5vHdKFt+t+1p1CX70PkQY+Zle1lbRoavQ2m
+ZENIxHGus9vq84Vs3Mji4hMC6t97LR/jA5U6n3aacqnB1cCD9FWmEQW5qIXcJ/0U
+tENZc/L0cfbnHRBgEsEMJPnmXZkbsSMxVlcfBFgL8zxiKoC336euzJD1/b0GeeLO
+aB7tjQO/TDXpnRk4DfxemOcJPYi/a7WWBh/BiRnuvDMC1AX+EnsPuq9Dlvn5zKhp
+nRwrITU6kKmUF5r2XzC+roHVEOjmNHjFheMMeRiR9kolsRDBSzbGGO0qMP+uGEd6
+tDa9+jutgyll8XmLVBqX2zfXC2EQm+jNLBkGGEq7jkFcPg==
+=pSh4
+-----END PGP SIGNATURE-----
