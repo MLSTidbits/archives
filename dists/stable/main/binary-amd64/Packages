@@ -207,6 +207,38 @@ Description: Btrfs snapshot daemon
  This package is designed to work with Btrfs filesystems and requires
  btrfs-progs to function correctly.
 
+Package: dash-to-panel
+Architecture: amd64
+Version: 79.2.0
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Installed-Size: 1694
+Depends: gnome-shell (>= 46)
+Suggests: gnome-tweaks, gnome-extensions-manager
+Filename: pool/main/d/dash-to-panel/dash-to-panel_79.2.0_amd64.deb
+Size: 449792
+MD5sum: f0caaa469e2d97d5762b5587c17e6bed
+SHA1: a94de076d1430f74b21678cd80b47da8554822de
+SHA256: 0c104aa6ef140b07507571a91cc25d3773a59f9cdc18f569cc3f0313bafca79c
+SHA512: 7c005e84951c86414e9cc506f7bf0c50b3a80b9e334bcccfd672dedb1056d7b8e48550970c1fdeee53668137c577d41f816dad9735ddad83ed0a8dfb4c1363ef
+Homepage: https://github.com/MLSTidbits/dash-to-panel
+Description: Dash to Panel GNOME Shell Extension
+ Dash to Panel is a popular GNOME Shell extension that combines the
+ dash and the top panel into a single, customizable panel located at
+ the bottom of the screen. It provides a Windows-like taskbar experience,
+ allowing users to manage their applications and system tray more
+ efficiently.
+ .
+ Features include:
+  - Application launching and switching
+  - System tray integration
+  - Customizable appearance and behavior
+  - Support for multiple monitors
+ .
+ This package contains the Dash to Panel extension for GNOME Shell.
+
 Package: ddnsd
 Architecture: amd64
 Version: 0.14.10
