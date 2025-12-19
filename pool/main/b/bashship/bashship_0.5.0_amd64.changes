@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 19 Dec 2025 00:00:00 +0000
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.0
+Distribution: stable
+Urgency: low
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (0.5.0) stable; urgency=low
+ .
+   * fix: Optimize container detection logic in __container function
+Checksums-Sha1:
+ d3e7ae7d9d65f90c4f42e2ab942b4afdfad9fb43 8904 bashship_0.5.0_amd64.buildinfo
+ 0aa3d34eb0ac39b1113fc3f16930ae4c0cc5b754 14746 bashship_0.5.0_amd64.deb
+Checksums-Sha256:
+ 31f5d824880726645638afcd8312fbabd137fd19cba94315c9b9a56d8a9119c2 8904 bashship_0.5.0_amd64.buildinfo
+ a6b940c66587eefd45c358068c0263d308bf64cb62b94ccfb415eba686413e7c 14746 bashship_0.5.0_amd64.deb
+Files:
+ c6309f80a1ed521f92d9f775ca942d39 8904 utils optional bashship_0.5.0_amd64.buildinfo
+ 14d56975cc84f0f8325a72c9f8584170 14746 utils optional bashship_0.5.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlFwUYACgkQbkoCnkKh
+yHkBaA/ffCTER+REtZkO2yEEsLwR+QIEnCw3DNu9oq6+6wsurxQP+PgC2wOg+/nP
+CyFZXKsWM8M9JCj8uL4XqGdQqbaMxOWf+PhnskoWqL0vAYXrbL/WpJFN5jwEE96Q
+ji7qhGemBkWPeIohCi7p7sdWrfOsa6P+RdK8JqoHr3YzyH85tYdIiqvg2LGihDTI
+OnpyzjrdHr0YGJVk87cCPSLEcvNsTkpfF0RIkfXysoFHQ1Pr2JF6wkqG4PeVeAX/
+IlNQh/pLpIfIVXQceUCgYbq82+sorLwseBjvLJiz2dTbqOJ8ONguB8HN3FcABFdR
+d9425FDzU82HIKyLS11KYhSYm2nZmUBBQmOZVv+0WaTXOGw9JRsVZqELcZa1/8Me
+MaqDbZXUjJBkQj6I7r6FHoRyXFXo6ohYHYd90V3NKsnGxERIPFLg7xK9gxqJ2vW7
+lMUykePkEe0XWp8g7s3dojpBzLW3GQ0p+DwtNRHD4vDlru+1d2oTGwZpd0x3DDeY
+EIMq77+wgmKJDwmZ4v9p4eGbMscFu50SxzhaF8TFv2iaTbb8tsTzp6XlVeR2fZIy
+XSn70R3swMlCpatuiVnqRP0JWQr1yS3a8XXrGskdBXJiWa6azaubI7M+1ZvccdbH
+EhBpu0GqvCElPAGFtT//KYf+C5FgawSxbPIKIAvZzWgZ8g==
+=Mp1o
+-----END PGP SIGNATURE-----
