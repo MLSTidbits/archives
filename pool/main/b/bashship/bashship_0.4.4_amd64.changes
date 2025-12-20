@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Fri, 31 Oct 2025 00:00:00 +0000
+Date: Fri, 19 Dec 2025 00:00:00 +0000
 Source: bashship
 Binary: bashship
 Built-For-Profiles: noudeb
@@ -17,30 +17,32 @@ Description:
 Changes:
  bashship (0.4.4) stable; urgency=low
  .
-   * fix: Remove redundant shellcheck disable comments in __git-branch and __bash-prompt functions
+   * fix: Replace c__c with __c in container detection logic
+   * refactor: CHANGELOG_ITERATION value and update urgency options comment
+   * fix: Optimize container detection logic in __container function
 Checksums-Sha1:
- a95be87c8621863a6509868869fbb3f3cfab5b87 8746 bashship_0.4.4_amd64.buildinfo
- a2117e2e33195ed0dccea869817b976062e0c3f6 14730 bashship_0.4.4_amd64.deb
+ 41e2bcfeee86675f6276459093fb84eddc019416 8904 bashship_0.4.4_amd64.buildinfo
+ 557368f5d2b13045dcea1e178a20d76865bb232f 14792 bashship_0.4.4_amd64.deb
 Checksums-Sha256:
- 860e1c7a81ec4c696cbec64975a17ca26aad24caed72886d896799c1caa47314 8746 bashship_0.4.4_amd64.buildinfo
- ea82986ed0923877efba834bb8ff0e3cc2d8bd74b806097d7b70800d13891607 14730 bashship_0.4.4_amd64.deb
+ 5974077267d5a57a06cb5c0e94da1603b22d0519f2b6c101ccffc0ba658d2a6f 8904 bashship_0.4.4_amd64.buildinfo
+ 6518f24252312e76ea09026f56b00a7db51f843311fb956871200a43b400d07f 14792 bashship_0.4.4_amd64.deb
 Files:
- 4a68250f0b019f54613328ee81965705 8746 utils optional bashship_0.4.4_amd64.buildinfo
- eea63c1ef7b71715dfe137ac4cb5dd7f 14730 utils optional bashship_0.4.4_amd64.deb
+ 3b08e04b8e002e29922601af92c4e422 8904 utils optional bashship_0.4.4_amd64.buildinfo
+ 214da5b433ba279258708385bb4b4b90 14792 utils optional bashship_0.4.4_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmkExo4ACgkQbkoCnkKh
-yHlf/g/ghPGi83ApsOLqLzgX3F/Ohf/BFXhKCZBufF1+Ddmhi8pTRLlWd2pwqkzX
-UE5XDG1MhArQVab9kiM+qQ3+6XSSgtFTBD0pJc6fXdWkdj5/J9Yq3mGcoo3YnK0d
-AEBfGRO6sPLS3ZIteB/LbWuRdTCnHlUcSpDI/OPwCEmRDIo9EJ4jkvMrnC7ofCXZ
-9i9YDt4JLVZQr061VyfpwBt9ks//8tAKRaX6Hc+5Lkj0LhjzUMoTGc/1eTVWqLk1
-GH2azjgAvyVrgSAVPAOlaTPPqBRmk2OtUcdNGkJj2BhPV7F/L1NRg2aNdbKVH4El
-hwdbqX7FuHsF0LfAqZZ6S35gXGzYuN4Bu5eWRSZQm8ie9EsiTM8NOmk8dyaF/Lhf
-fRnWME0xxl283fKqWO7JbYybUNW6+jfmsN+qcR7WEvIbVeBn4Eb27sLI37P2yTwS
-t+jZYqBp/3Pbu01WzP+lQ9GwehJ/xA/I98aGvWY9qwCpdzKFR2PQ4BIknbLAWsEr
-sETru+tnZKOizTkB4ySvfO60K2ZJEyr1hhQxRtsEdk9h/eK2WZSW9sIhSARYw0pf
-n3Ub/6E7kn/Xrxjq0MhL8SwYX0FKxqb0DJlZlG6B0q64rjTPy5Ytpu8ja3lpA0oj
-wJIdI0rXxMYlkDXiuCJSw5eCT9IgSCRO9Nwoxt7+WbQiaw==
-=sDyN
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlGFb4ACgkQbkoCnkKh
+yHlANw/eOgvnv8zkEnuJ+RnK4qeFLwqvm9SwAXNprVMU+yZrjnk4K7O1/Xp6vluP
+zw/lu/cGPKuhRjiABue+2EWUW6dmvClrKincm69eph9iR9G0bfUHiiap8fWe/i4x
+E3kK5fmk2f8z6tvSQf3gCNbLSC9+/knZ0Y0Agwm5gEjjZKv65kzA9cn8V2WFGAat
+4shoIlUiwR6QU+krGJBAzOtMLll0h5QhWwM27dGwEeiYMAsgahbqWiWRV1nWxLrC
+pDc2Meu55Cpo/q6gLtFpYO8YlKewmfupTX9duNbrJhDoIU0YnY15EC8xJwiOXDNH
+DHnJb6PpJwbNzpZ909bT/zZa9j3Uf9MX4FGIK68y+WRYuDwZwV8kaHf58rBBc7H4
++tRpVdv5W+vvN4gBmr2hPxmN0rvcj5pr0rAqU25ax+CaoOvrGowBWAqDs7j/t5g3
+EG3sVa0xAoUIlF2YrjXP172N5oWboqFiZbxspsno7g6ku4O+Wuh63wnvRNBNq4VC
+y42K12cAY3bOmiVXbXWYz6hKi8qAznTF7vd1z+Lj+f/rFnl6FuS6Ubje915l4gi3
+3vKqP4dK199OkMd0rcH+dHvIRnhr//VeWNqKDrjZkfzaHvdjT3TxuD8b9s+Z8sWy
+jzGbUPLCJjJTeXnDRNunnnvNRXRuMUvKHrU13GN0RLn1oQ==
+=k30f
 -----END PGP SIGNATURE-----
