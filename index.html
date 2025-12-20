@@ -195,7 +195,7 @@
     <div class="center">
       <h3>Add the Repository</h3>
       <pre><code class="bash">echo "deb [arch=amd64 signed-by=/usr/share/keyrings/MLSTidbits.gpg] https://archive.mlstidbits.com/ stable main" | sudo tee /etc/apt/sources.list.d/MLSTidbits.list
-      &#10;wget -qO - https://archive.mlstidbits.com/key/MLSTidbits.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg</code><button class="copy-btn">Copy</button></pre>
+      &#10;wget -qO - https://archive.mlstidbits.com/key/MLSTidbits.gpg | sudo dd of=/usr/share/keyrings/MLSTidbits.gpg</code><button class="copy-btn">Copy</button></pre>
       <p>
         Once you have added the repository, now add the packages to the package manager database <code>sudo apt update</code>.
         After that, you can install any package from this repository using <code>sudo apt install &lt;package-name&gt;</code>.
