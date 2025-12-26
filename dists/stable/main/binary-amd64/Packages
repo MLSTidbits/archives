@@ -238,6 +238,31 @@ Description: Btrfs snapshot daemon
  This package is designed to work with Btrfs filesystems and requires
  btrfs-progs to function correctly.
 
+Package: btrfsnapd
+Architecture: amd64
+Version: 2.2.1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 75
+Depends: btrfs-progs, systemd, coreutils (>= 8), grub-common, grub2-common, grub-btrfsd
+Filename: pool/main/b/btrfsnapd/btrfsnapd_2.2.1_amd64.deb
+Size: 23338
+MD5sum: e2b5d7cbdefcd80fda0c8b2bbe94561c
+SHA1: 0ca1a753c3b7c58f1ae3e5f62de7f70d8825dfec
+SHA256: 7f820ca4ac58f9e5f3a4c3bccef91453e878f72c55ce932a99c4cb99918ecbe8
+SHA512: 97b676b45da2baac5ef04524925c465656118ff0312475a85210d59ab84a580f941f35e7efb19d73c91523e7b527f330a06da19d051374a1c8cd257d92e729f1
+Homepage: https://mlstidbits.com
+Description: Btrfs snapshot daemon
+ Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
+ GRUB to allow booting into snapshots. It provides a simple command-line
+ interface for creating, listing, and deleting snapshots, as well as
+ restoring the system to a previous state.
+ .
+ This package is designed to work with Btrfs filesystems and requires
+ btrfs-progs to function correctly.
+
 Package: dash-to-panel
 Architecture: amd64
 Version: 79.2.0
@@ -606,6 +631,29 @@ MD5sum: 47555cb81ccbc62db4d0a17638197977
 SHA1: d030d9bbd5f8ee532784ba83126c69223b1fe92c
 SHA256: a337234e7c62f272c0915837ccbadc111eb436398d1674c4829657fcff24d59f
 SHA512: 2d42c9722e10d12d035878eca977fc4a999f78fcc24f3f40f699f9ef599db08e1cb5bec46c31805451213187b7d21b4d1ba8c5fb18d91e96a7deb86cb79709c9
+Homepage: https://mlstidbits.com
+Description: Add BTRFS snapshots to Grub boot menu -
+ This package provides a daemon that monitors BTRFS snapshots and adds them to
+ the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
+ .
+  Take advantage of BTRFS snapshots capabilities.
+
+Package: grub-btrfsd
+Architecture: amd64
+Version: 5.8.1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 101
+Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
+Suggests: snapper, snapper-gui, btrfsnapd
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_5.8.1_amd64.deb
+Size: 35782
+MD5sum: 1638f327f6d3f8e73bef39655e860bca
+SHA1: a24d31ef01a00d6f395678bb2a76829121700e84
+SHA256: 11ff427b7ffb217cb1720b035e7090f11bf928c61752fdaba07a62546aba004b
+SHA512: 5186e6bbd7fc12f2e402480b55d2c787739d8e7769d98d674242e86d56bd31bcdae052ecf4651d10195a407119e8a9f705cc2a0b7cd9373834b924d28465bbd6
 Homepage: https://mlstidbits.com
 Description: Add BTRFS snapshots to Grub boot menu -
  This package provides a daemon that monitors BTRFS snapshots and adds them to

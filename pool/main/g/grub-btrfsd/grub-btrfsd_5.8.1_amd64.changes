@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 26 Dec 2025 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.8.1
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+Changes:
+ grub-btrfsd (5.8.1) stable; urgency=low
+ .
+   * fix: Update install rules to include necessary directory checks and correct manpage installation command
+   * chore: Add installation manpage for grub-btrfsd
+   * chore: Replace configure file with environmental build file for boa.
+   * refactor: Remove deprecated directories and update installation rules
+   * chore: Replace manpages file with markdown version for documentation
+Checksums-Sha1:
+ 887f3a4c14d4dcd88b73c8cba3b12e34048f85f8 8633 grub-btrfsd_5.8.1_amd64.buildinfo
+ a24d31ef01a00d6f395678bb2a76829121700e84 35782 grub-btrfsd_5.8.1_amd64.deb
+Checksums-Sha256:
+ fe1815e50b74c4f81975c1d853b2bfd122735c4b5f085b2e738f68741e816f2a 8633 grub-btrfsd_5.8.1_amd64.buildinfo
+ 11ff427b7ffb217cb1720b035e7090f11bf928c61752fdaba07a62546aba004b 35782 grub-btrfsd_5.8.1_amd64.deb
+Files:
+ 0e896cc4c9a05b639a3a047127e77b73 8633 admin optional grub-btrfsd_5.8.1_amd64.buildinfo
+ 1638f327f6d3f8e73bef39655e860bca 35782 admin optional grub-btrfsd_5.8.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlOr/UACgkQbkoCnkKh
+yHnv5A/gk2Muu+yzssJfBWrmp9ZP3hWPXNKwLO8yqYhw6EC/vXoncXq/+p2aW6Eh
+3RtrksrxlajCLnr8poJddz9rD6wIohwJnC7zqwO/F6iue7nlOjAvXOAYw5pWSEx/
+sWUPOqiyRdM1/N9cvWdHONVFCkNKJ4HPCvMcz5YlHm89lsQubJttzE9UuSVBpZku
+UNQ/ViA3xZqniwsaz0uK26ZBhQJKP+PN+lZR2O37l+oJWWVMltcigtp3DvHIbpJ0
+/Bhsh3Wek2h9rAF1G/v4BsQS1zPHyyZ00fnAJ7KIPKmQ6PD2oOllIpR6VRaetAOS
+iOwYoCgVOKEp98bpfT7c3xcekxZD3KuocJDHD2VwXmqPkg3LQWZj4YpbVyTQmsti
+I20loJYq78YEZlydeY8TllgMAdYJVJW2OvYaAG5ESI/vH1H/xK0ZGG10LORXdjfd
+oqEWJoR13A5azLPc0ssVJNDyNxeEAU72iqL7tYMNAmo1aWue4Y1GNhU3F9K8XKua
+I90ZEs5UCXOx+eS0tjMGMhZVkbeLfglXLb39jdPgO3GkxUtqZJXZqUYZw2+4aSiR
+iy5X56Jk4pyBKSc5iFIP2G+4UVTsK2iymwhD+E1Lx5tAMk7iYHKtomTq2yZysTav
+2RLHUS1qiljxdv8fiVx+Qih3L8zJfuabnKIJZXUuJPx2QA==
+=gC20
+-----END PGP SIGNATURE-----

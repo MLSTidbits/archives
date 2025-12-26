@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 13 Nov 2025 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.1
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+Changes:
+ btrfsnapd (2.2.1) stable; urgency=low
+ .
+   * fix: rename take_snapshot function to take-snapshot and update related variables for consistency
+   * fix: rename check_root function to check-root and update calls for consistency
+   * fix: standardize function naming and improve signal handling in btrfsnapd script
+Checksums-Sha1:
+ 55efc4548d0a089ce2217d7c8cd9149554b5b7e6 8509 btrfsnapd_2.2.1_amd64.buildinfo
+ 0ca1a753c3b7c58f1ae3e5f62de7f70d8825dfec 23338 btrfsnapd_2.2.1_amd64.deb
+Checksums-Sha256:
+ 9cbd80d6bb2cfcd72237fae329b39f16d74ceacf7124ae19d51a8a325fd4a1c9 8509 btrfsnapd_2.2.1_amd64.buildinfo
+ 7f820ca4ac58f9e5f3a4c3bccef91453e878f72c55ce932a99c4cb99918ecbe8 23338 btrfsnapd_2.2.1_amd64.deb
+Files:
+ d1934ab1d16aa0ed6b977f5b82cbbfc4 8509 admin optional btrfsnapd_2.2.1_amd64.buildinfo
+ e2b5d7cbdefcd80fda0c8b2bbe94561c 23338 admin optional btrfsnapd_2.2.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlNrYAACgkQbkoCnkKh
+yHmu4A/fdgr5WHKqecmghGAu326SGrn0wIxKO0OgnqFD0TCKVmAEa/EFAK+5+nt/
+NLIknZ7VN4joI/NzNg8xupIYTmB+9mp59ytB0OorDDIw6HBMj5TNRv7DlpY/5VXv
+BLu+fEhKIRePP16tLuw7px1QnToB+oU57hzsXDJGcz+1QzNjO/L3BAswpe2t17NL
+nS1wHxJ5A4uRA8D8tRfh2ThV/Hk0vYsI2hqWLFs/4xYAlxcVf1FIjUgT6t6M7E3u
+TfD0AsXmlSce57PbHp2VQ7BIt7PV57HpF/0oUd5yrRyYFESEoRM05HICJ+4NXWwO
+yfNd4InA/+CnT+NIM32qqI8UvGtvR3oc2l1OK8q3aYKMVfvqu5otabBE2wB/J1Zg
+vckpUOl66OB/pBEt3yRMRybiVsTlxIDU5ic/iZFrw25nBbYXbbZQOszItbd/h1kb
+RPEc2og7LP4e+ltLz3I96efgGbfqlqb9y5NbtGVroGvbVowmTQZKSDEg3PviTQgs
+TgoGJSDwRxvkh/UpwuVO/P4c81Wf/04zVcaxFBnxw/7nnqnU3Py3cTzlDqwNmPF8
+PmXeE1Jf6yZb775BeSNeE7nPCCgRah7t8qXVcB4GrjiX/80REB/tiHZpTJ0f/ku/
+KnTIYPxPt0Wf9Ye36MTOHCnFnnXWUHAB5SP26nHidpTZEQ==
+=PxDo
+-----END PGP SIGNATURE-----
