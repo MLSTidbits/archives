@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 05 Jan 2026 00:00:00 +0000
+Source: depot
+Binary: depot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.6
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ depot      - Create, manage, and serve a custom APT repository
+Changes:
+ depot (1.0.6) stable; urgency=low
+ .
+   * fix: Refactor configuration file check for improved settings check.
+Checksums-Sha1:
+ cf0dec8aa0433f0993a9631e4f2d622102f1c941 8575 depot_1.0.6_amd64.buildinfo
+ d313833a2a3dd3e827f61a81206c7445e3240d6c 23790 depot_1.0.6_amd64.deb
+Checksums-Sha256:
+ 5594ae60db6b8d9675cbc46ea166eafee8f6a88b0acbd4be07fcd2d7c1857245 8575 depot_1.0.6_amd64.buildinfo
+ 87b26000a1578101041e86d1a155f448f3654edeb3b035615d6faab26030b895 23790 depot_1.0.6_amd64.deb
+Files:
+ 9c6151eb89c824e66955ba3160c0f266 8575 utils optional depot_1.0.6_amd64.buildinfo
+ edd9d1f89dc44418912f1c0c499d78cd 23790 utils optional depot_1.0.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlbm/UACgkQbkoCnkKh
+yHn7cg/fWNL4HZ+K3j/MA/H9kqGTUjot7zK0OLszAeltOM8ueS/AWJVMlWhlwZCj
+kl4PxgX8IOYZk/Y7icS5QDXwpXucBaszxbv0YGJZ/fCWMGJoTEzCzMPXUvIGaS1v
+qnQBHRbrIC7AukA9Tej8kAoLwzp9pXEROg+15MQJdV84GhDig8SO4EbIeyGELPMU
+Dio7MjIS5tQq/D/CGsUnLDW9sJY+aWspKPE1uGottsIOYhgRDD7pRk1IV2+TnwtL
+RE+iEZWcnR1S3Bag8zUB/exbs9PpcVfS4WOWjwgvWoiNxFMVhtyrAaF/5zrP5BJR
++Evye6JqTekcPps4jFRABe77VvktkJQTmXRsyy/G5G0oc3thQirqlgJdsUlghbPB
+Xnpy6+NYBShKXvBw67YA0gopuHxxATN69sOU1tbfr4ATLL6RUN09LPWZvOI+yitB
+OivDAGd6x6pPEh6X1pV6OS5bCskF6th1uWeXH85IJUtuIrkrh+wtOdZN+QnS7Lar
+mQclVN+G3Hbze8pcjSZ+AunNMsDv3XaUtxcpvDrH7UlmLO75pPsZiGAfIzeMoM3I
+xsDvCIu19sZdXtqvQQcBHhYkHITS0ZPhfZNSe6mlTkgdLt0Le2c80ztLGPK5JhAk
+9JgyfQhKA11+vTyu6sKKHzsy/X43DT5TvErvVPQPquJfeA==
+=dzz9
+-----END PGP SIGNATURE-----
