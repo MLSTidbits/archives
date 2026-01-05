@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 05 Jan 2026 00:00:00 +0000
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 81.1.2
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ arcmenu    - ArcMenu - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (81.1.2) stable; urgency=low
+ .
+   * feat: Add icon-tidbits-symbolic.svg to scalable actions
+Checksums-Sha1:
+ 56637f17d3173c6d8dbe668af2e3a04308c9da1a 7045 arcmenu_81.1.2_amd64.buildinfo
+ 84730e46e321427464fdd3ef1e5361e7d34fba23 691666 arcmenu_81.1.2_amd64.deb
+Checksums-Sha256:
+ 01cb7f0e27e3bf85b98099ccace093c7ea26921856e11b435f4d9dce11fb1398 7045 arcmenu_81.1.2_amd64.buildinfo
+ 50a16161fdd4287a5e7f6ff65550fbcb98f8c96fa042c2f47ec00eac0a233b58 691666 arcmenu_81.1.2_amd64.deb
+Files:
+ 7f04c17f1caae7608608158ea7d00abf 7045 gnome optional arcmenu_81.1.2_amd64.buildinfo
+ a07ed582cbe2d048acc51a55b275dd57 691666 gnome optional arcmenu_81.1.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlbmMoACgkQbkoCnkKh
+yHlGiw/eKY1qjFxBTNgVDf1px4oE4QNEOvlOYiL438AJFZVmPfpUZkfgjfuFUK1Q
+INaG8Ai5YruN9OkPGzz6xnr/r+t9XVhA4p/Kz5zLx1Lj2TqmCgeHw5TLug16sIHZ
+XqcnYnxryL7AcKViW5sBpJIOW25srtLN8SsSsMmYGH9X13sxM+/OhYwuBjR+sget
+d6cwuhaHavafFoGNZ4iA/BAkGhOT1u97OjsMCbh0h1+c+hFnXCk2NHMR79oThuay
++Gu2of3e23DW9NPA6sYRcVDNqpvjqZE2xTxjbrY0bMp1DhBJ2pGA6vjYP3IZ3vRK
+Jtz8SDXLOhhz1637qDNpCOq4fzatrw9ZjttOPGndE3Rqczq/UlgcV4PU7FH0dW3W
+5ztUIzlBVe+n51Bhx43TRyjSa9UhfAYMUZ+Vi871dzd1BmQF3FAqkHN0c+SJH01O
+35jRccMu0LqlWESVwKDz3mD/ej3ESQ/9S2Vxbjfsll91BgM4mY2h3Ox8/xpcnE+T
+Xpuzc3RUMjtVRP0FwERweiSobvwXXBS+Dw6b/l3EnEWPnzVW6hNnwMXAoeCcihYg
+LijX/OAnOb50ramWuxwgtyTzZxan6ZIJTNybQ8cJ7bPcKXZt6rX/rFoQq8OSe/uP
+wpdxe33Bti3e09GHwby9vLyi1ItR1yKM1NQw4xdNZMTUSQ==
+=xZzv
+-----END PGP SIGNATURE-----
