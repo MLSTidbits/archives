@@ -668,6 +668,37 @@ Description: Create, manage, and serve a custom APT repository
  Whether you're managing a small set of packages or a large-scale deployment,
  depot provides the tools you need to maintain your own APT repository efficiently.
 
+Package: depot
+Architecture: amd64
+Version: 1.0.7
+Priority: optional
+Section: utils
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 72
+Depends: dpkg-dev, apt-utils
+Filename: pool/main/d/depot/depot_1.0.7_amd64.deb
+Size: 23794
+MD5sum: 4f2fa529a26aa3fffba38704267e3286
+SHA1: 19dae2baf157d3758ed61d5da0cd8073a70daf68
+SHA256: 595a9f3204ab27b9070865fd78e1d8073ecca798cd5cfe1174e2dcd8a4911f11
+SHA512: 9160c739f921823cf29f3adf76c90f6fb2d3c28ea2a0eef0a407741bc592ce28d37cb681c7b062228869a5c94b04dfd0591679ead9867f742bf048f206c09177
+Homepage: https://github.com/MLSTidbits/depot
+Description: Create, manage, and serve a custom APT repository
+ depot is a tool to create, manage, and serve a custom APT repository.
+ .
+ It simplifies the process of setting up a local repository for Debian-based systems,
+ allowing users to easily add, remove, and update packages.
+ .
+ Features include:
+  - Easy repository creation and management
+  - Support for multiple distributions and architectures
+  - Automatic generation of necessary metadata files
+  - Produce and sign Release files for added security
+  - Simple integration with existing APT tools and workflows
+ .
+ Whether you're managing a small set of packages or a large-scale deployment,
+ depot provides the tools you need to maintain your own APT repository efficiently.
+
 Package: dh-gitchangelog
 Architecture: amd64
 Version: 0.8.9
