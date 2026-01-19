@@ -19,28 +19,28 @@ Changes:
  .
    * fix: Refactor configuration file check for improved settings check.
 Checksums-Sha1:
- cf0dec8aa0433f0993a9631e4f2d622102f1c941 8575 depot_1.0.6_amd64.buildinfo
- d313833a2a3dd3e827f61a81206c7445e3240d6c 23790 depot_1.0.6_amd64.deb
+ e68a149a58a79197a1e45dc49c2adc7180ae88b6 8579 depot_1.0.6_amd64.buildinfo
+ 55e87e853700d0b35c1d80a3e4c66efd84bb83fb 23782 depot_1.0.6_amd64.deb
 Checksums-Sha256:
- 5594ae60db6b8d9675cbc46ea166eafee8f6a88b0acbd4be07fcd2d7c1857245 8575 depot_1.0.6_amd64.buildinfo
- 87b26000a1578101041e86d1a155f448f3654edeb3b035615d6faab26030b895 23790 depot_1.0.6_amd64.deb
+ 7022d6ad614e417eb526601978c46347e9fd61026337e72ff1c4c32d04dfc679 8579 depot_1.0.6_amd64.buildinfo
+ d8a7f2b9817c245983af1075d17ed0504e40995b7a60812d3d34f0d2e7db7841 23782 depot_1.0.6_amd64.deb
 Files:
- 9c6151eb89c824e66955ba3160c0f266 8575 utils optional depot_1.0.6_amd64.buildinfo
- edd9d1f89dc44418912f1c0c499d78cd 23790 utils optional depot_1.0.6_amd64.deb
+ f59834f65b0144235b7e909d51e71496 8579 utils optional depot_1.0.6_amd64.buildinfo
+ caf3c6c94ef227a5d851ec31aeb4b4cf 23782 utils optional depot_1.0.6_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlbm/UACgkQbkoCnkKh
-yHn7cg/fWNL4HZ+K3j/MA/H9kqGTUjot7zK0OLszAeltOM8ueS/AWJVMlWhlwZCj
-kl4PxgX8IOYZk/Y7icS5QDXwpXucBaszxbv0YGJZ/fCWMGJoTEzCzMPXUvIGaS1v
-qnQBHRbrIC7AukA9Tej8kAoLwzp9pXEROg+15MQJdV84GhDig8SO4EbIeyGELPMU
-Dio7MjIS5tQq/D/CGsUnLDW9sJY+aWspKPE1uGottsIOYhgRDD7pRk1IV2+TnwtL
-RE+iEZWcnR1S3Bag8zUB/exbs9PpcVfS4WOWjwgvWoiNxFMVhtyrAaF/5zrP5BJR
-+Evye6JqTekcPps4jFRABe77VvktkJQTmXRsyy/G5G0oc3thQirqlgJdsUlghbPB
-Xnpy6+NYBShKXvBw67YA0gopuHxxATN69sOU1tbfr4ATLL6RUN09LPWZvOI+yitB
-OivDAGd6x6pPEh6X1pV6OS5bCskF6th1uWeXH85IJUtuIrkrh+wtOdZN+QnS7Lar
-mQclVN+G3Hbze8pcjSZ+AunNMsDv3XaUtxcpvDrH7UlmLO75pPsZiGAfIzeMoM3I
-xsDvCIu19sZdXtqvQQcBHhYkHITS0ZPhfZNSe6mlTkgdLt0Le2c80ztLGPK5JhAk
-9JgyfQhKA11+vTyu6sKKHzsy/X43DT5TvErvVPQPquJfeA==
-=dzz9
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmluH+AACgkQbkoCnkKh
+yHk4Ng/fRBoMTOkgvQHjyK0+75pxWLc1pgbOcNTUFPs9FHz4Pi+NQfw6+L4fo3ST
+HGD5rpvEOkpiM/J9HMa2828TAQQgW2pBNcCoQ9v8wj+NfNKZzBt3GtafYVqPOpPf
+UV84ZRhngXsYAwzpZvfquUxTteTLz/OislBn+qVymhne6TIJoIiosmAZccmn8ceA
+duDJKnaHlPvFyxtZ7YKyy5VLwA/evOfZ94ZkyLrjzgo7kntwyeKvOoqEGLkNC0Zf
+MSp2kshLQYTFRHsbbu48mJK5qhvdKnDbNY9VARX+dy4lPX36JKKzJvXrUm0mhP2y
+Qy0HhF9kcbMFwRYVfw0U8fp2dVLvQY/Hpcd1TIzEYEIwh2u4Pu5R5u+GAE2h/8rQ
+5/ZAQe4R19EcxFaXXnc5uyBuDT5RHSnXdBm6PCeWoZD4YaIMVzQslw3CDMvMfooy
+h6XyPhrTILDCA+LH7MZAqV5/5k0NHrRMyfkqS/Wmlmcppy7ja6j6EC+F4qcJqjem
+R+aWJUCXrRqc2ZNYfqqcOwhq3LDLisCJHlOa0fG+j/B1SEzROFgeZzpPPPwvgiWC
+PqdjJRqdB7Kz8uVul1zyhwXrFAxwDlZ+DSEG3mFA96qpgwJK+L4EBpnwEG6KoyHv
+ljKWX7OwaqkZyO8zbmOGdou7+TboRjArI7pCkYFXX3/pjQ==
+=wWmf
 -----END PGP SIGNATURE-----

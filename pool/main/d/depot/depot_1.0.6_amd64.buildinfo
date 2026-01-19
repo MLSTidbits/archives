@@ -7,14 +7,14 @@ Binary: depot
 Architecture: amd64
 Version: 1.0.6
 Checksums-Md5:
- edd9d1f89dc44418912f1c0c499d78cd 23790 depot_1.0.6_amd64.deb
+ caf3c6c94ef227a5d851ec31aeb4b4cf 23782 depot_1.0.6_amd64.deb
 Checksums-Sha1:
- d313833a2a3dd3e827f61a81206c7445e3240d6c 23790 depot_1.0.6_amd64.deb
+ 55e87e853700d0b35c1d80a3e4c66efd84bb83fb 23782 depot_1.0.6_amd64.deb
 Checksums-Sha256:
- 87b26000a1578101041e86d1a155f448f3654edeb3b035615d6faab26030b895 23790 depot_1.0.6_amd64.deb
+ d8a7f2b9817c245983af1075d17ed0504e40995b7a60812d3d34f0d2e7db7841 23782 depot_1.0.6_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 05 Jan 2026 04:09:41 -0700
+Build-Date: Mon, 19 Jan 2026 05:13:19 -0700
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -159,8 +159,8 @@ Installed-Build-Depends:
  libpipeline1 (= 1.5.7-2),
  libpsl5t64 (= 0.21.2-1.1build1),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
- libpython3.12-minimal (= 3.12.3-1ubuntu0.9),
- libpython3.12-stdlib (= 3.12.3-1ubuntu0.9),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.10),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.10),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04),
  libreadline8t64 (= 8.2-4build1),
  librtmp1 (= 2.4+20151223.gitfa8646d.1-2build7),
@@ -178,7 +178,7 @@ Installed-Build-Depends:
  libstdc++6 (= 14.2.0-4ubuntu2~24.04),
  libsub-override-perl (= 0.10-1),
  libsystemd0 (= 255.4-1ubuntu8.12),
- libtasn1-6 (= 4.19.0-3ubuntu0.24.04.1),
+ libtasn1-6 (= 4.19.0-3ubuntu0.24.04.2),
  libtinfo6 (= 6.4+20240113-1ubuntu2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04),
@@ -210,8 +210,8 @@ Installed-Build-Depends:
  po-debconf (= 1.0.21+nmu1),
  python3 (= 3.12.3-0ubuntu2.1),
  python3-minimal (= 3.12.3-0ubuntu2.1),
- python3.12 (= 3.12.3-1ubuntu0.9),
- python3.12-minimal (= 3.12.3-1ubuntu0.9),
+ python3.12 (= 3.12.3-1ubuntu0.10),
+ python3.12-minimal (= 3.12.3-1ubuntu0.10),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
  sed (= 4.9-2build1),
@@ -230,17 +230,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmlbm/UACgkQbkoCnkKh
-yHmLkQ/dEkcaHmcIJc0LpM7eRit0kUfBIvGbV5DNqN9BjUCGEaul72gAWYDWq3W1
-s4sKO0xzdpkVUxCzzcgN/Vp/JrZ8AB2w+3GxwKUg0yioKw6pWYh1Hpo417imBeQZ
-1qEtC+YbNooTeegmJGcnQpNVCI2P6UH1mP8HrldhLbB4xQlJMMIEq59v65lSjOK6
-f3TYLauuuMQn5umDDp2wrzGEY9wDFlPFzeEjNQ7CMt7R8koRa3/uJG4VYmLShhBl
-doacHUjtC7PUBqSy02LiL9J+0dr4e/rWL6/7lvUaTH5mEGwLuSzzFq00v/JHvy8o
-GhNRz02roAf43i1RaS+SAMkDeHpXJumGNxWxPHvPIHm8L08f17hRqakSwZsvVkQn
-sjdBN4sf24be9EpV+P8kAN7YleWjtzXubc+H0mDueHo0Ac3PnI97oeS/MT/5svjE
-NuN7ZFOXhwZgSCeD3mdihMqajxk+bS0eLrD9vw+IDbAxNVNDrheYqAbluvomcbbt
-F5efX0eV05bjTPo9iWF4Rtta5kVqv76o+E5cUMKJnxxu3YYg+wMm2QwPG6WX7Vxd
-ySqJkakdSBcbxM/I1tmEMc89lhLXsKh4GEVInllXoHxs2dNKVPqFsHWrrQ/CshTW
-kXVcl129d5nXaa9BcwlbMukYp9WIGixFYiEZAAaW5jkdxg==
-=Rkig
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmluH+AACgkQbkoCnkKh
+yHlo0w/gnBWWwQElNKnixGdBNSU+T2wYSUFpbdw+kc5Q1riqrpqi6aTC3QrobZXM
+cnKOuOCLJcb2sjGZVUsh5jLiNlNCF2z9qTkDj+PLnsGZPHCKeoi3S7Dtcar7ZJcV
+z6KzE9PWmMY/ukWZ0DIjWuaFYw9nYNRzSaf4N7W9Bxq4SkafnxfplWBs8kQF3QbW
+oOwpWu90W8TiMGrBW2qFn0R5ORFAkez+vG43pGTolVbHV88P9uzqREQKdVEHWAw4
+MvK+nfsMrhOOZF9VBjDx2Xls8gqmEEV9vVQ6DWcQ3F34fL7EcpAalTpJupKj3WGG
+4vypVOcnqK1MrhsJ7VKkzmDibKpAaimtQCSiZNUA0nuqrw1AAIRbpOCGFYSzGuiA
+H4SNbYHnIzJOrsr5EoJyvxUbnLjxRWWoBVIXJkM34nQwpxUQnIAgKQirzU+rGFwv
+LT2/3A1c4RodJvc8Jpr4Vz/bIBvPVkIu1yM/eWZoIIy63PNspZfm3/0vxxY0Js8W
+KO574m0cPUlPEki4uL83LJlIL6KMy5rxCH3V6Jfxynw5oDN0gRWwy2VL8iQnd+t/
+45L/anTUCO2tgQTgO1HIvYDd7DDQSlD2R18jXpPtFrhr/6PmHAvVhN2Qum73mptv
+tQQBLpxpI3Kep11FmXqbnpUicATLHbjOd4MNODNMEzT8sQ==
+=37Ar
 -----END PGP SIGNATURE-----

@@ -646,11 +646,11 @@ Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Installed-Size: 72
 Depends: dpkg-dev, apt-utils
 Filename: pool/main/d/depot/depot_1.0.6_amd64.deb
-Size: 23790
-MD5sum: edd9d1f89dc44418912f1c0c499d78cd
-SHA1: d313833a2a3dd3e827f61a81206c7445e3240d6c
-SHA256: 87b26000a1578101041e86d1a155f448f3654edeb3b035615d6faab26030b895
-SHA512: 3b47d92e920d27b81429063583a241eedd05bf8f31e8b616187cfe664641ade43a786e81c61cd69c4b638d26a8348b6655291a74e54be71b1025665b895a1726
+Size: 23782
+MD5sum: caf3c6c94ef227a5d851ec31aeb4b4cf
+SHA1: 55e87e853700d0b35c1d80a3e4c66efd84bb83fb
+SHA256: d8a7f2b9817c245983af1075d17ed0504e40995b7a60812d3d34f0d2e7db7841
+SHA512: b7b5774dad430b63599c92f85ce215200ed41f9eb79c0d54a0dccb8228dad0931c7a1748ecead36e11a62e057f5b29871cf200a6e769135bbf2843517dd0d5c7
 Homepage: https://github.com/MLSTidbits/depot
 Description: Create, manage, and serve a custom APT repository
  depot is a tool to create, manage, and serve a custom APT repository.
