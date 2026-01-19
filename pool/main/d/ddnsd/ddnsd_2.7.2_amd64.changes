@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 19 Jan 2026 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.2
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+Changes:
+ ddnsd (2.7.2) stable; urgency=low
+ .
+   * refactor: Add restart policy to ddnsd service for improved reliability
+Checksums-Sha1:
+ 7a1522649023a6f5fa49a6bdc41a0204bf6c2a0f 8579 ddnsd_2.7.2_amd64.buildinfo
+ ce946a07b056dbcc125dafdbca4d235487da8b19 19682 ddnsd_2.7.2_amd64.deb
+Checksums-Sha256:
+ a1a4df6b2867ff61bd5d94faddc5df517bfe2e0e88a8697a6b205dcc19d8129a 8579 ddnsd_2.7.2_amd64.buildinfo
+ f2321409f56a1a09dd97964fa6484a1f7265b6e66ec203447af1c1c5ae8cd6e1 19682 ddnsd_2.7.2_amd64.deb
+Files:
+ d014fb69845a22d68f28f8275ca7a101 8579 net optional ddnsd_2.7.2_amd64.buildinfo
+ 341b95a384f075a53b272880e3ca0220 19682 net optional ddnsd_2.7.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmluHZ0ACgkQbkoCnkKh
+yHlt9A/glblIAbT6OBPvVMHpuIgCQkSxabD4Kx0x2tBdjW2V9hohTu89m0uj7aMp
+dqnOBcoEVse/qRQeCFia9aU79rR2B6n1swLNu7Z1uFxjiu74yWROOgYH9EJTKZ0G
+0DXCOCY/hZRfvDNqih5IdBv1cpXA2hdCcbpV1meZWiz6NfUMTLLjV8/oh2LT3VSL
+IjmuETrwDiEF7WdmUuAfiCQMIsyd7H4xirpGd73MjapkEpkZfaxh9nyieoVmTNfM
+YRc1IQY0sGe30+mU6eM+aNXIWC/jvsFpdUa9C1txHjwK54UHaWM5r7MTjUYLKPQE
+DlUPqJt5kxvrsJ2n0aqrB/5UgANYe364Sx+iVZGbKNfmS10510M6XmTH+odP8eQ9
+mq6LjodZpmFwsf1+Qaf2nUKZ641P7DJcLDbjTvzSgSExHVhOT1I8uF2JqK9irMPj
+N9MwbZEPUgaix1ctHOcI7qW9QnV90oApUFEQdpwWxpqwWBht9E0hswvn0x0ilcDo
+Ef7glgqLh5wQ4G1NEyWO78OE7XR92qZB8eiuMkiHUxeNgjt2Bo8uFkj6ZBnN15Xt
+A+d8hX2thEx8EoWQJbwstpnnnuuEtTRtei6jpEN/YASiF7jVybkPICVPAg1W0PI6
+ddXsp4j7k9tac+Z8IQ7mgoZMmFnCFKYRQ8P1E57W0Mj3/A==
+=dqDY
+-----END PGP SIGNATURE-----
