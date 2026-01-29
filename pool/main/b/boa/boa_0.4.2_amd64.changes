@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 29 Jan 2026 00:00:00 +0000
+Source: boa
+Binary: boa
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.2
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ boa        - Boa is a wrapper script for building Debian packages.
+Changes:
+ boa (0.4.2) stable; urgency=low
+ .
+   * feat: Enhance changelog versioning to support commit hash sorting
+   * feat: Add option to use commit hash for versioning in changelog generation
+Checksums-Sha1:
+ 70fecc21abf845289fb26c3dd2e44c7618fbde3b 8569 boa_0.4.2_amd64.buildinfo
+ 33e5d51a46c102aba890c42db2f91d1d840c5f40 11772 boa_0.4.2_amd64.deb
+Checksums-Sha256:
+ 8c6f9261028a3fa07a200f97b91f2f2dfa676ec3c1593a7ca0ecdfa8593c8d1a 8569 boa_0.4.2_amd64.buildinfo
+ d0632d802c0d48010bd7d4f81642ef6a951b1c3d0b4539ad5c0b89c3aa2ce2bc 11772 boa_0.4.2_amd64.deb
+Files:
+ 11a0fa1b03b54ec8cb6a0d98cc723dae 8569 devel optional boa_0.4.2_amd64.buildinfo
+ 128e732abe80b1de81d76c4dfa46ee6c 11772 devel optional boa_0.4.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAml7WekACgkQbkoCnkKh
+yHmrZA/eLHwAH5EqwFnAPoxLO6Vh5PJZTvqZGJOQf/LsnDaHDJYRudGUqc8qG1Lf
+2Uw2i5FRHAHOsEGj96tc7fF6LMputrEvQlSgUAW9Ugm12NtVSv+R0lGILdVxz1p/
+aLjIbaI1odzAE0Uv18yko8GhArd/B20I2AMNLe58HtlunVWD1Kn1FZ/XIOo/O/tZ
+OAwnIeZkB02phTd2sL1hfssYNryN8iYnMUQCz1ZmVSQeAiHygTJIBzBKRRd1Nii1
+cj4CiDthsg97/gajVLI5HSFXwJeMO6jnXTE8itG3M6UJYxuOp0B0t7mHvSmp7N2z
+shdqkHSWQHE8JqOztsJ3r2lgq7T2ae5Dsn2I3hFOLfTgHwIjPtmtGziALbSr8me5
+TrAYqmh8IROglU53yk8BkAkIrAx8ui4hiI7jCANhMooIgSIt0okI8Q4eRwlxg/UH
+qD2/X7XqF4/JIOonJKKxtY5lWso7OXVUSyiSpDFQBa4w83eQb8wBqlD9mz7y/5C5
+/a40/afhWSkibUkHzyinC30HwaiOPnOdpUDlmMXPbvs4cwVGVuWyxtmv2fnZ2UuF
+m/+keplCBji9xCLADQNZKLPD5vFIBsntsz8KxSVh6SgKgVx8UYn5xZiIuL5NL/rS
+j3g0vjbP/iRkYcqGv8/hrETzF1qMsk95fd3s4T9FwuuKhw==
+=XE+r
+-----END PGP SIGNATURE-----

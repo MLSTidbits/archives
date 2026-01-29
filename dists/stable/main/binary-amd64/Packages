@@ -262,6 +262,28 @@ Description: Boa is a wrapper script for building Debian packages.
  Boa supports features like changelog generation, GPG signing, and parallel
  builds, enhancing the package management experience.
 
+Package: boa
+Architecture: amd64
+Version: 0.4.2
+Priority: optional
+Section: devel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 38
+Depends: dh-make, git, build-essential, cmake, dpkg-dev
+Filename: pool/main/b/boa/boa_0.4.2_amd64.deb
+Size: 11772
+MD5sum: 128e732abe80b1de81d76c4dfa46ee6c
+SHA1: 33e5d51a46c102aba890c42db2f91d1d840c5f40
+SHA256: d0632d802c0d48010bd7d4f81642ef6a951b1c3d0b4539ad5c0b89c3aa2ce2bc
+SHA512: d62a8b2d31151faa34f7abec13061a806b272fe2f756f58c3d28cce21e3481a1cd870a9b59e87143a1e2b40e73b3ffe0999f93a9666bf92a905b3756e410c344
+Homepage: https://github.com/mlstidbits/boa
+Description: Boa is a wrapper script for building Debian packages.
+ Using a simple .env configuration file, it automates the process of building
+ of Debian packages, making it easier for developers to manage their packages.
+ .
+ Boa supports features like changelog generation, GPG signing, and parallel
+ builds, enhancing the package management experience.
+
 Package: btrfs-fstab
 Architecture: amd64
 Version: 1.1.4
