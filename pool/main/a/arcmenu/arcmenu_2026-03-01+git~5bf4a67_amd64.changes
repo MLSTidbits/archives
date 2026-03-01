@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 01 Mar 2026 00:00:00 +0000
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2026-03-01+git~5bf4a67
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: AndrewZaech <azaech021@gmail.com>
+Description:
+ arcmenu    - ArcMenu - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (2026-03-01+git~5bf4a67) stable; urgency=low
+ .
+   * Runner Layout: add option to show pinned apps. Fix search results display type bug.
+Checksums-Sha1:
+ 9a7910c5873603d1a733ec8ac09fdc99d7e67e77 7163 arcmenu_2026-03-01+git~5bf4a67_amd64.buildinfo
+ c1584eca15423b976897d4916ede2b943a19d2ed 683194 arcmenu_2026-03-01+git~5bf4a67_amd64.deb
+Checksums-Sha256:
+ b07ce74e12e6798fdd8f9d5f3175682148e8064aae0b67f8aa84d334aee5553b 7163 arcmenu_2026-03-01+git~5bf4a67_amd64.buildinfo
+ ffb5f55917bf2c44b323e6c0d84a3ff1f5a81fe5dd4945a29f6d3d27a93335a9 683194 arcmenu_2026-03-01+git~5bf4a67_amd64.deb
+Files:
+ 1d8105f0cf52351f7e979fa4f76262f3 7163 gnome optional arcmenu_2026-03-01+git~5bf4a67_amd64.buildinfo
+ cd88d5573097992f6c9fab4ac3083ded 683194 gnome optional arcmenu_2026-03-01+git~5bf4a67_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmmkb9AACgkQbkoCnkKh
+yHnDMQ/gj8r2n6wHwEjnmFygZ/6bY1/SK3aFyZhZRut1uJi1Glr+BZLsjKGd1A16
+xzk4woRbe9B8myGnS1DkVQMzZd0Cm1e4+6zkm3v9g1fuPv/7sfjGYhBtdqQIEQz6
+T+bIvDLu/sARqzoeNdo2Wj63A8VxZkqBv3eebMHQDKeDWDQsOgoyEIM9vpZDTk8+
+5YiriBf6wv+v9PgABTUAy39U6dkGCY99vCJYYes/v4cdZzRPgeVIKsY8Lg/QyfqM
+qWGjx7z5DCEP0geX2uY0cPkacKbINpfL5cF4vHldjzkqk95p2ieM8rzRnWQAJ53p
+7EeUJ4THkyrMT+Mg1DWzrw2Rp+eqN/eQXHGpiHeUnSFDjeMtC/WAMIgRm/Zh5bDP
+AYcA5A+GrL1z280voU5OKq/K9CImrTDFQO55oKgS273BPJz6bi0cf4AqSqahkf9g
+eBZRFkZ1bNzmWyBWMnSFN+VbAvRzH4NLEMXUqoihPbNgFJhPUyOZyBqMbDTCsr59
+LwX4yHr5scwA3mc9YuagaWRrlBedu/FQ8RAvDIhn1lNet/EVvBzVPu8NYQT+GBLw
+wDqPZV0YcODvRnKKmELDSAjRmVHTVmPDyIRoG1JDV9qczhQr4L/WWUvFHvhwsfNW
+ZgVAph4y5gRJXfPocdX/8viRP0y4zFdq439f6U0uWmli9A==
+=rxqt
+-----END PGP SIGNATURE-----
