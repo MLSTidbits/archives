@@ -946,6 +946,45 @@ Description: Dark Polkadots GRUB theme
  It is compatible with GRUB 2 and can be easily installed on Debian-based
  systems.
 
+Package: makemkv-bin
+Architecture: amd64
+Version: 2026-03-12+git~8470a8b
+Priority: optional
+Section: video
+Source: makemkv-gtk
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 13102
+Suggests: makemkv-gtk, ffmpeg (>= 6.0)
+Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-12+git~8470a8b_amd64.deb
+Size: 7527764
+MD5sum: 2b098cce8355b7755e83bf7e7c8272c3
+SHA1: e68f12b4221bdf70d50699a18638011e1f8b68db
+SHA256: b14ebcdfc860dfaf7be4350da5044b22a59710430c3745655afe5bbe5b484b48
+SHA512: bd5a20bff75ba5c842c1b6dba39cdbae8b53e240b632f391b8b4b398651c8072ea3f95801257e71f76461d5355e774aed5c52137bcc01829f6cc233d0e20763f
+Homepage: https://mlstidbits.com
+Description: MakeMKV command-line tools.
+ This package provides the command-line tools for MakeMKV, which are used by
+ the makemkv-gtk frontend to perform DVD and Blu-ray ripping tasks.
+
+Package: makemkv-gtk
+Architecture: amd64
+Version: 2026-03-12+git~8470a8b
+Priority: optional
+Section: video
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 168
+Depends: makemkv-bin, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/m/makemkv-gtk/makemkv-gtk_2026-03-12+git~8470a8b_amd64.deb
+Size: 35984
+MD5sum: 04377a0d641e7665335762eb7a338c41
+SHA1: d5780d32f7f2778b4c2de436fa516368773d3042
+SHA256: f2b3d5bcc19e96fc9845057ae1c4736d64c1790b7d93e7d4d804c5bfaa300347
+SHA512: 7c4a357c324cfe0be62ff515ef57249b4dd53a19e702b2d25cbd64e0225deb3dcafc594797858853edbb4b674ccd976ec441cfac06295bdcacfd80b66d6d39b7
+Homepage: https://mlstidbits.com
+Description: GTK Frontend for makemkvcon written in Python.
+ MakeMKV-GTK uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
+ interface to manage the ripping process.
+
 Package: mkaptrepo
 Architecture: amd64
 Version: 0.5.8-ced452c
