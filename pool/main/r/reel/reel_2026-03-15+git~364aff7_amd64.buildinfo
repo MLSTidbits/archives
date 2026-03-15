@@ -3,36 +3,39 @@ Hash: SHA512
 
 Format: 1.0
 Source: reel
-Binary: libmakemkv makemkv-bin mmccextr mmgplsrv reel reel-common reel-gtk
+Binary: libmakemkv makemkv-bin mmccextr mmgplsrv reel reel-common reel-gtk reel-qt
 Architecture: all amd64
 Version: 2026-03-15+git~364aff7
 Checksums-Md5:
- 2e82f7859a1d6ec881103128b6fe00ce 165658 libmakemkv_2026-03-15+git~364aff7_amd64.deb
- 47ab1ee8d0990e0c79a51a1611a80d42 7528618 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
- 7fc0cb6034ec2a3aabd764a4b88170ff 45098 mmccextr_2026-03-15+git~364aff7_amd64.deb
- 04ba853043da8e825053286a0bbd77d2 58586 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
- f7e5bb9014f74255518c89f0fed68eaa 9572 reel-common_2026-03-15+git~364aff7_all.deb
- c82ae94b84521a49558d8f355961c753 31950 reel-gtk_2026-03-15+git~364aff7_amd64.deb
- 618d97cf31f901f45bc846690b2f59b9 7550 reel_2026-03-15+git~364aff7_amd64.deb
+ 1cb41e9d7b11ba39886fe72a1402745d 165858 libmakemkv_2026-03-15+git~364aff7_amd64.deb
+ 9a8d7e5866cc43f1265862775a67ec3b 7528810 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+ b2741a767c272c0ca3c16c4d7884b1d7 45288 mmccextr_2026-03-15+git~364aff7_amd64.deb
+ c9d63b6064076770d2128ecd1265b708 58788 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+ 2edc9566eaf2fdb83c298b107c5ea0b9 8858 reel-common_2026-03-15+git~364aff7_all.deb
+ 49609132f3ef2385659ddbc615c4a592 32126 reel-gtk_2026-03-15+git~364aff7_amd64.deb
+ 9334b80969ddd55b5afdd10dded8d6a4 27148 reel-qt_2026-03-15+git~364aff7_amd64.deb
+ 77967a5d82e17a756f4f5195108fd2c8 7776 reel_2026-03-15+git~364aff7_amd64.deb
 Checksums-Sha1:
- af38939377134b93e757d18c911d9863655f074e 165658 libmakemkv_2026-03-15+git~364aff7_amd64.deb
- f454476258157735626ada38cf4ef65fc4204cf0 7528618 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
- cbcd8d22d2612022ecd912dd9f00bef274f16cee 45098 mmccextr_2026-03-15+git~364aff7_amd64.deb
- d2648a2696e49b65057f8104a9873920d1569804 58586 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
- fefd0f75f87437e06f63af33624a346077ab0369 9572 reel-common_2026-03-15+git~364aff7_all.deb
- 1ab1c78465f5275bef21154950af9d689328c8f4 31950 reel-gtk_2026-03-15+git~364aff7_amd64.deb
- 1d5fb700efe33bd3189d58433a83a872dccfcdcf 7550 reel_2026-03-15+git~364aff7_amd64.deb
+ 046977db4a2a98d802b1318cda23af7a8d66a70d 165858 libmakemkv_2026-03-15+git~364aff7_amd64.deb
+ 37e509325f98c7b05f3e3dbbced9d680e22680ab 7528810 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+ ac65482c59eec06d77a9d1dafc0620413dda0395 45288 mmccextr_2026-03-15+git~364aff7_amd64.deb
+ ec503a796b33ce23d7bd4838c5a155c2041bf4cd 58788 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+ 7a5653cfc7e4bec58cee782a76a290394a61fd81 8858 reel-common_2026-03-15+git~364aff7_all.deb
+ ec9e42304e7682a67748b7512dbe06d554eeacd5 32126 reel-gtk_2026-03-15+git~364aff7_amd64.deb
+ e9a394b5809d6b83d2d28529ab829bc153ac2646 27148 reel-qt_2026-03-15+git~364aff7_amd64.deb
+ 52496b1ac184c0c552dd3b9f999da1da17ca7b20 7776 reel_2026-03-15+git~364aff7_amd64.deb
 Checksums-Sha256:
- 3fdbd5f6a1d419f469e3616a4f4ff2bf50891bb92915948bb9db824e2a9a90d0 165658 libmakemkv_2026-03-15+git~364aff7_amd64.deb
- 4bf0488287203493ed3827eaa9e14b095a9313562fa247cafcf906c26c4ed392 7528618 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
- ae30075d371fe915a6a970c17ec78729e7f2a7c27494d3a2236ec4abf6857f93 45098 mmccextr_2026-03-15+git~364aff7_amd64.deb
- 11c08ed1f722bf68ec2a646bf2be7c9c6c22f9f64fb62c937be55cdd0bb2d10f 58586 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
- 47123ef0c8b84b27c45c9c8ebd9a7ebb565549b18eaafc79c99833f443748a91 9572 reel-common_2026-03-15+git~364aff7_all.deb
- 09482c400e7dde3f0e11dfdf370481bd562739d500abb9dcbb313f8ce6284667 31950 reel-gtk_2026-03-15+git~364aff7_amd64.deb
- ed4ba19a439e292ac50f90e547a32721e9f910115db34fba0317f139d4f168c0 7550 reel_2026-03-15+git~364aff7_amd64.deb
+ 6b7fbe05020e219417c744e2b40e8cc4b64bd808f9e91cee64361f46ec31df3c 165858 libmakemkv_2026-03-15+git~364aff7_amd64.deb
+ 661d202434aad3bfb11603ac5b4d340f5797899d1ca7a199de2d6cd0f34d71b1 7528810 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+ 08768fe05d2e953d2ae359424557ce8b3c55c46a32785ec9f366110e395855cd 45288 mmccextr_2026-03-15+git~364aff7_amd64.deb
+ 34ef0f4d6585d072cb2abb46a4b69b935f39c47df19efe5542bedd8fed112b26 58788 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+ 988573362fc51e1209852ebf9c01c1485ea6fc05484375332eeb3a2aaceaa3e4 8858 reel-common_2026-03-15+git~364aff7_all.deb
+ 31eb44cf59a939ed906c838c6f23f496a8a024b768b586a43512ea5953a65d3e 32126 reel-gtk_2026-03-15+git~364aff7_amd64.deb
+ 8fe4da79e3c8031a24f4f605c776f36e369cdd4035c23129a51a602c13f4d6f6 27148 reel-qt_2026-03-15+git~364aff7_amd64.deb
+ f8c49e2d6509d9dd5e1550420e330ced323546de0151cfa3c238d4fade2cde4f 7776 reel_2026-03-15+git~364aff7_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 15 Mar 2026 10:46:09 -0600
+Build-Date: Sun, 15 Mar 2026 15:27:49 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -359,17 +362,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm24lEACgkQbkoCnkKh
-yHkOVQ/gsFzJg9zElDURBtXZWjGTIOMhCFRDO7cNB2k33e7p5s2Zibs4hJlzR3wf
-K0jiGv7IrRxe4iPFu3GhSVtJ/zbx33cfqU1bDT+zUxTHxafAIdd28tAXIMCz6bOG
-w90r04ZJ+3ZaRI7mKKtXSWP1R+TJxhZQ+GlQxiKy3n5elCr8RlVgVOfqYoUGg7Hk
-xSOoz+VjzpPAYMJxCeFKwS7B2ok+sBdVMF0joxaVyeS6K3wDzye1MS12Ds8dRfn3
-EuOvODdNgMiiKYl8QZbj3sOGUUqCatDPO+w8bYCanafgRFE16NRmqQRlXK16x6rp
-2c9H3hgLG+3bOR+MG0YStfIJHJbaLLr9mZv7DbMac53MZqbX4w44SL+XLYl5aXnN
-WU5HrkXHoDhuBfQTXqnblHqJPAK7IN1cpUc7WO8P3cHR1SaINybTIqDZPi9QWvFD
-RldFxzy1CbaLeVuuqo3nYxhb71uejBlTG8iWPZy6G5/NTsZaPfM2HmIeoSanpePm
-FZnbUJRMetGFnFje7B3HnaiVqmAQ1Ml9bgDlQeQaArZDbqWWUn7LtyLN5kaLtBrM
-3UlV8iva2vXVjwME8CiLgaaXieGqglkifXd7+/9DeuNQ1WUodnLVFuRHBnzgyT98
-Ma+ex3x+Zc0Bry/RWraiGD2j3XXpMwRPnU2OmBFI+IOELg==
-=86B5
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm3JFYACgkQbkoCnkKh
+yHknOA/gg8H1lY31YxX0ojTuzOb7/fHnkmVwKiHRebxDOeUzmOwcFyvkVk0bNmgl
+GF9wfk4NAYF9MzMCKJwct05TER0t/1EyIboO/MpnUi5scwxYVil3OeMFEpUr3C9Y
+CPZq0E65hV11StfjmVbYTX4xTF8Er24B/Nx3wSElLGZjXKKRrE8Z95CU9JA5GLfC
+ftRIsdrOeg27LOJ/74URrl7bjycqM8ltAPWMhHUjADrUCm2V7J30ztP+TZNqe5Xq
+qXEbWJDGfV4gID23gMHddLQngHmpaumaxZ3ELbyxguP9KG2bosXDrujF3bf/lPYO
+WvQ94WJFhAMYntnP3Seg7UWxZKL51puArosgoB8AvcxTi4iYXMB8zvV0omQeJux2
+lnKMC7WZs7cX+jkdz4rE5m/2jl152msLV0ugZmWSHEAxXgFEgKbUIn8GB1D1LIgS
+OmoTNwm91ERWYUROtV/gtPRYz0CdqCLZXn5z9cFCTURntyhHCxcLBQNhPfHDk3OR
+HUb6m+/uB7di83qEcTdPwFPskd8NwqVlhDXkSAAh1n6IPPEjo/j4IZQ9LktEBBil
+BjTIYZjstabev2o5O8+2cxhiEOHhIYelXJjMQhj5rzuFQ2VsvIBlPexow4QHCXFa
+dF9/VIRjxobP44pYsBi9qWomrjZ5XkCYZdQS6uz1Q6ZSCA==
+=Suw7
 -----END PGP SIGNATURE-----
