@@ -1,0 +1,82 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 15 Mar 2026 00:00:00 +0000
+Source: reel
+Binary: libmakemkv makemkv-bin mmccextr mmgplsrv reel reel-common reel-gtk
+Built-For-Profiles: noudeb
+Architecture: amd64 all
+Version: 2026-03-15+git~364aff7
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ libmakemkv - Shared library for MakeMKV.
+ makemkv-bin - MakeMKV command-line tools.
+ mmccextr   - Closed Caption extractor for MakeMKV.
+ mmgplsrv   - MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
+ reel       - DVD and Blu-ray ripping tool.
+ reel-common - Common files for reel.
+ reel-gtk   - GTK Frontend for makemkvcon written in Python.
+Changes:
+ reel (2026-03-15+git~364aff7) stable; urgency=low
+ .
+   * fix: adjust formatting in Makefile for improved readability
+   * feat: add src/makemkv/tmp/ to .gitignore to prevent temporary files from being tracked
+   * feat: add installation of main.py for GTK integration
+   * feat: remove unused icon files in various sizes
+   * feat: add Makefile for build process and remove run.sh script
+   * feat: update .gitignore to include additional directories and files for build process
+   * feat: enhance debian/rules for improved build process and documentation
+   * feat: add installation files for new components and update existing paths
+   * feat: update copyright file to include additional files and licensing information
+   * feat: update debian/control to enhance package dependencies and descriptions
+   * chore: Moved makemkv into main source directory for easier management.
+   * feat: Added common makemkv library and subtitle extraction sources.
+   * fix: update .gitignore to include additional directories for build artifacts
+Checksums-Sha1:
+ 62ad5e70aae94a182dea37a3b1da65d0073e5d0b 165724 libmakemkv_2026-03-15+git~364aff7_amd64.deb
+ 73b63a58b7949b736a2d8583b8fd39b039a5c583 7528572 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+ 8eddaed59aa7ac165760fc724b9ad0088b7f1ab9 45078 mmccextr_2026-03-15+git~364aff7_amd64.deb
+ 1aaed70f347598746c0aaf468a54bea5771de790 58574 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+ b28993d26aac426fbd8cfc66c45fb8948d2bdb2f 9554 reel-common_2026-03-15+git~364aff7_all.deb
+ 17872845938bee831ba1c99b97e128ec405d9775 31942 reel-gtk_2026-03-15+git~364aff7_amd64.deb
+ 8f6e57a67804c1bbf6e8e7c904ee2215d47a76f7 14352 reel_2026-03-15+git~364aff7_amd64.buildinfo
+ 8630d9722dd1407a6b0c4501917aaae034a59f7a 7536 reel_2026-03-15+git~364aff7_amd64.deb
+Checksums-Sha256:
+ afebbfc349bb13c59666f42a15dac07d6e38675e861e179842a79ef42439e318 165724 libmakemkv_2026-03-15+git~364aff7_amd64.deb
+ 008c02bc06bf0a66e5c259e2e9d8abe0c970cec17a98a5f820567b19a1d61b6f 7528572 makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+ cc976b06b689d76c7800bbdf08ffd491fefc7ad9e55a7ad88074de5c26d210ab 45078 mmccextr_2026-03-15+git~364aff7_amd64.deb
+ 26b36422bbb89707f2d3e5e04f6bdc515080a9cdfb81349cc1120f48566e051d 58574 mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+ 29dfbab84f212775d1a9cb8a47a67f0c5e07350d34a87bdcc2dc37fcfc52c60d 9554 reel-common_2026-03-15+git~364aff7_all.deb
+ ecfdcf9d78c01f66b45f11ce81af0a94f44ceaa228e775105a7747f68f1b2773 31942 reel-gtk_2026-03-15+git~364aff7_amd64.deb
+ 6fa53d0a24cd34a44df877f51f0d942c61727d5f46a1239abe28dfda6adcee28 14352 reel_2026-03-15+git~364aff7_amd64.buildinfo
+ 2e85298f21af318afd4cbad2880b06a56e50f83b4323de70aed4a87689c75636 7536 reel_2026-03-15+git~364aff7_amd64.deb
+Files:
+ 7db2dc90d425d431e51c35da2cd26ad2 165724 video optional libmakemkv_2026-03-15+git~364aff7_amd64.deb
+ 4d6e4fa5e2cd13d8ec052d1f5b1de59c 7528572 video optional makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+ 5680d22714880d55bb3028e70155a228 45078 video optional mmccextr_2026-03-15+git~364aff7_amd64.deb
+ ca7f959a0a9873fcf908770abd6d84f2 58574 video optional mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+ a452c1f50c89db0648074d44f9fbc077 9554 video optional reel-common_2026-03-15+git~364aff7_all.deb
+ 703cba2817b56169ca384fb2e51ec980 31942 video optional reel-gtk_2026-03-15+git~364aff7_amd64.deb
+ 645ae4fe93bbb28dacccd4ef19f4444d 14352 video optional reel_2026-03-15+git~364aff7_amd64.buildinfo
+ bb752708dc288bbcd43e3e0d1c5b248e 7536 video optional reel_2026-03-15+git~364aff7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm24IgACgkQbkoCnkKh
+yHnQOQ/eK5nJZ0rwNvV2Ov+iwff+xEsMjSrowUKXL3ZHFAPWeuuXSsEIfGK/ziC1
+xwJwlhBZJgWuzYyXOUFbTmg2vTs8FNAKIBQEXKRtDoKkvNaCfdM0O1Cr/s5o4HaA
+RYWoDlF1eeQDDC4iJGgJvEzyeCPIBZE94AvAbOO14x/otgo+8+/m+yZU32+RfNzu
+Ix90It2/9bKi5fQdcBDZhOZCCl8u5gIcT7hZcw+118+sVhA4WANxbujBUu2Qznz/
+io0H8e7QwjESe5cPWTAHkpMSdC9tlSBCgbCQZubufmrbN6n6kgLPuw6NyQT786Bl
+AYr4QXHQ720GyWyl1KwqSlp3+nt898Bl9T+V8NDQwrkptRDCgFzphWzN4FkdJURL
+HZZ/4j9H66WO/Dlv4n4Q9/HuWFHBYMYKQyHw5vBVWBbpN4Y1ZA3Z11rPp22SHMzj
+HmYffhRlIz3IqXQhPO/Yw5xvnXRNVmiv1Amq13zvT4Udpoq5EcB5PrlQUjv9j9rl
+rQC24EWSDpWXTuiXOVkqIJILV+QBh3/g1ISg1AVmia1nWCXRto8ftGIijdNWJQC5
+uMowcjkZfEIT3JY+vLnNucsZszcD8sLjW2Izvg2gKWi9ZSn8tLZHvi4/k2Z6HrKR
+jujFluraSij880PIyRlwptNu6g+eyKPaQ8azyXjiHoPE+A==
+=u0BG
+-----END PGP SIGNATURE-----

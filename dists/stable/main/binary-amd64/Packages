@@ -946,6 +946,26 @@ Description: Dark Polkadots GRUB theme
  It is compatible with GRUB 2 and can be easily installed on Debian-based
  systems.
 
+Package: libmakemkv
+Architecture: amd64
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 710
+Depends: makemkv-bin
+Filename: pool/main/l/libmakemkv/libmakemkv_2026-03-15+git~364aff7_amd64.deb
+Size: 165724
+MD5sum: 7db2dc90d425d431e51c35da2cd26ad2
+SHA1: 62ad5e70aae94a182dea37a3b1da65d0073e5d0b
+SHA256: afebbfc349bb13c59666f42a15dac07d6e38675e861e179842a79ef42439e318
+SHA512: 5acf6a69ae4f39f85ec6faf3e2fe4c987f1101b3a8c508519d7bac17731ac5d16e97651508cab292ee5740e76e1f4b9f1d4b7803116a11f663be2a0345bf6d59
+Homepage: https://mlstidbits.com
+Description: Shared library for MakeMKV.
+ This package provides the shared library for MakeMKV, which is used by the
+ reel frontend to perform DVD and Blu-ray ripping tasks.
+
 Package: makemkv-bin
 Architecture: amd64
 Version: 2026-03-12+git~8470a8b
@@ -965,6 +985,26 @@ Homepage: https://mlstidbits.com
 Description: MakeMKV command-line tools.
  This package provides the command-line tools for MakeMKV, which are used by
  the makemkv-gtk frontend to perform DVD and Blu-ray ripping tasks.
+
+Package: makemkv-bin
+Architecture: amd64
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 13102
+Suggests: ffmpeg (>= 6.0)
+Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-15+git~364aff7_amd64.deb
+Size: 7528572
+MD5sum: 4d6e4fa5e2cd13d8ec052d1f5b1de59c
+SHA1: 73b63a58b7949b736a2d8583b8fd39b039a5c583
+SHA256: 008c02bc06bf0a66e5c259e2e9d8abe0c970cec17a98a5f820567b19a1d61b6f
+SHA512: e48b2b5f4ce144156f8fa1009ef4bc9bdff20ddf97be4e309108da0453b7b89d03369b488e9dc5bbb3827b73dee8f007532e0e475142eda690a1d90cfa4ad9ff
+Homepage: https://mlstidbits.com
+Description: MakeMKV command-line tools.
+ This package provides the command-line tools for MakeMKV, which are used by
+ the reel frontend to perform DVD and Blu-ray ripping tasks.
 
 Package: makemkv-gtk
 Architecture: amd64
@@ -1008,6 +1048,45 @@ Description: mkaptrepo is a tool to manage APT repositories.
  as well as signing them with GPG.
 Build-Depends: make, dpkg-dev
 
+Package: mmccextr
+Architecture: amd64
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 112
+Depends: makemkv-bin
+Filename: pool/main/m/mmccextr/mmccextr_2026-03-15+git~364aff7_amd64.deb
+Size: 45078
+MD5sum: 5680d22714880d55bb3028e70155a228
+SHA1: 8eddaed59aa7ac165760fc724b9ad0088b7f1ab9
+SHA256: cc976b06b689d76c7800bbdf08ffd491fefc7ad9e55a7ad88074de5c26d210ab
+SHA512: 53cf512eae1f83d6b4bef44553ee3eedfb9d80bf0e5729fc004ac87c709effb83b39c87396b1566d06a4119b2a7ec4025a779111e610ee2e2ed546a1e197047d
+Homepage: https://mlstidbits.com
+Description: Closed Caption extractor for MakeMKV.
+ This package provides a closed caption extractor for MakeMKV.
+
+Package: mmgplsrv
+Architecture: amd64
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 147
+Depends: makemkv-bin
+Filename: pool/main/m/mmgplsrv/mmgplsrv_2026-03-15+git~364aff7_amd64.deb
+Size: 58574
+MD5sum: ca7f959a0a9873fcf908770abd6d84f2
+SHA1: 1aaed70f347598746c0aaf468a54bea5771de790
+SHA256: 26b36422bbb89707f2d3e5e04f6bdc515080a9cdfb81349cc1120f48566e051d
+SHA512: 8dc96b11ebaf010584012608741d48aa00831b072c50a69946d21810a150a942667d551c930023a3bc6d6408af1e1e97434f2977da0b342a8b53ca0d4bdc6cb9
+Homepage: https://mlstidbits.com
+Description: MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
+ This package provides the MakeMKV GPL Server, which is used for decrypting DVDs by
+ the MakeMKV command-line interface (CLI).
+
 Package: plasma-wallpapers-poses
 Architecture: amd64
 Version: 25.03.12-e8495db
@@ -1043,6 +1122,67 @@ SHA512: 4e305e9a77d0dc76b5ac78d2b9821049c05a5e69040a318200bad72282e00a89d0ec7cce
 Homepage: https://github.com/MichaelSchaecher/plasma-wallpapers
 Description: Wallpapers for the Plasma desktop
 Build-Depends: debhelper (>= 11), git, make (>= 4.1), dpkg-dev
+
+Package: reel-common
+Architecture: all
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 22
+Depends: reel
+Filename: pool/main/r/reel-common/reel-common_2026-03-15+git~364aff7_all.deb
+Size: 9554
+MD5sum: a452c1f50c89db0648074d44f9fbc077
+SHA1: b28993d26aac426fbd8cfc66c45fb8948d2bdb2f
+SHA256: 29dfbab84f212775d1a9cb8a47a67f0c5e07350d34a87bdcc2dc37fcfc52c60d
+SHA512: 666b27b295d1ef87468c8b37ef40df9c189a7e8d4ca68aa4dd13b8a2c6419f19b426c62c7de84765ee2dfc3dd6f02170a486839ec2151a5ce8f2198706804588
+Homepage: https://mlstidbits.com
+Description: Common files for reel.
+ This package contains common files for the reel application, such as application icons
+ and desktop files and documentation. These files are shared between the reel, reel-gtk,
+ and reel-qt packages.
+
+Package: reel-gtk
+Architecture: amd64
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 165
+Depends: makemkv-bin, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, reel-common, reel
+Filename: pool/main/r/reel-gtk/reel-gtk_2026-03-15+git~364aff7_amd64.deb
+Size: 31942
+MD5sum: 703cba2817b56169ca384fb2e51ec980
+SHA1: 17872845938bee831ba1c99b97e128ec405d9775
+SHA256: ecfdcf9d78c01f66b45f11ce81af0a94f44ceaa228e775105a7747f68f1b2773
+SHA512: bf637db0a6cac71ee6aae42e31bf0fd7f930ea642fa3f85447749da88580fbd707582e6669b41acb4c69ce1b5b57b1d351de83b8fd2e1d7032b2bf0826101e04
+Homepage: https://mlstidbits.com
+Description: GTK Frontend for makemkvcon written in Python.
+ MakeMKV-GTK uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
+ interface to manage the ripping process.
+
+Package: reel
+Architecture: amd64
+Version: 2026-03-15+git~364aff7
+Priority: optional
+Section: video
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 29
+Depends: libmakemkv, makemkv-bin, reel-common
+Filename: pool/main/r/reel/reel_2026-03-15+git~364aff7_amd64.deb
+Size: 7536
+MD5sum: bb752708dc288bbcd43e3e0d1c5b248e
+SHA1: 8630d9722dd1407a6b0c4501917aaae034a59f7a
+SHA256: 2e85298f21af318afd4cbad2880b06a56e50f83b4323de70aed4a87689c75636
+SHA512: 938fa95082ff967117a7ddc795c908b1af494b0721314a26c9639ea8af4ba74c276984592016a145743c9cb3e51ed3945b4c387a0c382d4fcd73dd645e889ed0
+Homepage: https://mlstidbits.com
+Description: DVD and Blu-ray ripping tool.
+ Reel is a DVD and Blu-ray ripping tool that provides a user-friendly interface for
+ managing the ripping process. It uses makemkvcon to perform the actual ripping tasks,
+ and provides features such as progress tracking and error handling.
 
 Package: starship-update
 Architecture: amd64
