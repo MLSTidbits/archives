@@ -1006,25 +1006,6 @@ Description: MakeMKV command-line tools.
  This package provides the command-line tools for MakeMKV, which are used by
  the reel frontend to perform DVD and Blu-ray ripping tasks.
 
-Package: makemkv-gtk
-Architecture: amd64
-Version: 2026-03-12+git~8470a8b
-Priority: optional
-Section: video
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 168
-Depends: makemkv-bin, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/m/makemkv-gtk/makemkv-gtk_2026-03-12+git~8470a8b_amd64.deb
-Size: 35984
-MD5sum: 04377a0d641e7665335762eb7a338c41
-SHA1: d5780d32f7f2778b4c2de436fa516368773d3042
-SHA256: f2b3d5bcc19e96fc9845057ae1c4736d64c1790b7d93e7d4d804c5bfaa300347
-SHA512: 7c4a357c324cfe0be62ff515ef57249b4dd53a19e702b2d25cbd64e0225deb3dcafc594797858853edbb4b674ccd976ec441cfac06295bdcacfd80b66d6d39b7
-Homepage: https://mlstidbits.com
-Description: GTK Frontend for makemkvcon written in Python.
- MakeMKV-GTK uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
- interface to manage the ripping process.
-
 Package: mkaptrepo
 Architecture: amd64
 Version: 0.5.8-ced452c
