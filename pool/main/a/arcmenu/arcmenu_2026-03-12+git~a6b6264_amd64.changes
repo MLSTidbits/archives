@@ -20,28 +20,28 @@ Changes:
    * Bump Version
    * Merge branch 'master' into 'master'
 Checksums-Sha1:
- 467d8a18006bdeab0249f5e78504eb45653df724 7163 arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
- c7a946337a28e9e162bf5fa0bcd6e79115d932fd 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+ 2847d6de09f25ac3c22938de7f761a0db046dd55 7163 arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
+ 11be2d2e9815128e787e96e3ea38c3b6c69570a3 688548 arcmenu_2026-03-12+git~a6b6264_amd64.deb
 Checksums-Sha256:
- faeffa075a294728e6557709e851969862adca78330da6747414c8180e4eb45d 7163 arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
- 0ef87f87c076e75932c65db2fabdde75ceced2da1cb3b0ecf5c1da4c2120d6b4 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+ 102bae145c33798d6c935bfc2cfcfdfa9286618d622f2aa1a7d292e37c5b6f65 7163 arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
+ 95459b48d0dcc662b96427196000eed9ade121dde967f4e5b09dad104debfb10 688548 arcmenu_2026-03-12+git~a6b6264_amd64.deb
 Files:
- 0e62b7abdfede13153d2051c20413709 7163 gnome optional arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
- f2ebf5c4588a65af23fcddb341dfeaff 688564 gnome optional arcmenu_2026-03-12+git~a6b6264_amd64.deb
+ 514a551bfbf92a00b8998e7117a6b3ee 7163 gnome optional arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
+ 8a1033e0a1ea2ea3efced1565697441f 688548 gnome optional arcmenu_2026-03-12+git~a6b6264_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm3QdIACgkQbkoCnkKh
-yHnGvg/fXd3gtu2CeZ605QvsgpyD4bTNwbXDa8G89LTF4sUjbIFR3sbl58OmaIN+
-jjL7My5ZVJcWJeCZzMuIhV1bPERLVZ2BjjzqTlVEY86gPHD3vIeVfYpp/zblMft5
-ltMbY2MsdoiN7r5j4nx4DjMcPjN5H8T6JXl7ekNtVwLn7jXYv61SeaEQrYSMBYiH
-veKH++GH8ug1aq/SVaOCQwsEHMs8UCoY6QSNFox5i50CbUlVxyRsgcTeGr8M+uzz
-Fdc7OGxanuWnAvwDe7M5GJ8q88YjTorNTKX5LNh6YE99/ccYaDg6GeIR7bEZNovl
-rB5ID+pLVoT3nE92KiE64rNsCn9hqZBad0j2b8Eaj26gR3QtLtoPhCE8jB2LGuqO
-do/oPrj8ckTKkNCHELL6/lgrSFhC7NrPeVxmptHyFjmbztoJLDsE3ocPK6a00ZMA
-m65D0AB3A1l9YCmkmgJHz/1e5tzuNOZRw1mOnXk4KMZKCEh+FIFNr1drBhNHuDWV
-zAgCYqv2CrGSRZL+Cja3LRZ7wxPc4JLL+CZ/00AwRe5qtXZv3BS2bcCCvb96QIKa
-lNJ7cs4EfUj/ThTvvcTBTqk89ky4hBVN5mhpaxFFVjB0FxG2xDFKVLymX9Xwn1Eq
-kL4BoyVJw2Q7mL+15zVw8sDo5mj/H446PeYzNQCleb47vw==
-=UdKb
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm3TOIACgkQbkoCnkKh
+yHkttA/gmzQqQPemtAMnPhIfomUUvC1Gj8jyaYBnCO6CdKlD/bay94PsgzftL7+f
+ki6vQs1LwA9AL+aKTY/jqn3/3qK7vwepkL9MmaQ0akB5C9NOvImOkuZRJTAIEDCT
+am8pYWcQDsZ4BFQ64VWjHsB9A5OV7Am/HhKhvV4bnsuEft43LtZNPFyjPcd687Vj
+FmCWQAdTJZAXtivLiAwItnOk/bRIcx4daFQNFBPngNh4TtnKP1/hfbDbJJdAg7Yx
+Bx5tU0Ih2JEhfKz11kW8BrkC1E9kwnj7qZzENDVzNkTXLzatb3fDnbZiM4kAHrcJ
+2NfVwMt6PxQAzJ7D17/6im8SgFcK0RJzbLzbA3/gtmjiIsFWncCbhnqkq1iNtI8x
+e38N4ysy0tIZ2IZ4YSxmmVzL8obpc35AooZsVa5MBWquU1qWfzmeGUW4NDFx6P29
+TfQC+3XZVSAIgMYaWWIsfUzIFc8mRWQuaGUE4KHw2f4S6R6XoTeybqpF539rUHNc
+pEGNyu3X4gRlInMwQt9KdNn8fB4M97IIiRGf23ugwJqI9sjqC/T9kL+8oVfBANdE
+qsXbxPolPJtEKFEMYh4SjT+15RNL9xw6H1E9ig7J6mWOr1i5h97aokuKIBMSA5hX
+UVRJ91K/ZzDLi1m111M/yK9u/WKysfdGqP/F3/jRrjIzcw==
+=6Ov5
 -----END PGP SIGNATURE-----

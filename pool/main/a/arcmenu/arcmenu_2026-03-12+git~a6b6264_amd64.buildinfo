@@ -7,14 +7,14 @@ Binary: arcmenu
 Architecture: amd64
 Version: 2026-03-12+git~a6b6264
 Checksums-Md5:
- f2ebf5c4588a65af23fcddb341dfeaff 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+ 8a1033e0a1ea2ea3efced1565697441f 688548 arcmenu_2026-03-12+git~a6b6264_amd64.deb
 Checksums-Sha1:
- c7a946337a28e9e162bf5fa0bcd6e79115d932fd 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+ 11be2d2e9815128e787e96e3ea38c3b6c69570a3 688548 arcmenu_2026-03-12+git~a6b6264_amd64.deb
 Checksums-Sha256:
- 0ef87f87c076e75932c65db2fabdde75ceced2da1cb3b0ecf5c1da4c2120d6b4 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+ 95459b48d0dcc662b96427196000eed9ade121dde967f4e5b09dad104debfb10 688548 arcmenu_2026-03-12+git~a6b6264_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 15 Mar 2026 17:33:37 -0600
+Build-Date: Sun, 15 Mar 2026 18:20:49 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -187,17 +187,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm3QdIACgkQbkoCnkKh
-yHkZVw/fQsCjRtPjMU9YoRHQvux8rQVYsCpkEzg090GAXElTfRoePXjru2kuFq31
-21vMGs3JdO0+6FOfOFDr916EMvlNMoRdEfipV2x2kQoWCCbeYybdDbKa7kWr18pC
-5jW/kjZqLJrzy5i5pxShwHg65fmdI/n//s9drshBFRCYBbtKiNsflKu4JSBojTCe
-EpXNmzpCeBdtZpnWliZLxHUveWDSUH0QcmvVNe4Ljwx4TwK81qk5C1hfdHRSMzA8
-JrhBRT4PewaEWxNgnSbnosLqhxAUDXSkEGPi1p5AuoaeYITFEAaw1qT23NT6mFzu
-sMdP8g0P2sY9Hxpbyi3PZo7cmfAfww8jrdiwUhC5ow+CnO0ehO4RH/l4sqvgs51a
-tHmR3bGvgeyOWR38u3L7WQGlMXOr2VcxQZZyrHA/JVNFyNowU0pEQt6OgRmTBbaI
-mVj9GU+4v7KxYcMhi7DgIIDN2ZwRXNcUEuKgpcVn23BKvJC7/YTcyH1yZxyvFVD1
-XlGFp8NaJufG2DOpFQPzO+Ce09GAA2Wvpd4xRvRLAHfEiqL2GdZbCmdqavM0X+7J
-OW83fg9qfMv7p99HnTvGT1B0sR/nvgV7hEBfo7/A6P+gYMWQ7HcetggaDg3AIpJP
-Z9LwmNX1tLWBJkHAWZ+oFgK/5EnDWG0ggPqmggdfSGY/nQ==
-=J765
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm3TOIACgkQbkoCnkKh
+yHmqEg/cC2+qfczTgWzntXrcjcN1VVSHZ/v3Pe+gaRuBYodbLhCgVAuaSah+xpP1
+FO5MRKjbjhenQuXG8dFqKnh8x094bbJvLyVpD1B5P1BoSs13jSWjSgQZaG1mtzvN
+0O4C+w8V/lm4J+TpaZJ9mJ4AaeWgkAaA+8GfJfsTWpxtVz+jUhlRW9dNr8OmZXV3
+3TX+rt3bvrTEzl5i0gpWzzjeHX9gy02wJRaOiGfVT7cj7rPFHhO4lceQI6cmUAj/
+ONQINZrzaJ169t8Z2enrO15e7ED+yH/od/aHQcmoBxo3tSBelMocmeKwkASKoRzh
+9SWnlT8n2G666VEOpchGw+KWpqF3QuL+chkAIILMWdHEYLFjflcLtARabqDkOwav
+v0YrWrw0ajckF5JLO3BbSWCnIj4vm6CUA1iOuM6R2ArMin3/Zogp76zl68Ci9S3u
+yZORA7Pd8/bkrRzbSvPWJdpAY18sNcPleSGIgQPhzAffB4C91WgYEdCvokWV0vI6
+8NBvHX1yp4Xive4ydBXx8NuDMOGdtoAoZlmB44bD3t26qBcDpmoSd2d0RC0QtYoj
+3ROp27dh4/zm/Qpfw23YjLwo3+3Eq5RneKT8pLu86XYaSdV1TqM8IaaHGqlPnhUI
+yverinrp7DejqG3zXMT02ONUbabu1SiQPyMiU5Qq7Ty5rQ==
+=t/K1
 -----END PGP SIGNATURE-----
