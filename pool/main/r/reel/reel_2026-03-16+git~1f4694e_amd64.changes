@@ -1,0 +1,74 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 16 Mar 2026 00:00:00 +0000
+Source: reel
+Binary: libmakemkv makemkv-bin mmccextr mmgplsrv reel reel-common reel-gtk reel-qt
+Built-For-Profiles: noudeb
+Architecture: amd64 all
+Version: 2026-03-16+git~1f4694e
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ libmakemkv - Shared library for MakeMKV.
+ makemkv-bin - MakeMKV command-line tools.
+ mmccextr   - Closed Caption extractor for MakeMKV.
+ mmgplsrv   - MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
+ reel       - DVD and Blu-ray ripping tool.
+ reel-common - Common files for reel.
+ reel-gtk   - GTK Frontend for makemkvcon written in Python.
+ reel-qt    - Qt Frontend for makemkvcon written in Python.
+Changes:
+ reel (2026-03-16+git~1f4694e) stable; urgency=low
+ .
+   * feat: add post-install script and EULA for MakeMKV installation
+Checksums-Sha1:
+ 3405096da7376b783d048fc11e1640af7016ae73 166042 libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+ a4df6f54d8b9fbe81308ce8ec0559171dd896cd6 7528850 makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+ 56afcf1d68a74e0c210b04cff0a2ca15544395c3 45324 mmccextr_2026-03-16+git~1f4694e_amd64.deb
+ e95622a61efc825710b1a449c21f56ad5955737c 58832 mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+ 5ed81a32cc738badf9214bcb1263f61b5cce0110 8916 reel-common_2026-03-16+git~1f4694e_all.deb
+ d65bc6ad975a7064253dac946db30d8ec0792f3f 32146 reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+ 555acfb975fe0b34fe6d39d7ce26e91eaa62271f 27252 reel-qt_2026-03-16+git~1f4694e_amd64.deb
+ 8f330afc960e91d67288b1928baba5764aa011dd 14643 reel_2026-03-16+git~1f4694e_amd64.buildinfo
+ 1a8175368a81f9bad27614278d73298255f51d31 8402 reel_2026-03-16+git~1f4694e_amd64.deb
+Checksums-Sha256:
+ e0efd62b0b0de9e43e07eb63c8252f6153bc91bf4eca4058a84dcebe246986ec 166042 libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+ 76afa98721cb2a073d8d3baf505e04d9d3bf7735c7ce5906cfc85719bfbf021b 7528850 makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+ 19950c9dfec4926cb66f5cce1ad3d037ae643b7c97de25a7c386735645f77f6c 45324 mmccextr_2026-03-16+git~1f4694e_amd64.deb
+ 7e9feaad6e79c8cc50961f08521a6ce07c5514b41f51c3b4fe069c35292f2958 58832 mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+ a8276f10b23787940787dba267a0d7d4c06a8811ddcd14380847686f65281505 8916 reel-common_2026-03-16+git~1f4694e_all.deb
+ 413fd2892c0e64c44fdd04e4056f1a651bf17cba94c4e3cc23a2e8b1d46aec2d 32146 reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+ d59b477d40440870d73462add9e1dd4cf864fda0b20b732fd7e98c22bc5ee144 27252 reel-qt_2026-03-16+git~1f4694e_amd64.deb
+ f0800a5b3fdd6becdd6aee110f721c58b711d1ccc622ce9fd38b5eaaa0b61824 14643 reel_2026-03-16+git~1f4694e_amd64.buildinfo
+ b940f862707ef539dc590de36d0c3a50aaaca8af5ee14b887882eda481ebdac1 8402 reel_2026-03-16+git~1f4694e_amd64.deb
+Files:
+ 3107345e6989d7693374d5d919f553e1 166042 video optional libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+ 3d208cd882f29b217cbac7120c8e864f 7528850 video optional makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+ 30f1aa4739533145e539e63113539fb8 45324 video optional mmccextr_2026-03-16+git~1f4694e_amd64.deb
+ bc19cdf6abcfc944c71b300b36fe0bf2 58832 video optional mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+ 294e498322c03bea1d54c1b79edab78f 8916 video optional reel-common_2026-03-16+git~1f4694e_all.deb
+ 6153044631d43b2c59bfe06c2676fc19 32146 video optional reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+ c75a32c240c6adff97a5e0192f2cbfd3 27252 video optional reel-qt_2026-03-16+git~1f4694e_amd64.deb
+ 1e5c97e406c9d4b2cd296d64318b6542 14643 video optional reel_2026-03-16+git~1f4694e_amd64.buildinfo
+ 7320c3633b9d971b29dc0c3c97174358 8402 video optional reel_2026-03-16+git~1f4694e_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm33oIACgkQbkoCnkKh
+yHlnJA/eJFN3HD6gbWBeNQ5tCBd5qfycOzlHlpoa+cfMaT8HiGd6QHMDHGmLopUu
+whkthCpn7t1iO2k9gGmchB0UgpiQ53ZoxKjvTuIjCESHv4iwmjHrafOvm4Bkhyhc
+YvykGgl7ZdeEHWbI/B7Y5ydTIV9AiV6rVkkKu3jjkbKvS+SFeMr/NbYpQZaxFTHa
+8SBZ8c74i6O/6YIURwmdNRrQSbJkrPI87kxfnbErMTuhpgl9Zz99eqQfHa1xcovJ
+TeYkajvfve5oCABqKfA7iF5LrNVk0hDMa2Xn3UCBeZCSEAgxno+zS9VHY4cDv2JR
+FNL5VOZcMJEdjNgAHgcWXBiiOn+Ilf0mUaz0KKR/jsh3HxWUPLY1zCcfUOEikP7l
+ekRQfimMuV3PyLgOLPbRSISrdVlEG9u/FCyGZUrXBPzniCC2Ftyi7F2EvlhliF6H
+j+grUnrbYB9ROXAmfHZ3hobSvMD8a0oDQoWAaPTe4wywJA+OndfR1f7zfKckmAMC
+j0f3oByePra+czHbMkBlTuF9UWnDUWtRMpDICr9hNLawUIhS9cM6pHCfkYFvGrum
+ongLX1AUlY7ebpNH4oIzd4rEahCBGG+gKEiNz/sTszKgvarWv9EQH5G3qDqfEJXF
+tLxUUM3aLA9OjXu0L2mj445Yb+6YQzKd6sSsWEpXhk1dAg==
+=qPAl
+-----END PGP SIGNATURE-----

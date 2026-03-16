@@ -990,6 +990,26 @@ Description: Shared library for MakeMKV.
  This package provides the shared library for MakeMKV, which is used by the
  reel frontend to perform DVD and Blu-ray ripping tasks.
 
+Package: libmakemkv
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 711
+Depends: makemkv-bin
+Filename: pool/main/l/libmakemkv/libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+Size: 166042
+MD5sum: 3107345e6989d7693374d5d919f553e1
+SHA1: 3405096da7376b783d048fc11e1640af7016ae73
+SHA256: e0efd62b0b0de9e43e07eb63c8252f6153bc91bf4eca4058a84dcebe246986ec
+SHA512: 80d442c2e2b657dc5163d7916a95d795d68e42d16a569883d951a3ad288d15f801f211e5daad36b77f580ba60e543d788e51162192c044279b03b86ddea48b67
+Homepage: https://mlstidbits.com
+Description: Shared library for MakeMKV.
+ This package provides the shared library for MakeMKV, which is used by the
+ reel frontend to perform DVD and Blu-ray ripping tasks.
+
 Package: makemkv-bin
 Architecture: amd64
 Version: 2026-03-12+git~8470a8b
@@ -1025,6 +1045,26 @@ MD5sum: 9a8d7e5866cc43f1265862775a67ec3b
 SHA1: 37e509325f98c7b05f3e3dbbced9d680e22680ab
 SHA256: 661d202434aad3bfb11603ac5b4d340f5797899d1ca7a199de2d6cd0f34d71b1
 SHA512: da681e8dd39f5a6b517020ff5f3660ed526629f10680e7acd984b5f576890f8c288243ad813916ce0849b2f91d8e03f8ae47a26aa7e1808137c69774a4d04d6f
+Homepage: https://mlstidbits.com
+Description: MakeMKV command-line tools.
+ This package provides the command-line tools for MakeMKV, which are used by
+ the reel frontend to perform DVD and Blu-ray ripping tasks.
+
+Package: makemkv-bin
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 13103
+Suggests: ffmpeg (>= 6.0), libmakemkv, mmccextr, mmgplsrv
+Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+Size: 7528850
+MD5sum: 3d208cd882f29b217cbac7120c8e864f
+SHA1: a4df6f54d8b9fbe81308ce8ec0559171dd896cd6
+SHA256: 76afa98721cb2a073d8d3baf505e04d9d3bf7735c7ce5906cfc85719bfbf021b
+SHA512: 93540c395ce490b4a1b92b27d39027102414c0c4fd5426b7980fbef125e6c4a737233bf9932ac98ec6900143537d19b29b5dad5dca8ecdc1b279b46c40e4741b
 Homepage: https://mlstidbits.com
 Description: MakeMKV command-line tools.
  This package provides the command-line tools for MakeMKV, which are used by
@@ -1072,6 +1112,25 @@ Homepage: https://mlstidbits.com
 Description: Closed Caption extractor for MakeMKV.
  This package provides a closed caption extractor for MakeMKV.
 
+Package: mmccextr
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 113
+Depends: makemkv-bin
+Filename: pool/main/m/mmccextr/mmccextr_2026-03-16+git~1f4694e_amd64.deb
+Size: 45324
+MD5sum: 30f1aa4739533145e539e63113539fb8
+SHA1: 56afcf1d68a74e0c210b04cff0a2ca15544395c3
+SHA256: 19950c9dfec4926cb66f5cce1ad3d037ae643b7c97de25a7c386735645f77f6c
+SHA512: ba270d48cb4e72fcb04536c4bdf2ee4cd57d7e9d6909d4885607350ce91d58ac9fc7aad5715f35a68eec0b5130b2f104c477565716ebb79f0b09e3a4a12cb14c
+Homepage: https://mlstidbits.com
+Description: Closed Caption extractor for MakeMKV.
+ This package provides a closed caption extractor for MakeMKV.
+
 Package: mmgplsrv
 Architecture: amd64
 Version: 2026-03-15+git~364aff7
@@ -1087,6 +1146,26 @@ MD5sum: c9d63b6064076770d2128ecd1265b708
 SHA1: ec503a796b33ce23d7bd4838c5a155c2041bf4cd
 SHA256: 34ef0f4d6585d072cb2abb46a4b69b935f39c47df19efe5542bedd8fed112b26
 SHA512: f296544a7e2962ed14b720c4f7cd62800dcba3df84ddb813f6b588f9fd4f233e8e678163d0aad29d34e97e602196e74a3dd3c35267994996c2239418836de65a
+Homepage: https://mlstidbits.com
+Description: MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
+ This package provides the MakeMKV GPL Server, which is used for decrypting DVDs by
+ the MakeMKV command-line interface (CLI).
+
+Package: mmgplsrv
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 148
+Depends: makemkv-bin
+Filename: pool/main/m/mmgplsrv/mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+Size: 58832
+MD5sum: bc19cdf6abcfc944c71b300b36fe0bf2
+SHA1: e95622a61efc825710b1a449c21f56ad5955737c
+SHA256: 7e9feaad6e79c8cc50961f08521a6ce07c5514b41f51c3b4fe069c35292f2958
+SHA512: a62dacf57b5ece2e9453cb306e5a6497e933843f63f114d21135b0607ee2bc2feae79961ff30f0a7fe3f5b9b64fc7f2ce75c02a3a43374ac02388f77b89de314
 Homepage: https://mlstidbits.com
 Description: MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
  This package provides the MakeMKV GPL Server, which is used for decrypting DVDs by
@@ -1149,6 +1228,27 @@ Description: Common files for reel.
  and desktop files and documentation. These files are shared between the reel, reel-gtk,
  and reel-qt packages.
 
+Package: reel-common
+Architecture: all
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 25
+Depends: reel
+Filename: pool/main/r/reel-common/reel-common_2026-03-16+git~1f4694e_all.deb
+Size: 8916
+MD5sum: 294e498322c03bea1d54c1b79edab78f
+SHA1: 5ed81a32cc738badf9214bcb1263f61b5cce0110
+SHA256: a8276f10b23787940787dba267a0d7d4c06a8811ddcd14380847686f65281505
+SHA512: eae0b107854e39d1c52d1c20d9f97e52ac2234a064760d384dec99b9bedcc7fc71a5ad86a84e89e9553b8e10349defecf20a5a9db1b667cfe1be8f0412643112
+Homepage: https://mlstidbits.com
+Description: Common files for reel.
+ This package contains common files for the reel application, such as application icons
+ and desktop files and documentation. These files are shared between the reel, reel-gtk,
+ and reel-qt packages.
+
 Package: reel-gtk
 Architecture: amd64
 Version: 2026-03-15+git~364aff7
@@ -1169,6 +1269,26 @@ Description: GTK Frontend for makemkvcon written in Python.
  Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
  interface to manage the ripping process.
 
+Package: reel-gtk
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 166
+Depends: makemkv-bin, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, reel-common, reel
+Filename: pool/main/r/reel-gtk/reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+Size: 32146
+MD5sum: 6153044631d43b2c59bfe06c2676fc19
+SHA1: d65bc6ad975a7064253dac946db30d8ec0792f3f
+SHA256: 413fd2892c0e64c44fdd04e4056f1a651bf17cba94c4e3cc23a2e8b1d46aec2d
+SHA512: cc630c95be9f6d9506e8093508979d9a9319549c57aea4be0a23c3a7d5a1833bfb1834c8d8fb1f656aedfe493ba03a1dd78369d16ce9acef4f9ad5466aaaa222
+Homepage: https://mlstidbits.com
+Description: GTK Frontend for makemkvcon written in Python.
+ Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
+ interface to manage the ripping process.
+
 Package: reel-qt
 Architecture: amd64
 Version: 2026-03-15+git~364aff7
@@ -1184,6 +1304,26 @@ MD5sum: 9334b80969ddd55b5afdd10dded8d6a4
 SHA1: e9a394b5809d6b83d2d28529ab829bc153ac2646
 SHA256: 8fe4da79e3c8031a24f4f605c776f36e369cdd4035c23129a51a602c13f4d6f6
 SHA512: cded37385c8a3b019e5e6631510ce514f0a627c4e1cdef6a8688fd44953fb4a3be7c59c5d7c088fb49604f0bbe9aff7fd06fa1215375626a041f33923070d762
+Homepage: https://mlstidbits.com
+Description: Qt Frontend for makemkvcon written in Python.
+ Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
+ interface to manage the ripping process.
+
+Package: reel-qt
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Source: reel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 144
+Depends: makemkv-bin, python3, python3-pyqt5, reel-common, reel
+Filename: pool/main/r/reel-qt/reel-qt_2026-03-16+git~1f4694e_amd64.deb
+Size: 27252
+MD5sum: c75a32c240c6adff97a5e0192f2cbfd3
+SHA1: 555acfb975fe0b34fe6d39d7ce26e91eaa62271f
+SHA256: d59b477d40440870d73462add9e1dd4cf864fda0b20b732fd7e98c22bc5ee144
+SHA512: 5ab20586e99fa4c72affcf63180159a28f1a56f1fadf7adc00d887daca59499546023ca3d0d02b581640786f92556cd25878b134cb4fbf9e335ba799623bce8c
 Homepage: https://mlstidbits.com
 Description: Qt Frontend for makemkvcon written in Python.
  Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
@@ -1223,6 +1363,26 @@ MD5sum: 77967a5d82e17a756f4f5195108fd2c8
 SHA1: 52496b1ac184c0c552dd3b9f999da1da17ca7b20
 SHA256: f8c49e2d6509d9dd5e1550420e330ced323546de0151cfa3c238d4fade2cde4f
 SHA512: f1d4d2e2da7fb30bc6f647593b7026709bb3246a9022d0649f408f6869428f61aa4c0d9066072bccb63c558096ab8939d60be556593179bf3e43750ce2d23264
+Homepage: https://mlstidbits.com
+Description: DVD and Blu-ray ripping tool.
+ Reel is a DVD and Blu-ray ripping tool that provides a user-friendly interface for
+ managing the ripping process. It uses makemkvcon to perform the actual ripping tasks,
+ and provides features such as progress tracking and error handling.
+
+Package: reel
+Architecture: amd64
+Version: 2026-03-16+git~1f4694e
+Priority: optional
+Section: video
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 32
+Depends: libmakemkv, makemkv-bin, reel-common
+Filename: pool/main/r/reel/reel_2026-03-16+git~1f4694e_amd64.deb
+Size: 8402
+MD5sum: 7320c3633b9d971b29dc0c3c97174358
+SHA1: 1a8175368a81f9bad27614278d73298255f51d31
+SHA256: b940f862707ef539dc590de36d0c3a50aaaca8af5ee14b887882eda481ebdac1
+SHA512: 7bf7ae3521ef4ea8c0b00024227557acec70dff25dad7a154ec39235ca707a57c59b6d6f2aeae0a53dca6a9cd48b5a5df956e3ba1decdc6df8dfe7ee78266e22
 Homepage: https://mlstidbits.com
 Description: DVD and Blu-ray ripping tool.
  Reel is a DVD and Blu-ray ripping tool that provides a user-friendly interface for
