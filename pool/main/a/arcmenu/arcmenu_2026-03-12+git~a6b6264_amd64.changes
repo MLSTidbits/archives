@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 12 Mar 2026 00:00:00 +0000
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2026-03-12+git~a6b6264
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: AndrewZaech <azaech021@gmail.com>
+Description:
+ arcmenu    - ArcMenu - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (2026-03-12+git~a6b6264) stable; urgency=low
+ .
+   * Bump Version
+   * Merge branch 'master' into 'master'
+Checksums-Sha1:
+ 467d8a18006bdeab0249f5e78504eb45653df724 7163 arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
+ c7a946337a28e9e162bf5fa0bcd6e79115d932fd 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+Checksums-Sha256:
+ faeffa075a294728e6557709e851969862adca78330da6747414c8180e4eb45d 7163 arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
+ 0ef87f87c076e75932c65db2fabdde75ceced2da1cb3b0ecf5c1da4c2120d6b4 688564 arcmenu_2026-03-12+git~a6b6264_amd64.deb
+Files:
+ 0e62b7abdfede13153d2051c20413709 7163 gnome optional arcmenu_2026-03-12+git~a6b6264_amd64.buildinfo
+ f2ebf5c4588a65af23fcddb341dfeaff 688564 gnome optional arcmenu_2026-03-12+git~a6b6264_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm3QdIACgkQbkoCnkKh
+yHnGvg/fXd3gtu2CeZ605QvsgpyD4bTNwbXDa8G89LTF4sUjbIFR3sbl58OmaIN+
+jjL7My5ZVJcWJeCZzMuIhV1bPERLVZ2BjjzqTlVEY86gPHD3vIeVfYpp/zblMft5
+ltMbY2MsdoiN7r5j4nx4DjMcPjN5H8T6JXl7ekNtVwLn7jXYv61SeaEQrYSMBYiH
+veKH++GH8ug1aq/SVaOCQwsEHMs8UCoY6QSNFox5i50CbUlVxyRsgcTeGr8M+uzz
+Fdc7OGxanuWnAvwDe7M5GJ8q88YjTorNTKX5LNh6YE99/ccYaDg6GeIR7bEZNovl
+rB5ID+pLVoT3nE92KiE64rNsCn9hqZBad0j2b8Eaj26gR3QtLtoPhCE8jB2LGuqO
+do/oPrj8ckTKkNCHELL6/lgrSFhC7NrPeVxmptHyFjmbztoJLDsE3ocPK6a00ZMA
+m65D0AB3A1l9YCmkmgJHz/1e5tzuNOZRw1mOnXk4KMZKCEh+FIFNr1drBhNHuDWV
+zAgCYqv2CrGSRZL+Cja3LRZ7wxPc4JLL+CZ/00AwRe5qtXZv3BS2bcCCvb96QIKa
+lNJ7cs4EfUj/ThTvvcTBTqk89ky4hBVN5mhpaxFFVjB0FxG2xDFKVLymX9Xwn1Eq
+kL4BoyVJw2Q7mL+15zVw8sDo5mj/H446PeYzNQCleb47vw==
+=UdKb
+-----END PGP SIGNATURE-----
