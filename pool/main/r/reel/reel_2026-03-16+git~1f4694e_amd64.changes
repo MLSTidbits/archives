@@ -24,53 +24,54 @@ Description:
 Changes:
  reel (2026-03-16+git~1f4694e) stable; urgency=low
  .
+   * feat: enhance EULA display by using terminal dimensions for better readability
    * feat: add EULA license documentation and update post-install script to check for gzipped EULA
    * feat: update EULA handling and add new license file for MakeMKV
    * feat: add post-install script and EULA for MakeMKV installation
 Checksums-Sha1:
- 37b93d825e1dce1cae2dec39b36d1dcf388f0c74 166082 libmakemkv_2026-03-16+git~1f4694e_amd64.deb
- c99a53f6a14e340066ffd8bfad134c1629c365b5 7531476 makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
- 33759b4259e0de2e8e191e617dd125608882fee6 45362 mmccextr_2026-03-16+git~1f4694e_amd64.deb
- d20f6a1f5ccc9261c63d381725b427edb81bc87c 58964 mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
- 88bcecbf8f9ab9e3fc129cb01046e3d46f9cb90f 8958 reel-common_2026-03-16+git~1f4694e_all.deb
- 74d3cf741fd5c39ca29d006a97c551bfbfcdf90b 32188 reel-gtk_2026-03-16+git~1f4694e_amd64.deb
- f51b2b8c4c6b614c471a3c929e9783d58bdc31a2 27284 reel-qt_2026-03-16+git~1f4694e_amd64.deb
- 7f904a0bf9131d440cfd538233cf0f4b6cd84649 14643 reel_2026-03-16+git~1f4694e_amd64.buildinfo
- fea274a817973c8458de4f8a1b92d82bcc6fcd6a 8390 reel_2026-03-16+git~1f4694e_amd64.deb
+ 70d632af3ef16141bad277903062f08f03fe3308 166116 libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+ dee7aeb16c6370f77ed53804b5e9aaae9df17e85 7531514 makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+ 38d3befd94ac1127c390042e03b8a159cd4da129 45400 mmccextr_2026-03-16+git~1f4694e_amd64.deb
+ b2456b5a20fc25952f811f932bafa1599b303414 58906 mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+ dc6c6bdc02c470a3df86485753bd68b6c1bc47c3 8986 reel-common_2026-03-16+git~1f4694e_all.deb
+ b697f57740dcf13ff70edc82cf0728fd72ef11ab 32222 reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+ 2f2639231cee34560475a0c4f6e22a682ad17b39 27322 reel-qt_2026-03-16+git~1f4694e_amd64.deb
+ de6eb36a99a944b5a75d14d4a70cda9a0161a3da 14643 reel_2026-03-16+git~1f4694e_amd64.buildinfo
+ eab3a4060dd0b38eb83288c0d0bafb5c8ea51510 8462 reel_2026-03-16+git~1f4694e_amd64.deb
 Checksums-Sha256:
- f2f18d280fc65eee6647086126012e29088759122ae602a2ec532d96a188e4ba 166082 libmakemkv_2026-03-16+git~1f4694e_amd64.deb
- 4d98eb2901fc2a1a690b9b91855fa7c33e786ae0e9d34b0f2be83d4bba5c53b8 7531476 makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
- 0548afc4d23ad7b1984a86c569aa83ea19df65c57df150a123244d2a562f25e8 45362 mmccextr_2026-03-16+git~1f4694e_amd64.deb
- 3536cf84823eeea04eb32bb86e1158955dd2ad660f818bb138d01ce1b528109d 58964 mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
- a58014c5e2bca17704619e8169993aa650b9f997828c36564fb6820befbb4fd0 8958 reel-common_2026-03-16+git~1f4694e_all.deb
- 32cd00dc28b2b78b2c9d135612a3f3558e5c14cb78378a77418d1b68b4cd5f5e 32188 reel-gtk_2026-03-16+git~1f4694e_amd64.deb
- aa130450db24d16019df234622cd75f04014cb512afc19e9d8b6085318fe49e9 27284 reel-qt_2026-03-16+git~1f4694e_amd64.deb
- 5e07578c51711f2888996ce9796ad747b8721908b48053ff57168f33bdb54aa3 14643 reel_2026-03-16+git~1f4694e_amd64.buildinfo
- d66a233855202b40cb93552fdf9b960eaf63ee22bf8bc3f4bade9391c2b60a79 8390 reel_2026-03-16+git~1f4694e_amd64.deb
+ 62cd2554c91d6dc4bfe9b251448f96611d04cf2bcc8c878671afae850c7e2261 166116 libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+ 67062c830112b480cb9e87a0a7a2487cb9df58f5fb04ab7d6e3d8e5b8b2fa757 7531514 makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+ 3a2eded1cbe8e746b15c99146a77c6f940a688c648544e20f1ddedc9801a14e2 45400 mmccextr_2026-03-16+git~1f4694e_amd64.deb
+ 472d5cb9bd9daeb7410b94a1f9a8d0584e8e5c500266fd86ebe12873d40484e8 58906 mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+ 5332537f41782ff513170a2fbf5242d5ee3f7967dcf3f09467a39502a0a02689 8986 reel-common_2026-03-16+git~1f4694e_all.deb
+ 5276fba41559961a62d344e021b2b8f5657b5a284a76ce895157fb5182fb09e4 32222 reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+ 70329e29ec3b934874a143a69efbd985ebe92ae58d15d14ea8811705891773c6 27322 reel-qt_2026-03-16+git~1f4694e_amd64.deb
+ 33de27fe43762570b1bb151eec30dc5f2c3256b615d6ac5825add9a65791d7b5 14643 reel_2026-03-16+git~1f4694e_amd64.buildinfo
+ 94fe4994a332a392d38498e7e6a4953552a360b941e6ceb1c13110497cc4b832 8462 reel_2026-03-16+git~1f4694e_amd64.deb
 Files:
- 4c3a44c8143face939508d26cb51218d 166082 video optional libmakemkv_2026-03-16+git~1f4694e_amd64.deb
- 5fadd1de010b433378af963cf83bc29b 7531476 video optional makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
- c2bc3e5ced0a77bec08a2d638996938e 45362 video optional mmccextr_2026-03-16+git~1f4694e_amd64.deb
- fcaecb7de974412dd094eed861bdba58 58964 video optional mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
- 71e24a1cec69efde92c898c181ff625c 8958 video optional reel-common_2026-03-16+git~1f4694e_all.deb
- bae18fbccd95b8885f77cf043bee7347 32188 video optional reel-gtk_2026-03-16+git~1f4694e_amd64.deb
- 6328fe29b17777c7d1948bcec62a152a 27284 video optional reel-qt_2026-03-16+git~1f4694e_amd64.deb
- 56f72b6213d84b8b0d24f14fc69f967f 14643 video optional reel_2026-03-16+git~1f4694e_amd64.buildinfo
- 1bd06f52310f761b81006360bdcec4ca 8390 video optional reel_2026-03-16+git~1f4694e_amd64.deb
+ 899ee174bf8e111fdaf79a6b78aaafb1 166116 video optional libmakemkv_2026-03-16+git~1f4694e_amd64.deb
+ 4670d5ecaaf1a9cdb4cd6cdb941084b1 7531514 video optional makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
+ 6cd5237ae92211bb3baa8864d30b9e62 45400 video optional mmccextr_2026-03-16+git~1f4694e_amd64.deb
+ f65aab9de06907877c57dbcefa4f0347 58906 video optional mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
+ 0629bbd731e05a8d789b93134f077ca0 8986 video optional reel-common_2026-03-16+git~1f4694e_all.deb
+ d58ec979e527346ef8b34cbb4db1c3ed 32222 video optional reel-gtk_2026-03-16+git~1f4694e_amd64.deb
+ ac9bbe2bcea1f270adb510d50589ffcc 27322 video optional reel-qt_2026-03-16+git~1f4694e_amd64.deb
+ 9e5acff02f43232f1e177a1b8af7b076 14643 video optional reel_2026-03-16+git~1f4694e_amd64.buildinfo
+ b98e13e5045a7794aa6b9ba63a0e2b94 8462 video optional reel_2026-03-16+git~1f4694e_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm4tWgACgkQbkoCnkKh
-yHmhtg/fReISibpTkcGLrG760Yizf7+oklJoaVj9DHt74dGSpAcdpDfCXA+xJFfO
-XMUKyPJPHwQ45y2BNcZrE1PUgLaF1gowh+IFmRUHFfOB+NWyg4zz3s6z8FS+4cDj
-Ua7PpkIaFtBIk8s8MeobMEgd5rK0VoeSHFNsYnUxwbW0WqL80SWOoqYmM4liGc35
-qMt8tvlYPLz6u3rlIeo2EOL6NTBlY6vU9z8yCpI1s4JBrBbXxuGAJPUoKzwVOcNi
-x2cLso159V8Yef33aJd7y422Ug9pdPEBosnfaVydHnChcgV9vdBrlyo0XOAjDWKA
-Jige6+IsdwAVjz5Gq4p5kLZ3lTG77SpOy6bV6cKcC8UWCQbiB4ibLisdHrhlDw3n
-O4t1O5pAm4Li7TBz0AGn7DEF0h4JRwbKrBuD3JdEnqSIsx2omDxdWtMU2j8Qi4UD
-rByzjrn75guVHeXoLi8jzrQqxVNvmu7cHlbKyZXqryKIErtYW4nrcRKCRqbgWj2k
-XP+NNoHg5PwQO82iEUVBkvDbtUem5GWjxxoOrZ6FcS6GJOOTX99vZZR37IepKKxe
-BJ42mb424uojBaZK4ySiznDnZrRLHXlB/FjoKTZsC3dfZPXJ/nGAQq8W+8L9WRjM
-Ej5VxRQeygjGrgArb98/cmTkgZpJ1gXPXxuNNX4vHCKxBQ==
-=p4aJ
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm4uUYACgkQbkoCnkKh
+yHkFBw/fRKCTfi4T7zGlQFucunq2bHNpPukD5HpcKZAi3HtfUl6Fo95xhS107XcH
+PO340M41A7NE0/n/e6c4E9SAibvx06KCETd2hqNJv5wSNCgjJG3zxN1UlbIdB7C6
+c49j67/cUzgqB8/m98AkLx+Gp8KOGH4jvcrvVygROQ7jVnPnXmDB8mF/ose+X1zx
+SwFmY4Cx2mwj8VHp44z752LWPWeAGVSGvy9yChQUnqTIPPhf8sZTMD/OqZSRGIFZ
+KKQ0tpehA1KMhdFVdPn5bsuwbHWENUzAQYtbETnJzY4AKqr1UbHp5RPyC88TRb7V
++I4m+uBRXh49f7a7Ms5pFwyfAyYavD9hZww+oLY6KZXvJBseZzDs5u2i/SKQLQ0W
+GCjpUaW4hSaALPLCfc9xJaRiNeVGbBjJQA7c+BZhkXHpHpQYIIueGWJxp9HSqPet
+VkDAU9JeoWa/uLZjO+38qMGkSlg2AKatUO0IbTCWHF/H5TDVprzrpUnUs92h7JF6
+tazLM34xNV/1+res8ie7JSVnHu+0kIQ4/KDwFJePrYh3ROvOl5ggSvV0dtrk3Bg/
+ZoDHrS/DhV4ZQ6vsWmjCPAWVg/nW8/35kj9cZNlX9XVyXby46gqhzipTAss3FuTv
+viHRvt9o3q7rwiZtrPrpU0UQ3+A57kS5tDGHedgtVKRQdQ==
+=mjuN
 -----END PGP SIGNATURE-----
