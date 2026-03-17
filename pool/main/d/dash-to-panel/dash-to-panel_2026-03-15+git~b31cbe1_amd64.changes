@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 15 Mar 2026 00:00:00 +0000
+Source: dash-to-panel
+Binary: dash-to-panel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2026-03-15+git~b31cbe1
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: Charles Gagnon <charlesg99@outlook.com>
+Description:
+ dash-to-panel - Dash to Panel GNOME Shell Extension
+Changes:
+ dash-to-panel (2026-03-15+git~b31cbe1) stable; urgency=low
+ .
+   * Fix maximized window drag from panel on g-s 50
+Checksums-Sha1:
+ e549ba1d12ff3c061f991c310464ef9aa5aa7c7e 7193 dash-to-panel_2026-03-15+git~b31cbe1_amd64.buildinfo
+ eabe228805139a41a04b78e3bf4af7f8166ead73 265546 dash-to-panel_2026-03-15+git~b31cbe1_amd64.deb
+Checksums-Sha256:
+ 3d1811e3254929f420a2eda142b605bca1df1036ebfe0bd8ba934e2d42609e6a 7193 dash-to-panel_2026-03-15+git~b31cbe1_amd64.buildinfo
+ ff80000c8222427478c73ebd1c18ba3ca824e49df8967217b958ae9f14de0c73 265546 dash-to-panel_2026-03-15+git~b31cbe1_amd64.deb
+Files:
+ 6fcba5253034b73c8a7484b1ce0b4877 7193 gnome optional dash-to-panel_2026-03-15+git~b31cbe1_amd64.buildinfo
+ c5f8a7b4c3eb513b6257eb50ba0977e9 265546 gnome optional dash-to-panel_2026-03-15+git~b31cbe1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm54TIACgkQbkoCnkKh
+yHmsgw/fddjKcME4voUvYkH6xr5PfZBA3zPSCxGmJ3XvVdLnr2SwhYOwwJDybKGh
+/5iSqXXQddzTZiF7W9CH08wZi4A9/U+4y6vNkycQ6Na8hltU+TtXvhjcZrO4hae7
+P8pZe41sQGA8vd68u5BgiC7alxgwC0uwol8D3+tt82DSk7Pegpx+nXhEuR6VD8Ml
+4jLd2yixjXd9nMFqeZKiUxarA6RJVKsCcqQ998qNS6+Zo8HUElc+6yzr2RG/6nZ2
+Ms2ZxJT+ewCUXobZik9Nid1fnOaliVaCrC0jFgq2Jw0azgTiAywLP9InLlg0JWQP
+A8yMSCcA0g6WbXnwzFZPu/mxUg/90C7gcTgxxCiftR57Po2nE+aWPokMkFcj5qDK
+17/5bGfJGT7pT3nVgAaR0CUxxOeTDgEeiHbWM2+wYND0wJdAd2LYWPMXAGQMeq29
+8JLbBubRD1bJzKByy/+543PGoUREW8k6tM+EJ1CbHQaJp0iinnqNRIYcpKP485xU
+oHMapwkjLNU7peStXAjyzdbkAw5WouIWnc6W9gvBARZ0jdheCrnaKAD1VX9GenWJ
+/Uo78r2FAVudHGUXM5NDi23owPVRAALOZgiKSbpr86PGz91rI5l14ynPwlXWAQoY
+e+rgHe6YnTKVF6Gf094hjhLTozAKZocyKiOGebmULZu/Yw==
+=jKvH
+-----END PGP SIGNATURE-----
