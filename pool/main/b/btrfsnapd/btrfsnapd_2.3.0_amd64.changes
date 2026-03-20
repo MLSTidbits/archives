@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 +0000
+Source: btrfsnapd
+Binary: btrfsnapd btrfsnapd-docs btrfsnapd-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 2.3.0
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+ btrfsnapd-docs - Documentation for Btrfsnapd
+ btrfsnapd-man - Manpages for Btrfsnapd
+Changes:
+ btrfsnapd (2.3.0) stable; urgency=low
+ .
+   * feat: add changelog options for commit hash versioning and line limit
+   * fix: update .gitignore to include btrfsnapd-docs and btrfsnapd-man directories
+   * feat: add Makefile for building and installing btrfsnapd with manpages and documentation
+   * fix: update btrfsnapd bash completion path to use _build directory
+   * feat: update documentation structure by adding new docs file and removing obsolete dirs
+   * feat: add new manpages for btrfsnapd and remove obsolete markdown manpages
+Checksums-Sha1:
+ ef4b7c581ad17045de6838c0a96b333aacfd36ec 12744 btrfsnapd-docs_2.3.0_all.deb
+ 78a08e5793d030a1d9b0bc87839fb8eda5753421 9932 btrfsnapd-man_2.3.0_all.deb
+ f5bcaaba1dbe71454df21e8cf01d2a3cc7455a7f 9498 btrfsnapd_2.3.0_amd64.buildinfo
+ 8ad4d894d19bf9cc4ae821f5d49d4edfdd489b93 12942 btrfsnapd_2.3.0_amd64.deb
+Checksums-Sha256:
+ 9fae373aa60982b3be9349c29dcb526d4f6621bd4688d9f0fa36237134e303e0 12744 btrfsnapd-docs_2.3.0_all.deb
+ e48484f70fc24ecc447fe1b02ee126f1ccda5e965d13ade3eb0ec2fb023ff318 9932 btrfsnapd-man_2.3.0_all.deb
+ bd92720a792b8b4a397502c3301e11d55020e92e007a0fdfb6ac00bf5a9bd109 9498 btrfsnapd_2.3.0_amd64.buildinfo
+ 415b949ac39e4f89ef03549128e45478cb27feddbb264221c2c408ae3d9676bf 12942 btrfsnapd_2.3.0_amd64.deb
+Files:
+ f0c787d6e32ef69b0c29800da63dabe7 12744 admin optional btrfsnapd-docs_2.3.0_all.deb
+ e8d0d406c0eb9eee46486c386e326db8 9932 admin optional btrfsnapd-man_2.3.0_all.deb
+ 703fec28f8fe837ea0ebd69a38d3c17d 9498 admin optional btrfsnapd_2.3.0_amd64.buildinfo
+ 3d865e9de057008ca9311ab75b84cfc8 12942 admin optional btrfsnapd_2.3.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm9ZRsACgkQbkoCnkKh
+yHlFEg/cCqcEaiY7GofSp+2NrZMpQY8IhPLbysqP1BFRMDkxTomCGJMgsa2wLuYD
+4GiYiDzo/P9euNKV8Q2FQPDFBK3aU/Lga5E57lur9ylR5nd+nMh4MQj2x+L9DALx
+DbnXn3hSNk68INbcOLx92org1TD0+7guLYL8WfLJehRRGJePu8PFfWN7Z1sioO2Q
+pKyc3GrpFfZCm7TSG3etZ5U5bN2XdiuJhCgmADm/M8xnGt1VoUEsDlazq8pj+Cbc
+9FV2P9KMwXXwHhpSCav1YDMzQz6IBG/aD9MX7QKYpNDjhTXTAVMtuUmW0BvhNK96
+0qqzmBS7aZpSp8Zt8lWPn0vPFTcE8yaDlus5GRr8IoDVjaaHUJr2g7dx1KFQj3kD
+jogW/Vp1q92m+nYeKCPF7tnjKKXog0dYXaKiengHNMw7c1iF33AZQx3n0oP12dtC
+UmQ3OepdkdMdze0VdDCZV/lOwx016yTbp0p7GtfOvi9uu2TMday44K9aBXmrivdV
+E9R0AN3qvVrtlV1WstA6FzTqTuVxiRKOK4DtrusR3EEHvi6Vo/y3BqZh38Q4TUJn
+9qP9/vaP+h5i+AySXmFcEQh5Zj96zpsNYPQ7CB9EYgPInNcaA/n4ukDIqZqIUB3S
+gXUdA3UO/kh/CaRkOZ1QZYP1FbTL/UES4afjrz5NodhvXw==
+=nauE
+-----END PGP SIGNATURE-----

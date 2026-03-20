@@ -550,6 +550,66 @@ Description: Generate fstab entries for btrfs subvolumes
   root filesystem.
 Build-Depends: dpkg-dev (>= 1.0.0), debhelper (>= 9), dpkg-craft (>= 0.5.0)
 
+Package: btrfsnapd-docs
+Architecture: all
+Version: 2.3.0
+Priority: optional
+Section: admin
+Source: btrfsnapd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 25
+Depends: btrfsnapd
+Filename: pool/main/b/btrfsnapd-docs/btrfsnapd-docs_2.3.0_all.deb
+Size: 12744
+MD5sum: f0c787d6e32ef69b0c29800da63dabe7
+SHA1: ef4b7c581ad17045de6838c0a96b333aacfd36ec
+SHA256: 9fae373aa60982b3be9349c29dcb526d4f6621bd4688d9f0fa36237134e303e0
+SHA512: f9f9529846560491ed994daa6aac75ad8c26014e739a9ff4d8db049b53b28973d0a34146c9215ad04afa8258c68679d7bb458c73c330c5bea59d7d6d27b56aa7
+Homepage: https://mlstidbits.com
+Description: Documentation for Btrfsnapd
+ This package contains the documentation for Btrfsnapd, including README.md and
+ and other relevant documentation files.
+
+Package: btrfsnapd-man
+Architecture: all
+Version: 2.3.0
+Priority: optional
+Section: admin
+Source: btrfsnapd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 19
+Depends: btrfsnapd
+Filename: pool/main/b/btrfsnapd-man/btrfsnapd-man_2.3.0_all.deb
+Size: 9932
+MD5sum: e8d0d406c0eb9eee46486c386e326db8
+SHA1: 78a08e5793d030a1d9b0bc87839fb8eda5753421
+SHA256: e48484f70fc24ecc447fe1b02ee126f1ccda5e965d13ade3eb0ec2fb023ff318
+SHA512: c482a4d4cb500c83e6da1365ddc85ec4249349c2130ed2bc1e0a8a71c8b3e3549d6dfcb0a5534d009b4a55f23b3a36da4bf13b39e816c4f05caa300d4ceaf202
+Homepage: https://mlstidbits.com
+Description: Manpages for Btrfsnapd
+ This package contains the manpages for Btrfsnapd, providing detailed information
+ on how to use the various features of the Btrfsnapd daemon.
+
+Package: btrfsnapd-man
+Architecture: all
+Version: 2026-03-20+git~dbf3ee3
+Priority: optional
+Section: admin
+Source: btrfsnapd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: btrfsnapd
+Filename: pool/main/b/btrfsnapd-man/btrfsnapd-man_2026-03-20+git~dbf3ee3_all.deb
+Size: 10286
+MD5sum: 4c98723fba4ffbba5a39cf80ff4aeb7b
+SHA1: 9a967c6f4abac65139ed9836895d3b2138adcbec
+SHA256: c250867e50eb3166316190409a0bebe23bca330830121f9c3cb92ad64d3bfb4c
+SHA512: 8806a977a9323e22e6cfd0943015edf4a0d5156e8fdfe4ab06956d2e6be3aff75046a810e0066c3398ff03b89b13f435c90525db6621b434fbabca9007d2948d
+Homepage: https://mlstidbits.com
+Description: Manpages for Btrfsnapd
+ This package contains the manpages for Btrfsnapd, providing detailed information
+ on how to use the various features of the Btrfsnapd daemon.
+
 Package: btrfsnapd
 Architecture: amd64
 Version: 2.1.8
@@ -590,6 +650,32 @@ MD5sum: e2b5d7cbdefcd80fda0c8b2bbe94561c
 SHA1: 0ca1a753c3b7c58f1ae3e5f62de7f70d8825dfec
 SHA256: 7f820ca4ac58f9e5f3a4c3bccef91453e878f72c55ce932a99c4cb99918ecbe8
 SHA512: 97b676b45da2baac5ef04524925c465656118ff0312475a85210d59ab84a580f941f35e7efb19d73c91523e7b527f330a06da19d051374a1c8cd257d92e729f1
+Homepage: https://mlstidbits.com
+Description: Btrfs snapshot daemon
+ Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
+ GRUB to allow booting into snapshots. It provides a simple command-line
+ interface for creating, listing, and deleting snapshots, as well as
+ restoring the system to a previous state.
+ .
+ This package is designed to work with Btrfs filesystems and requires
+ btrfs-progs to function correctly.
+
+Package: btrfsnapd
+Architecture: amd64
+Version: 2.3.0
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 53
+Depends: btrfs-progs, systemd, coreutils (>= 8), grub-common, grub2-common, grub-btrfsd
+Conflicts: btrfsnapd (>= 2.2.2)
+Filename: pool/main/b/btrfsnapd/btrfsnapd_2.3.0_amd64.deb
+Size: 12942
+MD5sum: 3d865e9de057008ca9311ab75b84cfc8
+SHA1: 8ad4d894d19bf9cc4ae821f5d49d4edfdd489b93
+SHA256: 415b949ac39e4f89ef03549128e45478cb27feddbb264221c2c408ae3d9676bf
+SHA512: 41462b6a2c7c46127cf8bd533771660cb4de3df6d44af0771b21f3f26cb5ef45141228d3788cc444c0689a38e966577cb6f6f2be05f7de7cc87e5776a2ba4730
 Homepage: https://mlstidbits.com
 Description: Btrfs snapshot daemon
  Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
@@ -1100,6 +1186,96 @@ Description: Generate Debian changelogs from git commit messages
  .
  It is designed to be used in conjunction with git and debhelper, and can be
  integrated into your workflow to automate the process of generating changelogs.
+
+Package: grub-btrfsd-docs
+Architecture: all
+Version: 19.2.2
+Priority: optional
+Section: admin
+Source: grub-btrfsd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 26
+Depends: grub-btrfsd
+Filename: pool/main/g/grub-btrfsd-docs/grub-btrfsd-docs_19.2.2_all.deb
+Size: 14070
+MD5sum: eb8a5d9688622d0a051c9f9493cfc7c7
+SHA1: 89f6e89956dbaf0c0f14399bde130ec33ecceeed
+SHA256: 31aed08a36b464a1ace4614e4fac473a270f785b1ee86db6c589d80e2b78a983
+SHA512: 56cc57972f7a3d11b2b94e52116f8de901dbb27798cc24e0629b69734006916330239cb95ae07292c9763d6881aa3c603fe1bf74dae46f84dcabe1492324e6c5
+Homepage: https://mlstidbits.com
+Description: Documentation for grub-btrfsd -
+ This package provides documentation for grub-btrfsd, including installation
+ instructions, usage guides, and troubleshooting tips.
+ .
+ Learn how to use grub-btrfsd effectively.
+
+Package: grub-btrfsd-man
+Architecture: all
+Version: 19.2.0
+Priority: optional
+Section: admin
+Source: grub-btrfsd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: grub-btrfsd
+Filename: pool/main/g/grub-btrfsd-man/grub-btrfsd-man_19.2.0_all.deb
+Size: 11094
+MD5sum: f2881095f65bb35d5ef8348dd1db41db
+SHA1: 80574c710426c4b18ad4ad4c831abb5e5e66a287
+SHA256: 8cea2e5ad0b1862ae18238e31169e8c2e34aa5378bfd4573df934e482495457f
+SHA512: cd1d726e2b075a38801be99ec1a5cd72ce5616565f3828e232277198eeea31783d9b2134073e4996e7df7f9596c68b102dc58b3255866194c546f052d9e7f536
+Homepage: https://mlstidbits.com
+Description: Manual pages for grub-btrfsd -
+ This package provides manual pages for grub-btrfsd, detailing its commands,
+ options, and configuration.
+ .
+ Access comprehensive manual pages for grub-btrfsd.
+
+Package: grub-btrfsd-man
+Architecture: all
+Version: 19.2.2
+Priority: optional
+Section: admin
+Source: grub-btrfsd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: grub-btrfsd
+Filename: pool/main/g/grub-btrfsd-man/grub-btrfsd-man_19.2.2_all.deb
+Size: 11128
+MD5sum: a4652e5d70e995a6515f3b3ba0700c97
+SHA1: db6af1254966ac8e6c95cd4f405115d6fc0a1cc1
+SHA256: ee1aac4d5c7613f89fcf0faa0d3a68f13335dd657332a70cb84753000fa1e24b
+SHA512: b53d872c8ceb5ccc8501dd4f1147aacd621cb639cc3c34bfe3dce6bb263563663dfdcac1d0b71cff9bbb87e141f4f476b1f133d597734e5e59e25060eb818635
+Homepage: https://mlstidbits.com
+Description: Manual pages for grub-btrfsd -
+ This package provides manual pages for grub-btrfsd, detailing its commands,
+ options, and configuration.
+ .
+ Access comprehensive manual pages for grub-btrfsd.
+
+Package: grub-btrfsd
+Architecture: amd64
+Version: 19.2.2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 71
+Depends: btrfs-progs, grub-common, grub2-common, inotify-tools
+Suggests: btrfsnapd, grub-btrfsd-docs, grub-btrtfsd-man
+Conflicts: grub-btrfsd (<= 19.0.3)
+Filename: pool/main/g/grub-btrfsd/grub-btrfsd_19.2.2_amd64.deb
+Size: 18744
+MD5sum: d7bdbfbd72971637daf55d3ff574f8ca
+SHA1: 53d7dce374a179c96b49e0c73ce684844f1edf1c
+SHA256: d1fa167ba1e3b6e8251fed614b914277e70e062addf07c120b1e0c7b6195f67f
+SHA512: 19bbaad67bfdf44b4dfb9bfeb4a34ef931b8e0f2bbdaf35d530df317ef913861c1299dcf43f0f3dd7ae72902afb267153e479b8adc039528fe14f835d2dfd9af
+Homepage: https://mlstidbits.com
+Description: Add BTRFS snapshots to Grub boot menu -
+ This package provides a daemon that monitors BTRFS snapshots and adds them to
+ the Grub boot menu. Compatible with both Timeshift, Snapper, btrfsnapd.
+ .
+  Take advantage of BTRFS snapshots capabilities.
 
 Package: grub-btrfsd
 Architecture: amd64

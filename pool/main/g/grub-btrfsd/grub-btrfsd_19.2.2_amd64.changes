@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 +0000
+Source: grub-btrfsd
+Binary: grub-btrfsd grub-btrfsd-docs grub-btrfsd-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 19.2.2
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ grub-btrfsd - Add BTRFS snapshots to Grub boot menu -
+ grub-btrfsd-docs - Documentation for grub-btrfsd -
+ grub-btrfsd-man - Manual pages for grub-btrfsd -
+Changes:
+ grub-btrfsd (19.2.2) stable; urgency=low
+ .
+   * fix: Update package suggestions in debian/control for grub-btrfsd
+   * fix: Update manpage paths in grub-btrfsd-man.manpages and enhance install rules in debian/rules
+   * chore: Add Makefile for building and installing documentation and manual pages
+   * fix: Update .gitignore to include grub-btrfsd-docs and grub-btrfsd-man directories, and correct manpage installation command
+   * fix: Correct CHANGELOG_ITERATION value and add changelog line limit options
+   * chore: Add documentation files list for grub-btrfsd
+   * chore: Add manpage references and remove obsolete installmanpage file
+   * fix: Update build dependencies and add documentation packages for grub-btrfsd
+   * fix: Improve boot UUID subvolume detection logic
+Checksums-Sha1:
+ 89f6e89956dbaf0c0f14399bde130ec33ecceeed 14070 grub-btrfsd-docs_19.2.2_all.deb
+ db6af1254966ac8e6c95cd4f405115d6fc0a1cc1 11128 grub-btrfsd-man_19.2.2_all.deb
+ 7078755f18d3a02fe7361bd32945b8b4b2180de6 9533 grub-btrfsd_19.2.2_amd64.buildinfo
+ 53d7dce374a179c96b49e0c73ce684844f1edf1c 18744 grub-btrfsd_19.2.2_amd64.deb
+Checksums-Sha256:
+ 31aed08a36b464a1ace4614e4fac473a270f785b1ee86db6c589d80e2b78a983 14070 grub-btrfsd-docs_19.2.2_all.deb
+ ee1aac4d5c7613f89fcf0faa0d3a68f13335dd657332a70cb84753000fa1e24b 11128 grub-btrfsd-man_19.2.2_all.deb
+ 4ae2b2121a83eaf8a662cc952af802b36e1eb32dfd9a6b0757aba413b30db59b 9533 grub-btrfsd_19.2.2_amd64.buildinfo
+ d1fa167ba1e3b6e8251fed614b914277e70e062addf07c120b1e0c7b6195f67f 18744 grub-btrfsd_19.2.2_amd64.deb
+Files:
+ eb8a5d9688622d0a051c9f9493cfc7c7 14070 admin optional grub-btrfsd-docs_19.2.2_all.deb
+ a4652e5d70e995a6515f3b3ba0700c97 11128 admin optional grub-btrfsd-man_19.2.2_all.deb
+ 8044cf8a962d1236c2ef4863a45d1458 9533 admin optional grub-btrfsd_19.2.2_amd64.buildinfo
+ d7bdbfbd72971637daf55d3ff574f8ca 18744 admin optional grub-btrfsd_19.2.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm9XpsACgkQbkoCnkKh
+yHmL1g/eMYrASGeMsxoVZIuc1cprMbNI1X97+WXp2nK08pGf3VCysNxhjEwyNlRD
+XZYCs9yPEw2D/RrlBWFkzui/EvBwqeQW2LRsBbdW+oY0iNwsADo2sDpDQiipzlwX
+alx5FcJVOpvundOqzEIn+TVxGv8NXTACGas+VPy0H1fs5Tli/F2qpYC0Q98pvzsf
+ZkmXPNedAIytYN0dIGFaZg2yePJddWvBKj9fz77dJD7B3DhOGdXHd+jmJ60aT3Vj
+xrShI3l/te8Z9cjGKfcAEVyldgxAJjDN9GQQ2hcUEoF9bLdgdcyC5BIub2eQpNg0
+76Lk19sMwDVEoGqNrK3HO3SHOeSLzv10RX4p8R6GrylrLFpDPEXP7k57Vw0bp8L9
+3jyfZglC6iS4BFp1utJwywOaUn8Oqopqz7i9uZ74Bf3oNGIKMh2f6T5CQ3HgNKCJ
+ZQc2Ob8Y+biGsT9LHKE2naQ5dR906FSIEr9KciUBGZdoilgyg62HAoYeLCVZ/5w7
+PQmUMf+XApRZAQS0ho+tFg+hvsY8S2sUDb/UD+jpckM5P6/HZcYNvNKrdDqYEGsZ
+QMYzluXQS+8Zu9qfJo1OCCFrPMZ2cB0NFhxYOxjdGr+WokIuSaaCe2rEFX2BnJOs
+vZrRzfBpB6cKRFsDZZB5wFpu030CAaobNF8DFY1YH3RHZg==
+=/oBx
+-----END PGP SIGNATURE-----
