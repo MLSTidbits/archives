@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 +0000
+Source: bashship
+Binary: bashship bashship-docs bashship-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 1.3.1
+Distribution: stable
+Urgency: low
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+ bashship-docs - Documentation for Bashship
+ bashship-man - Manual page for Bashship
+Changes:
+ bashship (1.3.1) stable; urgency=low
+ .
+   * fix: Update .gitignore to include _build directory
+   * feat: Add manpage installation support in rules and create bashship-man.manpages file
+   * fix: Add bashship-man directory to .gitignore to prevent unwanted commits
+   * feat: Add bashship-man package and include manual page for documentation
+   * feat: Add bashship-docs package and update control file for documentation support
+Checksums-Sha1:
+ 5638348fe98187595848d55c2517d21b5285d0dc 10366 bashship-docs_1.3.1_all.deb
+ ea8ac5dd202b4f3783f74fe99238c1faa5e9b6ef 4930 bashship-man_1.3.1_all.deb
+ 845f55b0c1e79df9e3ed6ba1616e0f8f2f20ef56 9482 bashship_1.3.1_amd64.buildinfo
+ 95e10b7e1aabd10cc976804f9d2b4e2675425c9b 6038 bashship_1.3.1_amd64.deb
+Checksums-Sha256:
+ 63284a214b205ade3d37f8cca3e081da67732a81fca8f68b0bd106f3815a6af3 10366 bashship-docs_1.3.1_all.deb
+ 84c012ebfda7a58191f45ac8162bd0e0912e768a5cc9dda77082315edd6dd45d 4930 bashship-man_1.3.1_all.deb
+ fce73c47a6d9389d811a5b9c850b19393e93f0561851a8220f9aab1d739c5259 9482 bashship_1.3.1_amd64.buildinfo
+ 8e9f36272a8d713e7498e129689ee65f659b0a13310e742c66a42978bebccd01 6038 bashship_1.3.1_amd64.deb
+Files:
+ 00d2ef19d881ddc9e368a4c365fa04ff 10366 utils optional bashship-docs_1.3.1_all.deb
+ 7c03bf79e922132032d5ff2c3b749d9f 4930 utils optional bashship-man_1.3.1_all.deb
+ 059b4e5ed522e920e3e8dd1def8c2f6e 9482 utils optional bashship_1.3.1_amd64.buildinfo
+ 0bb03bd3bd629e6bba6b0a96822c862b 6038 utils optional bashship_1.3.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm9LZIACgkQbkoCnkKh
+yHlylw/fc0C9QlODU81+XkqFiNrnI5hrtWFYc5lNINsGozsVt5Wq00EeLJvYki3S
+8ATMhv+UGWQJemXNwcyGhhu0mrqTUiqGGg1uczX7jF9IgRhFLHI2qlzzGXo57wHE
+IYQzQbnhPnP5tfShFzcaXNDoTftNZ1Npa9e7lq7qYCyxtyoByy+019HLs7IsQMi0
+TjV4Q1uzZXjJn24Lg93QwRjsn7Rl90vfTD2STOeZJO3WES3Q5ObWFQHvSD5IIVuw
+Wy6NfOX/Rc7pRL3TkoIrsJYohqud28lA2AjeKKkznbegusXrI4PtdqpgbbLeWzno
+AEoYxucyUHWECKUHGzp8ocW81nCVgDIZpEJ4Gr366PLt/Q/grdIhNQL4PtX2I0iR
+3hdgkVqAjPp6amf00OykC7nlOm1J6/3LRgCwHjE/t7dARzCazEydK1x5ffQViB9A
+hnNYip8s8K6fEM6ZprU1uCof1t3Xtr70pIDL3VBWLfjXg2ByWvbpDnLrZf3CuZtl
+BhcIjHF9dSOyptZVwkVEvrLeIqhcqDhOMU+4kCPIOmqO2w6zAW7DD6jdoLZX2jo1
+oktpUXOi8Cgpd0Z+l94BXx+E0RmcfIZzGZcLbYftmwDEvmeafFex7PVgC1s9GvqK
+VooUwaxKQZZh8Xy4g4ebugoW+smfIWW5XNbbHExiVvXieg==
+=3tw/
+-----END PGP SIGNATURE-----

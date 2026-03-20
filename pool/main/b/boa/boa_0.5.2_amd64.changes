@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 +0000
+Source: boa
+Binary: boa boa-docs boa-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 0.5.2
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ boa        - Boa is a wrapper script for building Debian packages.
+ boa-docs   - Doc files for Boa
+ boa-man    - Man page for Boa configuration
+Changes:
+ boa (0.5.2) stable; urgency=low
+ .
+   * feat: Update installation commands for manual pages and example configuration
+   * feat: Update .gitignore to include all files in debian/boa-* directory
+   * feat: Add Makefile for building and installing application with manual page support
+   * feat: Add documentation files for project structure and guidelines
+   * feat: Add man page package and update control file for documentation support
+Checksums-Sha1:
+ e6cef88fce98c1173d3332cd8af6858baf06fa90 7672 boa-docs_0.5.2_all.deb
+ 41ace81c052692e9d9c977b60be76dab39be51da 3540 boa-man_0.5.2_all.deb
+ aeb355c061e6b734b2d74c40559611b0d4c2ab2e 9100 boa_0.5.2_amd64.buildinfo
+ 69fef4eed1b684980a86d1d8f47483df265a029f 6090 boa_0.5.2_amd64.deb
+Checksums-Sha256:
+ 42c4b57b391a0bd02715dd9f223de0d29b9c75fbaa6205a8af9d74d79ec357ef 7672 boa-docs_0.5.2_all.deb
+ 102e4185d0091f3ab3e33a15653bea9fe6be085cd538b15c91e07447e97e3769 3540 boa-man_0.5.2_all.deb
+ ac99104a4d20a206622cdc0f788b5ff1d2865a98c11981dcbc042a15ff58ca00 9100 boa_0.5.2_amd64.buildinfo
+ b1f3a3d0a6cbd4644a812fda84b5ef2a7070183ade26ff36a1f796c998378f30 6090 boa_0.5.2_amd64.deb
+Files:
+ 5c8f7a8d4d05def1b60dc27df85bdcba 7672 devel optional boa-docs_0.5.2_all.deb
+ ecba6267404a31a5eb880335dbde054b 3540 devel optional boa-man_0.5.2_all.deb
+ 61caa6eb52a689d6d79daa34179499c1 9100 devel optional boa_0.5.2_amd64.buildinfo
+ ee32bff51d5293d4d65909c251bec27c 6090 devel optional boa_0.5.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm9MroACgkQbkoCnkKh
+yHlpPw/fd5Q9MYSP5CjVg1oJTOv3adtar4g+O1whoM0aL8Scps02fqXF2+ZQ9/C2
+aOKKYglMwbYXcXG4/Sj3iHDNO9WZHJcIw0YhwgEDVb5ulCoanUU4dL+pII3+P1JI
+ISwiRKtGDOPL6IUJvhKVW1amyFVTh68LfROwINKBLtLXbi99yiDWFr6UpTL6fOf3
+kLsWqP2VAk3Z4/3iiV0TgV0AK1XJJQdw/Rfr6rOyEPODoTfqQtQGAflFLEgI0rWv
+EwrEdF/ayLjASQShErkZ69Isx9sbag3wwiYWHCCGMM9potrwa033GDiIR27FilqU
+slHXYE9P+le6Vy0urGUCI6t92fLGyZ2LU4WC3OU3yNBkJeJH8j3a8s7XDOkxmD+j
+mVPh37FUTXZaA88DfFoBwqdCYNjNd4hm0UI4peT54IPyxEe3xA8EdG2wmq0HytHI
+9ev53y9jXE5Wk/3+q+/7WC3RZB5W4frylj1K87EwcyBae1DoxQxzoMwmO1phRx9k
+hQB4Lwtx9iKyl9qCUqGvWIsXKsHamo+Vz/sVaq6ffT/fGC0LUBoRpJ3SPe67KR/P
+1xQILVXb620IXMa/ZCchRu4aDaoi5kPU1SD+sASSZnLj1XyaBUSL/UAP54q/QKtP
+ofV4QyNsW3bgsLO51mMbiR9P9Ohu/mfs9JIIaGS4QyLyJw==
+=4WY5
+-----END PGP SIGNATURE-----

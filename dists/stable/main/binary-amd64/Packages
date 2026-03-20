@@ -142,6 +142,66 @@ Description: ArcMenu - A customizable application menu for GNOME Shell
  "Start Menu" found in other desktop environments, while integrating seamlessly
  with the GNOME Shell interface.
 
+Package: bashship-docs
+Architecture: all
+Version: 1.3.1
+Priority: optional
+Section: utils
+Source: bashship
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 23
+Depends: bashship
+Filename: pool/main/b/bashship-docs/bashship-docs_1.3.1_all.deb
+Size: 10366
+MD5sum: 00d2ef19d881ddc9e368a4c365fa04ff
+SHA1: 5638348fe98187595848d55c2517d21b5285d0dc
+SHA256: 63284a214b205ade3d37f8cca3e081da67732a81fca8f68b0bd106f3815a6af3
+SHA512: 971d609d29a857c4d9f88ea9c0602df4b6be0f136d1ffe6e452838563afaadc66a4f7f494ff0e5ee517145c3c12daf4d3c3cf68c37b4075156950ea346880ed7
+Homepage: https://github.com/MLSTidbits/bashship
+Description: Documentation for Bashship
+ This package contains the documentation for Bashship, including the manual
+ page, version information, copyright, and other relevant files.
+
+Package: bashship-man
+Architecture: all
+Version: 1.2.4
+Priority: optional
+Section: utils
+Source: bashship
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 8
+Depends: bashship
+Filename: pool/main/b/bashship-man/bashship-man_1.2.4_all.deb
+Size: 2278
+MD5sum: cdc4b2894ff3cbebc14154e9793eb733
+SHA1: b09bb7ba37ece3e9f6792d4c4203a5e0d59b08d2
+SHA256: c0aba62509398fe8c1441a0c151c5b6573c617d775dbe7567698d5efd515e052
+SHA512: 9522c3540d7891b6592a008fb987ac34917cc5129d71f49d80744bd629d926701f9d9f2388121b67eb4a644c5fc1c91c1d5f74c599450fc1ad832a154299b07f
+Homepage: https://github.com/MLSTidbits/bashship
+Description: Manual page for Bashship
+ This package contains the manual page for Bashship, providing users with
+ detailed information on how to use and customize the prompt effectively.
+
+Package: bashship-man
+Architecture: all
+Version: 1.3.1
+Priority: optional
+Section: utils
+Source: bashship
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 13
+Depends: bashship
+Filename: pool/main/b/bashship-man/bashship-man_1.3.1_all.deb
+Size: 4930
+MD5sum: 7c03bf79e922132032d5ff2c3b749d9f
+SHA1: ea8ac5dd202b4f3783f74fe99238c1faa5e9b6ef
+SHA256: 84c012ebfda7a58191f45ac8162bd0e0912e768a5cc9dda77082315edd6dd45d
+SHA512: 335b83b8407ac95000304a74eb1d8e5a7cb9911675d8ff46f3076b3b3d1fd3e7553c233fd421b6ab15c77d4dd94cccf114f1ac2275682b01290543b97ce24e33
+Homepage: https://github.com/MLSTidbits/bashship
+Description: Manual page for Bashship
+ This package contains the manual page for Bashship, providing users with
+ detailed information on how to use and customize the prompt effectively.
+
 Package: bashship
 Architecture: amd64
 Version: 0.2.4
@@ -266,6 +326,96 @@ Description: A minimal, fast, and highly customizable bash prompt
  Whether you're a developer, system administrator, or casual user,
  Bashship enhances your terminal experience with its elegant and functional design.
 
+Package: bashship
+Architecture: amd64
+Version: 1.3.1
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl, bashship-docs
+Conflicts: bashship (<= 0.4.4)
+Filename: pool/main/b/bashship/bashship_1.3.1_amd64.deb
+Size: 6038
+MD5sum: 0bb03bd3bd629e6bba6b0a96822c862b
+SHA1: 95e10b7e1aabd10cc976804f9d2b4e2675425c9b
+SHA256: 8e9f36272a8d713e7498e129689ee65f659b0a13310e742c66a42978bebccd01
+SHA512: aa8be6973574d34fc8424ddee2fc4acf2aa0b182a893b667aa5ceb38a7ed8c362f4f1cd2207c6773383eb7a8bcc18b27ab2c2feb43cbbf1410677566835ed815
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
+Package: boa-docs
+Architecture: all
+Version: 0.5.2
+Priority: optional
+Section: devel
+Source: boa
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 23
+Depends: boa
+Filename: pool/main/b/boa-docs/boa-docs_0.5.2_all.deb
+Size: 7672
+MD5sum: 5c8f7a8d4d05def1b60dc27df85bdcba
+SHA1: e6cef88fce98c1173d3332cd8af6858baf06fa90
+SHA256: 42c4b57b391a0bd02715dd9f223de0d29b9c75fbaa6205a8af9d74d79ec357ef
+SHA512: 6304213d4709a72766ed59486986ae3f993ca25da3019fb82a52db7aa87bd09d961735f6531cf2927bae2f761296be81a566c6c0c2ceb30c4d6b7336e37aa3cb
+Homepage: https://github.com/mlstidbits/boa
+Description: Doc files for Boa
+ This package contains the documentation files for Boa, including the version,
+ copyright, README, contributing guidelines, and code of conduct. These files
+ provide essential information about the project, its usage, and contribution
+ guidelines.
+
+Package: boa-man
+Architecture: all
+Version: 0.4.6
+Priority: optional
+Section: devel
+Source: boa
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 12
+Depends: boa, boa-docs
+Filename: pool/main/b/boa-man/boa-man_0.4.6_all.deb
+Size: 3400
+MD5sum: 3354b5eb9faab837366cad817e6556d7
+SHA1: c47346821f2f8926a1d3310816abbd3a96905e5c
+SHA256: f9c7c8a4876d9d1fc8a1ad3b2d184e54305dbdec205ea06e8c7a57854f18a361
+SHA512: a15030ea391b59a6843d44ffbce4dcf0950e61be82fd80d4050fe6e0a2c9dd21babc02dfdb1515f071495082a338c62026ca0f29318143c8d452348571ea9be0
+Homepage: https://github.com/mlstidbits/boa
+Description: Man page for Boa configuration
+
+Package: boa-man
+Architecture: all
+Version: 0.5.2
+Priority: optional
+Section: devel
+Source: boa
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 12
+Depends: boa, boa-docs
+Filename: pool/main/b/boa-man/boa-man_0.5.2_all.deb
+Size: 3540
+MD5sum: ecba6267404a31a5eb880335dbde054b
+SHA1: 41ace81c052692e9d9c977b60be76dab39be51da
+SHA256: 102e4185d0091f3ab3e33a15653bea9fe6be085cd538b15c91e07447e97e3769
+SHA512: 4fa3d96dc05a9ed57c50c6985e4e8c9764e1e96babf872cd59e4fe5f6a652d740be1c1e1ea503f5aa521145cb4005602ebf7e501dbdf1a2b9b6d315c9379fc47
+Homepage: https://github.com/mlstidbits/boa
+Description: Man page for Boa configuration
+
 Package: boa
 Architecture: amd64
 Version: 0.3.6
@@ -346,6 +496,29 @@ MD5sum: ecddcb8064382c60048bc281df777bf8
 SHA1: 850642a5a112aa50e84e72a96ca51c1b4eddd02a
 SHA256: 03ceb231e58ddc260b1a1628eeddd56251aab1894d24978458c9761c212fffc4
 SHA512: 74b058f3ea4f4c58a80017a0b14b444dd7c6c0b24f62c6e66492d17f5afeb7994e9004b2a4471b65f20280b2d3a09b0927e133fae1b4f4f27d4105e180181ab6
+Homepage: https://github.com/mlstidbits/boa
+Description: Boa is a wrapper script for building Debian packages.
+ Using a simple .env configuration file, it automates the process of building
+ of Debian packages, making it easier for developers to manage their packages.
+ .
+ Boa supports features like changelog generation, GPG signing, and parallel
+ builds, enhancing the package management experience.
+
+Package: boa
+Architecture: amd64
+Version: 0.5.2
+Priority: optional
+Section: devel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: dh-make, git, build-essential, cmake, dpkg-dev, debhelper-compat (= 13), pandoc
+Conflicts: boa (>= 0.4.6)
+Filename: pool/main/b/boa/boa_0.5.2_amd64.deb
+Size: 6090
+MD5sum: ee32bff51d5293d4d65909c251bec27c
+SHA1: 69fef4eed1b684980a86d1d8f47483df265a029f
+SHA256: b1f3a3d0a6cbd4644a812fda84b5ef2a7070183ade26ff36a1f796c998378f30
+SHA512: 2bc78205e522163f3f272ca208356b7a0932b1cd85072742582f300eea912e629b5cea7d0ca666cc433f5356b7a714bbcd019181adfd556b68018cafe335b9d9
 Homepage: https://github.com/mlstidbits/boa
 Description: Boa is a wrapper script for building Debian packages.
  Using a simple .env configuration file, it automates the process of building
