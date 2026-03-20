@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 +0000
+Source: ddnsd
+Binary: ddnsd ddnsd-docs ddnsd-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 2.8.1
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+ ddnsd-docs - Documentation for ddnsd
+ ddnsd-man  - Manual pages for ddnsd
+Changes:
+ ddnsd (2.8.1) stable; urgency=low
+ .
+   * refactor: Improve error handling and logging in DuckDNS and Cloudflare update functions
+   * refactor: Enhance error logging for DuckDNS and Cloudflare update functions
+   * refactor: Improve Makefile for clarity and consistency in build process
+   * refactor: Update .gitignore to include additional documentation directories and remove obsolete manpage entries
+   * refactor: Update package dependencies and add documentation for ddnsd
+   * refactor: Update documentation paths and installation scripts for consistency
+   * refactor: Add manpages for ddnsd and remove obsolete installation script
+   * refactor: Add Makefile for build automation and enhance debian rules for installation
+   * refactor: Update postrm script to enhance service management during configuration and upgrade
+Checksums-Sha1:
+ 7bd5edfa9ba69b80a4695d857ceacb0bf5e0c30d 12016 ddnsd-docs_2.8.1_all.deb
+ d74a6561bea7b3e4be2319fb89b4ce8ad32370ab 9682 ddnsd-man_2.8.1_all.deb
+ 230869bbec6d2ea3a3f9c2fcbc88c23b1b618d5e 9132 ddnsd_2.8.1_amd64.buildinfo
+ 0d8128b35e88edce230eaa0aad71b52880869696 12630 ddnsd_2.8.1_amd64.deb
+Checksums-Sha256:
+ 7ca9b2a53243cf532fd57d1c98a7d1ca013f824043f18feaafce9bba906d6748 12016 ddnsd-docs_2.8.1_all.deb
+ c8277664a6874595ca0d2f03324a2bb6051bdb10085180f8c42527c2842bc918 9682 ddnsd-man_2.8.1_all.deb
+ 7136ef8247b99c0b5942f7311fe7eb44e842d4c65071cebaff0fd4f6d65b4be0 9132 ddnsd_2.8.1_amd64.buildinfo
+ 9a368232d68b6e688a13073e519782ab3ce4dc18590828d5b00c457785a7af74 12630 ddnsd_2.8.1_amd64.deb
+Files:
+ 68dc1c5c1a53525b8ccfdf4e9e34a8b9 12016 net optional ddnsd-docs_2.8.1_all.deb
+ 2b929b8c63fd3d49b886847053b1416b 9682 net optional ddnsd-man_2.8.1_all.deb
+ 692df1b35bde2cf3df2f7642d6752339 9132 net optional ddnsd_2.8.1_amd64.buildinfo
+ 9dce438c9dea0dff7cd96113af06c44c 12630 net optional ddnsd_2.8.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm9z7UACgkQbkoCnkKh
+yHlYzg/gpeEczRnMYxfj7g9wVqbOExkZbpWMUrMVtR9JHfV80twA0tgKvO8xYy7l
+kSI6a398lTFOaJEAKw7j7kYuW6NRaWPspS42D0xs5k0tTglHAZLKlSszYMx85kvT
+wlcD1MqtSoBX1Hah+fBgVC66n8fOo8SObZcb0NpridRzE3+wrCSMD/r3wXbi8/f/
+RmFmALbdSHJW1jlucjpGGNBYX1gIeVWQ2C+Ju3bXXoDi4HA3m+Cs8UYpYlwal/Fk
+vAyZ8fXgtLslmX0JHl1vek0+JUmoU4ksjjVXrFYiYotiiVvF1HffrlHDVhiJfNwg
+nyqdxy+56L+t4mG2hC1M4+I1IanN5TEmkhMpw+Ovy+MCRtaTY7mgjE+1hdFxXYxO
+R1yxRT7vFst6DTP6ee02I0wItTyeibKEtsrwzI5vFc/RLyBkz8AYuddJKx1SSSH8
+nSTmuHpXLwYaPysNBBwDCsXB2re2lj64hyIL8eVvJblcNaukWvivIhxQZhIt/Dkk
+wqQSihyN8TgCMMlqqKBT6Tvoi6awP7JXLjDzQQp69QoRT/oHn0C/3xoTjdioCxpJ
+mE3PYSeAv5LhMq0S2hMGb/ejQZrG8CPrd9MbvzjgNliL/ytcjffvAI3FJl4tf3h/
+XgtPP2gBGpR4u10NQcC9xyl5e7vTMa1s8KXHarSWKROFkQ==
+=KMok
+-----END PGP SIGNATURE-----

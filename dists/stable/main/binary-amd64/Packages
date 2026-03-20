@@ -854,6 +854,46 @@ Description: Dash to Panel GNOME Shell Extension
  .
  This package contains the Dash to Panel extension for GNOME Shell.
 
+Package: ddnsd-docs
+Architecture: all
+Version: 2.8.1
+Priority: optional
+Section: net
+Source: ddnsd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 22
+Depends: ddnsd, ddnsd-man
+Filename: pool/main/d/ddnsd-docs/ddnsd-docs_2.8.1_all.deb
+Size: 12016
+MD5sum: 68dc1c5c1a53525b8ccfdf4e9e34a8b9
+SHA1: 7bd5edfa9ba69b80a4695d857ceacb0bf5e0c30d
+SHA256: 7ca9b2a53243cf532fd57d1c98a7d1ca013f824043f18feaafce9bba906d6748
+SHA512: 126798f26bc41de91050fe85aa5ba935a7d44b1314d6aae533dad9a6217d93cc0e67196a358126eadaece4f8985eac01f925ad86546b34dc04a444e0326b6582
+Homepage: https://mlstidbits.com
+Description: Documentation for ddnsd
+ This package contains the documentation for ddnsd, including README.md and
+ other relevant files that provide information.
+
+Package: ddnsd-man
+Architecture: all
+Version: 2.8.1
+Priority: optional
+Section: net
+Source: ddnsd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 19
+Depends: ddnsd, ddnsd-docs
+Filename: pool/main/d/ddnsd-man/ddnsd-man_2.8.1_all.deb
+Size: 9682
+MD5sum: 2b929b8c63fd3d49b886847053b1416b
+SHA1: d74a6561bea7b3e4be2319fb89b4ce8ad32370ab
+SHA256: c8277664a6874595ca0d2f03324a2bb6051bdb10085180f8c42527c2842bc918
+SHA512: 5debbbf4414299da53bf64c80bfeee1bdbebccf9c2bbfdb45406d19ccd0a490a896a3e6c60a1781fa2e0ba4e26c4de0e641a728235724ddf49f914fddb841e3f
+Homepage: https://mlstidbits.com
+Description: Manual pages for ddnsd
+ This package contains the manual pages for ddnsd, providing detailed
+ information on how to use and configure the dynamic DNS client.
+
 Package: ddnsd
 Architecture: amd64
 Version: 0.14.10
@@ -960,6 +1000,30 @@ MD5sum: 341b95a384f075a53b272880e3ca0220
 SHA1: ce946a07b056dbcc125dafdbca4d235487da8b19
 SHA256: f2321409f56a1a09dd97964fa6484a1f7265b6e66ec203447af1c1c5ae8cd6e1
 SHA512: 9b29b594709b258ec7dfdf7f2a21de26ec110fd63c4a8702214479cb450371c9a1be7f2d44c037fe5567100997d33599ae82c63724ed4e07221575a6d012712e
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: ddnsd
+Architecture: amd64
+Version: 2.8.1
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 40
+Depends: curl, nano, systemd
+Conflicts: ddnsd (>= 2.7.2)
+Filename: pool/main/d/ddnsd/ddnsd_2.8.1_amd64.deb
+Size: 12630
+MD5sum: 9dce438c9dea0dff7cd96113af06c44c
+SHA1: 0d8128b35e88edce230eaa0aad71b52880869696
+SHA256: 9a368232d68b6e688a13073e519782ab3ce4dc18590828d5b00c457785a7af74
+SHA512: 8ad7a9dc73f2a8975a96185d32bbfed03aac87203d56f7025453a29d4eed3ceb68cf27f06b04579f71b56776de0a1e9d3e987f4420ba2a0aae783f7832096986
 Homepage: https://mlstidbits.com
 Description: Dynamic DNS client for updating DNS records
  ddnsd is a dynamic DNS client that updates DNS records based on the current
