@@ -1,0 +1,68 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 +0000
+Source: bashship
+Binary: bashship bashship-docs bashship-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 1.4.4
+Distribution: stable
+Urgency: low
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+ bashship-docs - Documentation for Bashship
+ bashship-man - Manual page for Bashship
+Changes:
+ bashship (1.4.4) stable; urgency=low
+ .
+   * fix: Update shellcheck directives for variable assignments in __git-status and __bash-prompt functions
+   * fix: Add echo statements to improve feedback during manual page and source file builds
+   * fix: Update Conflicts version for bashship to ensure compatibility
+   * fix: Enhance host detection logic and improve directory path handling in prompt functions
+   * fix: Correct CHANGELOG_ITERATION value in .env to maintain versioning consistency
+   * fix: Rearrange _pandoc and _out targets in Makefile for improved structure
+   * fix: Remove echo statement for manpage installation in Makefile
+   * fix: Correct file copy commands in Makefile for documentation directory
+   * fix: Update Makefile to dynamically set application name and improve manual page build process
+   * fix: Update package suggestions to include bashship-man
+   * fix: Update .gitignore to include _build directory
+   * feat: Add manpage installation support in rules and create bashship-man.manpages file
+   * fix: Add bashship-man directory to .gitignore to prevent unwanted commits
+   * feat: Add bashship-man package and include manual page for documentation
+   * feat: Add bashship-docs package and update control file for documentation support
+Checksums-Sha1:
+ 8a32848643e42c98c2ddf06fe54421e1f18c87d5 10594 bashship-docs_1.4.4_all.deb
+ bd50f061d3d9705d7ea9affcc49aea7b194ebf92 5154 bashship-man_1.4.4_all.deb
+ 11f280d3fda794116a6a663d262f8f975d48ee3e 9482 bashship_1.4.4_amd64.buildinfo
+ 940f5da6c2f85cab5493c7acdd80b4f510e1f36e 6430 bashship_1.4.4_amd64.deb
+Checksums-Sha256:
+ 99dcf10c331eaf27b364ca127dcc90690b456f29b5162c572dc22d27fb5ff94c 10594 bashship-docs_1.4.4_all.deb
+ 9508b55babbc02d9ca8469671169fd246639a31426b495f489d55fe36ee73d20 5154 bashship-man_1.4.4_all.deb
+ 8a6f87a61f0d4f058de6124d10476e2183d786d0065f973318038ac49dbd71c2 9482 bashship_1.4.4_amd64.buildinfo
+ d511c7f692d1fa0e7617d5ddab604350bb661dda8e87a86511f256048c5bb1ce 6430 bashship_1.4.4_amd64.deb
+Files:
+ 60abf390a332485c407c71903d473e80 10594 utils optional bashship-docs_1.4.4_all.deb
+ 96126a9fa1b8c3738c663305d3b96db4 5154 utils optional bashship-man_1.4.4_all.deb
+ 7517a146d36b0851e96df7986b42ec51 9482 utils optional bashship_1.4.4_amd64.buildinfo
+ 63420fe203244a17a03b1317eea6b0c9 6430 utils optional bashship_1.4.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm9x8YACgkQbkoCnkKh
+yHk7mA/facab2somd5t/ypXbnDS6xW2+i3mI9WgM8mhgMw0NC65G3c45+pvNa/Ya
+mte3IqLF76SrhwRZSw24IlJRs53qtowr9Hy1MwGB7D3J7GB2Z2hHYEoFFknEmb4E
+Haff3vBUp1axFwMK9RHU/h73FwTwUce0J2QU50T/Yf4UA5PJ5RDJKm5Kt8eI5Cvr
+mgPkTUp5yEsfm7p7sTbyz7VJPqGdA7oY8W+4ciMRwxNAY6dR37gin9rCWL3KzV0j
+4fMhkn88lXeRK4KbUPCA0mnmWkV9LVHXkBG12aAbtRXyfiDG6Opm9gmOfe6R8poZ
+pOjSJ8bieBiMTbXkuCiQ1f/Mf+oJmtAKgH5HSvo05l90243Gf3FIYGsG3gW/9ih7
+FOwhZ6TkpVKYT8X7CkZCZ6bgiT6WmRrzbPLuIXR3M2RC/QORY1dMvB9hhEwg5sl6
+Plb0myjcAhiXj71OVmwmvnbU0lGuj44ktkcWzzJ/T1LyW9D4y+8Jru29mJnLyw1P
+S9s6UudwfzBPA4pDWrXMd6yzP3uuAwVn0MCPxe+Wd8vqs7GSclxgQh7GxUAMDYt4
++0jyXw0hoei/mJ8WjGoY/71QuKar/L8km39MFaCuFPMx7X5JbtOfIo5dOnfxDSwE
+zwzTCcG7uI3wmiclcwJ2smZ0LavcJFm/35CqmXB/XSEm/w==
+=/QTj
+-----END PGP SIGNATURE-----

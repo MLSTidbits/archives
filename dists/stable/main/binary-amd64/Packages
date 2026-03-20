@@ -162,6 +162,26 @@ Description: Documentation for Bashship
  This package contains the documentation for Bashship, including the manual
  page, version information, copyright, and other relevant files.
 
+Package: bashship-docs
+Architecture: all
+Version: 1.4.4
+Priority: optional
+Section: utils
+Source: bashship
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 23
+Depends: bashship
+Filename: pool/main/b/bashship-docs/bashship-docs_1.4.4_all.deb
+Size: 10594
+MD5sum: 60abf390a332485c407c71903d473e80
+SHA1: 8a32848643e42c98c2ddf06fe54421e1f18c87d5
+SHA256: 99dcf10c331eaf27b364ca127dcc90690b456f29b5162c572dc22d27fb5ff94c
+SHA512: 20fb864bc1459472bdf655438cb9f7221ac695fa18bd81018ffb7d56ea0c66e3171ba73dd883bb22b0cb521b931def0be3df700538aef448e3769374dc7ced3f
+Homepage: https://github.com/MLSTidbits/bashship
+Description: Documentation for Bashship
+ This package contains the documentation for Bashship, including the manual
+ page, version information, copyright, and other relevant files.
+
 Package: bashship-man
 Architecture: all
 Version: 1.2.4
@@ -197,6 +217,26 @@ MD5sum: 7c03bf79e922132032d5ff2c3b749d9f
 SHA1: ea8ac5dd202b4f3783f74fe99238c1faa5e9b6ef
 SHA256: 84c012ebfda7a58191f45ac8162bd0e0912e768a5cc9dda77082315edd6dd45d
 SHA512: 335b83b8407ac95000304a74eb1d8e5a7cb9911675d8ff46f3076b3b3d1fd3e7553c233fd421b6ab15c77d4dd94cccf114f1ac2275682b01290543b97ce24e33
+Homepage: https://github.com/MLSTidbits/bashship
+Description: Manual page for Bashship
+ This package contains the manual page for Bashship, providing users with
+ detailed information on how to use and customize the prompt effectively.
+
+Package: bashship-man
+Architecture: all
+Version: 1.4.4
+Priority: optional
+Section: utils
+Source: bashship
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 13
+Depends: bashship
+Filename: pool/main/b/bashship-man/bashship-man_1.4.4_all.deb
+Size: 5154
+MD5sum: 96126a9fa1b8c3738c663305d3b96db4
+SHA1: bd50f061d3d9705d7ea9affcc49aea7b194ebf92
+SHA256: 9508b55babbc02d9ca8469671169fd246639a31426b495f489d55fe36ee73d20
+SHA512: c288ef2ba3dc92131807f8d0a2bfb20446ddaf08863e6071d6d4d80d39d0115e8c55fe745cd5c7816ed6389c070ed17c281c3739a7fb69aacb314ef7237b2a85
 Homepage: https://github.com/MLSTidbits/bashship
 Description: Manual page for Bashship
  This package contains the manual page for Bashship, providing users with
@@ -342,6 +382,38 @@ MD5sum: 0bb03bd3bd629e6bba6b0a96822c862b
 SHA1: 95e10b7e1aabd10cc976804f9d2b4e2675425c9b
 SHA256: 8e9f36272a8d713e7498e129689ee65f659b0a13310e742c66a42978bebccd01
 SHA512: aa8be6973574d34fc8424ddee2fc4acf2aa0b182a893b667aa5ceb38a7ed8c362f4f1cd2207c6773383eb7a8bcc18b27ab2c2feb43cbbf1410677566835ed815
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
+Package: bashship
+Architecture: amd64
+Version: 1.4.4
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl, bashship-docs, bashship-man
+Conflicts: bashship (<= 1.1.4)
+Filename: pool/main/b/bashship/bashship_1.4.4_amd64.deb
+Size: 6430
+MD5sum: 63420fe203244a17a03b1317eea6b0c9
+SHA1: 940f5da6c2f85cab5493c7acdd80b4f510e1f36e
+SHA256: d511c7f692d1fa0e7617d5ddab604350bb661dda8e87a86511f256048c5bb1ce
+SHA512: 32f8e8fea8545ce1aa892988938557f93f38b7c5809564bcffee8f70c665b99fee9379650016d4bd9e80303cf43645751a3cf03ffbd14d9422cbb6c6d384c28f
 Homepage: https://github.com/MLSTidbits/bashship
 Description: A minimal, fast, and highly customizable bash prompt
  Bashship is a minimal, fast, and highly customizable bash prompt that provides
