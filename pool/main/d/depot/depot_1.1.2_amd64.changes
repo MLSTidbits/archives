@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 21 Mar 2026 00:00:00 +0000
+Source: depot
+Binary: depot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.2
+Distribution: stable
+Urgency: low
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ depot      - Create, manage, and serve a custom APT repository
+Changes:
+ depot (1.1.2) stable; urgency=low
+ .
+   * fix: Update verboseLib calls to use the correct syntax in add-package function
+   * fix: Remove verify-init script from installation configuration
+   * fix: Improve handling of associated .buildinfo and .changes files in add-package function
+   * fix: Remove verify-init script and update related checks for repository initialization
+Checksums-Sha1:
+ 6fd2db1809a7f671516a938ed99beddfae066b6a 8643 depot_1.1.2_amd64.buildinfo
+ 7ad1e016614bfcb3a4d488d73cf17b6314a10d23 23828 depot_1.1.2_amd64.deb
+Checksums-Sha256:
+ ec730e90b2fca9186bd6c21a5d1d394c4602144c5f555890010c3ffda7220bfa 8643 depot_1.1.2_amd64.buildinfo
+ 04f250142f7e6ed083fb38cda21778b7aed33f8f5e4f5735c7c65b552ddb7d89 23828 depot_1.1.2_amd64.deb
+Files:
+ cf35e7f42a3ef5947d0ab973d9e91baf 8643 utils optional depot_1.1.2_amd64.buildinfo
+ 768a253aef1cbe5596862fface794216 23828 utils optional depot_1.1.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm+uoUACgkQbkoCnkKh
+yHkpjg/eLH+J3pokG5B7YBBofEYIOD0v2BptExCviD3mWsWsTWtCmKJn5L63oWIv
+DdGOqi81MptvgwjtGAvERl40Fgo5KY0acOOY56upD6pF9i2878TFV+DHSizvWU85
+PFyTaSCnFcSJYX1nMD8QARfTp/FxBxbf1Na4kLqo2GAhIEpeir+36etTmq97pRH9
+rBVgJIa2trelE92+wPm8V/BfHCHACRbCz8nIQ55IrBVaqIQAeQXXk+Zmj3XL07sD
+yP5P8wPyVbNK1YZO9Nfhfv8IPq4abAY1xpJ4yc6KItneyGcPhvzMXHm+Rm1dACqI
+kbKzesr2gL4uVR4g9eWIWxt4IM4octonftv1ox6JW1WCIl1H+wq4dzhtbXmYvk8Q
+6e8O2hwpVAXEhycEmHJegM+pY4t4+ONoWYnlYgVlHmTU9JYV+IuVJknhRYpwOsVc
+q9HR/pto6OIAxD9wmMm1PVA+5UKy3lYlVcA0FXnRyF4mNL7SB12iIAApoUQDCSA1
+Q5gNE9Dxc0BZJPyUPMmPWL02r+04szx0cHIFTkXzZqF7CHUHFzg2tVcxu76rU+yL
+XMimwG6UtR3Wav/N/YXMtV8hXZsK2xhaXgR7046mbR3U9zLhdtDE6BeSrf+ZOfFz
+XXBw9c2pLjxfMeJM5f/6AYGaNXL8w9dYdiS+5jQ/pujzSg==
+=Mhif
+-----END PGP SIGNATURE-----
