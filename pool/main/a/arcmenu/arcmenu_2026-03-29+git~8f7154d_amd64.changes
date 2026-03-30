@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 29 Mar 2026 00:00:00 +0000
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2026-03-29+git~8f7154d
+Distribution: stable
+Urgency: low
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: AndrewZaech <azaech021@gmail.com>
+Description:
+ arcmenu    - ArcMenu - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (2026-03-29+git~8f7154d) stable; urgency=low
+ .
+   * Change 'menu-layout' setting to a string. Update accordingly.
+Checksums-Sha1:
+ dc215eb6f9f5b4b7e1738d28cdc3c8c754a5e276 7171 arcmenu_2026-03-29+git~8f7154d_amd64.buildinfo
+ 3156ec3a8c6b4f7a2c1f0174fd26fdb40ef03f25 539550 arcmenu_2026-03-29+git~8f7154d_amd64.deb
+Checksums-Sha256:
+ 854117df0eb5d7d09db18adcf7bede0c98d2380a0186937bd81a2a6c9c6c5497 7171 arcmenu_2026-03-29+git~8f7154d_amd64.buildinfo
+ aae114a08f88a9d2b943263176fac81f406339787e9d2624513f56e85f435f53 539550 arcmenu_2026-03-29+git~8f7154d_amd64.deb
+Files:
+ 68fd9ce8988d765b669b72698f2650b2 7171 gnome optional arcmenu_2026-03-29+git~8f7154d_amd64.buildinfo
+ d589426682f4fa40738967237b11cf52 539550 gnome optional arcmenu_2026-03-29+git~8f7154d_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnK3nkACgkQbkoCnkKh
+yHmL2Q/ghww+R0tuVWwseFFxWen0iVKkhNBjki3Ozh0y6dWVfp02IVv5NI0+3VWp
+7RHxlV1JMK8H+hvwDM6CK3fCutgbzaM9C9mFu+RheLE/wlzpNKLvbcJXpmdbJVcQ
+BkfsMMdBX+TClU8puGK+mIGAJ4mvEFwUjJvgC6QJDYl3jFrsUZr/tsuqDCDVgaG0
+KucLBJGBE4Xk3EXY4ozjg/X+hBvo49geife7LzCaSqqNRG8c8vHB301KWKlpKFNs
+qFAxp1MA0aDEyvb7gMfc2zpXo2vy6Pot4pJPcDz4AeRD+CKCfxJ7Qe9IwBhmcqE0
+uwn4Qkl9g4sPdtsoCIvoUvvR+c/onT1qhxWwxNfV4L09kOQELlLuxLf5WrwKeZyo
+Noz45AN+XnfDG+bAKthQMnTDbOs7dPUy72i78dYzDU38FSQ9/hpJ5SiFTxadN3ss
+qwJtN+CBl4onmsJ9H73uV+p2aHhnPdgquySA9b5KnIGYd9OIGTvkLZI7fJtfhTmw
+/EbyFxp4HKZlOu5Pxua8xUGbV/7HzCNP+2NvFbM+ymA7rG/klkhD90RuslEoQYOX
+gPN4CLRA3ae8CLXAygnvmu3N8hRtvsJmMxR0yeod+iA+Z7FOcSaylv2Rx6ySwod6
+pWaDbupTXYeR49n6csybbnGQ2gJPV1gkooEFyqcCfzi4Ng==
+=lRv1
+-----END PGP SIGNATURE-----
