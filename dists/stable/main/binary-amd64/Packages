@@ -520,6 +520,28 @@ Description: Doc files for Boa
  provide essential information about the project, its usage, and contribution
  guidelines.
 
+Package: boa-docs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: devel
+Source: boa
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 23
+Depends: boa
+Filename: pool/main/b/boa-docs/boa-docs_1.6_all.deb
+Size: 7964
+MD5sum: ea40112b7562a5b064abc0b8b187ab1b
+SHA1: 750d0a69d7c0569ea834ca07632e3f606f9d5c1c
+SHA256: f48600f4d7020c851d64e91b409d2358cb1b007273974f220c67da4bee85bb32
+SHA512: 8c9a8a08c876a8cefca50ae49cf7fcccc3852acf124c485c0ae5cd662084c04e66d3e81d8a4229bfad4c8bc4bb37ee200a94365c5df6755e6889be444cbd7aef
+Homepage: https://github.com/mlstidbits/boa
+Description: Doc files for Boa
+ This package contains the documentation files for Boa, including the version,
+ copyright, README, contributing guidelines, and code of conduct. These files
+ provide essential information about the project, its usage, and contribution
+ guidelines.
+
 Package: boa-man
 Architecture: all
 Version: 0.4.6
@@ -571,6 +593,24 @@ MD5sum: ecba6267404a31a5eb880335dbde054b
 SHA1: 41ace81c052692e9d9c977b60be76dab39be51da
 SHA256: 102e4185d0091f3ab3e33a15653bea9fe6be085cd538b15c91e07447e97e3769
 SHA512: 4fa3d96dc05a9ed57c50c6985e4e8c9764e1e96babf872cd59e4fe5f6a652d740be1c1e1ea503f5aa521145cb4005602ebf7e501dbdf1a2b9b6d315c9379fc47
+Homepage: https://github.com/mlstidbits/boa
+Description: Man page for Boa configuration
+
+Package: boa-man
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: devel
+Source: boa
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 12
+Depends: boa, boa-docs
+Filename: pool/main/b/boa-man/boa-man_1.6_all.deb
+Size: 3844
+MD5sum: 34224341ff63269fe122e1b9792109a1
+SHA1: d30f243a6a85ecea88481e91140030a8fd89d2bd
+SHA256: 31735d36ddc3c697877bd37740a660b7768b7b01d2643091a31e8589f455b76f
+SHA512: 56fa4f309bace9645647ffc112d1063969de0a28f89ed12ac8abdeb7a8ae32fefc4fd21bf0a96858d28e8ed894d235b933ea720aacec70894f4c5be37faacdf5
 Homepage: https://github.com/mlstidbits/boa
 Description: Man page for Boa configuration
 
@@ -700,6 +740,29 @@ MD5sum: ee32bff51d5293d4d65909c251bec27c
 SHA1: 69fef4eed1b684980a86d1d8f47483df265a029f
 SHA256: b1f3a3d0a6cbd4644a812fda84b5ef2a7070183ade26ff36a1f796c998378f30
 SHA512: 2bc78205e522163f3f272ca208356b7a0932b1cd85072742582f300eea912e629b5cea7d0ca666cc433f5356b7a714bbcd019181adfd556b68018cafe335b9d9
+Homepage: https://github.com/mlstidbits/boa
+Description: Boa is a wrapper script for building Debian packages.
+ Using a simple .env configuration file, it automates the process of building
+ of Debian packages, making it easier for developers to manage their packages.
+ .
+ Boa supports features like changelog generation, GPG signing, and parallel
+ builds, enhancing the package management experience.
+
+Package: boa
+Architecture: amd64
+Version: 1.6
+Priority: optional
+Section: devel
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 20
+Depends: dh-make, git, build-essential, cmake, dpkg-dev, debhelper-compat (= 13), pandoc
+Conflicts: boa (>= 0.4.6)
+Filename: pool/main/b/boa/boa_1.6_amd64.deb
+Size: 6468
+MD5sum: 31192c8af8fdbf36c82807efe2ed588c
+SHA1: 441446da3b8802bd3c34b671eeef5abd280e7827
+SHA256: 69d106ced5ad21cf87ea47275f8fa361a716d6cd7c949a4292506c6788f3919d
+SHA512: a6889eb2bffb409f1d15010ef07fc77ce7c3cb76f4d7895f86204dd4143dad537089c0fb70666b977f384671f1e1aebff4b8da5d944a29bb2d90281932c16c40
 Homepage: https://github.com/mlstidbits/boa
 Description: Boa is a wrapper script for building Debian packages.
  Using a simple .env configuration file, it automates the process of building
