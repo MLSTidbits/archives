@@ -10,40 +10,40 @@ Version: 1.0
 Components: main
 Description: MLS Tidbits APT archive package repository
 Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
-Date: Mon, 06 Apr 2026 08:24:08 +0000
+Date: Mon, 06 Apr 2026 08:28:59 +0000
 MD5Sum:
- 2d0ea03c3319c9c5754f59bc8db36b96              275 Release
+ c335c30bfa1c94ee0fca1344ebface4b              275 Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/Contents-amd64
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-amd64.gz
- 5c77877781522f413dc9f0d499db00fd           100510 main/binary-amd64/Packages
+ d9f30ca27e6ec7ca83de2c95a711c987           100510 main/binary-amd64/Packages
 SHA1:
- 3fa6aa69be247297f5db2f046ce63edf77b6a50e              275 Release
+ ca95a9f274d58c2332ec9ff4fda641708d9a7962              275 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/Contents-amd64
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-amd64.gz
- bbd360f5fbce0b20c21ca25d737704609b1395b1           100510 main/binary-amd64/Packages
+ dce92e1b31d217c480c0c9ecf14ab5d10952dd90           100510 main/binary-amd64/Packages
 SHA256:
- c6f18ee3821e82e0302c7283bd315bbfda0d46eece4e162c83be5c2bb12feeb9              275 Release
+ 1c6d98b085344c53398f01a47ad3120c8afcb85c50badb7c7d91315ec044229c              275 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/Contents-amd64
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-amd64.gz
- 3c3884fa355970e3cffa8773ae0e3ac98758b69565671fcefa56a4032d718ff3           100510 main/binary-amd64/Packages
+ e7ed1fedef5345782e0cd86428969970ae1aab82e1289586a1a3f67b7f5c1fac           100510 main/binary-amd64/Packages
 SHA512:
- e3bdeb9c42c273a38c480a69e412bf41ddc9e3d3afa616eaa6a217e28b96752a09366bc81976c53e8c4c6046f58141b0a4e3ebacc21e0d95519cad3cca57fb39              275 Release
+ 27b57c90f3196bae9d3491dfa240cf37374f3cb5e3fbb81cad5d3a3e24ac6e320e11c5ddff0b7656d09131beff367538326b56edba1ad853ce9a6e10ac00ce1d              275 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/Contents-amd64
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-amd64.gz
- 4be1c7438904fdb6785c71211b7c32e12e611f83037dbb3214a1b283211c908d0d53d1bedc094f1c628a8440abeceb528e391d102aab8bf97d163b5346c60a7f           100510 main/binary-amd64/Packages
+ 37ca1af09aea304e5fe42331e2df8d69717d7d67b78f0c9ead67e6e1ce97177bc49c93f5dfd4eedd6194b2ef693147f93660342a6fc1d6606691de2aa5903ca3           100510 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmnTbakACgkQX0kxBVMS
-yarqew/dFHUnjsP/Je84MkmvxgKTEocJ5VkHFsoiYrK7h/aPSWybMwj91DJiKwBF
-jgL7fgyYE3ogLk4KsefPvYMqcn2lLQxjLpThvxgVJyyOo2cQZFZC8j2fA49a9hVF
-rF+AUUprwCsKrlZBXfo7KhcgOb2K3ylCarouTaGJE5qFHaQLI3A0akM6GMDtby6W
-HVCyFFzsQgt3TL3OW0BF89PK1eKUMKH4XMAoEV7dZ8mUryxUs8zb2Ppx4z8JNXa1
-2m061CUPP/Nxz9s4JiZAcjC0PAqQUeCv8Ywv/eIZju+NYUXXW1sBRt6uD69AnZNf
-bO8hb+jmN3SWs9hjrX7Cw0CqAnI5GQaeYXXE2YNYg8reX82zIiIQ1kNr1lAtPl0o
-6i1ggQQSebcMHZEV4qpw6c6BQ859gQHqjudVFlcjx6EINhZN92zwX8cCvbB+jqsw
-DIYGlzBpHWxd5px2zFMNNL6EEKm+3guqV1AWb8vtSyj95tly2dJGAuthb+j2f2Mp
-SRR9ojLR5t/ugVzvRTQTdGnZ4iFtRSgXz2itJd/PQa349b5wQN9aue/m1yqw4XbZ
-emUfQAsgdaYpXYeMPpIq+oh2XW2tx4ep9L++ESFfhC72L6/FzW127WPsmDg7rXTb
-N7ivo8GKDH7T/5p2+mx3a2y7SohiMvRouE+8AGWupKNWLQ==
-=z5vl
+iQIvBAEBCgAdFiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmnTbssACgkQX0kxBVMS
+yarn/Q/gn3QMs21INFgEIgnJRItVPOO3dQ6/h0Br2GOTs/3MSuzgceY71hi/gx67
+ZTXp8yx/lzsDiX+tH6gMf1cxLHvTZZkLCQWyNQaWo6NPINNDL0ZPy/i9HMl4nctJ
+UQameDxw6UdK1ey6de0a8z71WYhqNzyqPckL88m+BKRA7YJJXwsZQfn/xOTQcAyX
+pXrF9bEFSrA94TTkO34BiA+qVav/jjGXUuUtgmOAiYXb0bqbFb0My+wucAXLXkD1
+g7mKBSi+4Bl4gDpCSyaLwoqrtd9YFlJBvvgDcJke+zTqJW5lwSYgKntx4xth7U1D
+86PB8Fri64nPl8PPjEOvtL5Z9WhsC64nQ2lfzsSPin+NAqLzhoPfvEdlE2ikvpUR
+2ClnaJ7dpm5Ec8u4wMz1XhSEXcNjjmi/gG9HtJW76E9PDjL1Vpt7ovXHNuUibNuC
+2H/QLmE/1U8KSUXooVCZfdncvVQyqpR+1X5fAPEezNkWYrrYdvDPD2WnfuuPwODO
+lZXPX/hNvdJ1C2Hz57PL4pye9Lq2rQ5ZFjjYuIhgwKXSxPS6TPFFy80PpgyFus3w
+xI4rup2wWm0X+wBcphSlDbBQUBYeGIhF5ANM0hAzkc4keSVnzrLLS41+vbu9Yvbj
+xEZo6eU/vBLEZM6eGdOCU7Dlb2p2NqWF1ktWL35T73nD7w==
+=MqDA
 -----END PGP SIGNATURE-----

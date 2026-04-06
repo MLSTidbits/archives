@@ -22,28 +22,28 @@ Changes:
    * fix: Update upstream contact and source URL in copyright file
    * bump: Update to version 1.7
 Checksums-Sha1:
- 400f1ec63723e4001b6041fc53f24d601a64d575 8647 boa_1.7_amd64.buildinfo
- a8a17de50acdd5bbda99f3e4e2ec4438256dd0f3 12136 boa_1.7_amd64.deb
+ 7d80369fb00a85b34e8148f40cc282b9b82c005d 8625 boa_1.7_amd64.buildinfo
+ 1749dd4055d898ff0cf72b3707496050ce14f1a6 12140 boa_1.7_amd64.deb
 Checksums-Sha256:
- 4a1c72690449821dd5005e895550ec7a29679b8e077023a7d89475917c52b545 8647 boa_1.7_amd64.buildinfo
- 57a4cdc89ebd36ddfa637b14965b61533df27e81ade73f918f9be775f3f81905 12136 boa_1.7_amd64.deb
+ fe8205d8e0a0ee41286675abbfa8cde09a03a78c173e40dab611e29f10d26944 8625 boa_1.7_amd64.buildinfo
+ 9f01fd8d0712ae316a641a41db15456e581f937714357aa0cc02e267d883e7a2 12140 boa_1.7_amd64.deb
 Files:
- 53863d417acab7d9803500b1ee5d487b 8647 devel optional boa_1.7_amd64.buildinfo
- 478ac68b4ca4eed6b3568b08d9aab219 12136 devel optional boa_1.7_amd64.deb
+ 4df4e88c42d266d54f565c0496b5db7b 8625 devel optional boa_1.7_amd64.buildinfo
+ 18cd278c7fc79f0593941277154606cc 12140 devel optional boa_1.7_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnTbYMACgkQbkoCnkKh
-yHm69g/gqHIevgV5OX+mnT6fj9G/AEFniZwapeDx4O/T9lSCsF2RRbkMMSmjkUDr
-lVXABxMJLL3yLu27dn8IpTgjX35SjZoeMJKc+xqPoSTc9NkrLahBwj45H5wuZ6Qo
-O0oZRgA9Xm8pYLyo8h7j5or+UOQHrbx3bZuirglTj8nz/7mfH7rk4FH0pSlUANMU
-rKOzpTrP2v1ntSvUfr1jrhEbSNm6+pQQowpjP2ZjUBTsgP9JrHZCunW0QoWj49tk
-eFU+7bSYkey+D/dLFIvIjqYgnWtmShdcpMPklQzreQSo525TxxpnfWZMp3KWEW7V
-Kx6M/P+H+kHzzKeDKuhg595ocNNzPitCbVQTqa0m5Um+NV2YzNbggvZLLxPIgyDi
-lZF1kg/1oEaj3E4Cs22eUBv8XkypVpQ8E4sm72SeylZQKvbB1XvAnvdeXbA7ryXm
-2y1lhPdml9hhxSrBxIQ852IZ4ZyuQWaad+M3OfV00lh+I9aLI3FJpKl9TkRRg7e4
-EQz1CgYbMvUtrAKdyNiksrjK3KJkgCcKew/lGLgl4E4r3pPzp7jfknkLS7EdOxIm
-JAo0CcjloRuZWPVk0Sv16XXPZHuqtU5bmOx2IL8fh9wi88xAt+JyvwLPvexN/eBV
-BJbkZPVqkdsjlECqTAXnCDBfZlwPBFcSc/k7MkdJeTZjUQ==
-=CiTQ
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnTbr4ACgkQbkoCnkKh
+yHlh8g/ff5ROOzSb2ReGQ3cxFhHmueAyakeMYgDoEKJGKNWr3LEDMONiRoDE92ex
+GdDud2Ne5cZymAIX7+Ec1SWTWI2ByF1lkZunRE5Y30rbb1KLY64MKI20rjpMRNWf
+qLIeyYBFVoBpUB5NZqrJbVacrNwBerVLKN+QTNyiLkSk3pMOqCfEPznCSim2+tru
+YYBLpLCPw4JN4tl5GYiDFcLxYJ+43I7NpF8hRGbudheDN4X4TsYFCeDiQIPefzL8
+bEMQjw30q6Rj6rnlDtB45AHRFkKYzkOxXs3YNY3EZ/i3AmHSHd9vKBKfA5gImRaR
+LcEVHWanD2YpOaNB4QzOtwY+jXt/0WwLZHyDu88FhsQgSGx/Wwdqxwu1xutU1g2n
+SmaMNbSw4ssYmN8hYGtuLTHyNV9qLUh3tFTIhZjsKg+fOypmEHQmKxw+D/GFgxLe
+9/Ty//rTeEh9iDIisuylb5OnsfKpa11XVWmDufwnrnOZFUpciwjK0xk3NwsxE/uK
+SMLFvH72xk9PqEcaQWCJXe/5yNrbY0F2CsqElgkvEJP/oHZDNZjwYpO4c7d4k/Sf
+g6fRcCbTjFfdEd3QFdOcfQRGY2erQdssF0ivVR+xz7I99+jIvYqeqHH2jDDeb4iB
+E2S0G3YA1bWx2i+STDhdzmAZBdUDFGwkh1vmQQRSmm+ooA==
+=02xn
 -----END PGP SIGNATURE-----
