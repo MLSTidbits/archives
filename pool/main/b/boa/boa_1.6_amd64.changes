@@ -2,55 +2,45 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Sun, 05 Apr 2026 00:00:00 +0000
+Date: Sun, 05 Apr 2026 00:00:00 -0600
 Source: boa
-Binary: boa boa-docs boa-man
+Binary: boa
 Built-For-Profiles: noudeb
-Architecture: all amd64
+Architecture: amd64
 Version: 1.6
 Distribution: stable
 Urgency: low
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
 Description:
- boa        - Boa is a wrapper script for building Debian packages.
- boa-docs   - Doc files for Boa
- boa-man    - Man page for Boa configuration
+ boa        - Boa is a tool that converts auto-changelog CHANGELOG.md
 Changes:
  boa (1.6) stable; urgency=low
  .
-   * chore: Update changelog for 1.6 release and adjust version numbers
-   * refactor: Simplify debian/rules by consolidating build and install commands
-   * chore: Remove git+ from version in changelog generation.
+   * BREAKING CHANGE: Update script functions for better error handling and usage information (boa no longer handles `dpkg-buildpackage`)
 Checksums-Sha1:
- 750d0a69d7c0569ea834ca07632e3f606f9d5c1c 7964 boa-docs_1.6_all.deb
- d30f243a6a85ecea88481e91140030a8fd89d2bd 3844 boa-man_1.6_all.deb
- 11f0a6907c9d363ae54f4a5381b215240b551aae 9080 boa_1.6_amd64.buildinfo
- 441446da3b8802bd3c34b671eeef5abd280e7827 6468 boa_1.6_amd64.deb
+ b0cc1b12d2dbcc3324974e7acdbe5ea41f7f5b1c 8647 boa_1.6_amd64.buildinfo
+ 584311f0c0d338e5e11b8299c6e201a6ee73edf1 10742 boa_1.6_amd64.deb
 Checksums-Sha256:
- f48600f4d7020c851d64e91b409d2358cb1b007273974f220c67da4bee85bb32 7964 boa-docs_1.6_all.deb
- 31735d36ddc3c697877bd37740a660b7768b7b01d2643091a31e8589f455b76f 3844 boa-man_1.6_all.deb
- 2c6c1a06ecb320912f60671eb152aaf4b27962443021b925b4faa376e31a130f 9080 boa_1.6_amd64.buildinfo
- 69d106ced5ad21cf87ea47275f8fa361a716d6cd7c949a4292506c6788f3919d 6468 boa_1.6_amd64.deb
+ 7e04c08fe68db1e1eb0aa14a4be8c5d52f28d9a419d605472622a25d51d1f9ba 8647 boa_1.6_amd64.buildinfo
+ e59b04f30502dc9dfb96219943dae5bf60eaa33ca5eb9b0236678cc687b83536 10742 boa_1.6_amd64.deb
 Files:
- ea40112b7562a5b064abc0b8b187ab1b 7964 devel optional boa-docs_1.6_all.deb
- 34224341ff63269fe122e1b9792109a1 3844 devel optional boa-man_1.6_all.deb
- efdddd09ec95252a846e152892ce18ee 9080 devel optional boa_1.6_amd64.buildinfo
- 31192c8af8fdbf36c82807efe2ed588c 6468 devel optional boa_1.6_amd64.deb
+ 8d9fdc6b86839b5d97f7f234145f675c 8647 devel optional boa_1.6_amd64.buildinfo
+ 1e82e47fc49e497104985fc9b6e6408c 10742 devel optional boa_1.6_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnSMAYACgkQbkoCnkKh
-yHn8kA/cC2yjQvO1m+ygbq7bJ2log1UkTwSc96XlSno29JGxJuNzTny6MAmYyJxB
-91ttqcs6QSfsXkbLgpK0t6es+z5UOtCDCmkO8C/OTLZ+a7IzZeCU1N/wu8nlifH/
-ivy7dO5E8FscxR3hATHuhHPvE6dS+35NpRyJ4MMwLPG9zqwd/NQUD+2NEJ8dtx0l
-Wa5k8u8stoeAYkzj+GIVAOTEOVsPnrKb8sEZXQ3zoCwy+KsZqO5udx3bv2IScUXI
-lg9Eu7SX3ZBMFL24rGqS/4XE6pX+blBAsQvySQY79Yjt6mvE3URhukFzHi7ddfYy
-PxnoMKDvUilgVs6wt4QAkrfyqvHeAhOjZ9mLTxN4jzdCjAKAszvBlWb2wEf6NiC5
-xcMd2Clqy2f5cqNPY8cZ+qk86iJj9NWOEryPI/A7Or99VViUseBIn9BthmZT/U24
-Fzms2b2az2hyxcfrmC7AaV75m4jipsRvvzDXOSDBmqYysIEQFrMGQbBdSPyQa05/
-+b2B4UVtj/eoaV1hlCVafP8YVLW8zxBvEgDFeF7AFaU472Ac6cyTHRpl4CkPwABb
-QPEx5FdC2pMihj5pb+gZWOK7rSga17Ubms0Q4dXj8P7uJCl+x+nvFyqbGNH7AYT2
-aNP3fI4svzhjYrG30IdN5ZK6Gd5LhgacOpJPZJsM5ZK+Tg==
-=u53l
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnS+58ACgkQbkoCnkKh
+yHkdOA/eP9PtWEBefl9heZB5/bSCaM8XdM90E+JnNRKMMaBL0c24o7aweXAonO14
+k++wFe/jWIAWS3LB2jw+VogRoI15GYfJ/g5O87gMFXv0gyeRpAck3RNf+qsAeKG4
+xn2q21T66UzqX7MVhfOGNAzTxcRSCZTMju7ID8ymU3p+sYKtCPYILwARehahuLPb
+VaRnHo3TpAGDfZvtodLYprfdAP0MtH3B+HYmQt6dpka8NOa1ADKiGi8H+z00P78u
+o57SX3Ps1duct8pAXke7E7JiiDeGiO48GvTu2Bn3abAIaPWEvGWTF+1yiLQK+6lS
+YDorFhtc+x3ZrMwcR2D5QUkhXH3YSpRNs0gjuRpDuKm5tx00JOMcUShZrkzSl87J
+GIuw9fy4zl3/C/1+VN1kGSXBgA2t/I2KnXWZLBc0oNJWjMOEhHO5+0fYLjwibT9D
+SBrk6lc4eDGnZE3VQ96ig/FiqIpagkF/hwe/BK452NO39PBC/bR1Z0w6RgSs+lXo
+jfiQ+Grsc+P9aZUOOYwwiWZhL2mg2UuEloe8VC2n31by4MmTa+Hxem9pZq3B1fBv
+4IfbrF1pGhEcwg/bTXGEH+SmdYUBJa51dhSxLfDEFkU3bXyXx8gZf639guwI9Sjj
+nyJ1FJfplETMFHnl/BaQhhRxv/IOJ0w7AG2lwp8L9AzSvw==
+=61FV
 -----END PGP SIGNATURE-----

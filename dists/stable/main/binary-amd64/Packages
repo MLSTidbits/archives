@@ -754,22 +754,20 @@ Version: 1.6
 Priority: optional
 Section: devel
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 20
+Installed-Size: 32
 Depends: dh-make, git, build-essential, cmake, dpkg-dev, debhelper-compat (= 13), pandoc
-Conflicts: boa (>= 0.4.6)
+Conflicts: boa (>= 1.5), boa-docs, boa-man
 Filename: pool/main/b/boa/boa_1.6_amd64.deb
-Size: 6468
-MD5sum: 31192c8af8fdbf36c82807efe2ed588c
-SHA1: 441446da3b8802bd3c34b671eeef5abd280e7827
-SHA256: 69d106ced5ad21cf87ea47275f8fa361a716d6cd7c949a4292506c6788f3919d
-SHA512: a6889eb2bffb409f1d15010ef07fc77ce7c3cb76f4d7895f86204dd4143dad537089c0fb70666b977f384671f1e1aebff4b8da5d944a29bb2d90281932c16c40
+Size: 10742
+MD5sum: 1e82e47fc49e497104985fc9b6e6408c
+SHA1: 584311f0c0d338e5e11b8299c6e201a6ee73edf1
+SHA256: e59b04f30502dc9dfb96219943dae5bf60eaa33ca5eb9b0236678cc687b83536
+SHA512: a50a11a404794d0df2f1bffeea49766850a80b63ddd3d9b89a6805d5be2b700a9fb15b274e64af971cb52451a51df0e97952f168ffe1be9b9f760c5fa99e0b8b
 Homepage: https://github.com/mlstidbits/boa
-Description: Boa is a wrapper script for building Debian packages.
- Using a simple .env configuration file, it automates the process of building
- of Debian packages, making it easier for developers to manage their packages.
- .
- Boa supports features like changelog generation, GPG signing, and parallel
- builds, enhancing the package management experience.
+Description: Boa is a tool that converts auto-changelog CHANGELOG.md
+ Generate debian/changelog from auto-changelog CHANGELOG.md. It is designed to be
+ used in a CI/CD pipeline to automate the generation of debian/changelog from auto-
+ changelog CHANGELOG.md.
 
 Package: btrfs-fstab
 Architecture: amd64

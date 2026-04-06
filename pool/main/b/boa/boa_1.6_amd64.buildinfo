@@ -3,24 +3,18 @@ Hash: SHA512
 
 Format: 1.0
 Source: boa
-Binary: boa boa-docs boa-man
-Architecture: all amd64
+Binary: boa
+Architecture: amd64
 Version: 1.6
 Checksums-Md5:
- ea40112b7562a5b064abc0b8b187ab1b 7964 boa-docs_1.6_all.deb
- 34224341ff63269fe122e1b9792109a1 3844 boa-man_1.6_all.deb
- 31192c8af8fdbf36c82807efe2ed588c 6468 boa_1.6_amd64.deb
+ 1e82e47fc49e497104985fc9b6e6408c 10742 boa_1.6_amd64.deb
 Checksums-Sha1:
- 750d0a69d7c0569ea834ca07632e3f606f9d5c1c 7964 boa-docs_1.6_all.deb
- d30f243a6a85ecea88481e91140030a8fd89d2bd 3844 boa-man_1.6_all.deb
- 441446da3b8802bd3c34b671eeef5abd280e7827 6468 boa_1.6_amd64.deb
+ 584311f0c0d338e5e11b8299c6e201a6ee73edf1 10742 boa_1.6_amd64.deb
 Checksums-Sha256:
- f48600f4d7020c851d64e91b409d2358cb1b007273974f220c67da4bee85bb32 7964 boa-docs_1.6_all.deb
- 31735d36ddc3c697877bd37740a660b7768b7b01d2643091a31e8589f455b76f 3844 boa-man_1.6_all.deb
- 69d106ced5ad21cf87ea47275f8fa361a716d6cd7c949a4292506c6788f3919d 6468 boa_1.6_amd64.deb
+ e59b04f30502dc9dfb96219943dae5bf60eaa33ca5eb9b0236678cc687b83536 10742 boa_1.6_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 05 Apr 2026 03:48:53 -0600
+Build-Date: Sun, 05 Apr 2026 18:17:35 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -232,21 +226,22 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1775347200"
+ LC_ALL="en_US.UTF-8"
+ SOURCE_DATE_EPOCH="1775368800"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnSMAYACgkQbkoCnkKh
-yHlCeQ/fTVokbatgDXI/xV+jCyV+FOWn72Ef/HGfhRGvayFy8WbPjUCNf3H8j1PK
-bZt8nDxaX4fl5nCf2Sk7iSBbjatLGlw1nVD4U8oq6xDli/2QtMcuyEe2OuiDzS0n
-co08auDGvtTU/YR/C550M62i0LWDM3xj/FX5WbGJIL3V52zbgLwdsS8a+IkN47H6
-sYty/RLu+JWbGqwINdJ0tqSZN0eqQfH8ZeISwDStqw4oKkci1FpqSOZniIqu7pQz
-JH9AVfZ4o/HrVw9RBdEKqZtKgy3vt9v2J/yLPH/LSE78bOUshvN5VSUDGRwU7DVt
-GrO/ouKxSUeQxPwyUqmQ37pmlWWeBetfZOzOREQX8bgyHvvs6D2Cof76gMGUUWrk
-1jETZNUpU0ywM2ARumzYuw8kkDs5ZwabMJbJ4pjyq7ryzkEp0DFq5vnW8UTjeaG3
-2p5LBLugcYlSXBID97m8Clb9PHSH/vnG9SEtGC1n3SJrtQEqaicPWZa+9O9O6C0N
-mxgEMTx06ou7zka/bRP25YvhF3Gk4lkoZA6s2aIA4I8sVE6Xg7tJvLRiJSEVAzy4
-sMCLB7F0gqXlL9+FWFhHmEBv7skp1gsRnvvOAOQTSzcDaEj9PFow1paJLyn9zH51
-z+cK3UXIoyiy1qTtw2Afp7vDnBPeXgEdZU7qQrcF+Iru4Q==
-=Rbrd
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnS+58ACgkQbkoCnkKh
+yHkOBQ/bBLS8T7kpzeuZP6iULUrKKN81KBXFYiy8tm8dPr/VtE0ZEFuJjF7ljwoN
+VIx4xt5Yw3oYF4HJFPYenEBlwb9FkDAOdPrVLe0q2/z+U/N/kKK2QuJOWfE8J3Je
+y+m9xqHFpS/tH0pHBcdJ7MwRR7mr4gNw1sG0cd5/pFZkJVzJMXdY4zHLzeMT+Hha
+wmaGmBj44pDop9p8RGZLD0fF+yvLKp73ZtppIeQFv+oeG4GWyOj/zaHUkhaCDS6G
+0Ks27LFur/XpJFF9plHU/8jb4z+NPdsGQTfFsFXdjBuXJjE26L6h/A5A3RogYLje
+JA879OaAKnymCNFWtPAZSbYXZHfJuXZo6A12i6vHWSmIZYqPVioivInVvpMCiLib
+bHmoDMowoT/3wOh6Qo+FGcsrItl9tEj8erdOu2VDZeWKiyAC+mEWEqIN8maQr7hn
+QUDgAv9vGvGC05sePHMqEMUxdoAXbeuO60AKwefjuIshV1ns+ssdXUDa5HifNit8
++8TJjX9psD7Kmeps/ysLp+WVh+2VsVZf1V9n8Ax7egKjZ3qRknyv1jPiF1DOov8M
+SbJAYOh6m7QRvphAwzm7/CF8gTHujJrNPP35WpYyF+1ZQMYmbhoN1I5q9D58jmTc
+YTGvUsbi2FKwmdO3P8Dt6TdEdrsPHLJb0EBOx6XugVJR5Q==
+=zWmp
 -----END PGP SIGNATURE-----
