@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 06 Apr 2026 00:00:00 -0600
+Source: boa
+Binary: boa
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7
+Distribution: unstable
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ boa        - Converts auto-changelog CHANGELOG.md to debian/changelog format
+Changes:
+ boa (1.7) unstable; urgency=medium
+ .
+   * feat: Add bash-completion support for boa tool
+   * feat: Enhance help information with version details and update release option
+   * fix: Update upstream contact and source URL in copyright file
+   * bump: Update to version 1.7
+Checksums-Sha1:
+ 400f1ec63723e4001b6041fc53f24d601a64d575 8647 boa_1.7_amd64.buildinfo
+ a8a17de50acdd5bbda99f3e4e2ec4438256dd0f3 12136 boa_1.7_amd64.deb
+Checksums-Sha256:
+ 4a1c72690449821dd5005e895550ec7a29679b8e077023a7d89475917c52b545 8647 boa_1.7_amd64.buildinfo
+ 57a4cdc89ebd36ddfa637b14965b61533df27e81ade73f918f9be775f3f81905 12136 boa_1.7_amd64.deb
+Files:
+ 53863d417acab7d9803500b1ee5d487b 8647 devel optional boa_1.7_amd64.buildinfo
+ 478ac68b4ca4eed6b3568b08d9aab219 12136 devel optional boa_1.7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnTbYMACgkQbkoCnkKh
+yHm69g/gqHIevgV5OX+mnT6fj9G/AEFniZwapeDx4O/T9lSCsF2RRbkMMSmjkUDr
+lVXABxMJLL3yLu27dn8IpTgjX35SjZoeMJKc+xqPoSTc9NkrLahBwj45H5wuZ6Qo
+O0oZRgA9Xm8pYLyo8h7j5or+UOQHrbx3bZuirglTj8nz/7mfH7rk4FH0pSlUANMU
+rKOzpTrP2v1ntSvUfr1jrhEbSNm6+pQQowpjP2ZjUBTsgP9JrHZCunW0QoWj49tk
+eFU+7bSYkey+D/dLFIvIjqYgnWtmShdcpMPklQzreQSo525TxxpnfWZMp3KWEW7V
+Kx6M/P+H+kHzzKeDKuhg595ocNNzPitCbVQTqa0m5Um+NV2YzNbggvZLLxPIgyDi
+lZF1kg/1oEaj3E4Cs22eUBv8XkypVpQ8E4sm72SeylZQKvbB1XvAnvdeXbA7ryXm
+2y1lhPdml9hhxSrBxIQ852IZ4ZyuQWaad+M3OfV00lh+I9aLI3FJpKl9TkRRg7e4
+EQz1CgYbMvUtrAKdyNiksrjK3KJkgCcKew/lGLgl4E4r3pPzp7jfknkLS7EdOxIm
+JAo0CcjloRuZWPVk0Sv16XXPZHuqtU5bmOx2IL8fh9wi88xAt+JyvwLPvexN/eBV
+BJbkZPVqkdsjlECqTAXnCDBfZlwPBFcSc/k7MkdJeTZjUQ==
+=CiTQ
+-----END PGP SIGNATURE-----
