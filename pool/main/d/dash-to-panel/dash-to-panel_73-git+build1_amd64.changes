@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 08 Apr 2026 00:00:00 -0600
+Source: dash-to-panel
+Binary: dash-to-panel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 73-git+build1
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ dash-to-panel - Dash to Panel GNOME Shell Extension
+Changes:
+ dash-to-panel (73-git+build1) noble; urgency=medium
+ .
+   * Add initial packaging for Dash to Panel GNOME Shell extension
+   * Add markdownlint configuration to disable specific warnings
+Checksums-Sha1:
+ a9b90f602eee72d5bedad13e5aafa105ef8aea13 7165 dash-to-panel_73-git+build1_amd64.buildinfo
+ 9d64dd8e1e92282beec9e1e843fa3ac44aef3689 264440 dash-to-panel_73-git+build1_amd64.deb
+Checksums-Sha256:
+ 4fe9df5371f6979a06423d7e20f5427eaefc4beb95ea58c9cd10d17cc71f7436 7165 dash-to-panel_73-git+build1_amd64.buildinfo
+ c1f9dff4afb3024a581b3ec305b7eab7f2038c527bcf8d202d4e96fe45422276 264440 dash-to-panel_73-git+build1_amd64.deb
+Files:
+ 0a843c5cb619e97038d7d8bdd0952f77 7165 gnome optional dash-to-panel_73-git+build1_amd64.buildinfo
+ e1ed6115e4f4e20aa8e27f37f4a76413 264440 gnome optional dash-to-panel_73-git+build1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnWtLkACgkQbkoCnkKh
+yHkN6g/gnctdclcZDW6B98IDJLpF9fEX6mflVO6Azg80n4AbOj6QV1/DZ1sHVHqv
+b6FV9hAMfN+AF4p3R8ZDgpkJJUC7HodtxCEW66fhkKGgUp8o8kTHRRO3cnq2MhsF
+b6jwcvGIetdPr+7kBL9TdEd+l5WvVbd1RpfQDIRZfztM90RbIfwN8lzu/t8XbPK4
+TYtIOmC8A5iupTqmiEPB60pxHUs49vmcJKWiIWO5/XYIWtK1qz7MRYDbKoIT4oO8
+H3gjA0JKxtYYXacc2ECec+r3Opn+ibKlJ0uQiWAuGrq0sjZ22z3IG3JBMHf4H4tc
+6ULIq9dZHAIfMi98LpfNiZdfXs8NZ6kHt94OYxX45O7nPO4TYAXmt35ipFcVndjC
+ljgBYCwrO/Lbp9xOoBz418qLnCLsWJWgnoMYyWPSr8mO6bc7D+t2OR/NKFQdjgZt
+h4SH05mzhjepRtJByAfmqKUrTMZbjJSfUnf0F77KOZibxHVV/0Y1Xgc0cd7pKpEL
+MEe3wPvUFkuPANX6TI6l7SAO+MSFspIA86yVrgk9EW6Q0RmEsKuPFFj0ILfCkA9T
+Rac4FgyOdyHI2uRaqCsYE+KAIlzM49qy9dVDsbqBBq0TeIBIfojbyZwcADJjZ2dN
+ENznkzoy+dE4B/yjhFpF01DO46FVPNpY09kqRrusCKybpA==
+=sbzA
+-----END PGP SIGNATURE-----

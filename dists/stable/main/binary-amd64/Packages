@@ -1017,21 +1017,21 @@ Description: Dash to Panel GNOME Shell Extension
 
 Package: dash-to-panel
 Architecture: amd64
-Version: 79.2.0
+Version: 73-git+build1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
-Installed-Size: 1694
-Depends: gnome-shell (>= 46)
+Installed-Size: 1534
+Depends: gnome-shell (>= 46), arcmenu
 Suggests: gnome-tweaks, gnome-extensions-manager
-Filename: pool/main/d/dash-to-panel/dash-to-panel_79.2.0_amd64.deb
-Size: 449792
-MD5sum: f0caaa469e2d97d5762b5587c17e6bed
-SHA1: a94de076d1430f74b21678cd80b47da8554822de
-SHA256: 0c104aa6ef140b07507571a91cc25d3773a59f9cdc18f569cc3f0313bafca79c
-SHA512: 7c005e84951c86414e9cc506f7bf0c50b3a80b9e334bcccfd672dedb1056d7b8e48550970c1fdeee53668137c577d41f816dad9735ddad83ed0a8dfb4c1363ef
-Homepage: https://github.com/MLSTidbits/dash-to-panel
+Filename: pool/main/d/dash-to-panel/dash-to-panel_73-git+build1_amd64.deb
+Size: 264440
+MD5sum: e1ed6115e4f4e20aa8e27f37f4a76413
+SHA1: 9d64dd8e1e92282beec9e1e843fa3ac44aef3689
+SHA256: c1f9dff4afb3024a581b3ec305b7eab7f2038c527bcf8d202d4e96fe45422276
+SHA512: 674edc9995fce8fae62c032a632e8bb0b12b235747521dcf917e175bae38d02914a40aad1344ba695ae70d7b22485b7601ec8aecb1e2c5304dc0a7bf31a8e863
+Homepage: https://github.com/home-sweet-gnome/dash-to-panel
 Description: Dash to Panel GNOME Shell Extension
  Dash to Panel is a popular GNOME Shell extension that combines the
  dash and the top panel into a single, customizable panel located at
