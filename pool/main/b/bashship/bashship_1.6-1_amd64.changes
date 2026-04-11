@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 10 Apr 2026 00:00:00 -0600
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6-1
+Distribution: noble
+Urgency: medium
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (1.6-1) noble; urgency=medium
+ .
+   * fix: Update copyright file with correct upstream information and file structure
+   * fix: Update lintian overrides and remove bashship-man package from control file
+   * fix: Ensure build directory is created before copying source files and remove bashship-docs package from control file
+   * bump: version 1.6-1
+Checksums-Sha1:
+ 46342e4fa0023e66bc18dc80c9b6f47632baa336 8992 bashship_1.6-1_amd64.buildinfo
+ 0d48b4623ef74cb402f6be8841070dbc44d96a4a 16374 bashship_1.6-1_amd64.deb
+Checksums-Sha256:
+ 5a9959dd973a506ef84f9d580d0fad14bdb53ee5c401eacc61758add61350abd 8992 bashship_1.6-1_amd64.buildinfo
+ 79000ae3550f8954b2d9682cffe0124dba043307dafc209fc67efc0e49604d26 16374 bashship_1.6-1_amd64.deb
+Files:
+ df43430314af3cc2676ac0cf728767c6 8992 utils optional bashship_1.6-1_amd64.buildinfo
+ 14d7c56ae26ebaea952c14450c5a255b 16374 utils optional bashship_1.6-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnZ2hYACgkQbkoCnkKh
+yHkZSA/ggB0M7qU0gw5CjrYHlTOka0kOpCnoTseThoP/rHVJIip4GYUdw9gCSQ5Y
+hI+9NA7B+mIQBryRDOyBpGfrc9bMhandu3/RkewbBD7S2uwadpVjTWvp4F8+CBhJ
+1n7P43up+Q/Rh9DEOwGTW+5inX/eiyaGocK6ddNjOT/W06QBEMxfj3YlddMoAYUn
+vVv9LHVtB61CQoLVVmRsKC8SB80t22JXnD3tZVgqMZE4Lait+iJCMrQxaIbO3KhF
+Fo+QATxZUbRCqhK2a1/Hjt2O8AaR3qsjEuDCBkTedkN4D4Lz9w6PDQMFmqnrh/zb
+PYth5JBAFTqxnvQmxtecn8pSk+wlwukSz0mhGp3XOzFYUadRPxH/yk4W3xUeC+zw
+00CTJsYnZcjbnz3cAcBQYUoxZ0UmcaV9i40zJg73P5oTWC205/73p+sUthGNcGtm
+sjr79ped2bEeFuIM2KrmvNe5vfqKrQGe+suqCLq9d2LUrBOv/R6ecxC34rpR5B77
+9I6a2BxZAFitSiFhiwbEQ4LaqSd0WIvrZEBSt/J4cGeLZ98EX1smBH/5d91syeeY
+C2KyQUXV/4tz4TerOIH2NnjW0C3NjE/I0XKt9wlmTkN5kwzj/1LUoYDEXp8D6VZA
+a1LvivA07V13dqS9yTkuryzhu2bzt5rBMFCU6XtabTL9gg==
+=ICvz
+-----END PGP SIGNATURE-----

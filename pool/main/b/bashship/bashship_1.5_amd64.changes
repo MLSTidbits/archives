@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 -0600
+Source: bashship
+Binary: bashship bashship-docs bashship-man
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 1.5
+Distribution: noble
+Urgency: medium
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+ bashship-docs - Documentation for Bashship
+ bashship-man - Manual page for Bashship
+Changes:
+ bashship (1.5) noble; urgency=medium
+ .
+   * fix: Add echo statements to improve feedback during manual page and source file builds
+   * fix: Update Conflicts version for bashship to ensure compatibility
+Checksums-Sha1:
+ bd5461b5eba397e0b5b76cfc8942db461ae0b54a 9900 bashship-docs_1.5_all.deb
+ 2b319aa0cbba7146aca74dd06147bf8a9d2478ae 4480 bashship-man_1.5_all.deb
+ 59639777380e1957c278a0a92ef14eebede75b3e 9457 bashship_1.5_amd64.buildinfo
+ 551e8cad357c018408d9c9978c78de8e0c290a29 5722 bashship_1.5_amd64.deb
+Checksums-Sha256:
+ 2a7a0619703896735a4d8306591f7e4eeb5cb680e78fd537b259d4f41ca50ea5 9900 bashship-docs_1.5_all.deb
+ 883e50ec02e254e340934535f40977812fb87b625111816458a5d72f29a8f6d9 4480 bashship-man_1.5_all.deb
+ 272cf172cce7d0a49c93abbabb017e1b6f735e97a1139c04a5da35e01ceadcf8 9457 bashship_1.5_amd64.buildinfo
+ d16a8af1a894301a951efb74af1ffb0fa71b8f29164f52e655093f50f99ca5b2 5722 bashship_1.5_amd64.deb
+Files:
+ e21590fc2319c21d56bc1da5c054b36f 9900 utils optional bashship-docs_1.5_all.deb
+ 1740941608485cd534c838d70f5c9862 4480 utils optional bashship-man_1.5_all.deb
+ b340518264c7a2a55441a8efbb00ab06 9457 utils optional bashship_1.5_amd64.buildinfo
+ 09deb45c41ef3a0e3b7d48f8df57f38f 5722 utils optional bashship_1.5_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnYD+4ACgkQbkoCnkKh
+yHlLwA/dGyW5lmGzk7kEJO6RGA+tvxi2V31K2CGCVjsfN/jYhXyyr77T7cJi/cki
+/Hu7fxYl1DFtuzRH+G9lpa5pC/tREYyki7XwKYwGy0W12VfgAV/+FDnBSgdL5ouR
+AvAE9cDUCF7b2RE0Ml6t1C5huzfWS8E+FX7OxCnxelX0dYFfsPCRNfQplnaiQwkm
+YBgGV6EQJ2vNYXQjXiSRp63rvOIM5s84v2vu/ZYBJPHkTtAm1JIv4/VtOMs00R5b
+0n+NGzJTzEb9l6UYGrGB/I9b4bqZ/0Rh8T2wRXcxDbxiiLvHoNVrP5r/OPTCpUpK
+kKNHG1RSGowdrATCHp74EigJGIRk3dcgbhIctWxAbX1Jdw1BvnpLDcYEysBDZzNy
+5gLXV8rG1H36lvtlVELq+ll1JY20fu6EGa2bBT9enVYMn/61JTqkhRN5vQiSfxcG
+cbfdpIuqa+ubDpD+lj2wSvmF4xZbuxW4kNxaGAA/dfSVSbvw46uHhYiJha2r6Q6Y
+5qdNR4M6hVC2y35xJeExjknhljKWgkKJrhyccMT+jQ6AX3sbHhvxBKdfxYBnwUey
+7aWZV/Hgfop5nYuE2ayWZUgA6kJ2y83aDcPSTUMGC4qE3v+SzfiRPwAbHVklhv2T
++kMsrmbvqmfZXRQLSo8Rr21HgwJLf+uQmzwsJ4qtz8HJaA==
+=Oiym
+-----END PGP SIGNATURE-----
