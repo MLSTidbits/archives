@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 12 Apr 2026 00:00:00 -0600
+Source: reel
+Binary: reel reel-gtk reel-qt
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3-1
+Distribution: noble
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ reel       - DVD and Blu-ray ripping tool.
+ reel-gtk   - GTK Frontend for makemkvcon written in Python.
+ reel-qt    - Qt Frontend for makemkvcon written in Python.
+Changes:
+ reel (1.3-1) noble; urgency=medium
+ .
+   * fix: update configuration path for settings.json to use the correct directory
+Checksums-Sha1:
+ 0417ad4e4768a325ec50023f762768bd67a1ed3f 31204 reel-gtk_1.3-1_amd64.deb
+ ca579b49d5910a774f06ff6ef22afd0453dbb58b 26160 reel-qt_1.3-1_amd64.deb
+ 5ec237162055a0dba96b3cbb0e1e265c1528df57 12659 reel_1.3-1_amd64.buildinfo
+ 8787afc8dcc6642b9b414c623061add3e3600d95 11464 reel_1.3-1_amd64.deb
+Checksums-Sha256:
+ 27749c8a3dd7d7bb57149b5c50baf3a547041c8027c6b09e7f1dbb9488f28292 31204 reel-gtk_1.3-1_amd64.deb
+ 4d9bc922fb705e08e94d44758581de395b28efc443dc8c9302917433c4322bc7 26160 reel-qt_1.3-1_amd64.deb
+ 3bb776c2daee8609301691629e750e83218527ed4f36d1b33ae69c19b940c4be 12659 reel_1.3-1_amd64.buildinfo
+ f8149cf85cb6f763430efea11269b5961560b578784710fbad52982eaade7296 11464 reel_1.3-1_amd64.deb
+Files:
+ b119335d7ec9695a00de3b125ec65562 31204 video optional reel-gtk_1.3-1_amd64.deb
+ f8f2d9d5f34f0fed8b86084b231e06f9 26160 video optional reel-qt_1.3-1_amd64.deb
+ 9460186c7456019c5d096de8bd73f133 12659 video optional reel_1.3-1_amd64.buildinfo
+ d70c66f3615941c019d90107e403bc6c 11464 video optional reel_1.3-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncE74ACgkQbkoCnkKh
+yHno6w/gpCR7QAKUyjiITKXtQbJ/1bL2e7H39AYHDXPUQ7i5tnZBWufP4g88ACW0
+KQJApmSLcBnSXs/XZZOs05iKrA8k0Q7Jp7zTpAcgFSoOgX7LiATYVG5YSbDJZlBm
+bFYSEU/DECGR5VsNt4FPtQ+WCtMOZmWRpa0o8hMzMrF5U0hbG21ldzfISIacji1n
+X8QsnX1MBwPbdOWOnaLcOlDvi8U8WOz8oDOgj0ElouM1uDJCoZeun2ffPawwB7lJ
+OpkGF62KsVlAxYzWPNXXGROtdMk1zvMtyKlWzT5LQ/VqCMIkKjBHh8615NvQli4a
+A0m9l73vDGBezFLOA48DD551uq4AOTRihVUOZzFoQQWTq1rNlmxBR5C4WPP8eZ7c
+IZPsXmIjqVb21EZFeU8fpclSprt+wguJkJ/gfUaoOKzW4lHM9H7VX9b0PNcBULYI
+iu/K+1FtgYmDAaeoP9s23br7hviR2WVqtqHOn1ZTvXU4d3n2yMRlyCiZzQ+hX7N6
+xbEFXhV79ayptozOVWuuA/ZW+1jM3NTDbAV5yHaRRO4l5VnBPk5MndS12GsRinVq
+6INmonUEVe6dz1pKn4rVrPIS5XWfU1HPxe4BI/Ec0fgqg7lmegR6zGBLfbiXh2hL
+QUebn1TLpWE/uJtvL4oCEdfO5fYB+n5UM+L9+hzdrjslXg==
+=gXgI
+-----END PGP SIGNATURE-----

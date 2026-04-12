@@ -3,39 +3,24 @@ Hash: SHA512
 
 Format: 1.0
 Source: reel
-Binary: libmakemkv makemkv-bin mmccextr mmgplsrv reel reel-common reel-gtk reel-qt
-Architecture: all amd64
-Version: 2026-03-21+git~5bc4990
+Binary: reel reel-gtk reel-qt
+Architecture: amd64
+Version: 1.3-1
 Checksums-Md5:
- 95e5f3cd8224874616f9bd6136e95e09 166282 libmakemkv_2026-03-21+git~5bc4990_amd64.deb
- b649e482b6cbcc71391992e7446d6b43 7531620 makemkv-bin_2026-03-21+git~5bc4990_amd64.deb
- 906dafd75f6ca71d64b257f2db985af4 45498 mmccextr_2026-03-21+git~5bc4990_amd64.deb
- cebffdbd237037c7aaa53af4c1310833 58998 mmgplsrv_2026-03-21+git~5bc4990_amd64.deb
- 7723a0fea49dccd183899f1bd9935989 9102 reel-common_2026-03-21+git~5bc4990_all.deb
- f9efd5997f87784ae8ff03e4433850cc 32760 reel-gtk_2026-03-21+git~5bc4990_amd64.deb
- ddfed35ce0e1b09d60423f0f59442db3 27714 reel-qt_2026-03-21+git~5bc4990_amd64.deb
- 91d7eb2a5189530c8958b0b163c52ce7 8556 reel_2026-03-21+git~5bc4990_amd64.deb
+ b119335d7ec9695a00de3b125ec65562 31204 reel-gtk_1.3-1_amd64.deb
+ f8f2d9d5f34f0fed8b86084b231e06f9 26160 reel-qt_1.3-1_amd64.deb
+ d70c66f3615941c019d90107e403bc6c 11464 reel_1.3-1_amd64.deb
 Checksums-Sha1:
- e8aea518460a86edc23f9cfbcad6fc4fb71c764e 166282 libmakemkv_2026-03-21+git~5bc4990_amd64.deb
- 555761cf0cb6517b82cc4e474938e3581f0d64f0 7531620 makemkv-bin_2026-03-21+git~5bc4990_amd64.deb
- 7434c60ecb03b48ccde28c2a82426c25003895b4 45498 mmccextr_2026-03-21+git~5bc4990_amd64.deb
- 0653a743c2177bb3657d81843c68642dee8bcaf8 58998 mmgplsrv_2026-03-21+git~5bc4990_amd64.deb
- 73d9e06971eea7ef9e6ff435fb0c8f61363a89f0 9102 reel-common_2026-03-21+git~5bc4990_all.deb
- c376dc5415a4d6bef44c7896228a7a62a8c42371 32760 reel-gtk_2026-03-21+git~5bc4990_amd64.deb
- 45fa0c6a496bf812bc376abbf73da8b180a410a1 27714 reel-qt_2026-03-21+git~5bc4990_amd64.deb
- d20cb6c3fe7cc620f5d390d6c8289437cd73d96d 8556 reel_2026-03-21+git~5bc4990_amd64.deb
+ 0417ad4e4768a325ec50023f762768bd67a1ed3f 31204 reel-gtk_1.3-1_amd64.deb
+ ca579b49d5910a774f06ff6ef22afd0453dbb58b 26160 reel-qt_1.3-1_amd64.deb
+ 8787afc8dcc6642b9b414c623061add3e3600d95 11464 reel_1.3-1_amd64.deb
 Checksums-Sha256:
- 02b5d9f1f49cd0faa4ad5dcfa0893c51920109c3d608e622d8b62c6b43673d0e 166282 libmakemkv_2026-03-21+git~5bc4990_amd64.deb
- 08a688908c83d56939aa3dfc707496a992c9b8d0807587fc63b1fcfb6cc09c16 7531620 makemkv-bin_2026-03-21+git~5bc4990_amd64.deb
- fa7bf80ed86191612257a136644a16b8759689c5c2e2a26e76bc89a7cb22e1fd 45498 mmccextr_2026-03-21+git~5bc4990_amd64.deb
- 35bc7b35b35e765b6090fedd9a361d04269f9d1c3d380f1a3413cdf218238555 58998 mmgplsrv_2026-03-21+git~5bc4990_amd64.deb
- 048ce35c3044769ed1768e040fd381171c0a750dc77e895931cc69046f06c8d0 9102 reel-common_2026-03-21+git~5bc4990_all.deb
- ea5c7580e5f36e8f07d73ed59ce6f14858d094539f7d32c1df7913b36c2f2e90 32760 reel-gtk_2026-03-21+git~5bc4990_amd64.deb
- 3a253da8f7b86a1042105f183980e6517048339bfc590998c1eb1f38b0fc2330 27714 reel-qt_2026-03-21+git~5bc4990_amd64.deb
- 7f1d14ab2c875d1164df5becc0f5227d48287854a549a73fe6303725f650644b 8556 reel_2026-03-21+git~5bc4990_amd64.deb
+ 27749c8a3dd7d7bb57149b5c50baf3a547041c8027c6b09e7f1dbb9488f28292 31204 reel-gtk_1.3-1_amd64.deb
+ 4d9bc922fb705e08e94d44758581de395b28efc443dc8c9302917433c4322bc7 26160 reel-qt_1.3-1_amd64.deb
+ f8149cf85cb6f763430efea11269b5961560b578784710fbad52982eaade7296 11464 reel_1.3-1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 21 Mar 2026 12:10:49 -0600
+Build-Date: Sun, 12 Apr 2026 15:50:53 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -51,13 +36,10 @@ Installed-Build-Depends:
  binutils (= 2.42-4ubuntu2.10),
  binutils-common (= 2.42-4ubuntu2.10),
  binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.10),
- boa (= 0.5.2),
  bsdextrautils (= 2.39.3-9ubuntu6.5),
  bsdutils (= 1:2.39.3-9ubuntu6.5),
  build-essential (= 12.10ubuntu1),
  bzip2 (= 1.0.8-5.1build0.1),
- cmake (= 3.28.3-1build7),
- cmake-data (= 3.28.3-1build7),
  coreutils (= 9.4-3ubuntu6.2),
  cpp (= 4:13.2.0-7ubuntu1),
  cpp-12 (= 12.4.0-2ubuntu1~24.04.1),
@@ -113,7 +95,6 @@ Installed-Build-Depends:
  libacl1 (= 2.3.2-1build1.1),
  libaom3 (= 3.8.2-2ubuntu0.1),
  libarchive-zip-perl (= 1.68-1),
- libarchive13t64 (= 3.7.2-2ubuntu0.5),
  libasan8 (= 14.2.0-4ubuntu2~24.04.1),
  libatomic1 (= 14.2.0-4ubuntu2~24.04.1),
  libattr1 (= 1:2.5.2-1build1.1),
@@ -144,7 +125,6 @@ Installed-Build-Depends:
  libctf-nobfd0 (= 2.42-4ubuntu2.10),
  libctf0 (= 2.42-4ubuntu2.10),
  libcurl3t64-gnutls (= 8.5.0-2ubuntu10.8),
- libcurl4t64 (= 8.5.0-2ubuntu10.8),
  libdatrie1 (= 0.2.13-3build1),
  libdav1d7 (= 1.4.1-1build1),
  libdb5.3t64 (= 5.3.28+dfsg2-7),
@@ -172,8 +152,8 @@ Installed-Build-Depends:
  libgcrypt20 (= 1.10.3-2build1),
  libgdbm-compat4t64 (= 1.23-5.1build1),
  libgdbm6t64 (= 1.23-5.1build1),
- libgdk-pixbuf-2.0-0 (= 2.42.10+dfsg-3ubuntu3.2),
- libgdk-pixbuf2.0-common (= 2.42.10+dfsg-3ubuntu3.2),
+ libgdk-pixbuf-2.0-0 (= 2.42.10+dfsg-3ubuntu3.3),
+ libgdk-pixbuf2.0-common (= 2.42.10+dfsg-3ubuntu3.3),
  libglib2.0-0t64 (= 2.80.0-6ubuntu3.8),
  libgmp10 (= 2:6.3.0+dfsg-2ubuntu6.1),
  libgnutls30t64 (= 3.8.3-1.1ubuntu3.5),
@@ -195,7 +175,6 @@ Installed-Build-Depends:
  libjbig0 (= 2.1-6.1ubuntu2),
  libjpeg-turbo8 (= 2.1.5-2ubuntu2),
  libjpeg8 (= 8c-2ubuntu11),
- libjsoncpp25 (= 1.9.5-6build1),
  libjxl0.7 (= 0.7.0-10.2ubuntu6.1),
  libk5crypto3 (= 1.20.1-6ubuntu2.6),
  libkeyutils1 (= 1.6.3-3build1),
@@ -236,7 +215,6 @@ Installed-Build-Depends:
  libpipeline1 (= 1.5.7-2),
  libpixman-1-0 (= 0.42.2-1build1),
  libpng16-16t64 (= 1.6.43-5ubuntu0.5),
- libproc2-0 (= 2:4.0.4-4ubuntu3.2),
  libpsl5t64 (= 0.21.2-1.1build1),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
  libpython3.12-minimal (= 3.12.3-1ubuntu0.12),
@@ -244,7 +222,6 @@ Installed-Build-Depends:
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  librav1e0 (= 0.7.1-2),
  libreadline8t64 (= 8.2-4build1),
- librhash0 (= 1.4.3-3build1),
  librsvg2-2 (= 2.58.0+dfsg-1build1),
  librtmp1 (= 2.4+20151223.gitfa8646d.1-2build7),
  libsasl2-2 (= 2.1.28+dfsg1-5ubuntu3.1),
@@ -261,29 +238,28 @@ Installed-Build-Depends:
  libspeex1 (= 1.2.1-2ubuntu2.24.04.1),
  libsqlite3-0 (= 3.45.1-1ubuntu2.5),
  libssh-4 (= 0.10.6-2ubuntu0.4),
- libssl3t64 (= 3.0.13-0ubuntu3.7),
+ libssl3t64 (= 3.0.13-0ubuntu3.9),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04.1),
  libsub-override-perl (= 0.10-1),
  libsvtav1enc1d1 (= 1.7.0+dfsg-2build1),
  libswresample-dev (= 7:6.1.1-3ubuntu5),
  libswresample4 (= 7:6.1.1-3ubuntu5),
- libsystemd0 (= 255.4-1ubuntu8.12),
+ libsystemd0 (= 255.4-1ubuntu8.15),
  libtasn1-6 (= 4.19.0-3ubuntu0.24.04.2),
  libthai-data (= 0.1.29-2build1),
  libthai0 (= 0.1.29-2build1),
  libtheora0 (= 1.1.1+dfsg.1-16.1build3),
- libtiff6 (= 4.5.1+git230720-4ubuntu2.4),
+ libtiff6 (= 4.5.1+git230720-4ubuntu2.5),
  libtinfo6 (= 6.4+20240113-1ubuntu2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04.1),
  libtwolame0 (= 0.4.0-2build3),
  libubsan1 (= 14.2.0-4ubuntu2~24.04.1),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.12),
+ libudev1 (= 255.4-1ubuntu8.15),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.5),
- libuv1t64 (= 1.48.0-1.1build1),
  libva-drm2 (= 2.20.0-2ubuntu0.1),
  libva-x11-2 (= 2.20.0-2ubuntu0.1),
  libva2 (= 2.20.0-2ubuntu0.1),
@@ -315,7 +291,7 @@ Installed-Build-Depends:
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
  libzvbi-common (= 0.2.42-2),
  libzvbi0t64 (= 0.2.42-2),
- linux-libc-dev (= 6.8.0-106.106),
+ linux-libc-dev (= 6.8.0-107.107),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -334,7 +310,6 @@ Installed-Build-Depends:
  perl-base (= 5.38.2-3.2ubuntu0.2),
  perl-modules-5.38 (= 5.38.2-3.2ubuntu0.2),
  po-debconf (= 1.0.21+nmu1),
- procps (= 2:4.0.4-4ubuntu3.2),
  python3 (= 3.12.3-0ubuntu2.1),
  python3-minimal (= 3.12.3-0ubuntu2.1),
  python3.12 (= 3.12.3-1ubuntu0.12),
@@ -346,7 +321,7 @@ Installed-Build-Depends:
  shared-mime-info (= 2.4-4),
  sysvinit-utils (= 3.08-6ubuntu3),
  tar (= 1.35+dfsg-3build1),
- tzdata (= 2025b-0ubuntu0.24.04.1),
+ tzdata (= 2026a-0ubuntu0.24.04.1),
  util-linux (= 2.39.3-9ubuntu6.5),
  x11-common (= 1:7.7+23ubuntu3),
  xfonts-encodings (= 1:1.0.5-0ubuntu2),
@@ -358,21 +333,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=6"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1774051200"
+ SOURCE_DATE_EPOCH="1775973600"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmm+3yoACgkQbkoCnkKh
-yHnvEQ/fd5NNNO/QQGjGu+mOjWwaHhbIZSCraGvxbmdKP6wZp95kuaZNZSp6owd0
-UOfl+qPUTxqkOC81XKFgsTlNm/CvOQ2Zgr4aJHqlJBTMt6MgIPo+zhcHOQIyr3a3
-ojNXkW0Af+R8ODUTA4EZqmcnT6dVCckN50AtZD4k71yBk2lejbypgHgs+vA/DizN
-ER6N5oEuy4Y5ww2Hj05WAQGQqnwpnuE2F1aopym7eXjiacMLy1oX8HV9hp4aV5dC
-3xkxCt8pxzbgHuoiHTJGQBq1M3+tyAcXBieKT42XmCV2smleCpc8BtZFImn4n5tk
-0SGj/xcER+Z+Yb/MRuRnsqQI9ZQDoh9KqIRjdW/0WzZF97/RK0zsMdaV/O2yxsEg
-7kIaxyBCcnCJbZ66UfntWX3PruMj7THler44o78FnfH9by7K/lqr5/P59l0paeXx
-UTb5dpQwlvroibMMP6zDpAwmgqG4WyrQZMcoOBfjmrXYr5rYow7Huh2IW4S2jix/
-yhipKnWyAy3uMbHt2AKhU5FsdHr2AaQL9+QqamLEMmgLTJMDOqxvzzwpDofGkoRR
-dNiskeu8NhLEpKPxOoH3EjaLetOSl7JVdhPl/w7ddoqSVzxawOfLewhb/+futSPC
-F3dTJYt4/cuMA4gF+TlQtRWsC6Wn9HCs5XCkmnc/piYJug==
-=T/Ht
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncE74ACgkQbkoCnkKh
+yHmCqw/fbZWnhfdhqgKwxvcZ4ptMTpdxgrbzUe4e/2QCrzy98vX4Fxw94OFdtFZP
+OUC7VwMjKMkRvv2C7JIadOXqCxlIoNZnxbnNroUEukgBM926B4D/TgtNazBUnkRC
+BVCw7Xb4k++VEb76FR4CWBk4UGoLDq9Qh3ZuEuw0QOXL1qF1GXnDXiYMYlzIkfiT
+qxAUX80CJUKUknLMZg1fnXlz+UV4+v9EUcTu2GdDRRY4WtPYkm37abEiMhKzyu6R
+1B/YrN+MZKmNC+g8RPV8Y5R20ri9Oeri9XxiVxZXLgkKPc3tsu8lPd0J0k4XRYoO
+GXR1EHA6lu7Dv0IHumw52aqwKPvBUJARwdiFf1kSjcxYjeOFEPZJOVf5DxTRch2Y
+eHOnnddC7/rteT4lq7JwAs1ftPQETKENq/JliepLXtxfOEwDmzw1sDH/GhWeSm6o
+Vt88N160ZNOEM+qkVk9Q21dOFatVPRZVQFtHZbEN8CeqA459EEH1QW3oUwTwMLA4
+8wZV4M4LKdT8VCoAW6wrk/7FlDz/aSKv7AatIuKgGo/v0a0O42mI/A6gic9+8gI9
+K/0wV6PDaz7FWwIkZrwcNYge3KDuj1Fb5fvOG/tBZ0alxtuEJY17gCWQpHlrz8R5
+Kh/MOVuxl/L2c2wiEFORBStN4rrDOldGfIRAdpRGDRTBuw==
+=l3+I
 -----END PGP SIGNATURE-----
