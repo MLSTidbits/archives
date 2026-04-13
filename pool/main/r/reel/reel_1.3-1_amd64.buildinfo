@@ -9,18 +9,18 @@ Version: 1.3-1
 Checksums-Md5:
  b119335d7ec9695a00de3b125ec65562 31204 reel-gtk_1.3-1_amd64.deb
  f8f2d9d5f34f0fed8b86084b231e06f9 26160 reel-qt_1.3-1_amd64.deb
- d70c66f3615941c019d90107e403bc6c 11464 reel_1.3-1_amd64.deb
+ e9dd3f85f295c2153ce3279a0d9647d2 11446 reel_1.3-1_amd64.deb
 Checksums-Sha1:
  0417ad4e4768a325ec50023f762768bd67a1ed3f 31204 reel-gtk_1.3-1_amd64.deb
  ca579b49d5910a774f06ff6ef22afd0453dbb58b 26160 reel-qt_1.3-1_amd64.deb
- 8787afc8dcc6642b9b414c623061add3e3600d95 11464 reel_1.3-1_amd64.deb
+ e4276334c9b3820e730557b932a75dedc63bd105 11446 reel_1.3-1_amd64.deb
 Checksums-Sha256:
  27749c8a3dd7d7bb57149b5c50baf3a547041c8027c6b09e7f1dbb9488f28292 31204 reel-gtk_1.3-1_amd64.deb
  4d9bc922fb705e08e94d44758581de395b28efc443dc8c9302917433c4322bc7 26160 reel-qt_1.3-1_amd64.deb
- f8149cf85cb6f763430efea11269b5961560b578784710fbad52982eaade7296 11464 reel_1.3-1_amd64.deb
+ bb54c436c015c2a77e4733722cd6708b9ef2d07d5fc9db819ef90d94684bafce 11446 reel_1.3-1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 12 Apr 2026 15:50:53 -0600
+Build-Date: Sun, 12 Apr 2026 18:19:49 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -337,17 +337,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncE74ACgkQbkoCnkKh
-yHmCqw/fbZWnhfdhqgKwxvcZ4ptMTpdxgrbzUe4e/2QCrzy98vX4Fxw94OFdtFZP
-OUC7VwMjKMkRvv2C7JIadOXqCxlIoNZnxbnNroUEukgBM926B4D/TgtNazBUnkRC
-BVCw7Xb4k++VEb76FR4CWBk4UGoLDq9Qh3ZuEuw0QOXL1qF1GXnDXiYMYlzIkfiT
-qxAUX80CJUKUknLMZg1fnXlz+UV4+v9EUcTu2GdDRRY4WtPYkm37abEiMhKzyu6R
-1B/YrN+MZKmNC+g8RPV8Y5R20ri9Oeri9XxiVxZXLgkKPc3tsu8lPd0J0k4XRYoO
-GXR1EHA6lu7Dv0IHumw52aqwKPvBUJARwdiFf1kSjcxYjeOFEPZJOVf5DxTRch2Y
-eHOnnddC7/rteT4lq7JwAs1ftPQETKENq/JliepLXtxfOEwDmzw1sDH/GhWeSm6o
-Vt88N160ZNOEM+qkVk9Q21dOFatVPRZVQFtHZbEN8CeqA459EEH1QW3oUwTwMLA4
-8wZV4M4LKdT8VCoAW6wrk/7FlDz/aSKv7AatIuKgGo/v0a0O42mI/A6gic9+8gI9
-K/0wV6PDaz7FWwIkZrwcNYge3KDuj1Fb5fvOG/tBZ0alxtuEJY17gCWQpHlrz8R5
-Kh/MOVuxl/L2c2wiEFORBStN4rrDOldGfIRAdpRGDRTBuw==
-=l3+I
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncNqYACgkQbkoCnkKh
+yHmGXw/fUOjXLWQxVrydwBiTeHQyRGS4OmIpzbs4Mi7AdLeptM8FIjxNWEO4kSA3
+8jJteguN0VmOFLKwi3mNKunhEGiID9hMvSP3Ew8Wf/wMlKSmU+/lMZlu2TFhtuTu
+xeumQx1inN0XcDiVC9933xxepxBs8xazQ1o7rz0UcE85eQHLjObrnUHE3/T5UVdm
+Is07Q+p3rvusQBvoolcdip+2M1pMIOyVglNoukz6UwLBhKffeiWBAfTA/c/Q+C+G
++f3iOoI4uq47wkl6N5VMkdUUGTElhisTCJJPahLhvV0Mek9a+WwgSaNIcqTBkGX6
+VvvQ1p9knPuBQsmVmXF4vVRykyFEmB89kxI09AYRr422tzNAP2Yv2VhtYHudCvrs
+Td3nZiqLsWLDUK++v9m4IFxlSc1nL0bsFKCXJwwckMi+T/dXbkkMlQvBL6FoNiKr
+d3a2VmAhJ/4YLPFBQtcX77V3AjcZdIEhYBSdu4PxX7YncX3laRpR+lf3jx0zZdQU
+tOzDOYBOlehx5ln6hx1+1uMnJmLSm5hUEBpUk2iO47tARmxs8kx+YWw/IwyajHUp
+sWvTnYcxjv4GNsyclJ1ihFr2400Y85RBlGxjV6xOJv32OyZgh9CxTCqMhw78nwJj
+m/ysiZDshMLMHO+pmyq2Oq4Uub+41Jd/73xSlZvcuHSOww==
+=N+a8
 -----END PGP SIGNATURE-----

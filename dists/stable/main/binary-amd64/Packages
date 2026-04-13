@@ -2136,13 +2136,13 @@ Priority: optional
 Section: video
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Installed-Size: 41
-Depends: libmakemkv, makemkv-bin, reel-common
+Depends: libmakemkv, makemkv-bin
 Filename: pool/main/r/reel/reel_1.3-1_amd64.deb
-Size: 11464
-MD5sum: d70c66f3615941c019d90107e403bc6c
-SHA1: 8787afc8dcc6642b9b414c623061add3e3600d95
-SHA256: f8149cf85cb6f763430efea11269b5961560b578784710fbad52982eaade7296
-SHA512: f95b5fd10bba98b3a71f9c5331c7c279473b15c44c7f0effe196cd5e616b1a23f3b3320cdb18a71b4310972a7672f0ece3476b7f3e8e8a0e7c3b3b1ac44ebdde
+Size: 11446
+MD5sum: e9dd3f85f295c2153ce3279a0d9647d2
+SHA1: e4276334c9b3820e730557b932a75dedc63bd105
+SHA256: bb54c436c015c2a77e4733722cd6708b9ef2d07d5fc9db819ef90d94684bafce
+SHA512: 25eb8c135817b602a1413c0e005c1129a31077c764860b23c87f8812503b0cfc83f204e814cc12444f9654fd60cbf1869615ff875a9842b001b9955ab6cc3606
 Homepage: https://mlstidbits.com
 Description: DVD and Blu-ray ripping tool.
  Reel is a DVD and Blu-ray ripping tool that provides a user-friendly interface for
