@@ -21,34 +21,34 @@ Changes:
  .
    * fix: update configuration path for settings.json to use the correct directory
 Checksums-Sha1:
- 0417ad4e4768a325ec50023f762768bd67a1ed3f 31204 reel-gtk_1.3-1_amd64.deb
- ca579b49d5910a774f06ff6ef22afd0453dbb58b 26160 reel-qt_1.3-1_amd64.deb
- a4dca80a292351115315e7f78784d5d97307a2a3 12659 reel_1.3-1_amd64.buildinfo
+ 844cf7e4951fac74bf65883ced4320a316bae40f 31148 reel-gtk_1.3-1_amd64.deb
+ 67570aec0a4ce9c01fe274a3a8e01c075b47c096 26078 reel-qt_1.3-1_amd64.deb
+ 97bfc056e247613521fa4965221b9a8a3210cd19 12659 reel_1.3-1_amd64.buildinfo
  e4276334c9b3820e730557b932a75dedc63bd105 11446 reel_1.3-1_amd64.deb
 Checksums-Sha256:
- 27749c8a3dd7d7bb57149b5c50baf3a547041c8027c6b09e7f1dbb9488f28292 31204 reel-gtk_1.3-1_amd64.deb
- 4d9bc922fb705e08e94d44758581de395b28efc443dc8c9302917433c4322bc7 26160 reel-qt_1.3-1_amd64.deb
- 75362279eb6c074fcc3ac25201d8cf4f3fad88c97d8ba5d474ad233419b51045 12659 reel_1.3-1_amd64.buildinfo
+ 1288180bf91fd39f3b326640a9d7cc71c819dbdf6176a0e87133f5232958ab9b 31148 reel-gtk_1.3-1_amd64.deb
+ 88b8ad7a9c66766072c2cf318c066daa730cb9abcb0783e7e01b26e28e497496 26078 reel-qt_1.3-1_amd64.deb
+ 76ac426d9249f381f1e2c8257596079b36628ea7e4b15cf1f2f809fff9d471ba 12659 reel_1.3-1_amd64.buildinfo
  bb54c436c015c2a77e4733722cd6708b9ef2d07d5fc9db819ef90d94684bafce 11446 reel_1.3-1_amd64.deb
 Files:
- b119335d7ec9695a00de3b125ec65562 31204 video optional reel-gtk_1.3-1_amd64.deb
- f8f2d9d5f34f0fed8b86084b231e06f9 26160 video optional reel-qt_1.3-1_amd64.deb
- df115810747fe3cfb0d6d5b0db41a474 12659 video optional reel_1.3-1_amd64.buildinfo
+ 39fc9264766355de4a1b770a144af4b8 31148 video optional reel-gtk_1.3-1_amd64.deb
+ fec5b94f038d64a0aee8f7583a75ecfe 26078 video optional reel-qt_1.3-1_amd64.deb
+ dcd41fb8d106e9a7878972bbab58df9a 12659 video optional reel_1.3-1_amd64.buildinfo
  e9dd3f85f295c2153ce3279a0d9647d2 11446 video optional reel_1.3-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncNqYACgkQbkoCnkKh
-yHk8sw/gsRYirCnF3nl72Ie5MUc58/z3yliJecBb/UF28ni3Kx4U5vMr2I+w66Cv
-WTEHYJUWJqcBa+fWXE3w5OFAPTouuVpicSojqjGyN6Sa3nfE2oGQ49euLcJfh2aH
-f12aXBZEuVicWEcBMDB/1oSoOTyx4DzDTmKyApuFuCNOfzOaKvO/d6K+3dgbIfVs
-EZ7rFtIp1HtSHD0j6yQ1hkoXRmjBnppXA+kcWAitCdJ5H4SZsLKTS1ZYbkg+9C4V
-va9o7TcQXFalQCV66NNXSYA5zDOqzHKPqz9E6rvsJESdlXfyAL+Camy3yqjqvfiQ
-wwqjpp72hdChvYYxA1lk4cNyqwlvAhbPrD1J9J9sNwyvvTcUlmGODRLQlgx0Tw5/
-Ii0y8mk7CJnPZg2yijdqNqLykjljzq24zzY50IDZj99nBR/y7Z7ATgNLFnsq8/ci
-i9GhFHixeI81DrvvW/3sABWRmgzzactAB73vBPtz81YBzkhHJmqcw227HxjhLV0f
-EJ78BY2uPva3JnBx+tyMutYc7UXxAm6kxx5OoJ9Fjzg/jn0njrhWmUEONtmUp3lq
-7JyFZM4TNqX7fI2Vj8TwPAEHJIe4ZPgYuXOlkVG2Of5OPAUOQhkXXHP40LwESRLU
-TtBK0KPCwIcXY2Flv9qADp8Lbf9AG+DYDQKC6etq8HwrMw==
-=ILxM
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncN9kACgkQbkoCnkKh
+yHm0lA/eIbje3kj7dKs1UFxy01Ae3++4+ELzkcANstzbTN/P0ca/aWdGfpYEw1/k
+/QBKVskpW7Uwix+1WQIQ181L1FkdqJ1niz/kehXKx125NqzgEj7m5zNax7SxJuir
+vLfLzUmJt7v4SgS+3gefkLzb93q+zobTwBr7k15RP1TuF+NcNSAzZQBY23WRDzeP
+6f63i7emfkzNTFFSROQIZ2TotTNs+EfLwZN6UJQi6sgZ79gCf8nL41wiyOElcAWQ
+gR9I4NIrA//C30i9NGIqO+ZPRytomLjWBoh+gJIDzsGKB9cOsYvwjWkGC2k+BgFx
+hnvMl/v1T8SJ3Ig2ingH/9cu3Pyoq2WvOAFQkq4ecg3w8atslhaWLHvM4el31yYj
+abx4bPQ1mmE4NygJrY9+nsOFVQDiuPr3mk+5GCQq+oV0hLjR33+psdoiPg+Zxcjc
+gcZfhcKYrG+iYAwgOzoCJRt2sYRYSgpHtZVmB29HtrQtdCpShl7+RrVzFBGoU4ns
+E0gBlPCgkqN2cEVZO1UYVTwDg03qy/G/lOnJpeFOeRwEB1PmmSS2uPchdiUfyUH3
+NT7RS6NQAwx5IEUepxkJFYTTuSBJZ8xRX8SPkhXFIGFKm9m09MlmcC/iwchxZvCp
+TG/wjmv5JgYEaAMdb5Mfxw0LMr1i2CHD/9zRO/VdQMLt0Q==
+=yBu8
 -----END PGP SIGNATURE-----

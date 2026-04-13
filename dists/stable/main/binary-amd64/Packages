@@ -2096,14 +2096,14 @@ Priority: optional
 Section: video
 Source: reel
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 165
+Installed-Size: 163
 Depends: makemkv-bin, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, reel
 Filename: pool/main/r/reel-gtk/reel-gtk_1.3-1_amd64.deb
-Size: 31204
-MD5sum: b119335d7ec9695a00de3b125ec65562
-SHA1: 0417ad4e4768a325ec50023f762768bd67a1ed3f
-SHA256: 27749c8a3dd7d7bb57149b5c50baf3a547041c8027c6b09e7f1dbb9488f28292
-SHA512: e6277e32c027283cfe6dc30051bb83c0b55915589c43b7f9aa1df1aeebe592d3817215a65e7756e36d82769b08104d9af03b0f750dd3596ebcd88e1ef77c7019
+Size: 31148
+MD5sum: 39fc9264766355de4a1b770a144af4b8
+SHA1: 844cf7e4951fac74bf65883ced4320a316bae40f
+SHA256: 1288180bf91fd39f3b326640a9d7cc71c819dbdf6176a0e87133f5232958ab9b
+SHA512: 2704b1e8fc6df290fd269bef7b316fe319e65ab0e5d34f2a6d5f5b2d2f3fdd01ac5c35ba617e397a9c2986544ee39e07048924dc59fb171060393c49f7eb529e
 Homepage: https://mlstidbits.com
 Description: GTK Frontend for makemkvcon written in Python.
  Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
@@ -2116,14 +2116,14 @@ Priority: optional
 Section: video
 Source: reel
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 141
+Installed-Size: 139
 Depends: makemkv-bin, python3, python3-pyqt5, reel
 Filename: pool/main/r/reel-qt/reel-qt_1.3-1_amd64.deb
-Size: 26160
-MD5sum: f8f2d9d5f34f0fed8b86084b231e06f9
-SHA1: ca579b49d5910a774f06ff6ef22afd0453dbb58b
-SHA256: 4d9bc922fb705e08e94d44758581de395b28efc443dc8c9302917433c4322bc7
-SHA512: dc6a1fe430a92bdb85758bcc87602cfab27c3653994af56b835fa682b263c5b1428a864450ac120cabb532a26f8dd5563c8971d5a7a692b3ca68e2656a891faa
+Size: 26078
+MD5sum: fec5b94f038d64a0aee8f7583a75ecfe
+SHA1: 67570aec0a4ce9c01fe274a3a8e01c075b47c096
+SHA256: 88b8ad7a9c66766072c2cf318c066daa730cb9abcb0783e7e01b26e28e497496
+SHA512: 05b032f26e36c2ec917a42657ce857ab8434beddee6263921d4f14e79682b1f5137b0716f811dda9653aa67ed6f55b0dd4614553cce5f6853cba6c61d071e8c1
 Homepage: https://mlstidbits.com
 Description: Qt Frontend for makemkvcon written in Python.
  Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
