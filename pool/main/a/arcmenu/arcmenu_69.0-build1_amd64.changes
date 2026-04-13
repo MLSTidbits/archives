@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 13 Apr 2026 00:00:00 -0600
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 69.0-build1
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ arcmenu    - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (69.0-build1) noble; urgency=medium
+ .
+   * updated ru.po
+   * Update pot file
+   * Update pot file
+   * Add option to keep ArcMenu open when activating an item with Ctrl pressed.
+   * Code clean ups
+   * Add prefer-const rule
+   * Add no-var rule
+Checksums-Sha1:
+ 60aff65981635f8ac3c49332db0d8dfa882f52b4 7127 arcmenu_69.0-build1_amd64.buildinfo
+ 66ef1245a89a71b8371710e843b19a3500608c90 549344 arcmenu_69.0-build1_amd64.deb
+Checksums-Sha256:
+ ad484885363488153fe8844d85adc60ab18c12e36a483c56ec094314b87ec672 7127 arcmenu_69.0-build1_amd64.buildinfo
+ 0125ae864c9c5002116bb8963a699bf1c835c8e69005f0029f1fee4cc1d85a5e 549344 arcmenu_69.0-build1_amd64.deb
+Files:
+ d8fe2d7207349d65bdadcea4bcaac37e 7127 gnome optional arcmenu_69.0-build1_amd64.buildinfo
+ 898542de5a4e884c07a754d810148434 549344 gnome optional arcmenu_69.0-build1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmndOjIACgkQbkoCnkKh
+yHkZrg/eNKiihbYqXnariclCC8DaRkx1vEk9RuLPSNOVrAELaKD4MVbSZSnZflto
+mDJVGRnS2CfWoUdR9op5I8xELRcZXG11ay8SLjCq8d69xW9iLnH8CNwEnmwx3NcQ
+AYnO94cUygeIBPci9/7qAg44dO6kknQAwKAKBQcIXTVVabZmkRM2cv5S4HyK5zSU
+vJuv7Pd46UrxozVDxCvc5DmiEzcMo1sfoM+JWslvbH3p+uJhs+Y9dA8uXyrFNFam
+Gv26GkuiN846s1MJZMhSAGOPFem/76TMVtDZH7+x1j0x+G37HSYRGHEpE+cGAO7i
+kx8YsBtWiqHu0oKQGoqkupB/ScC4kVNK2sYsrQRGLcmzJ4s0UGuwF89kiBz7Fq5h
+cH7vqJNuGKRy7mXDmLT0s8BCwQjimWhma9JAdUgw70UUdDcOCuwEPsLE3ifb9TB2
+LpbWGKgvEmKhv2OcCp7YQSo4nzTt9xGv2ps2JGj5pAvM1gj46bjEhawm+/pZhoiR
+4zKexRD7ZUuYbQvzuHp4yymRNuQyh+xT6qTlNmGtj0al9V3xjn6ORUOwB0tXJHCw
+A+EauJsudfv2/w8PQC2F6CFkkd3xTB5MXcQdCsYhBQecWoB1ehm1R/asxij/lLm7
+J+dilhQp9/+q6uIJeqKUhndfZCYof82LzbSI0NQak5X7+A==
+=12yT
+-----END PGP SIGNATURE-----
