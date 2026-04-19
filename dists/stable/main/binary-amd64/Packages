@@ -795,6 +795,29 @@ Description: Documentation for Btrfsnapd
  This package contains the documentation for Btrfsnapd, including README.md and
  and other relevant documentation files.
 
+Package: btrfsnapd-docs
+Architecture: all
+Version: 2.8
+Priority: optional
+Section: admin
+Source: btrfsnapd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 15
+Depends: btrfsnapd
+Filename: pool/main/b/btrfsnapd-docs/btrfsnapd-docs_2.8_all.deb
+Size: 5960
+MD5sum: 53df56de59aa706188885b1b88f18a00
+SHA1: 6177484cfaa81a3207d43ef0d5163fede4c87a45
+SHA256: 45c1177d05235fd7c44ebc8bca8919ad384a5c319ac9da362d1c1c8397a61761
+SHA512: 8412ae2e1ae1e5414182285ff0f0a058ad6c6864c93dd53aeeccb06b951bd91ed85ba2a093c27de1a6fa09c4cdff866cc54b1a8a2f640973eadad9aaf295a2bb
+Homepage: https://mlstidbits.com
+Description: Documentation for Btrfsnapd
+ This package contains the documentation for Btrfsnapd, including user guides,
+ manuals, and other relevant information to help users understand and utilize the
+ features of Btrfsnapd effectively. It is intended to provide comprehensive information
+ about the installation, configuration, and usage of Btrfsnapd for users of all levels
+ of expertise.
+
 Package: btrfsnapd-man
 Architecture: all
 Version: 2.3.0
@@ -901,6 +924,32 @@ MD5sum: 3d865e9de057008ca9311ab75b84cfc8
 SHA1: 8ad4d894d19bf9cc4ae821f5d49d4edfdd489b93
 SHA256: 415b949ac39e4f89ef03549128e45478cb27feddbb264221c2c408ae3d9676bf
 SHA512: 41462b6a2c7c46127cf8bd533771660cb4de3df6d44af0771b21f3f26cb5ef45141228d3788cc444c0689a38e966577cb6f6f2be05f7de7cc87e5776a2ba4730
+Homepage: https://mlstidbits.com
+Description: Btrfs snapshot daemon
+ Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with
+ GRUB to allow booting into snapshots. It provides a simple command-line
+ interface for creating, listing, and deleting snapshots, as well as
+ restoring the system to a previous state.
+ .
+ This package is designed to work with Btrfs filesystems and requires
+ btrfs-progs to function correctly.
+
+Package: btrfsnapd
+Architecture: amd64
+Version: 2.8
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 63
+Depends: btrfs-progs, systemd, coreutils (>= 8), grub-common, grub2-common, grub-btrfsd
+Conflicts: btrfsnapd (>= 2.2.2), btrfsnapd-man
+Filename: pool/main/b/btrfsnapd/btrfsnapd_2.8_amd64.deb
+Size: 15320
+MD5sum: 2dec18107cc0103c87e434b94beaef25
+SHA1: 145c699eb0b27ff9890a111d2a8ce93631890e92
+SHA256: e6d65e1aef05bd232e31ea7cd5ab86dd9b4515a7f865a15cd559241cdbe233b5
+SHA512: 87b878e00e390478198c21e6774cc2eb5fdb5f11a1d82e89ad9a34d58cda168249c9cb5819b794c65fb243167943b10f88b159208881567de419d34dfcf34409
 Homepage: https://mlstidbits.com
 Description: Btrfs snapshot daemon
  Btrfsnapd is a daemon that manages Btrfs snapshots and integrates with

@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Mar 2026 00:00:00 -0600
+Source: btrfsnapd
+Binary: btrfsnapd btrfsnapd-docs
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 2.8
+Distribution: noble
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ btrfsnapd  - Btrfs snapshot daemon
+ btrfsnapd-docs - Documentation for Btrfsnapd
+Changes:
+ btrfsnapd (2.8) noble; urgency=medium
+ .
+   * feat: add environment configuration file for BOA and remove obsolete boa.yaml
+   * feat: update documentation structure by adding new docs file and removing obsolete dirs
+   * feat: add new manpages for btrfsnapd and remove obsolete markdown manpages
+Checksums-Sha1:
+ 6177484cfaa81a3207d43ef0d5163fede4c87a45 5960 btrfsnapd-docs_2.8_all.deb
+ 5afbf4b4d126a9dc25593a72c94b4c34bdf6491e 9224 btrfsnapd_2.8_amd64.buildinfo
+ 145c699eb0b27ff9890a111d2a8ce93631890e92 15320 btrfsnapd_2.8_amd64.deb
+Checksums-Sha256:
+ 45c1177d05235fd7c44ebc8bca8919ad384a5c319ac9da362d1c1c8397a61761 5960 btrfsnapd-docs_2.8_all.deb
+ d4a673951df22bf272c150fddd97a570a04d3aeaf8e636446f944c35a50b7dcf 9224 btrfsnapd_2.8_amd64.buildinfo
+ e6d65e1aef05bd232e31ea7cd5ab86dd9b4515a7f865a15cd559241cdbe233b5 15320 btrfsnapd_2.8_amd64.deb
+Files:
+ 53df56de59aa706188885b1b88f18a00 5960 admin optional btrfsnapd-docs_2.8_all.deb
+ 9c8d52fe34dd0afd489277b26d7b4d7a 9224 admin optional btrfsnapd_2.8_amd64.buildinfo
+ 2dec18107cc0103c87e434b94beaef25 15320 admin optional btrfsnapd_2.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnkis4ACgkQbkoCnkKh
+yHkKYw/eIBkDuqK2QGTDFj9eOpRAo+O/wtQzFSq8eD3TTqqBuvXhoZG1/N3LioDB
+6pIYtv6ZUWWzfL+hhbF6zrHAasGgDD6KlHGntPbzmu70sZXU8mj4pnrvKWmVM0qh
+nOtx7idbJ0lcR1KH05MBNFcIIaFEUdxut70orDjBYQ+uz8HI9OO7aF/6izGY0+td
+fZ1go4KuMviqEh3D8lzthMerOgmYPwzemqFG7cMQstVaNzaxcvYbxf2R00TQNyIe
+OWo0IsegYwIGJZVXjTtqz2SUBmqTbqqUC5f9mmLGce9C2l++xOAVSBXgXBKU1tEm
+jOMsUe7zxO3LGuA2V5GVoKoYBTUkAHsbNSyd1hoWg6MZqkkUOcPYo5XC5lrHiPVZ
+uJHyf4p51wGknQ0QS8LANmH039jEW2Igi10RR9v6NxRqjbTzn4uUHCgIQUUHAyuo
+gbVflxHDpVGgZLZgdE0512W5N7CNEo5mjspw7taoElWFe+MYlvnMszaaPzYpUCYg
+fII95sM5M44V3upk6Nnk7bYGZw+pxtW9EsS1IhC3FLub5rp1QU2aLM0sj3jMlReh
+08QMdh3NbzSP7/ztdOAM/x0vGRLn7RyVL5LqMlmyO2WbDgAoeXXIO9KSm6QMX1jU
+3+FGWIOQguMw0ufrBNGq+XAoo4P546+3LFlUxqI8LmMPdQ==
+=coGP
+-----END PGP SIGNATURE-----
