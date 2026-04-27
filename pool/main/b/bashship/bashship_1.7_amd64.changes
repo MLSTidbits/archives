@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 27 Apr 2026 00:00:00 -0600
+Source: bashship
+Binary: bashship
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7
+Distribution: noble
+Urgency: medium
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ bashship   - A minimal, fast, and highly customizable bash prompt
+Changes:
+ bashship (1.7) noble; urgency=medium
+ .
+   * feat: Add config installation option to bashship
+   * fix: Update copyright file with correct upstream information and file structure
+   * fix: Update lintian overrides and remove bashship-man package from control file
+   * fix: Ensure build directory is created before copying source files and remove bashship-docs package from control file
+   * fix: Copyright info
+   * bump: Version 1.7
+Checksums-Sha1:
+ c9e9392f3542099938c87e049bf16d67ac4bfe6e 8962 bashship_1.7_amd64.buildinfo
+ a2b9722cc2a08668524c71dfa5fd681771417fed 16662 bashship_1.7_amd64.deb
+Checksums-Sha256:
+ 945c6fa6bbd5ee6e9651c1f731a363eb72c033ab18a700bbd57c23cb8a1a9da7 8962 bashship_1.7_amd64.buildinfo
+ 9984c870289adce98d338086c8ef1c2a5986c9b0cccaecfabac62786da3864aa 16662 bashship_1.7_amd64.deb
+Files:
+ 1b62215b85901161fce89e71b424a854 8962 utils optional bashship_1.7_amd64.buildinfo
+ 1fce02adb01a3e2892d41184780f80f6 16662 utils optional bashship_1.7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnvuooACgkQbkoCnkKh
+yHmvdg/gpsuN+SLZtuhTRUfqHycNDbd8N7raRi2hObt4vsrlbE6JwJ2bon+IQBee
+DUWrE1JK7qdlBLrq9EIxR5qWRIMuWD+Dq/Ph4Fs5Yu3YK8olqU5VYAmtKlboJPq1
+KniIyXd9KAbRfpLwUBuFcBeGw1RlsAfNcgbWYsx5bTQ/HbzbLtp91vzGOad9n46M
+sDM/4xTngVxGuHrAOaPbGHuxbEnM/F/3XHmXDCHct3c9fwUIVLykGXzoh3GfoFME
+mchY2UinYBAa0AWGGfTRSirrKMdP5Qw+qgiyidONQitctxo+75WVXYqt2IMV2Ffs
+YbOJp5ahGrGb/HJIBT2zYnTfKy+2+8UxHiWfKpqF8U3qNE9bii6d7WGlolxth4pl
+iuJ3kCZ/H/oPY6b1ocVM7kadJXgXgDm6qrXTKFCikWV+Shy7a8zq68BQNaWEVVgJ
+iytzfwZ3QrHmAmJy6CFbHOy+I9a9PkeKwGA0jGBH9JgDspJdJRddCBvlsqQZ8h+d
+kZ/zEbCjr6p4D/N23MjaHwCAIR94/6afdnq9Eb0HtzLTxCm7lZfcHXtE2TwghhM3
+tRORcaL8onc9XtAdQPsyOnp+SXX5ihl2gtuB/NO/Iap//2HVM7Be4NH51kC0c4v6
+TyO6iIuSDGu0fKPptIbDWB6qVHzZ9oaiufUW2BaMu5+oJA==
+=cx5e
+-----END PGP SIGNATURE-----

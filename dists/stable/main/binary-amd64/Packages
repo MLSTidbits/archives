@@ -414,6 +414,38 @@ Description: A minimal, fast, and highly customizable bash prompt
  Whether you're a developer, system administrator, or casual user,
  Bashship enhances your terminal experience with its elegant and functional design.
 
+Package: bashship
+Architecture: amd64
+Version: 1.7
+Priority: optional
+Section: utils
+Maintainer: MLSTidbits <contact@mlstidbits.com>
+Installed-Size: 44
+Depends: bash (>= 4.8), bash-completion
+Suggests: git, curl
+Conflicts: bashship (<= 1.1.4), bashship-docs, bashship-man
+Filename: pool/main/b/bashship/bashship_1.7_amd64.deb
+Size: 16662
+MD5sum: 1fce02adb01a3e2892d41184780f80f6
+SHA1: a2b9722cc2a08668524c71dfa5fd681771417fed
+SHA256: 9984c870289adce98d338086c8ef1c2a5986c9b0cccaecfabac62786da3864aa
+SHA512: 9c3e747eda794df3e1a88d99eae81c5941689b507b613dee7b74bde2b7e00dc2d02e0dcd40188e09cf5cf59092b9625be491d88824d52181b9b445b929a7ef15
+Homepage: https://github.com/MLSTidbits/bashship
+Description: A minimal, fast, and highly customizable bash prompt
+ Bashship is a minimal, fast, and highly customizable bash prompt that provides
+ essential information without overwhelming the user. It is designed to be
+ lightweight and efficient, making it suitable for users who prefer a clean and
+ simple command-line interface.
+ .
+ Key features include:
+  - Minimalistic design: Focuses on essential information without clutter.
+  - Fast performance: Optimized for speed to ensure a smooth user experience.
+  - Highly customizable: Allows users to tailor the prompt to their preferences.
+  - Git integration: Displays relevant Git information when in a repository.
+ .
+ Whether you're a developer, system administrator, or casual user,
+ Bashship enhances your terminal experience with its elegant and functional design.
+
 Package: boa-docs
 Architecture: all
 Version: 0.5.10
