@@ -1044,6 +1044,26 @@ Description: Documentation for ddnsd
  This package contains the documentation for ddnsd, including README.md and
  other relevant files that provide information.
 
+Package: ddnsd-docs
+Architecture: all
+Version: 3.0
+Priority: optional
+Section: net
+Source: ddnsd
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 16
+Depends: ddnsd
+Filename: pool/main/d/ddnsd-docs/ddnsd-docs_3.0_all.deb
+Size: 7022
+MD5sum: fa66d3e6b983d6e77ac5d790b5e992f9
+SHA1: bf051f3b7534c3dfc0c184a9542a9f6fb6748c46
+SHA256: 89b59fc015e81ae419de430bcddf6f9bc025972c78eddac9d5f9b0e9b1f77aa9
+SHA512: 98aa055ec4d427da5e18960cadfbeaaf5d5a21aab6d8e03e96a1051cc06023b45b24b825c2e3cafaa16d507be83d8290350356c345d02b1d4de0e32027d1d5cb
+Homepage: https://mlstidbits.com
+Description: Manual pages for ddnsd
+ This package contains the manual pages for ddnsd, providing detailed
+ information on how to use and configure the dynamic DNS client.
+
 Package: ddnsd-man
 Architecture: all
 Version: 2.8.1
@@ -1194,6 +1214,30 @@ MD5sum: 9dce438c9dea0dff7cd96113af06c44c
 SHA1: 0d8128b35e88edce230eaa0aad71b52880869696
 SHA256: 9a368232d68b6e688a13073e519782ab3ce4dc18590828d5b00c457785a7af74
 SHA512: 8ad7a9dc73f2a8975a96185d32bbfed03aac87203d56f7025453a29d4eed3ceb68cf27f06b04579f71b56776de0a1e9d3e987f4420ba2a0aae783f7832096986
+Homepage: https://mlstidbits.com
+Description: Dynamic DNS client for updating DNS records
+ ddnsd is a dynamic DNS client that updates DNS records based on the current
+ public IP address of the system. It supports multiple DNS providers and can
+ be configured to run as a systemd service.
+ .
+ It uses an external IP lookup service to determine the current public IP
+ address and updates the DNS records accordingly.
+
+Package: ddnsd
+Architecture: amd64
+Version: 3.0
+Priority: optional
+Section: net
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Installed-Size: 49
+Depends: curl, nano, systemd, dnsutils
+Conflicts: ddnsd (>= 2.7.2), ddnsd-man
+Filename: pool/main/d/ddnsd/ddnsd_3.0_amd64.deb
+Size: 15178
+MD5sum: e47c1466e5738e69cc6f05abc64b99ba
+SHA1: 07a942406dfa8ef378785f44169cd6f24e63f8a3
+SHA256: 66bd1d8874e7787e6a762b307302e6967da41386a921595adb15703e58a006e0
+SHA512: 985be38001cff6adb5eeb7ad4c00f0f4cc398d97b6214ee57c48e51ab483cb02d49e8485bab4ec98078a512cde361681576c871e07468e194ffc95e168eb9a27
 Homepage: https://mlstidbits.com
 Description: Dynamic DNS client for updating DNS records
  ddnsd is a dynamic DNS client that updates DNS records based on the current
