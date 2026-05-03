@@ -1754,285 +1754,108 @@ Description: Dark Polkadots GRUB theme
  It is compatible with GRUB 2 and can be easily installed on Debian-based
  systems.
 
-Package: libmakemkv
+Package: libmakemkv-oss
 Architecture: amd64
-Version: 2026-03-15+git~364aff7
+Version: 1.18.3
 Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 711
-Depends: makemkv-bin
-Filename: pool/main/l/libmakemkv/libmakemkv_2026-03-15+git~364aff7_amd64.deb
-Size: 165858
-MD5sum: 1cb41e9d7b11ba39886fe72a1402745d
-SHA1: 046977db4a2a98d802b1318cda23af7a8d66a70d
-SHA256: 6b7fbe05020e219417c744e2b40e8cc4b64bd808f9e91cee64361f46ec31df3c
-SHA512: acf5b0b2f8f8161285a9b14e28615533f872b3a6ec7ca667777cbbe13f8bec5bff212bb1603db4d18c70231decf6cb10c5781f34e3a6e34c3eb6833cae0334e8
-Homepage: https://mlstidbits.com
-Description: Shared library for MakeMKV.
- This package provides the shared library for MakeMKV, which is used by the
- reel frontend to perform DVD and Blu-ray ripping tasks.
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 944
+Depends: makemkvcon, reel
+Filename: pool/main/l/libmakemkv-oss/libmakemkv-oss_1.18.3_amd64.deb
+Size: 253242
+MD5sum: c0a0dcef83eec9a4dd79bc454d4355de
+SHA1: cf59f18d82eb2fa2af1831e6f6e00ba6714b1cde
+SHA256: 09cb32ab663c8fa6d1b07d2344d28b6de10cdf5498e5e5542303b1ac45485f24
+SHA512: 0a8637a68894607ba6d419a4db095012731c7cdc03f5796dd87573ff86eab256025c11e1552bf9ef369277023726b8f2bc902d65c978b18a581b61f130ac6703
+Homepage: https://www.makemkv.com/
+Description: Library and binaries for makemkvcon used to decrypt video
+ This package does not contain the MakeMKV GUI application, only the library and
+ helper binaries used by makemkvcon to decrypt video. Allowing use of third-party
+ a backend decryption applications.
 
-Package: libmakemkv
+Package: libredrive-tools-docs
 Architecture: amd64
-Version: 2026-03-16+git~1f4694e
+Version: 1.18.3
 Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 711
-Depends: makemkv-bin
-Filename: pool/main/l/libmakemkv/libmakemkv_2026-03-16+git~1f4694e_amd64.deb
-Size: 166116
-MD5sum: 899ee174bf8e111fdaf79a6b78aaafb1
-SHA1: 70d632af3ef16141bad277903062f08f03fe3308
-SHA256: 62cd2554c91d6dc4bfe9b251448f96611d04cf2bcc8c878671afae850c7e2261
-SHA512: 0517747e1240602976baf03cc91104589750a7bade63b97c156de9f810a73865ca35e97c86c52ffbf5de5c935abec06fdb257ce627344fbb854b43796be2ac02
-Homepage: https://mlstidbits.com
-Description: Shared library for MakeMKV.
- This package provides the shared library for MakeMKV, which is used by the
- reel frontend to perform DVD and Blu-ray ripping tasks.
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 13
+Depends: makemkv-sdftools
+Filename: pool/main/l/libredrive-tools-docs/libredrive-tools-docs_1.18.3_amd64.deb
+Size: 4978
+MD5sum: 5ebb4cc46b6f4b8b319998dfdb4a4eea
+SHA1: 8e88591309f905f943c13aaaed852a7d73e826a3
+SHA256: 374ff054100929c37c7d134d91db1dfb97b90291a0c1218d849be3d1fed914bf
+SHA512: b8dd80213a96a6b98cf36989f5e89befd9fc7c423b5ca730c41de34a8ce6e194b7718a149e8e6894ac59f2e165db01fb27d9d7556dd31c6e3f176241686b7aa3
+Homepage: https://www.makemkv.com/
+Description: Manual page/pages for SDFTools used for flashing LibreDrive
 
-Package: libmakemkv
-Architecture: amd64
-Version: 2026-03-21+git~5bc4990
+Package: libredrive-tools
+Architecture: all
+Version: 1.18.3
 Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 711
-Depends: makemkv-bin
-Filename: pool/main/l/libmakemkv/libmakemkv_2026-03-21+git~5bc4990_amd64.deb
-Size: 166282
-MD5sum: 95e5f3cd8224874616f9bd6136e95e09
-SHA1: e8aea518460a86edc23f9cfbcad6fc4fb71c764e
-SHA256: 02b5d9f1f49cd0faa4ad5dcfa0893c51920109c3d608e622d8b62c6b43673d0e
-SHA512: 0f9b9fc8eb6abd129206a44b99b6fd4dc4f8f0d480446758e5844f889a8a9169a56888f245840dc8cc03156c14e21393d60c81e62a29a8c9078ce74608d842bd
-Homepage: https://mlstidbits.com
-Description: Shared library for MakeMKV.
- This package provides the shared library for MakeMKV, which is used by the
- reel frontend to perform DVD and Blu-ray ripping tasks.
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 36899
+Depends: makemkvcon
+Suggests: libredrive-tools-docs
+Filename: pool/main/l/libredrive-tools/libredrive-tools_1.18.3_all.deb
+Size: 9775712
+MD5sum: 4bb53bdb65de3609ba31370b46021d78
+SHA1: d66ce491bc804813bef3e18025bddb1d35fc4557
+SHA256: 8b019bf009e4598c2e5425533a203b6f79f630546d641b7835a8830d95b33c09
+SHA512: 23e3bf24c2072295c943aea1bc0e5d90092b5f71659e3669bcb8cbc91854f6ceacecbb6d9b31447fa4ba02b15309572be8c5b78225fe4b25e2de05ae2a163707
+Homepage: https://www.makemkv.com/
+Description: LibreDrive tools kits (firmware and executable)
+ LibreDrive firmware for compatible drives. This package is not intended to be
+ installed on its own, but is a dependency of makemkv-sdftools. It contains the firmware
+ files that makemkv-sdftools can flash to compatible drives.
 
-Package: makemkv-bin
+Package: makemkvcon-docs
 Architecture: amd64
-Version: 2026-03-12+git~8470a8b
+Version: 1.18.3
 Priority: optional
-Section: video
-Source: makemkv-gtk
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 13102
-Suggests: makemkv-gtk, ffmpeg (>= 6.0)
-Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-12+git~8470a8b_amd64.deb
-Size: 7527764
-MD5sum: 2b098cce8355b7755e83bf7e7c8272c3
-SHA1: e68f12b4221bdf70d50699a18638011e1f8b68db
-SHA256: b14ebcdfc860dfaf7be4350da5044b22a59710430c3745655afe5bbe5b484b48
-SHA512: bd5a20bff75ba5c842c1b6dba39cdbae8b53e240b632f391b8b4b398651c8072ea3f95801257e71f76461d5355e774aed5c52137bcc01829f6cc233d0e20763f
-Homepage: https://mlstidbits.com
-Description: MakeMKV command-line tools.
- This package provides the command-line tools for MakeMKV, which are used by
- the makemkv-gtk frontend to perform DVD and Blu-ray ripping tasks.
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 14
+Depends: makemkvcon
+Filename: pool/main/m/makemkvcon-docs/makemkvcon-docs_1.18.3_amd64.deb
+Size: 6114
+MD5sum: c345ca6207201ff7424e98d9d54f5db6
+SHA1: 135bc786c807f319bea12288bfb353b1d1b7d737
+SHA256: c0d5bf43e1709e68f9db7e54ec7b1d3c005f759792c656deb572ed06ae9d9890
+SHA512: dab4661041d635bb2edb3458165868ef484e0e59a657069d17dc5b6300f262922193ee4ea59c1958bb8bcd74c2422f518901b2e3678eb345ae410f48accd851a
+Homepage: https://www.makemkv.com/
+Description: Manual page/pages for MakeMKVCON used for cli commands
 
-Package: makemkv-bin
+Package: makemkvcon
 Architecture: amd64
-Version: 2026-03-15+git~364aff7
+Version: 1.18.3
 Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 13103
-Suggests: ffmpeg (>= 6.0), libmakemkv, mmccextr, mmgplsrv
-Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-15+git~364aff7_amd64.deb
-Size: 7528810
-MD5sum: 9a8d7e5866cc43f1265862775a67ec3b
-SHA1: 37e509325f98c7b05f3e3dbbced9d680e22680ab
-SHA256: 661d202434aad3bfb11603ac5b4d340f5797899d1ca7a199de2d6cd0f34d71b1
-SHA512: da681e8dd39f5a6b517020ff5f3660ed526629f10680e7acd984b5f576890f8c288243ad813916ce0849b2f91d8e03f8ae47a26aa7e1808137c69774a4d04d6f
-Homepage: https://mlstidbits.com
-Description: MakeMKV command-line tools.
- This package provides the command-line tools for MakeMKV, which are used by
- the reel frontend to perform DVD and Blu-ray ripping tasks.
-
-Package: makemkv-bin
-Architecture: amd64
-Version: 2026-03-16+git~1f4694e
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 13106
-Suggests: ffmpeg (>= 6.0), libmakemkv, mmccextr, mmgplsrv
-Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-16+git~1f4694e_amd64.deb
-Size: 7531514
-MD5sum: 4670d5ecaaf1a9cdb4cd6cdb941084b1
-SHA1: dee7aeb16c6370f77ed53804b5e9aaae9df17e85
-SHA256: 67062c830112b480cb9e87a0a7a2487cb9df58f5fb04ab7d6e3d8e5b8b2fa757
-SHA512: 7728311713a5ccdd770a35ca3e37e9fc5502efcc8557990816cd1685b6d6b25b052d4d6d50438705382286dfe05d54b72f3cfc4c3a89a71b455324a4920713bd
-Homepage: https://mlstidbits.com
-Description: MakeMKV command-line tools.
- This package provides the command-line tools for MakeMKV, which are used by
- the reel frontend to perform DVD and Blu-ray ripping tasks.
-
-Package: makemkv-bin
-Architecture: amd64
-Version: 2026-03-21+git~5bc4990
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 13106
-Suggests: ffmpeg (>= 6.0), libmakemkv, mmccextr, mmgplsrv
-Filename: pool/main/m/makemkv-bin/makemkv-bin_2026-03-21+git~5bc4990_amd64.deb
-Size: 7531620
-MD5sum: b649e482b6cbcc71391992e7446d6b43
-SHA1: 555761cf0cb6517b82cc4e474938e3581f0d64f0
-SHA256: 08a688908c83d56939aa3dfc707496a992c9b8d0807587fc63b1fcfb6cc09c16
-SHA512: 26fbdc4043d9bd258416c9f392868888454ecc2dc4f8f004b5b1fc6ba05deb5bfdd3a7a52325321e27843934c9104cc15930e16c4898cb475b6bae1969b0f7d0
-Homepage: https://mlstidbits.com
-Description: MakeMKV command-line tools.
- This package provides the command-line tools for MakeMKV, which are used by
- the reel frontend to perform DVD and Blu-ray ripping tasks.
-
-Package: mkaptrepo
-Architecture: amd64
-Version: 0.5.8-ced452c
-Priority: optional
-Section: utils
-Maintainer: Michael L. Schaecher <MichaelLeeSchaecher@gmail.com>
-Installed-Size: 84
-Depends: git, dpkg-dev, debhelper (>= 9), inotify-tools, systemd,
-         gnupg, gpgv, apt-utils, lsb-release, coreutils, findutils,
-         grep, sed, awk, xz-utils, gzip, bzip2, nano, wget
-Filename: pool/main/m/mkaptrepo/mkaptrepo_0.5.8-ced452c_amd64.deb
-Size: 28574
-MD5sum: f33518e8480eeb4ca0925f687e01c21b
-SHA1: 8e9883ad390e14a228fff84ba17016e46a08dffd
-SHA256: 87a7739f6d6aaf490e0f9c7146e59818a0bf63fda98d4d7633188c7c8baf1165
-SHA512: 22530c68c966aef331ecde76a287f3c880499de0fb0874381b5a533b2f224c063f30fd93493f19467034afa02221e820320578434c62726b78c9dfe09ddec17f
-Homepage: https://github.com/MichaelSchaecher/mkaptrepo
-Description: mkaptrepo is a tool to manage APT repositories.
- It allows you to create and maintain your own APT repositories
- easily, including the generation of Packages and Release files,
- as well as signing them with GPG.
-Build-Depends: make, dpkg-dev
-
-Package: mmccextr
-Architecture: amd64
-Version: 2026-03-15+git~364aff7
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 113
-Depends: makemkv-bin
-Filename: pool/main/m/mmccextr/mmccextr_2026-03-15+git~364aff7_amd64.deb
-Size: 45288
-MD5sum: b2741a767c272c0ca3c16c4d7884b1d7
-SHA1: ac65482c59eec06d77a9d1dafc0620413dda0395
-SHA256: 08768fe05d2e953d2ae359424557ce8b3c55c46a32785ec9f366110e395855cd
-SHA512: ba4f06ccf6dee4426a44c42bbb0e3150157e0963f66478fd180e999aff4c70b876e3fa28408f213d7716b001d826fd35d55ddde4d699a511769df1ca8aad07ba
-Homepage: https://mlstidbits.com
-Description: Closed Caption extractor for MakeMKV.
- This package provides a closed caption extractor for MakeMKV.
-
-Package: mmccextr
-Architecture: amd64
-Version: 2026-03-16+git~1f4694e
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 113
-Depends: makemkv-bin
-Filename: pool/main/m/mmccextr/mmccextr_2026-03-16+git~1f4694e_amd64.deb
-Size: 45400
-MD5sum: 6cd5237ae92211bb3baa8864d30b9e62
-SHA1: 38d3befd94ac1127c390042e03b8a159cd4da129
-SHA256: 3a2eded1cbe8e746b15c99146a77c6f940a688c648544e20f1ddedc9801a14e2
-SHA512: 3d26f1b84b658cd372c238387ffeab653a00189989bf43bc7e9b36474b307e4aef0e8bd68d020e693fa8439d6e5befb3f46365942034373e1ad2cdeb9a38aff3
-Homepage: https://mlstidbits.com
-Description: Closed Caption extractor for MakeMKV.
- This package provides a closed caption extractor for MakeMKV.
-
-Package: mmccextr
-Architecture: amd64
-Version: 2026-03-21+git~5bc4990
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 113
-Depends: makemkv-bin
-Filename: pool/main/m/mmccextr/mmccextr_2026-03-21+git~5bc4990_amd64.deb
-Size: 45498
-MD5sum: 906dafd75f6ca71d64b257f2db985af4
-SHA1: 7434c60ecb03b48ccde28c2a82426c25003895b4
-SHA256: fa7bf80ed86191612257a136644a16b8759689c5c2e2a26e76bc89a7cb22e1fd
-SHA512: dc90d394625f94cf41067a31487161b72ded790c36a8ae0c53f8679bb56f84d1cecfaf3f12db3fa2bf7764e5a69ccecf3048e7321133bd67cf8b94ccf02ed99f
-Homepage: https://mlstidbits.com
-Description: Closed Caption extractor for MakeMKV.
- This package provides a closed caption extractor for MakeMKV.
-
-Package: mmgplsrv
-Architecture: amd64
-Version: 2026-03-15+git~364aff7
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 148
-Depends: makemkv-bin
-Filename: pool/main/m/mmgplsrv/mmgplsrv_2026-03-15+git~364aff7_amd64.deb
-Size: 58788
-MD5sum: c9d63b6064076770d2128ecd1265b708
-SHA1: ec503a796b33ce23d7bd4838c5a155c2041bf4cd
-SHA256: 34ef0f4d6585d072cb2abb46a4b69b935f39c47df19efe5542bedd8fed112b26
-SHA512: f296544a7e2962ed14b720c4f7cd62800dcba3df84ddb813f6b588f9fd4f233e8e678163d0aad29d34e97e602196e74a3dd3c35267994996c2239418836de65a
-Homepage: https://mlstidbits.com
-Description: MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
- This package provides the MakeMKV GPL Server, which is used for decrypting DVDs by
- the MakeMKV command-line interface (CLI).
-
-Package: mmgplsrv
-Architecture: amd64
-Version: 2026-03-16+git~1f4694e
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 148
-Depends: makemkv-bin
-Filename: pool/main/m/mmgplsrv/mmgplsrv_2026-03-16+git~1f4694e_amd64.deb
-Size: 58906
-MD5sum: f65aab9de06907877c57dbcefa4f0347
-SHA1: b2456b5a20fc25952f811f932bafa1599b303414
-SHA256: 472d5cb9bd9daeb7410b94a1f9a8d0584e8e5c500266fd86ebe12873d40484e8
-SHA512: 8d3dfb83f24a4525af7f4ef67551f781b60f9b04b6d719789044cba1bead6710c45383131af845ac80446d31f0e9599df2c3bd0c41ef8256b4ed3b5a8e1bd8c4
-Homepage: https://mlstidbits.com
-Description: MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
- This package provides the MakeMKV GPL Server, which is used for decrypting DVDs by
- the MakeMKV command-line interface (CLI).
-
-Package: mmgplsrv
-Architecture: amd64
-Version: 2026-03-21+git~5bc4990
-Priority: optional
-Section: video
-Source: reel
-Maintainer: MLS Tidbits <contact@mlstidbits.com>
-Installed-Size: 148
-Depends: makemkv-bin
-Filename: pool/main/m/mmgplsrv/mmgplsrv_2026-03-21+git~5bc4990_amd64.deb
-Size: 58998
-MD5sum: cebffdbd237037c7aaa53af4c1310833
-SHA1: 0653a743c2177bb3657d81843c68642dee8bcaf8
-SHA256: 35bc7b35b35e765b6090fedd9a361d04269f9d1c3d380f1a3413cdf218238555
-SHA512: bf184ecc75efd537a13951f4137c9fc2b229f231ebc69107483b1c42bf6612d3417b4758f5bdbff523c2697356612ea1aa87e75c2fdffb38762a937e8bbd1656
-Homepage: https://mlstidbits.com
-Description: MakeMKV GPL Server used for decrypting DVDs by MakeMKV CLI.
- This package provides the MakeMKV GPL Server, which is used for decrypting DVDs by
- the MakeMKV command-line interface (CLI).
+Section: unknown
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 13127
+Depends: libmakemkv-oss
+Suggests: makemkv-firmware, makemkv-docs, makemkv-sdftools, libredrive-firmware
+Filename: pool/main/m/makemkvcon/makemkvcon_1.18.3_amd64.deb
+Size: 7536878
+MD5sum: f5a6c681929f9b3e245cf61a15cf8699
+SHA1: a6e0ec6f2c0fe4bfba7a3f38a492b2a969d776d9
+SHA256: d0741319ed0188d35c1683768c8d5c53d44e1e05a391ffca5d358c6c93c45b78
+SHA512: f068b4a712c8f9e6bb0909c7730f3474dcd7a53ac062cbeb21635ab2da888dc96aa7feb53baf79278ff30c1e1dc895a91b18cd8890153b08f6de488bae8237af
+Homepage: https://www.makemkv.com/
+Description: MakeMKVCON is the command-line interface for MakeMKV
+ MakeMKV is a format converter, otherwise known as "transcoder". It converts
+ the video clips from proprietary (and usually encrypted) disc into a set of
+ MKV format can store multiple video/audio tracks with all meta-information
+ and preserve chapters. There are many players that can play MKV files nearly
+ on all platforms, and there are tools to convert MKV files to many formats,
+ including Blu-ray and DVD discs.
 
 Package: plasma-wallpapers-poses
 Architecture: amd64
