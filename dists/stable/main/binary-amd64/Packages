@@ -1764,11 +1764,11 @@ Maintainer: Michael <michaelleeschaecher@gmail.com>
 Installed-Size: 944
 Depends: makemkvcon, reel
 Filename: pool/main/l/libmakemkv-oss/libmakemkv-oss_1.18.3_amd64.deb
-Size: 253242
-MD5sum: c0a0dcef83eec9a4dd79bc454d4355de
-SHA1: cf59f18d82eb2fa2af1831e6f6e00ba6714b1cde
-SHA256: 09cb32ab663c8fa6d1b07d2344d28b6de10cdf5498e5e5542303b1ac45485f24
-SHA512: 0a8637a68894607ba6d419a4db095012731c7cdc03f5796dd87573ff86eab256025c11e1552bf9ef369277023726b8f2bc902d65c978b18a581b61f130ac6703
+Size: 253244
+MD5sum: b2aa98d98fcb3db1641c0a338df599c1
+SHA1: 38f79535d822389b3d9a758129bdbb2ebfd949eb
+SHA256: dfe8f85679b72671f1d901b07a8fdb39f4fa646f00ff3b9a56b0348be179c6c9
+SHA512: 18421f97c9d33b0167a5de2b90d7b4f998d4f659e638d78874f5f3ea6eeddbb339071e5b300114e6b808c4af12b51e3595dc854735db7a660b19a90edc94b7b4
 Homepage: https://www.makemkv.com/
 Description: Library and binaries for makemkvcon used to decrypt video
  This package does not contain the MakeMKV GUI application, only the library and
@@ -1843,11 +1843,11 @@ Installed-Size: 13127
 Depends: libmakemkv-oss
 Suggests: makemkv-firmware, makemkv-docs, makemkv-sdftools, libredrive-firmware
 Filename: pool/main/m/makemkvcon/makemkvcon_1.18.3_amd64.deb
-Size: 7536878
-MD5sum: f5a6c681929f9b3e245cf61a15cf8699
-SHA1: a6e0ec6f2c0fe4bfba7a3f38a492b2a969d776d9
-SHA256: d0741319ed0188d35c1683768c8d5c53d44e1e05a391ffca5d358c6c93c45b78
-SHA512: f068b4a712c8f9e6bb0909c7730f3474dcd7a53ac062cbeb21635ab2da888dc96aa7feb53baf79278ff30c1e1dc895a91b18cd8890153b08f6de488bae8237af
+Size: 7536886
+MD5sum: 80088ddbe029555a51db4b58310773cd
+SHA1: b0349ac88e98b23142615a1aeb929940cc0c9f30
+SHA256: 2162efec49d8f1b1d7cfbff84e9f84b8b7da808eb7b9e860f49c62936400d1e5
+SHA512: 41ea8459cca1dc057de3b2e49c0fd7353586fba609ab03fd081fa64cadcbb342e01f1dbca2728b3b1b3e2a24b34a68e496709a4622a4eefc9fcea7e80facd072
 Homepage: https://www.makemkv.com/
 Description: MakeMKVCON is the command-line interface for MakeMKV
  MakeMKV is a format converter, otherwise known as "transcoder". It converts

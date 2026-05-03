@@ -28,40 +28,40 @@ Changes:
      Notable bug fixes:
          Reading certain MKV files as input was very slow
 Checksums-Sha1:
- cf59f18d82eb2fa2af1831e6f6e00ba6714b1cde 253242 libmakemkv-oss_1.18.3_amd64.deb
+ 38f79535d822389b3d9a758129bdbb2ebfd949eb 253244 libmakemkv-oss_1.18.3_amd64.deb
  8e88591309f905f943c13aaaed852a7d73e826a3 4978 libredrive-tools-docs_1.18.3_amd64.deb
  d66ce491bc804813bef3e18025bddb1d35fc4557 9775712 libredrive-tools_1.18.3_all.deb
  135bc786c807f319bea12288bfb353b1d1b7d737 6114 makemkvcon-docs_1.18.3_amd64.deb
- b9a7a93a558c56e7d16f21bf48b68ee2b6c5363f 13730 makemkvcon_1.18.3_amd64.buildinfo
- a6e0ec6f2c0fe4bfba7a3f38a492b2a969d776d9 7536878 makemkvcon_1.18.3_amd64.deb
+ c882e0a7dfab203b98057d9ff3daa2bbc717d5e3 13607 makemkvcon_1.18.3_amd64.buildinfo
+ b0349ac88e98b23142615a1aeb929940cc0c9f30 7536886 makemkvcon_1.18.3_amd64.deb
 Checksums-Sha256:
- 09cb32ab663c8fa6d1b07d2344d28b6de10cdf5498e5e5542303b1ac45485f24 253242 libmakemkv-oss_1.18.3_amd64.deb
+ dfe8f85679b72671f1d901b07a8fdb39f4fa646f00ff3b9a56b0348be179c6c9 253244 libmakemkv-oss_1.18.3_amd64.deb
  374ff054100929c37c7d134d91db1dfb97b90291a0c1218d849be3d1fed914bf 4978 libredrive-tools-docs_1.18.3_amd64.deb
  8b019bf009e4598c2e5425533a203b6f79f630546d641b7835a8830d95b33c09 9775712 libredrive-tools_1.18.3_all.deb
  c0d5bf43e1709e68f9db7e54ec7b1d3c005f759792c656deb572ed06ae9d9890 6114 makemkvcon-docs_1.18.3_amd64.deb
- 2dee5cd4f54bed51a73afdfa21cd175ff05e243e0ef0ee286b01231305bbe71c 13730 makemkvcon_1.18.3_amd64.buildinfo
- d0741319ed0188d35c1683768c8d5c53d44e1e05a391ffca5d358c6c93c45b78 7536878 makemkvcon_1.18.3_amd64.deb
+ 1189f36b8c9f18583ecea475eb8687afc37bb65483cd5ca41fd0ab7ff9c5d6eb 13607 makemkvcon_1.18.3_amd64.buildinfo
+ 2162efec49d8f1b1d7cfbff84e9f84b8b7da808eb7b9e860f49c62936400d1e5 7536886 makemkvcon_1.18.3_amd64.deb
 Files:
- c0a0dcef83eec9a4dd79bc454d4355de 253242 unknown optional libmakemkv-oss_1.18.3_amd64.deb
+ b2aa98d98fcb3db1641c0a338df599c1 253244 unknown optional libmakemkv-oss_1.18.3_amd64.deb
  5ebb4cc46b6f4b8b319998dfdb4a4eea 4978 unknown optional libredrive-tools-docs_1.18.3_amd64.deb
  4bb53bdb65de3609ba31370b46021d78 9775712 unknown optional libredrive-tools_1.18.3_all.deb
  c345ca6207201ff7424e98d9d54f5db6 6114 unknown optional makemkvcon-docs_1.18.3_amd64.deb
- 64077233ce7d19efbd771a40b9a70660 13730 unknown optional makemkvcon_1.18.3_amd64.buildinfo
- f5a6c681929f9b3e245cf61a15cf8699 7536878 unknown optional makemkvcon_1.18.3_amd64.deb
+ ab9162ca2eb8f1407d7e109a6c37be7d 13607 unknown optional makemkvcon_1.18.3_amd64.buildinfo
+ 80088ddbe029555a51db4b58310773cd 7536886 unknown optional makemkvcon_1.18.3_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn2+esACgkQbkoCnkKh
-yHkmsQ/fWWCTfQl/FWSnMeqqFnl9bsO1VHbwz/br5zpGE5zJaPpxt6M2yi3apo96
-kS/P8is8yZ9Hp4AKRvA86z95Vr/xeXFIirQWRpwskfx9xpKnnIpoIBc679tS2ZV6
-WRvi+RDfN8/bHxWax6Sab803wD2THVbeD//nwGJUrgkDEhkUTRO5ooNDaoN3Qrtt
-xBb3QoMJIQIemrXTDBUTrN0d2VzyUT5H6Y8M3oz4qv5Z8wk/uRDIM7GHAkBlryyN
-IwqOhUYYuVHCLvOHUNB5Rg97rmL95xBMHMTi0rMIug4ALCAMVagS1jp8Iner3/5h
-n81TXhmCzLmybC8ey2fM2X1C0HLX3VZfrkqlJwV8xuPXiUoaiBukbHlD2ms2H7aS
-qE5WXuLfgJhNEGDALuDYFGKtSNR/EbDjQ3pG/qi1H5uBwig1KYoupodHFhohfTx0
-bWFmhpBHfOFjyyc2wlaUjx6vp2pP7vnby12d5F2jIMozdqiKtKzywK+qsBMe75Lt
-19aJk35YSg6vx2dvh6F4oPsx915SSBWeo2OuObVXl6OXnnwYPrZNjc3t56cIu0Ss
-FCCqJtE9pRr1IkqE+mi/qOukn3V5hVfe50NS0OuynaZSmUEz9SxuheMy7BpxX7JA
-fqQmnWRNpI8g+b3qS4aLEgsmMilNwbaRzgUReE7xfUzhQQ==
-=sUi0
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn3lPoACgkQbkoCnkKh
+yHmE2w/gjQUJSEh7tHg0jgxn30hoim2z4lZ8HHQ8U2X637326h3iP5KV7uiVYak5
+QiydBpYmY5J8u39Dk54j+0Knfrne34LRlrIsSHMLzyNXiliK2pTou1oThUjfvHpS
+eph9JgLhkl3HuydAN94lHmuyPKw9dYors5p3G9tAVjbzkdgvwIZfi2xHEUFHM1PJ
+XIheWgkt2h+HgEvfCZVnzVj4Hq5DgosgLbobBzMMPrIF9tZEasbtX2z0gv7dykT5
+VNFPIp/fwdv7CvAJz1/5URylT7uVDQW2HM+LLveUuzUYpcCfGGOxn8DJvzl41e1W
+Np7/vXch18AmftV/nLk5tXPvR75Y4p+Vu2MwxJytJogDrKuClGlzVeMyd9HuP80g
+iugReiCnpxYzT6uGYbFkcLyANOi+/Yl1pNglpf1m6WlZMShgBaeShQO2tTM1u6Ra
+3rSsAEZht1RLg2ErJU1NUtG0USuu5ilKn6GbrlNLrbZCdrstizUCwnlRBpcrx19p
+lBrZAwvN9cxzmuVB+Ono5ae34IXQ9f3ljk4BqH7cSwMjJR28j0+NCmIKFMLVbua4
+Q7nPlwqBOcu+qeO5f0KlvuvrEJh64c5JzfxSPOD1rWJfKTL5GWsRmhZ4YAs4mOYj
+E7KviPm1Eiu+VoT5s6vJEyliyQAHoeI1lpyceJWUwFDuyQ==
+=jOPW
 -----END PGP SIGNATURE-----
