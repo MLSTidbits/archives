@@ -1903,11 +1903,11 @@ Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Installed-Size: 164
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, reel
 Filename: pool/main/r/reel-gtk/reel-gtk_1.3-1_amd64.deb
-Size: 31712
-MD5sum: 6de93ad54942f15ac594e0eabfd991e6
-SHA1: ddd60b5b2aace9f2278ab240e3bafd0b2b4cf01b
-SHA256: e414be05970cdd783c878a3876e09db5ad0f9f3dce095fb672797fe9852f0728
-SHA512: e51785bc556d29cad32792c89d6eb03283b9ac685ba44d1d2520ed738a922d1b4a8449deb8bd52a5f125e21cacc6a677c902eca1e9044df9575ebb48391fe8f6
+Size: 31698
+MD5sum: f24bbbe3bd2e91a96e683194512dbe6b
+SHA1: 34e35289b19cdead705a031e0deaad46a4c94149
+SHA256: 1b4f5fc2ce3055d41e2fe43646aeceab131d06c86d6454bcac97b310f5b43e59
+SHA512: c30acb3dd7582a6c66adfdbd7a050f2039d9ea76d36b4b654922aa8ae5185739dbf65d0969ef0bfde2a8fe4c49a38610abbff78d68255d095e8b644bc660a099
 Homepage: https://mlstidbits.com
 Description: GTK Frontend for makemkvcon written in Python.
  Reel uses makemkvcon to rip DVDs and Blu-rays, and provides a user-friendly
@@ -1940,13 +1940,13 @@ Priority: optional
 Section: video
 Maintainer: MLS Tidbits <contact@mlstidbits.com>
 Installed-Size: 41
-Depends: libmakemkv, makemkvcon
+Depends: makemkvcon
 Filename: pool/main/r/reel/reel_1.3-1_amd64.deb
-Size: 12020
-MD5sum: 280d6e0eb7804cc78843809605457836
-SHA1: e5c13f7ac74ddaa015ab6f250287890c1ff68f69
-SHA256: 03c679c1b098c2ce60fd8858b07eaeab6c1a338363618529609bcbd9a514a6ab
-SHA512: a25ee71c1e3b51e4753277b6512df89c682b0d57c49c4dc7b85772763d30c2836a3048e5bb4c08de92ccdbbcb52d762cbc85ccc346e424a955359d47eabc8f6a
+Size: 12012
+MD5sum: 70e64aa1a80f31c466a974352c0f7841
+SHA1: 2828dcbd6f368aabb8d85e61c16c91d6c068b4a1
+SHA256: 58106d4c5f1ba1f94805c24e207a5bd08000ddc21f735a0254473bd48d7a9484
+SHA512: 62c09a00780430ca0a141b8229f79c2d6ff2aca0826be2f554064818191b5ceacfe29cca9866e56ba61c730425ed22d3b61d14fcfe58e2c8bf00233208b00669
 Homepage: https://mlstidbits.com
 Description: DVD and Blu-ray ripping tool.
  Reel is a DVD and Blu-ray ripping tool that provides a user-friendly interface for

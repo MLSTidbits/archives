@@ -22,34 +22,34 @@ Changes:
    * fix: correct file paths in reel-gtk and reel install files [`5aff0eb`](https://github.com/MLSTidbits/reel.git
    * fix: update configuration path for settings.json to use the correct directory [`dae0c75`](https://github.com/MLSTidbits/reel.git
 Checksums-Sha1:
- ddd60b5b2aace9f2278ab240e3bafd0b2b4cf01b 31712 reel-gtk_1.3-1_amd64.deb
+ 34e35289b19cdead705a031e0deaad46a4c94149 31698 reel-gtk_1.3-1_amd64.deb
  2c1196ca51987c2563421024371050c137ff1029 26636 reel-qt_1.3-1_amd64.deb
- cc47569c48bd11c738ecd5c77076201dcfc2e019 12737 reel_1.3-1_amd64.buildinfo
- e5c13f7ac74ddaa015ab6f250287890c1ff68f69 12020 reel_1.3-1_amd64.deb
+ 2aa1407d1287b45a975fc93e15d6d19bccd13def 12737 reel_1.3-1_amd64.buildinfo
+ 2828dcbd6f368aabb8d85e61c16c91d6c068b4a1 12012 reel_1.3-1_amd64.deb
 Checksums-Sha256:
- e414be05970cdd783c878a3876e09db5ad0f9f3dce095fb672797fe9852f0728 31712 reel-gtk_1.3-1_amd64.deb
+ 1b4f5fc2ce3055d41e2fe43646aeceab131d06c86d6454bcac97b310f5b43e59 31698 reel-gtk_1.3-1_amd64.deb
  3b012832f12ceffbc8ad8e25e80f27ffae8673bbc440a24a8b5415008f77ad55 26636 reel-qt_1.3-1_amd64.deb
- 67864857d4fa7b75d042110fe6a53c6557c0c2253d79608df797f1091ecc4bc2 12737 reel_1.3-1_amd64.buildinfo
- 03c679c1b098c2ce60fd8858b07eaeab6c1a338363618529609bcbd9a514a6ab 12020 reel_1.3-1_amd64.deb
+ 5ffb2a2354201e3e82f40fcf6072d9f02557d98584cc76e45b7a7320ec78db8c 12737 reel_1.3-1_amd64.buildinfo
+ 58106d4c5f1ba1f94805c24e207a5bd08000ddc21f735a0254473bd48d7a9484 12012 reel_1.3-1_amd64.deb
 Files:
- 6de93ad54942f15ac594e0eabfd991e6 31712 video optional reel-gtk_1.3-1_amd64.deb
+ f24bbbe3bd2e91a96e683194512dbe6b 31698 video optional reel-gtk_1.3-1_amd64.deb
  30d0920179396466e72443d1380f5b59 26636 video optional reel-qt_1.3-1_amd64.deb
- 4ee7f43a4bf676eb58fc5b965b46384c 12737 video optional reel_1.3-1_amd64.buildinfo
- 280d6e0eb7804cc78843809605457836 12020 video optional reel_1.3-1_amd64.deb
+ f5ace9f106a9584cf1ab2e39b8bde3eb 12737 video optional reel_1.3-1_amd64.buildinfo
+ 70e64aa1a80f31c466a974352c0f7841 12012 video optional reel_1.3-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn3j3sACgkQbkoCnkKh
-yHkxVg/fS6dJJUbCi5dFIgKUUHIS9B+AlOvQYUyFSNL4gEXI057Dp9eOEc2VtHTS
-Qpi4YosbY0G/yxYf79Y2FGjY9bpb3cklrpMbrkWT/lGD3ApRM3cV5oFFu9ZlUvnU
-BNedaI0s9zCZrKlfzynTw0vODqIEZUCq0LejZ8ON5+QY3rBJTiSvtxmvXvkvyrKa
-aotZnFVZJvOt5la5Psh8IreuK2McSSeQGOzWpGA19bMaDfC7596dWbUFKf1ZBzsZ
-Z07kJzESamjOwgPQ3H9y/mU+yIGhMy8MQNJGhwZkhA46XlSNNDNAd61+sSXcn2EG
-jXTCsuyP/1sjjbOwH1LW4JzVqoV2N9Tw08zACM/ggaTVdcFgpyTjufQciQ17W6VB
-+2W6wkKiiyByQ/L6JJ12k4ztyA9sd1pxXbrzFaJ78onLNAZ/cncp0YPiBrUmf4yJ
-FiNXflxlldwzdg91Kwhu10eQwdnmL+51n1Q5JcvjwDlcQqaA5ZzQ9PAW/SwJGELB
-RxKubNdayu4VXSKOG5m9CKPHyW8ziDG8kRts6zDDwiopyRkygYepfU7SAR04cgkX
-DQzxmv3f0dXunSyv5htajvciXGyMGqwNUxio2tDDuBFrjaL8vybnzUU0j4fu2/d1
-ZzXsj98W/gfQXN1NzxDGZ3xrxLxOS0BaCctMROauQzpkvw==
-=aCX7
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn3keAACgkQbkoCnkKh
+yHmBjA/cCd1AHcyqMoWGd6m6vF/JY3wCm4ZD0JdMs0Ws1GE1ZeRhgiZopuZskbhY
+NX7sSe1JxJJtgg4LZ/g/AvBgVu8OYk97lKyXHrYn4h1I44EBWH/Cpe9BFNF4jlfn
+cI9VEDpSVMmsYkaCyYz11slm5D3DWusAjXHD41MvGK2Fh65VgSHPytv0/12ipN4k
+756lO/G/qHgIKPZzrSTrujeYoJE56xaQATyHb4bCXAl5fLoYRR0GVqYfI6SI0pl8
+nH6ZkPv31SnvtHzXAu5PLTG0CJVtdAj5lwoODppVq2QyqIMaP6JgVmRSVQk9kQcu
+ygoBIbTVV+rhUrW71F9wFL787oY7OpKbcoy0gGR6i/cBhOkgszvMSWbMR+puScA7
+Qz+52+ZjUlfg80UAxDwDkNNBo98TdKy8lFaFJDBfA+d3hA1NAnF0djJoSNqg+7/G
+9m4NH0yyUgCpzpD43gMFXt7CJVk1KZQfdH3cCLgU7bfMWqhIZgyPFP2+NXIZU+jZ
+Yw61dmDQBnJYQrwoFtQShzrj9KGTPNrm9efE8tap/2EVYrP7cZGXChP95LD7Xq/E
+lGpbM4zPzALHK0TPdVk/Es5O5k69YH8z7/o3lUjG3couGT9rezjmbHf4RwcNWlzn
+XBh9cMnclKKSQ2EflKyeqElkWEiMSFfq47rotcdCFEm+KQ==
+=9Ucx
 -----END PGP SIGNATURE-----
