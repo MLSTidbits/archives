@@ -7,20 +7,20 @@ Binary: reel reel-gtk reel-qt
 Architecture: amd64
 Version: 1.3-1
 Checksums-Md5:
- 39fc9264766355de4a1b770a144af4b8 31148 reel-gtk_1.3-1_amd64.deb
- fec5b94f038d64a0aee8f7583a75ecfe 26078 reel-qt_1.3-1_amd64.deb
- e9dd3f85f295c2153ce3279a0d9647d2 11446 reel_1.3-1_amd64.deb
+ 6de93ad54942f15ac594e0eabfd991e6 31712 reel-gtk_1.3-1_amd64.deb
+ 30d0920179396466e72443d1380f5b59 26636 reel-qt_1.3-1_amd64.deb
+ 280d6e0eb7804cc78843809605457836 12020 reel_1.3-1_amd64.deb
 Checksums-Sha1:
- 844cf7e4951fac74bf65883ced4320a316bae40f 31148 reel-gtk_1.3-1_amd64.deb
- 67570aec0a4ce9c01fe274a3a8e01c075b47c096 26078 reel-qt_1.3-1_amd64.deb
- e4276334c9b3820e730557b932a75dedc63bd105 11446 reel_1.3-1_amd64.deb
+ ddd60b5b2aace9f2278ab240e3bafd0b2b4cf01b 31712 reel-gtk_1.3-1_amd64.deb
+ 2c1196ca51987c2563421024371050c137ff1029 26636 reel-qt_1.3-1_amd64.deb
+ e5c13f7ac74ddaa015ab6f250287890c1ff68f69 12020 reel_1.3-1_amd64.deb
 Checksums-Sha256:
- 1288180bf91fd39f3b326640a9d7cc71c819dbdf6176a0e87133f5232958ab9b 31148 reel-gtk_1.3-1_amd64.deb
- 88b8ad7a9c66766072c2cf318c066daa730cb9abcb0783e7e01b26e28e497496 26078 reel-qt_1.3-1_amd64.deb
- bb54c436c015c2a77e4733722cd6708b9ef2d07d5fc9db819ef90d94684bafce 11446 reel_1.3-1_amd64.deb
+ e414be05970cdd783c878a3876e09db5ad0f9f3dce095fb672797fe9852f0728 31712 reel-gtk_1.3-1_amd64.deb
+ 3b012832f12ceffbc8ad8e25e80f27ffae8673bbc440a24a8b5415008f77ad55 26636 reel-qt_1.3-1_amd64.deb
+ 03c679c1b098c2ce60fd8858b07eaeab6c1a338363618529609bcbd9a514a6ab 12020 reel_1.3-1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 12 Apr 2026 18:24:56 -0600
+Build-Date: Sun, 03 May 2026 12:10:02 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -64,9 +64,11 @@ Installed-Build-Depends:
  fontconfig-config (= 2.15.0-1.1ubuntu2),
  fonts-dejavu-core (= 2.37-8),
  fonts-dejavu-mono (= 2.37-8),
+ fonts-freefont-ttf (= 20211204+svn4273-2),
  fonts-liberation (= 1:2.1.5-3),
  fonts-noto-core (= 20201225-2),
  fonts-noto-mono (= 20201225-2),
+ fonts-texgyre (= 20180621-6),
  fonts-urw-base35 (= 20200910-8),
  g++ (= 4:13.2.0-7ubuntu1),
  g++-13 (= 13.3.0-6ubuntu2~24.04.1),
@@ -116,7 +118,7 @@ Installed-Build-Depends:
  libcairo-gobject2 (= 1.18.0-3build1),
  libcairo2 (= 1.18.0-3build1),
  libcap-ng0 (= 0.8.4-2build2),
- libcap2 (= 1:2.66-5ubuntu2.2),
+ libcap2 (= 1:2.66-5ubuntu2.4),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04.1),
  libcodec2-1.2 (= 1.2.0-2build1),
  libcom-err2 (= 1.47.0-2.4~exp1ubuntu4.1),
@@ -180,7 +182,7 @@ Installed-Build-Depends:
  libkeyutils1 (= 1.6.3-3build1),
  libkrb5-3 (= 1.20.1-6ubuntu2.6),
  libkrb5support0 (= 1.20.1-6ubuntu2.6),
- liblcms2-2 (= 2.14-2build1),
+ liblcms2-2 (= 2.14-2ubuntu0.1),
  libldap2 (= 2.6.10+dfsg-0ubuntu0.24.04.1),
  liblerc4 (= 4.0.0+ds-4ubuntu2),
  liblsan0 (= 14.2.0-4ubuntu2~24.04.1),
@@ -217,8 +219,8 @@ Installed-Build-Depends:
  libpng16-16t64 (= 1.6.43-5ubuntu0.5),
  libpsl5t64 (= 0.21.2-1.1build1),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
- libpython3.12-minimal (= 3.12.3-1ubuntu0.12),
- libpython3.12-stdlib (= 3.12.3-1ubuntu0.12),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.13),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.13),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  librav1e0 (= 0.7.1-2),
  libreadline8t64 (= 8.2-4build1),
@@ -291,7 +293,7 @@ Installed-Build-Depends:
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
  libzvbi-common (= 0.2.42-2),
  libzvbi0t64 (= 0.2.42-2),
- linux-libc-dev (= 6.8.0-107.107),
+ linux-libc-dev (= 6.8.0-111.111),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -312,8 +314,8 @@ Installed-Build-Depends:
  po-debconf (= 1.0.21+nmu1),
  python3 (= 3.12.3-0ubuntu2.1),
  python3-minimal (= 3.12.3-0ubuntu2.1),
- python3.12 (= 3.12.3-1ubuntu0.12),
- python3.12-minimal (= 3.12.3-1ubuntu0.12),
+ python3.12 (= 3.12.3-1ubuntu0.13),
+ python3.12-minimal (= 3.12.3-1ubuntu0.13),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
  sed (= 4.9-2build1),
@@ -330,24 +332,24 @@ Installed-Build-Depends:
  zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1),
  zlib1g-dev (= 1:1.3.dfsg-3.1ubuntu2.1)
 Environment:
- DEB_BUILD_OPTIONS="parallel=6"
+ DEB_BUILD_OPTIONS="parallel=8"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1775973600"
+ SOURCE_DATE_EPOCH="1777788000"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmncN9kACgkQbkoCnkKh
-yHnz7w/fephiP7FslfbTMpHgHypkWW7rMfAxln6k/VUyR/CYy43gEbPimKdgHF6G
-hv72IOsjzfhVHcegT/XNRGj2Ow6j5CJKljCidR0xgVlO0qbtyTiOM8tveG4JHDa5
-AthOK0ofk0FrTN8qyfAwpyk1eKlWclEjRloXGNr6Kg1KzgjgNZYYTCcb2VaH/Gwc
-5lSveC5rRfSOV0H+2OAcqp6RAmHr6YYeOZ7hv8z0APEir7jQc1fNeAX2e73LAO2A
-kK2rZ+deMKStVLvAh9y/0bdeJgNqxD6DmKbwqA9WKvOLDFwXV6X9JXjZZf09yI01
-iR359jaGo0PfCdH0+nCKVxYkX65DeH7u1vriZHBujhK++NrGp9PxngicOTrb47/s
-U6gW0ON5PI6IDiMQcsQPeaO4Kx6m+UZeR4VXG1WbulVrHnd/1IzLyd9uTZ72CK+o
-JWXnPSs5Dx1+PtU7RtxOtloTmBeZgE3c8pRWO3Eeqlp3Oq7vct6DMBKcePtAfPRy
-wEq3B0p/ht4huq1EumPpbysOPG0P3aDThQG2ApulMLm0VcTGIuofUjhdj7qSQP2E
-x7o+bY+rZeSr3LoxamU/XBXRrAgYJT8aGZ+bS3FR4cSZu33E9a6/IMaq2qVGZpY2
-q4cCQsZtnz3htsTBwaRoNKLRjyjIzlabIxREJqJxH4bdiQ==
-=xuM/
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn3j3sACgkQbkoCnkKh
+yHmFVw/gj98lxazApHKsos9uVKWb13SnJRb49sNQP1SU0c6H/+qASxj+6Vrwpmwf
+h9r061+r+qWVEpzdjHgi/RrGXkbrwCet67a9gP3ex9Fgj6uXC9JrQHs06DKkhoqL
+MYLce6WBC2XXigqmkriBCj8Jgcqo8GoGCJXMr5PdA8AVtMA5QajYeBPsqncfpewR
+3/G8VyYzETfwgVQDGUTOSimvju94alZSKEmRu8Z8ns17LyrLus+FKxllXod8gAXS
+y2cAoaZVhKiF0sLREFxFLB3WfwGUU5QEHUSsYuks3b+RTrykNq8i4twWq4lCXgLT
+FEnc0mXGuHaVE3F+zGOLOGANF5tVOk1JMg8uNZS3c+mcJI9vGe+KgYxyaGrdj3tY
+4NWBbq79qj3sFCTv8XNIryDGORSzkAprBVVPVd3NCNqMPCD7D+lB/ZPkmbHPXlRB
+cF920Yyr7r97s2yjPxS8S4n8TfqDnr6iZrPzAiUHDn4F6ODYKWjlwufDvbQDwKB/
+Lpo3e6qlPIqTDRHQEVLVKUMJFUYhhvH7dNproQd/NnsV6Bs4dOC1nhJp6Eqd49sF
+SmTyz7GrupBn7WDwE4wtL+8CNwfhsWKNllOGZRLVvpYjCRal1IQ0AFHs1e1u17Kc
+7JCoLwXW/cZMhUkCeK0yuZKCrBmkZqQOTk29j3/PJ5l0RA==
+=U1FG
 -----END PGP SIGNATURE-----
