@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 08 May 2026 00:00:00 -0600
+Source: dash-to-panel
+Binary: dash-to-panel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 73-git+build2
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ dash-to-panel - Dash to Panel GNOME Shell Extension
+Changes:
+ dash-to-panel (73-git+build2) noble; urgency=medium
+ .
+   * Add initial packaging for Dash to Panel GNOME Shell extension [`6810be8`](https://github.com/home-sweet-gnome/dash-to-panel.git
+   * Bump to 73-git+build1 [`fa26683`](https://github.com/home-sweet-gnome/dash-to-panel.git
+   * Fix peek on window workspace change [`ca636f9`](https://github.com/home-sweet-gnome/dash-to-panel.git
+Checksums-Sha1:
+ a6eac576d410bc1273a5fc8736dca9839857e402 7174 dash-to-panel_73-git+build2_amd64.buildinfo
+ f121bba1c54902fa1423cdc7575495357048e66e 263968 dash-to-panel_73-git+build2_amd64.deb
+Checksums-Sha256:
+ aabfd4fc4ed81275f82231d431b28a309bfe71f17fc29adf07073a408164b8a7 7174 dash-to-panel_73-git+build2_amd64.buildinfo
+ b6e7ed2309c0122c0f00a5b8f2af1f6f22e2ea2deff579863c9e878a2c769b52 263968 dash-to-panel_73-git+build2_amd64.deb
+Files:
+ 9f2bb2a5d9d405cb9effe1168e33aed5 7174 gnome optional dash-to-panel_73-git+build2_amd64.buildinfo
+ a028e246a9d2cc05a29f4404486f3dbb 263968 gnome optional dash-to-panel_73-git+build2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn+ylYACgkQbkoCnkKh
+yHkQWg/fQD0oIme/TxdtSS/w/Jff1URqqFTsCkgjXxJ92Rze7tRU24gikWrPB29Z
+03+tOMhCcKKZM71KqQt/yHK1ol/91A07SB6oaKe1CQK/+S+tehUdbqhhDIPnAXtl
+ctwU2quuvI1aJ6u4qdXEJJ9As7F5LuYCM6qJznERiZSHr5p6GvXcoIW1cJ9EyDlb
+Gude0nREH/PcGqJRTfHalXJhclO9eSQTcVBqie0c76YjE2WWX1Cahvp7CDgqhstI
+DqlFznhP/gqj68V7o+NWH/FXk/jIwZ17AYfkVoLQ+/V3naG+9HDqalNAs5UPushu
+UpCZxRLaqpsXXvW0MdmgPmnQldUHbk9uEED1Pi+TqDqJaFCIpNdvoLHnJ+HH+ggI
+yqOZMNvDElRtRcaAmpYPOB+F19+WUtcsgsTG+t4G/6KjoaBJyLHVAOQALXHZpavd
+vyffMM9uVvF9DlqKFgLe/CO3mRcLzshIAkC/Eg4UWSSUCG17qjcR6/Ztlp8Efvqe
+ildTFrJ2VBRMO5h5Mbvzh3VeC9jkdzCZebjrwa9o73NNcXQPL+xan6Zl6mJpNLGZ
+1ZQwJSvkbLsXm8Eo/nVk5ygOlq3KCCp7Ypft8J1Aev3zji+pE0Snru0QSPZqFTVm
+mZ2uIE01nRdDlJcO7waZdCiQaWm8AhgMWwUBbsvAvqeOow==
+=1VLt
+-----END PGP SIGNATURE-----
