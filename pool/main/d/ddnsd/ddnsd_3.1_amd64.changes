@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 19 May 2026 00:00:00 -0600
+Source: ddnsd
+Binary: ddnsd ddnsd-docs
+Built-For-Profiles: noudeb
+Architecture: all amd64
+Version: 3.1
+Distribution: noble
+Urgency: medium
+Maintainer: MLS Tidbits <contact@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ ddnsd      - Dynamic DNS client for updating DNS records
+ ddnsd-docs - Manual pages for ddnsd
+Changes:
+ ddnsd (3.1) noble; urgency=medium
+ .
+   * fix: Revert a29bd0c commit [`dc491c7`](https://github.com/MLSTidbits/ddnsd.git
+Checksums-Sha1:
+ 114cd76123e1ea71854c55780f9ff90b78e7dcaf 7056 ddnsd-docs_3.1_all.deb
+ c96902f883032b6fd0d8d047bbdf85f3393d9d1f 8885 ddnsd_3.1_amd64.buildinfo
+ 10bdf268e6374b1b23efcddf3916fc3276f42279 15136 ddnsd_3.1_amd64.deb
+Checksums-Sha256:
+ 3a8cc0312dfc090ded49bb75cb6f1da06c288a684d7b3a14e9bdc70a3f339b03 7056 ddnsd-docs_3.1_all.deb
+ 827661d22428f4ca6dc6a827535a93dceac0614b3e7c9266246f74a1c2644ba1 8885 ddnsd_3.1_amd64.buildinfo
+ d901796a5ec0a75d4f9364a0aae89fc6267d957004aff7bd1debb3d7235ebd71 15136 ddnsd_3.1_amd64.deb
+Files:
+ 7f1607cfc3e95c5d91edcd03d8098f03 7056 net optional ddnsd-docs_3.1_all.deb
+ 1c2ae18d6f580ec10092a94d062bd4f1 8885 net optional ddnsd_3.1_amd64.buildinfo
+ a696dc4111db43fa16298ea696b0078b 15136 net optional ddnsd_3.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmoMQkgACgkQbkoCnkKh
+yHnAhA/bB8Qf8qoLGN+lMW2J4JwLJyMRrPG8BB426PX1EW0cAiBaAqjgWElVDqKW
+Ingoh/SwPhdF+2iM10mmuFdOnfZP5ZSaGzczkTerXrjG1UZktjc12Gqch5wOqwYv
+1JVaB0K0UEYHyj63ldLhnT9EuaXmBjAQjVniCQmb6W/onTsB4jLhmEZnWlrDQiOl
+cvNBwqoYXg22PKUDx5ZqbHvwtlJGXyaboClpsfzLEhCAyJtT4Balm+sd376KKz86
+FgVT1AV698NKvoKSYaPJdo0vDbYzEcVyEy7omUNBF57cW3PNclPRSxwjgpBsXrLy
+BVZzIXFvpzvJXzKP6ibSW3xRcJ2W/GLN+4jclxy4c4+Joeyx7h5RKj/s86nKiIYu
+VeVvboG5B/a3cKzxJHoug/vUAxRU5X2MhnIqKL60g0VXWAhbeSK+XEvP2vRthyAh
+/xIoiK2QhukJ6nTR+IPCCoEDm0k7iN+cgkbG3zLEtsj0G1dkBveaSFJFTXfdeB4b
+G0jzQwy6XFKoTC/da1uoxmbbGQaZYdm4PgJoWtEJoka4zEmDjo9V0yI+rgypqwJG
+M1YWzmFH+JhScMTg0O31RVUReO/ucDJEHwL2Wg5BEV7s0B7jSlXzS3EQ9i98nDsX
+EwkZkSjYCKZoMnb5z7Fxj4nxWJx7P/qEvIETi6iF+vhHxw==
+=qkig
+-----END PGP SIGNATURE-----

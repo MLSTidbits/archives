@@ -5,19 +5,19 @@ Format: 1.0
 Source: ddnsd
 Binary: ddnsd ddnsd-docs
 Architecture: all amd64
-Version: 3.0
+Version: 3.1
 Checksums-Md5:
- fa66d3e6b983d6e77ac5d790b5e992f9 7022 ddnsd-docs_3.0_all.deb
- 139dd36043794120c4f8b860c1691bb0 15098 ddnsd_3.0_amd64.deb
+ 7f1607cfc3e95c5d91edcd03d8098f03 7056 ddnsd-docs_3.1_all.deb
+ a696dc4111db43fa16298ea696b0078b 15136 ddnsd_3.1_amd64.deb
 Checksums-Sha1:
- bf051f3b7534c3dfc0c184a9542a9f6fb6748c46 7022 ddnsd-docs_3.0_all.deb
- 38be9118346475c5f755a3093cd15c4cc60d72ba 15098 ddnsd_3.0_amd64.deb
+ 114cd76123e1ea71854c55780f9ff90b78e7dcaf 7056 ddnsd-docs_3.1_all.deb
+ 10bdf268e6374b1b23efcddf3916fc3276f42279 15136 ddnsd_3.1_amd64.deb
 Checksums-Sha256:
- 89b59fc015e81ae419de430bcddf6f9bc025972c78eddac9d5f9b0e9b1f77aa9 7022 ddnsd-docs_3.0_all.deb
- bdcaba89017327448f5da7cb60bf90a2653e5d6a7c03c2d903b65d3e1899fe9e 15098 ddnsd_3.0_amd64.deb
+ 3a8cc0312dfc090ded49bb75cb6f1da06c288a684d7b3a14e9bdc70a3f339b03 7056 ddnsd-docs_3.1_all.deb
+ d901796a5ec0a75d4f9364a0aae89fc6267d957004aff7bd1debb3d7235ebd71 15136 ddnsd_3.1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 19 May 2026 04:57:32 -0600
+Build-Date: Tue, 19 May 2026 04:58:15 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -229,21 +229,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1777528800"
+ SOURCE_DATE_EPOCH="1779170400"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmoMQhwACgkQbkoCnkKh
-yHkrjw/ffHwPgXv2rub49qJxMQwZ4aJGSZjXWX5wX9f1DAttygf2/blUxb6ZWA/p
-xgCym6hNjFTfDxcQ/DJ6aUORXi2gez9IXXbCgP4sQ75GjdAdfuW4Ki2BT7fH59+R
-aMi7T72IGMkq08m2n5ab2A3iT0rPqYqm7Y8rQchMonOO2fGBh390px1QExwt4lL0
-zH54tgzpcUzp1Foj4FIHi2c28V3SIE1LIOkFoJ/Cs/+4ORMzPvWFne9UGTqu5oFM
-M3Pv68KdLQB9tcIRsfCXxexJ8tAcAEho2Bpmq8c0G8dGkWNbzMUkgOJOw8+3i/cJ
-IiwueRd7aSdbr4OLnEV8/sf5MtkYcwslkKrGXxgoeaASmQwnac2pp6GSRNAD6lQ2
-K/CKtTfQ4cWBqtZstq+1OctWKbQJZRhTzbtfQ7Reg02pL6QiU5AbuI1ts0tV+dgd
-NEXagNLUlSmOQw/Jc+fF2LU56VOjezcR/D5BP1cTI+tepjmn052PAVKob2izh5uL
-OTZtWx+pdIXuI34+O1JzSriaFQxOMC4OLh6R4P+Z6lCFELcBYIHdH8t7OcOx9IhB
-ahHnRP0Fegs43XZjmVHLIGU60+J50ae9r4BvfigPWEhnw6YL5YwkZly4ZpZUQLbg
-64DP8A2xvHOGtfoVCoYvMYzevivppaCpvQMmcvj/jk+zPw==
-=ohGS
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmoMQkgACgkQbkoCnkKh
+yHlFDw/fbNzrOzpoDyHik9OSgJ30rbCHKcMOk/B/jYhq7954fKBhk/CpjD0bQSOA
+Ii8dXM5/SUYxvd2B3s5CJQsCdmGa93QEvRwo+YM6VxHwZfkqXcN65wdXoPLP+4V9
+rQTHwfXqPgGua8uOF2tpEJCVel/5CGoUTvZt3mjOCdWcabd4Qn4OxLT5mZLOU+yu
+DpnpB8eL4H5LRi/qyJAj1iHfBASzAl1JH4cKu8F9haO+lPmNVRztgJrbQNylrFDw
+2AvuJ3m8XZHoPZBVMMcrbC7j9cfHmq3YwdXQ84Ak0T5XdALFwyRZhsTXGOPI/6tB
+U8rpJqRu3YrpI5tSSqoe5LbyPVHsaU0xmPGeceVrpHqsYuyOrx5hpe6SsobbpLMn
+xGWiVNSVHyknRfsN3gqx09ByRXInWH6lQgqQxgXkRq0fWiGEYJzCbPGh5BwNnXcN
++Sin0e41JAiJUuf/EEiKDGbip0fEA50smMB/60FPGXsodFvEU/Zyb8tvu3sH1JGc
+2KFjSzJr7WOX1ZvDiAfjN9AQrK4EeQ5ofACpUT7/vjXGxEkUonOJMn70Qy7gM7sM
+d/SW75Y0O9aKHUN2UF2IJvbBTVStG4wUdov89bARUiO1LpegGQJO7TVMUjY2WPWE
+aFPFyVNoYrMCbIThvumaI0+q7HhDIV5xYEW2R6lJHXPV+g==
+=vVIZ
 -----END PGP SIGNATURE-----

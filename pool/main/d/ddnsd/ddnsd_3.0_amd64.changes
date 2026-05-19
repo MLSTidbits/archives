@@ -23,30 +23,30 @@ Changes:
    * bump: version 3.0 [`dacd9d3`](https://github.com/MLSTidbits/ddnsd.git
 Checksums-Sha1:
  bf051f3b7534c3dfc0c184a9542a9f6fb6748c46 7022 ddnsd-docs_3.0_all.deb
- fdfc8ae1bf699ff2ba74c49c68e3039b6a84677b 8876 ddnsd_3.0_amd64.buildinfo
- 07a942406dfa8ef378785f44169cd6f24e63f8a3 15178 ddnsd_3.0_amd64.deb
+ fbdde6e92438abf476a62ced527b6ff6e6f85f0d 8885 ddnsd_3.0_amd64.buildinfo
+ 38be9118346475c5f755a3093cd15c4cc60d72ba 15098 ddnsd_3.0_amd64.deb
 Checksums-Sha256:
  89b59fc015e81ae419de430bcddf6f9bc025972c78eddac9d5f9b0e9b1f77aa9 7022 ddnsd-docs_3.0_all.deb
- befe1f5f1b1982f8004af8e6726b543086700bd764ec618be761749de8f91b4c 8876 ddnsd_3.0_amd64.buildinfo
- 66bd1d8874e7787e6a762b307302e6967da41386a921595adb15703e58a006e0 15178 ddnsd_3.0_amd64.deb
+ 6e0bd5f8694dd5b025c03eda5a89799621cf44324fd1575dc06c5e933adb8103 8885 ddnsd_3.0_amd64.buildinfo
+ bdcaba89017327448f5da7cb60bf90a2653e5d6a7c03c2d903b65d3e1899fe9e 15098 ddnsd_3.0_amd64.deb
 Files:
  fa66d3e6b983d6e77ac5d790b5e992f9 7022 net optional ddnsd-docs_3.0_all.deb
- 8307e6e5b8dc603fa70c0d2f83a2ccc5 8876 net optional ddnsd_3.0_amd64.buildinfo
- e47c1466e5738e69cc6f05abc64b99ba 15178 net optional ddnsd_3.0_amd64.deb
+ ec21d48c34fdf7cdcd98ee15b6ae9b25 8885 net optional ddnsd_3.0_amd64.buildinfo
+ 139dd36043794120c4f8b860c1691bb0 15098 net optional ddnsd_3.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmnzvrsACgkQbkoCnkKh
-yHmTgg/cCaHSVNLdybCq525LD47pRtpF4r5cawRiyCOX/LmYzGBM2bZgW5PIBYmP
-vrg+vqyRfvVeu65SA6amgFBjlB25ZpkGAJG7C9nALoAOR2CoVJroomfw5ZSGfmPE
-AkjXUiX21klkzWlrlCtU6ZtsF0yfrM5bxYR969rIxuOIE6Eks6Wh3uDLuPpcVdOR
-mljrjow5Ve2roSUF54ijdjNDLLgSjGfl9QF+03IGutd4JdM2YsqG4IrLpQ/1R9Ii
-c/pqhF3BLiCzz0uJ2yzAtupBMpeFeec3+qJuwElEjojks0qZzTHJdla0/gYQO2wB
-VUbpBOLmLfy9H2DNH/fEdPjsA3suycnkFqhPnPUG9XVg51/4pilKrePWaJIAGFIY
-d0T+ReEPnJJ5Nq19JHyJ8kwOYWiu+Tdgr8RF2U4CJiCVxAxFMnLxoCN3QVeUKjVA
-Z4PE+kw29zNhLgKWxg/mZmZABT5qB8JyoiVPmleyzsQpvspjJb2DZP6d0gVvoMg9
-u7kPLKUW7Me8LaSilRNgSUp3Nt47MxomU1/VRcoP2AAUlcc7WoDloVE5GGa5N9TT
-VQ5H0AO0oPeRs7mV6L2k+TpekI/dIhyoV7T13Qwz6zWQ/NffI1XCfv2LtG4TzDqn
-pai0TZntZoT8c8NllSETzagqhnlqKEQ3hYTVTdwYcYvJyA==
-=pDuN
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmoMQhwACgkQbkoCnkKh
+yHmxCA/goOzVE8hslOCFrwBk3qPG8FcznPFPmmxUyLbnPQVCFvswrXje33poIhuZ
+oMZ+7cgffrHWIC/TucrDzn++/CTS36+uv38smnQZt5a+qKcwvT3nzYttO8QqTRKR
+el2pe40n4u1JYm7KFPUSWh8zjcHBdf+8WwkcMtbatoPuOZtbOX8vY/wfK6XMcCBo
+iYXiWuZAvejOBxmf4KKrRkHDgjdT0FxKwDCkMBGcJ0Jy7MvoyfO7nKXUMr2rDdge
+sB9WFlFTu4Q3LEyn9y+xVpigkoR5AAIS8GP968s+JkFigVoCIgfOSPLjUtHQY18a
+wwAU9KbeAT2Ar1+yllyk7Cyis2U2R878Vl7ihQ5UFML/CBlq/gfo79P8mI/HAyhu
+J7Pu/2a1NOKZ3I/TFFh4zIby6C15yaYXvEvX85QiI5PXVCg4X+I8cxICsMoJ5ZsJ
+bVSWdMS4mHBvirHLg5vhT86jr6zv6oFzh7BxosJHRdwMSYkJptJVPKI5z2hmGria
+fsyiS/TJzxE5FYW3NXhqHYmcLVgL8++xbtWkhMYQs9jfGkrAfWazQvDyrLcc2Smp
+VFm1fh1KVEFokCTovpBkT21BZ5QIE83ahTfbz4h7AwqgvDsiDYoC4yAmOvMZgEJ9
+UemG4DdLnKvZ7f8ONA270XejoqsP16DXwfwzneHxg+nuxQ==
+=PtlU
 -----END PGP SIGNATURE-----
