@@ -1,0 +1,66 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 15 Jun 2026 08:18:07 +0000
+Source: makemkvcon
+Binary: libmakemkv-oss libredrive-tools libredrive-tools-docs makemkvcon makemkvcon-docs
+Built-For-Profiles: noudeb
+Architecture: amd64 all
+Version: 1.18.4
+Distribution: noble
+Urgency: medium
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Changed-By: hjmooses <heyarje@gmail.com>
+Description:
+ libmakemkv-oss - Library and binaries for makemkvcon used to decrypt video
+ libredrive-tools - LibreDrive tools kits (firmware and executable)
+ libredrive-tools-docs - Manual page/pages for SDFTools used for flashing LibreDrive
+ makemkvcon - MakeMKVCON is the command-line interface for MakeMKV
+ makemkvcon-docs - Manual page/pages for MakeMKVCON used for cli commands
+Changes:
+ makemkvcon (1.18.4) noble; urgency=medium
+ .
+   * MakeMKV v1.18.4 (15.6.2026)
+ .
+     Small improvements and bugfixes
+     Notable bug fixes:
+         Fixed linux armhf binary crash on certain architectures
+Checksums-Sha1:
+ d091adebad77da81b4b99451893b297001719918 253266 libmakemkv-oss_1.18.4_amd64.deb
+ ee42a1d26c268d1f6762137887bbb302ae391122 5020 libredrive-tools-docs_1.18.4_amd64.deb
+ 94944293c142b886042f404e0e9cb6d0645ce9a1 14322508 libredrive-tools_1.18.4_all.deb
+ 37ea062e5cb0d2bb3986084d60a48e8ad4d2ef92 6154 makemkvcon-docs_1.18.4_amd64.deb
+ 719a995e0150d91891ed8f5c4c8bf2a98b24db9d 13816 makemkvcon_1.18.4_amd64.buildinfo
+ b9459b9687570526d31529ce3d9ee8eac9c037f6 7548086 makemkvcon_1.18.4_amd64.deb
+Checksums-Sha256:
+ 2a0e1fa597a4206941eb72a7e9b57d1920c459beff82e527b7e95df7e0b14f65 253266 libmakemkv-oss_1.18.4_amd64.deb
+ 2d65e4a458985b958d39ce64647efee438d96545b11849771a3166a6e1c32712 5020 libredrive-tools-docs_1.18.4_amd64.deb
+ 28a39a81d61c678470a396220c1dda22da616b54db62a6c9458134abcd08c792 14322508 libredrive-tools_1.18.4_all.deb
+ 5b88ec97282074f309c1282febfd94c0dca0cfdaa983f1a6d178dc86e78b7491 6154 makemkvcon-docs_1.18.4_amd64.deb
+ ed77b41f936e6d9410e12d34bf9b2db802b318723e4dde467e7f50819cf36358 13816 makemkvcon_1.18.4_amd64.buildinfo
+ ca8adfe2156663df2c19e00de3d465e9e1d78fce6d0fa996a5963ce8383aad26 7548086 makemkvcon_1.18.4_amd64.deb
+Files:
+ d316b351e634bf80d61f943e03b75b3a 253266 unknown optional libmakemkv-oss_1.18.4_amd64.deb
+ 48595f76fe23139536897abb44ca140e 5020 unknown optional libredrive-tools-docs_1.18.4_amd64.deb
+ 27b0e0339f8daef46dc8fc55fa484fd9 14322508 unknown optional libredrive-tools_1.18.4_all.deb
+ 95c75c531c8abfb553ec552a82ab0181 6154 unknown optional makemkvcon-docs_1.18.4_amd64.deb
+ 02e32d3f8aec4fff39338023abad412f 13816 unknown optional makemkvcon_1.18.4_amd64.buildinfo
+ cc21c16aaee48ca7b02ef0a891b51574 7548086 unknown optional makemkvcon_1.18.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmoy+TwACgkQbkoCnkKh
+yHkWjw/bBcnYmVAu02igsVoOWZVRpmgaolToSsvQPrH12Asq1G51TGF7CNAR0iDz
+49kpY1LqaiaRPyz2+zB0XppPK7QypI6czj/Zbp/4q6UW6NQas87xObgIQcvX7uuk
+ZWzduZ8rvQIP87MJUEPeHcDztgNAy0PX1bhSpCaWW6q7EYpxfb0+NZoilXVx5u0r
+0LZHVpPnCV5nt3eTN83OLWJIGOoB0WGhgF+oK/dpuL6CB8NqgTcayAlwgGBir+fu
+n1zE7jNjc08u/mEGLWYIHILWIzZT6v0yYkjXFRsUJwLS3VBidL/F558xCq6RbnAG
++DXd+yhaNNls2+ZF4fEGwo4P7Z9wTJ9GEj/UUTKvgouaoNRkv8aaB/sen3xDNlxs
+xbKOdbzb7sAoidT8xKCFvfkOs6hpB9BMB5yEhlCCBVzDKupzkbR2XjW5AWmywxL1
+RrshlBucLN67sVbMr01QfQGSBPOYK9XPCnNKE8/kCla8agk3rq/FJZIXZFqh9XtL
+nAUx60sZlnjD5dulCsnmTyWHpXN1XLeG7+9YDUiNNRjlUPB/bnyzUPVrVRTzR0dB
+tWtdKyVq5IIL/jpZtshDF4mzqkjCZb2GWchVareDiyN5R6F6vSQUyJAmnavEssqd
+4bXIXwkqWzHGHWlzTGfjTpjaDHl9/dY2sHfateAMDdZ0Rw==
+=A/bx
+-----END PGP SIGNATURE-----

@@ -1851,6 +1851,27 @@ Description: Library and binaries for makemkvcon used to decrypt video
  helper binaries used by makemkvcon to decrypt video. Allowing use of third-party
  a backend decryption applications.
 
+Package: libmakemkv-oss
+Architecture: amd64
+Version: 1.18.4
+Priority: optional
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 944
+Depends: makemkvcon, reel
+Filename: pool/main/l/libmakemkv-oss/libmakemkv-oss_1.18.4_amd64.deb
+Size: 253266
+MD5sum: d316b351e634bf80d61f943e03b75b3a
+SHA1: d091adebad77da81b4b99451893b297001719918
+SHA256: 2a0e1fa597a4206941eb72a7e9b57d1920c459beff82e527b7e95df7e0b14f65
+SHA512: 0d6bda7892712a6462c41c2558064ceaf5053b2526d55849b6a5c94fcd5f39f35b3bc324221ba4125ec8553624dc8c5bc4d11054c781f57439fa4bdf2ee20bb7
+Homepage: https://www.makemkv.com/
+Description: Library and binaries for makemkvcon used to decrypt video
+ This package does not contain the MakeMKV GUI application, only the library and
+ helper binaries used by makemkvcon to decrypt video. Allowing use of third-party
+ a backend decryption applications.
+
 Package: libredrive-tools-docs
 Architecture: amd64
 Version: 1.18.3
@@ -1866,6 +1887,24 @@ MD5sum: 5ebb4cc46b6f4b8b319998dfdb4a4eea
 SHA1: 8e88591309f905f943c13aaaed852a7d73e826a3
 SHA256: 374ff054100929c37c7d134d91db1dfb97b90291a0c1218d849be3d1fed914bf
 SHA512: b8dd80213a96a6b98cf36989f5e89befd9fc7c423b5ca730c41de34a8ce6e194b7718a149e8e6894ac59f2e165db01fb27d9d7556dd31c6e3f176241686b7aa3
+Homepage: https://www.makemkv.com/
+Description: Manual page/pages for SDFTools used for flashing LibreDrive
+
+Package: libredrive-tools-docs
+Architecture: amd64
+Version: 1.18.4
+Priority: optional
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 13
+Depends: makemkv-sdftools
+Filename: pool/main/l/libredrive-tools-docs/libredrive-tools-docs_1.18.4_amd64.deb
+Size: 5020
+MD5sum: 48595f76fe23139536897abb44ca140e
+SHA1: ee42a1d26c268d1f6762137887bbb302ae391122
+SHA256: 2d65e4a458985b958d39ce64647efee438d96545b11849771a3166a6e1c32712
+SHA512: 2b2ff2c43355db67d82d0f28a0333827843101baab6703bc3a8a9d025f6efee71619447c6eb922b7655d7c7690e720c5a98c318da87ee906fb3ec12db32d8d08
 Homepage: https://www.makemkv.com/
 Description: Manual page/pages for SDFTools used for flashing LibreDrive
 
@@ -1891,6 +1930,28 @@ Description: LibreDrive tools kits (firmware and executable)
  installed on its own, but is a dependency of makemkv-sdftools. It contains the firmware
  files that makemkv-sdftools can flash to compatible drives.
 
+Package: libredrive-tools
+Architecture: all
+Version: 1.18.4
+Priority: optional
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 45402
+Depends: makemkvcon
+Suggests: libredrive-tools-docs
+Filename: pool/main/l/libredrive-tools/libredrive-tools_1.18.4_all.deb
+Size: 14322508
+MD5sum: 27b0e0339f8daef46dc8fc55fa484fd9
+SHA1: 94944293c142b886042f404e0e9cb6d0645ce9a1
+SHA256: 28a39a81d61c678470a396220c1dda22da616b54db62a6c9458134abcd08c792
+SHA512: 47d3bcf9fe9058ea54af4fcde8064dfe6e13119749481376fe72b91aef7ac51216d5d987ad75483e57562acbb887a2ae5d6bb7fd32d8c01b73337c68a1f62586
+Homepage: https://www.makemkv.com/
+Description: LibreDrive tools kits (firmware and executable)
+ LibreDrive firmware for compatible drives. This package is not intended to be
+ installed on its own, but is a dependency of makemkv-sdftools. It contains the firmware
+ files that makemkv-sdftools can flash to compatible drives.
+
 Package: makemkvcon-docs
 Architecture: amd64
 Version: 1.18.3
@@ -1909,6 +1970,24 @@ SHA512: dab4661041d635bb2edb3458165868ef484e0e59a657069d17dc5b6300f262922193ee4e
 Homepage: https://www.makemkv.com/
 Description: Manual page/pages for MakeMKVCON used for cli commands
 
+Package: makemkvcon-docs
+Architecture: amd64
+Version: 1.18.4
+Priority: optional
+Section: unknown
+Source: makemkvcon
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 14
+Depends: makemkvcon
+Filename: pool/main/m/makemkvcon-docs/makemkvcon-docs_1.18.4_amd64.deb
+Size: 6154
+MD5sum: 95c75c531c8abfb553ec552a82ab0181
+SHA1: 37ea062e5cb0d2bb3986084d60a48e8ad4d2ef92
+SHA256: 5b88ec97282074f309c1282febfd94c0dca0cfdaa983f1a6d178dc86e78b7491
+SHA512: a34573d1590cea545fde67298849a795684bc1496d105a9fcebec7390ec965b0cac8061630bc3e72a80ce62a90d5ed4a9f6ab9c13c1e69d2cbbf0961541bbf71
+Homepage: https://www.makemkv.com/
+Description: Manual page/pages for MakeMKVCON used for cli commands
+
 Package: makemkvcon
 Architecture: amd64
 Version: 1.18.3
@@ -1924,6 +2003,30 @@ MD5sum: 80088ddbe029555a51db4b58310773cd
 SHA1: b0349ac88e98b23142615a1aeb929940cc0c9f30
 SHA256: 2162efec49d8f1b1d7cfbff84e9f84b8b7da808eb7b9e860f49c62936400d1e5
 SHA512: 41ea8459cca1dc057de3b2e49c0fd7353586fba609ab03fd081fa64cadcbb342e01f1dbca2728b3b1b3e2a24b34a68e496709a4622a4eefc9fcea7e80facd072
+Homepage: https://www.makemkv.com/
+Description: MakeMKVCON is the command-line interface for MakeMKV
+ MakeMKV is a format converter, otherwise known as "transcoder". It converts
+ the video clips from proprietary (and usually encrypted) disc into a set of
+ MKV format can store multiple video/audio tracks with all meta-information
+ and preserve chapters. There are many players that can play MKV files nearly
+ on all platforms, and there are tools to convert MKV files to many formats,
+ including Blu-ray and DVD discs.
+
+Package: makemkvcon
+Architecture: amd64
+Version: 1.18.4
+Priority: optional
+Section: unknown
+Maintainer: Michael <michaelleeschaecher@gmail.com>
+Installed-Size: 13133
+Depends: libmakemkv-oss
+Suggests: makemkv-firmware, makemkv-docs, makemkv-sdftools, libredrive-firmware
+Filename: pool/main/m/makemkvcon/makemkvcon_1.18.4_amd64.deb
+Size: 7548086
+MD5sum: cc21c16aaee48ca7b02ef0a891b51574
+SHA1: b9459b9687570526d31529ce3d9ee8eac9c037f6
+SHA256: ca8adfe2156663df2c19e00de3d465e9e1d78fce6d0fa996a5963ce8383aad26
+SHA512: 1d00e41cce76e4240a0e1d74bdad4b9080f8a7fb7cfb1c2521fe801a634faaf38e2c38373b6693ed790f643fe15e4e48e349b8d495fdded2a06397dcae1c20b6
 Homepage: https://www.makemkv.com/
 Description: MakeMKVCON is the command-line interface for MakeMKV
  MakeMKV is a format converter, otherwise known as "transcoder". It converts
