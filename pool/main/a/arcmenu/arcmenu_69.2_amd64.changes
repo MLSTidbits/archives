@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 30 May 2026 00:00:00 -0600
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 69.2
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ arcmenu    - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (69.2) noble; urgency=medium
+ .
+   * Fix bug causing settings to throw error.
+Checksums-Sha1:
+ 0a72968aed546d7acbc9751021b3bcbe1e8a2cc6 7121 arcmenu_69.2_amd64.buildinfo
+ f25cc6702a5578bf37454e737e25ee9b21f58d6e 532986 arcmenu_69.2_amd64.deb
+Checksums-Sha256:
+ 67440383fc07083c4a8581e7fe1691e99bd842b6a90fc86fd31ab4604aa4bc4a 7121 arcmenu_69.2_amd64.buildinfo
+ 087239bd44534a956420a6907deb608386b5a0a7ffe11820e5bb943870a70260 532986 arcmenu_69.2_amd64.deb
+Files:
+ e7986855dee8d54cf85ff8168e667911 7121 gnome optional arcmenu_69.2_amd64.buildinfo
+ d11df680f1dead1bfb9a4d95a1a77f78 532986 gnome optional arcmenu_69.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpHwjUACgkQbkoCnkKh
+yHmpVA/fVj/F91VVu7t4xNFirMP8WCPJcMTsF1zHtY+X9GyPi+cmF7OgJIGjy8Om
+FuIC4qA36V6Xiam35EOSc4UgGenYcK/N/Xk5bI0GQjeYziZ0xGvcfIFp/liwD3Cv
+njDt2zLYRbegEmh5VqbPYzEP75nR8OKdAaSajFOGXurI2t3wQvJhmZSbSek/KTfG
+U4obL6ajeC5uQIJVabZlod8botRUBSudBz/kcKJz6IqTzGo4/wJa0zsmLvGETZjz
+8PylMOopgCx/cXheWOkkLKw9Yj4LDGzTuV/abkv771L6OjhcAi/dsnEGK0EFNBni
+3KMsqmc9dyrLezpGkNyM/qHRPY+jWZOS+L9hkN3G0fexENKGDUk/GBjhtczdw9br
+wuccL1tTD/vQJIG1IybhMoyyHzwdTPbgEH6q2hs5RKCDs5hMp1pKz+PlnohGZEaK
+wku2pdSD8f1mlhFSGd+pmHbl1PM4poLaUZ89LBoVwPvUN3ABaKTGj31bCtwdx3BK
+5Yy+xIrTQwp0RmVOyYqrL1/IBjBDVUA8LnQM6yPE1XDAHgntf3kTaa/6zlxGfIXJ
+BgVuYpVIVPMHjnbeYPVE19ovuvYvyQk5cN40xDdBZvLtW3oAXJmhJWbBHc8+vSj/
+kI2afOlr373zQlcRMfe6eTxH6TnOLCjzlb71wqR+nSYL8Q==
+=xRG+
+-----END PGP SIGNATURE-----
