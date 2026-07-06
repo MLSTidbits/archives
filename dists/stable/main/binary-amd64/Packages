@@ -2158,6 +2158,29 @@ Description: DVD and Blu-ray ripping tool.
 
 Package: sbctl
 Architecture: amd64
+Version: 0.18-build.2
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Installed-Size: 10929
+Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang, inotify-tools
+Filename: pool/main/s/sbctl/sbctl_0.18-build.2_amd64.deb
+Size: 3645414
+MD5sum: e0ebb50d08a55d100272f0752cb13e2a
+SHA1: 7a2973aadf4e5ba7f01d57952cbf3773d2d2488a
+SHA256: eae37cc475f0c939ea91b18bcc08378dccc426176858e660a48db5dbc997dbdd
+SHA512: aaa46f5d99fc75959f7a66cf3a728153690bba2d720c4643d4e9e2ce9b725f1f065c2c5df819133b6084a752961b2c0318da5518eb953950a194995a6a6db504
+Homepage: https://MLSTidbits.com/sbctl
+Description: A customizable application menu for GNOME Shell
+ sbctl is a highly customizable application menu extension for GNOME Shell.
+ .
+ It provides a traditional application menu layout, similar to the classic
+ "Start Menu" found in other desktop environments, while integrating seamlessly
+ with the GNOME Shell interface.
+
+Package: sbctl
+Architecture: amd64
 Version: 0.18-buld.1
 Multi-Arch: foreign
 Priority: optional
