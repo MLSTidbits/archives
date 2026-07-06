@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 05 Jul 2026 00:00:00 -0600
+Source: sbctl
+Binary: sbctl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.18-buld.1
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ sbctl      - A customizable application menu for GNOME Shell
+Changes:
+ sbctl (0.18-buld.1) noble; urgency=medium
+ .
+   * feat(debian): add initial packaging files and configuration [`5966a9f`](https://github.com/MLSTidbits/sbctl.git
+   * feat(debian): enhance service management and add sbctl-wait script [`d7e412c`](https://github.com/MLSTidbits/sbctl.git
+   * feat(monitor): add sbctl-wait script for monitoring bootloader file changes [`99eb153`](https://github.com/MLSTidbits/sbctl.git
+Checksums-Sha1:
+ 1535591bf87880a39018ae16ca76e88cd03c4d4b 3883834 sbctl-dbgsym_0.18-buld.1_amd64.ddeb
+ 5e378196ba5f722dfefcd28a774f0e27c5f44791 8271 sbctl_0.18-buld.1_amd64.buildinfo
+ 62c3dbf3ac8c826f436ebbc840070db7a35e24a6 3646218 sbctl_0.18-buld.1_amd64.deb
+Checksums-Sha256:
+ 2a215f65cfde930bda9a3b5e7847f436c82cc623d022b1e0113407f9af6acc71 3883834 sbctl-dbgsym_0.18-buld.1_amd64.ddeb
+ 4dc9df7547a356041fbf6a8a03191af24c695d5463aa911912d7c052f69c47ed 8271 sbctl_0.18-buld.1_amd64.buildinfo
+ b0f957253e87dcc5e3619c7ede4a3d78908a0487e6e4c4caa2b4d5d7ca010218 3646218 sbctl_0.18-buld.1_amd64.deb
+Files:
+ bea0818b31b916e215b3fea009b88f3a 3883834 debug optional sbctl-dbgsym_0.18-buld.1_amd64.ddeb
+ 4c9c2954fe5e2a41343ec837cfc64fc0 8271 gnome optional sbctl_0.18-buld.1_amd64.buildinfo
+ 9cecfd5a215df38728cafc22da360f99 3646218 gnome optional sbctl_0.18-buld.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpLKaEACgkQbkoCnkKh
+yHluuw/ZAdijQlGHlLxjdF3kISvUlSsn7qikPfQF7G6SYZ7y76OdIdRQAeokL3Zq
+tRiRz6uh8iSbpZQUR3+jo3vjk6a4O3a2ZLktxtWAZn3EGhKBOD8ipFr1lwPaAP17
+4v0IOL93b/L/9sp1sG62jzpbI72QnSWUw9lFecBZBfM7dQlkTIQCwWHdmioQtKXM
+pBuV/KkAzYICmoa3md0qLm4OuyV8tZKInlPXzfDzjFRCsMfI+CJw7W6C+GGZQe66
+PWxZq5DrZkgr0Ml6hVleIRbN5GwL1lANKk5318ImI01gW/L5btztCWhns0OnDaNf
+yz8Mu5rEYDIOb5TmKAhi1+Y8xOMbogeiZ3V3etzjixvbMYTDRnhFrCC+MayEpYkV
+8kGkpsmufB3n3wQdpJ2+4BTETPmtkNOvHtErZ7D5VITGje3tvAKUSLtKM5qf1GdI
+48KSa5OvZ5n/S0ixSVpfwfB1eR6uamI6xvzKTo95N2FoIZOBOFuk7t9UghwtSlyd
+zl2RcufTVyBZ7FWcAogLqXrOXvSwdywbaDEr2FQWVdLVs+ZyqS9BxtQlY9+SBUxV
+S+jqjAow3GP+5B4fogUDIvRZO2JW8K2s73JbH9JiKuvwGQ6SdQeBqqjrxix/THQ/
+zSjkLSod8ZDD4dkP3EuAAfyMyACJSbSrH76OkQBNbtLGmA==
+=L5j8
+-----END PGP SIGNATURE-----

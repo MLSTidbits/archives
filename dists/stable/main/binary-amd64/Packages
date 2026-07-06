@@ -2156,6 +2156,29 @@ Description: DVD and Blu-ray ripping tool.
  managing the ripping process. It uses makemkvcon to perform the actual ripping tasks,
  and provides features such as progress tracking and error handling.
 
+Package: sbctl
+Architecture: amd64
+Version: 0.18-buld.1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Installed-Size: 10929
+Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang
+Filename: pool/main/s/sbctl/sbctl_0.18-buld.1_amd64.deb
+Size: 3646218
+MD5sum: 9cecfd5a215df38728cafc22da360f99
+SHA1: 62c3dbf3ac8c826f436ebbc840070db7a35e24a6
+SHA256: b0f957253e87dcc5e3619c7ede4a3d78908a0487e6e4c4caa2b4d5d7ca010218
+SHA512: f62653ffe2cfc064c4f5114528fe86beb5fa5aa4bec4974258795f0d317430d0a000641aeca1d57a4c2e74056cf2068efa35ea3c69da52e5e77b6d5acba9ca58
+Homepage: https://MLSTidbits.com/sbctl
+Description: A customizable application menu for GNOME Shell
+ sbctl is a highly customizable application menu extension for GNOME Shell.
+ .
+ It provides a traditional application menu layout, similar to the classic
+ "Start Menu" found in other desktop environments, while integrating seamlessly
+ with the GNOME Shell interface.
+
 Package: starship-update
 Architecture: amd64
 Version: 25.04.13-62e443c
