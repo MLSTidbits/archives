@@ -10,40 +10,40 @@ Version: 1.0
 Components: main
 Description: MLS Tidbits APT archive package repository
 Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
-Date: Mon, 06 Jul 2026 10:13:08 +0000
+Date: Mon, 06 Jul 2026 18:18:35 +0000
 MD5Sum:
- 79d395c39bb2a74f92cdca70a0099018              275 Release
+ 331013361a5a5ed8151f92a33fd025f8              275 Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/Contents-amd64
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-amd64.gz
  0b511f90bda735d8a81df99ef11572b5            94929 main/binary-amd64/Packages
 SHA1:
- adb4834f4d808087c4be5e1b33054fc847c2e9e3              275 Release
+ 66e9fc2c82cc963c94d3441c8a0a451578dfa264              275 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/Contents-amd64
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-amd64.gz
  7b32abaf9de3a76dc4857414ca20c16619b327d7            94929 main/binary-amd64/Packages
 SHA256:
- 61a136e736dd8ac992b0150c2fa39e9ff1d5084b2d6d6fcadcca164562f14ca3              275 Release
+ 7690aed862bdf6f294efb26a43db403ad37268e16db3b80daa6da0b615fe8ac6              275 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/Contents-amd64
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-amd64.gz
  7f72759bc935ab394962c7c47fd10b37390e26f359942e9b5c3bd6eb652ec017            94929 main/binary-amd64/Packages
 SHA512:
- 32a9ed652416490eed07c844b5b4ee366b797c76d81c2888703586d2ce9a7806ebdb87c895c0be6b5d73a727ab4413d7d13f48076298dea5649d39c2cbb8b5a1              275 Release
+ d4ff0f7af61959f05813d696fb0dcb61e89a821fda529f9cc09f31cde74013065e7bd13b8afe091c8d4daac7f50b873af7d7de08bffbed74a557d7931e00fed4              275 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/Contents-amd64
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-amd64.gz
  4018dccc47e5bd5a3eea0cd7e1634a3fb99fda447d9d9ed9a5734d6844071d4d4407a0aee8930829131547640e376de3d10b1c95499deeb0c70e21af3d2db3d4            94929 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmpLf7QACgkQX0kxBVMS
-yapIFw/bB0XyFhDsHVtazWwWZvMhx0aDhmJKLao+HGZmri9GOx/R9RDoG7sSZ/Yr
-V3Ali2SJ9+YIUFxlodYRCDYnzMK9+DGzYc4eKKC4wKJ/00lQZ3m4K6LKvF67KS2m
-5hAU7d9ErJ/eTBmirFrhwUi2a7z+5qMezXQhquJstAis1b3liox3jUsZ+jklypay
-2Dp0tkTytForS9hGPB6zUtzSKj/bS5+c3ISJCN7akSRqzvMZfr7MJwY5myyKBcVZ
-WGpsSDlcf6OMN7b5x8lFM2hm3bNF/ROgE3IShLznpYL1tVzh+sBvnMA6gYwJihHZ
-+Vi5Mh016fOSeVo5qFJHEcsDOU8Wk5RU6nztxb1IdAIYNoAsaMuhuPFcaYGFYInN
-+mBZUxiEYlRIZvUuzp0nPlennV/VMBVFi5iO453laiOV2YncClQfwxnWXMKCx8c1
-eCQOFXolRiJ7L3JiN5BtDiyxgmyi8qwegvhs8k6XzK+x4AEyhyyo3UlDlLlaNu5b
-R/PZu29OS79oRFPnnUkdigFMWecPFxIKBYD8ZR9LAJ1m/7l4qIUbXGFmCcV8PDxi
-pfbIkbfbXzevGRBDNLZpUGDqxDGJW5gBRBWsJgFbRrTy1bSFCMF7t2YuIjY8Ee1M
-GHRkqMx3WQMlVV4BZZ/A0M3DLFiPQ3YaSwBNbevVddPZeA==
-=FrDW
+iQIvBAEBCgAdFiEEGjMvP4Vs47m49mZnX0kxBVMSyaoFAmpL8XwACgkQX0kxBVMS
+yao1/w/dELc+A+v/bK+O1hcReAIi/vB21ccPkyxO2wjt9OWeTGJp1Iao5jy33l4L
+g2lv0kGBc83yo4qdaRjFvzmOB5et7kzwgY5yjGkBlGmJvSNXCbomWTfmXqOwimn/
+fYhCVVCwFFqLtXqd91dkODhVExrBy1wUNMw126Lx8mpQzm6qslAQNOAddaSev6U0
+R8pEYXKu9YEPQpAEcQyujq/WYTBikcuPOivy3tWYl6gVFHXfDmFAZBm4FnO3jven
+Liaw/dBt7IgHGJQy453G7tsprILjIwxURoEYbpKzbQ1Iy2uFwoCigRB132krpoZk
+EhB0f7YYZcXoed6POL0ETqZa+dzw4EOvNYbodbTiqoVI+MmBD/wyzh4dcGhks+zy
+mT+SxqUqmADX069MLXCk5iwTO7VQSTiG2J78PHpCxfM8aSdGpLk5/a7R8RrBvXxK
+QkEAWvVUn6/u4vA6C1jfzs+SbkGYbAhqFOp9jhcWn//PwflSm8ZYZiFal8OpMImy
+6RSCYex2G5Qaz4qcpkiOlbDxC7PoA/W3QFKDeBrj/vcoH1yD8LIXC5dE7fUm2YYa
+z37b85g96l/qx/vlonz1WtwC5bAfU8soV4kelf7VA59KBxpw1Hh8UhnD6ivHcmaP
+q5OBqCJntM20lZ5ucIQi/t/+2NOrvCY/ByRdfqmFzMI5zA==
+=Z+j8
 -----END PGP SIGNATURE-----
