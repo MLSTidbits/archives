@@ -2166,11 +2166,11 @@ Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
 Installed-Size: 10929
 Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang, inotify-tools
 Filename: pool/main/s/sbctl/sbctl_0.18-buld.1_amd64.deb
-Size: 3646164
-MD5sum: cd52f6d5b7c0c42e5150835e7eba9be3
-SHA1: f6422263ab47a30712419dd2b541fca7b08fc67a
-SHA256: 2b2c890601ae8a55e02ed64045e6dd47af4511e4fc8f96196936312d741438bf
-SHA512: 6177c64410f5240468f34be8ce6e4e2907cc2ed5720406a3932ca507dd064c12f275a65891016a158545f21ad1ef83939df635c993c9f848230ae40afdae591a
+Size: 3646170
+MD5sum: 33ea263af1bf8f33e630b3f87127573f
+SHA1: c3941adbd23f4e077eff90c57484c9d65bfc8f0d
+SHA256: 25db490debfae8a27f6e878d6fc4bebb4aa7b0f84007327cd3fbe19bbf21bda0
+SHA512: 8d76ccfdc9d25fd5128c079ccf54161a5e3da3e909883ffbe00a10e21596dce9835a75644302533d27183a0986beda50444fdd9195091cd158d404fa2abe6ff5
 Homepage: https://MLSTidbits.com/sbctl
 Description: A customizable application menu for GNOME Shell
  sbctl is a highly customizable application menu extension for GNOME Shell.
