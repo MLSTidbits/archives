@@ -7,24 +7,24 @@ Version: 1.0
 Components: main
 Description: MLS Tidbits APT archive package repository
 Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
-Date: Mon, 06 Jul 2026 09:54:52 +0000
+Date: Mon, 06 Jul 2026 10:03:24 +0000
 MD5Sum:
- 9b3535817c3430e1851d718412edccbe              275 Release
+ 6c9d08bec4dae2cd65fe46e58cac9b52              275 Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/Contents-amd64
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-amd64.gz
- f302ef061a4687f8901588ef0328c3a5            96062 main/binary-amd64/Packages
+ 806311b6975771b045a95538b39a9d52            96989 main/binary-amd64/Packages
 SHA1:
- 38946f61824733b2cffdecf4b4456c3683c78a51              275 Release
+ 726317c585a9b4d546fe538bd6b462e942489de7              275 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/Contents-amd64
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-amd64.gz
- 881a09ff0ab21abaae2ed9e568c3239dc4e54f78            96062 main/binary-amd64/Packages
+ be1f5a57e0a51885d1595bbd0be0cd36feb3b208            96989 main/binary-amd64/Packages
 SHA256:
- 7978efc1785070f4ccfde9306ad2d6a873155f7c71bae34f8b782e0e0ef1b964              275 Release
+ cbd45ddb90259405483c0525040abd1e3e2f0d126d2cac993339993ec4823444              275 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/Contents-amd64
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-amd64.gz
- fa2d7aeebfc5ec304cb666a84842b4078468f15b829a75fafd83bbc982da2709            96062 main/binary-amd64/Packages
+ 0d6fe87edfafaa6666b670c3786c5ba612e802254d50b4bc03645df9b39cccc7            96989 main/binary-amd64/Packages
 SHA512:
- 9d3c1c3224f5de6d8cc9b4e0b267e1a8e85e3c1e8c9c73ff16658d8632713a1c91d6ef9309ec2db6bb0f7aff51d14917b79ce6c2514aff37fdb235a51aa702bb              275 Release
+ 124cf21ee02409aec58c1cc4c543b277ccb9bcc424b41a89ae33a183396c0b226177a5e76e25f3ea06bcf0fa866deb3520e4f9aeb7ec11fcd875d803a2326ce4              275 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/Contents-amd64
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-amd64.gz
- 7472f3f9b3e6611d6a32499b53b3c67c7475e91ad2d9e311f63593b5b15ac46c2c3b557caf08d881b37b3b85b33b6e85eed04134f3ea5edf42b4ac73d55bd1f8            96062 main/binary-amd64/Packages
+ 6661238779d9142925a0fee4f3ca599087d7484b6ce1da9c3e877c107db51ae51cbcf046386706a7f4682298b4994bffe867376562e94b1b1e7ccc1e9634db20            96989 main/binary-amd64/Packages

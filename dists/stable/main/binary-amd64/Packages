@@ -2158,6 +2158,27 @@ Description: DVD and Blu-ray ripping tool.
 
 Package: sbctl
 Architecture: amd64
+Version: 0.18-2
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Installed-Size: 10929
+Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang, inotify-tools
+Filename: pool/main/s/sbctl/sbctl_0.18-2_amd64.deb
+Size: 3646146
+MD5sum: b8c0bf168183b4a2fe6fa1309d441577
+SHA1: 09b23b32e60d6f3e1308fdf14c84124db95ddf1c
+SHA256: 52b50b12998841c4aa35e7ad491dcf4dfef4640986009eb033c55ab78b0c6905
+SHA512: 3f9f83ddd3408187e189e78872c12177180e81f7444da3351596daccb343f60211b6d2b2492bf49929b414e10b5e1edfbb5362162c9161151423fbb0ff7b3b6b
+Homepage: https://MLSTidbits.com/sbctl
+Description: A simple tool to manage Secure Boot keys on Linux
+ sbctl is a simple tool to manage Secure Boot keys on Linux. It allows you to
+ easily enroll your own keys, sign your own kernels, and manage the Secure Boot
+ key database.
+
+Package: sbctl
+Architecture: amd64
 Version: 0.18-build.2
 Multi-Arch: foreign
 Priority: optional

@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 06 Jul 2026 00:00:00 -0600
+Source: sbctl
+Binary: sbctl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.18-2
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ sbctl      - A simple tool to manage Secure Boot keys on Linux
+Changes:
+ sbctl (0.18-2) noble; urgency=medium
+ .
+   * feat(debian): add initial packaging files and configuration [`5966a9f`](https://github.com/MLSTidbits/sbctl.git
+   * feat(debian): enhance service management and add sbctl-wait script [`d7e412c`](https://github.com/MLSTidbits/sbctl.git
+   * feat(monitor): add sbctl-wait script for monitoring bootloader file changes [`99eb153`](https://github.com/MLSTidbits/sbctl.git
+Checksums-Sha1:
+ e3fb5c9c1a61ce6e3c1f985be166ba8eab32c5a4 3886938 sbctl-dbgsym_0.18-2_amd64.ddeb
+ 90400494aa7f2b6f23896c745971cc8148563fec 8236 sbctl_0.18-2_amd64.buildinfo
+ 09b23b32e60d6f3e1308fdf14c84124db95ddf1c 3646146 sbctl_0.18-2_amd64.deb
+Checksums-Sha256:
+ 7663cfd8e75d157cb7bc1d44567114f20932f0529b3f882ca0fb3d138733da38 3886938 sbctl-dbgsym_0.18-2_amd64.ddeb
+ 3a53821bcab672b74959cba85c1d6ec3ba7b38a12cd44c0f57ecb7e22a2e5867 8236 sbctl_0.18-2_amd64.buildinfo
+ 52b50b12998841c4aa35e7ad491dcf4dfef4640986009eb033c55ab78b0c6905 3646146 sbctl_0.18-2_amd64.deb
+Files:
+ 32099656ebed39fb2bf1dc9b380fcda0 3886938 debug optional sbctl-dbgsym_0.18-2_amd64.ddeb
+ 0425f7bae6e5d6a8bfb352f57d26b6f0 8236 gnome optional sbctl_0.18-2_amd64.buildinfo
+ b8c0bf168183b4a2fe6fa1309d441577 3646146 gnome optional sbctl_0.18-2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpLfV8ACgkQbkoCnkKh
+yHmX8g/grGcR+7N0VvuXvFpfP3jQRGDMtwAj5QDxMYSw1HtPIhEcXRduyVbvi44Q
+uQZUXOwrY8a0AEAp064NJ/a2u6IiLHMp5oHHNNYaZc4IgQqTCkudlHy7qlKTtSsh
+LQCjGTOflTuCEV+7DtMKZOtrfhGIyaNWwbftWp/P44PbllqyNweV6PfVF3nB/0ls
+fk4P6w9hQPZ1tQdwODzzDUcXZagjHybeNaJCbWEezlr3PmTJth1FOZmaRNU4Z/3u
+39+jVCkuDFROtBbfTOjeWp/aErEzPIzVq7mOqzuDtW6jQYcGNsK665Ag/lY0OS+R
+7zBpv1GKxm0j85KKkv5VERnLXvw1WsVNSQ65HX8Ii/bt6fNrq81mcnBvBeJ0ielh
+cganW+VKXe+e+3BM4cLYv1fenxGGp10FdQRCr3adTFB4MtTr8HC7cJkPrcU6UPCn
+Vm3PM6CC3tVWahh87YJ4vZTqjofY+35zFhV6p9F4cVTIaxzILbfyR67XuqRrmjO4
+/AqXPpCMV6lR/b7Cqjt1lwXxZAkUqvznPyVkrG9mk/kc/+E6j9J3aCBU5yC+xPUM
+dxQcGicT1KdI5E1NUD3hLUghLD6nQA7w2Oh5fPK0h+8wIUnDvDmHPudnCv1ZIkby
+gnn+AcYms6EYXkDUfAGbF8lTYjESSeehkcf7sj0Of+mscw==
+=Ipql
+-----END PGP SIGNATURE-----
