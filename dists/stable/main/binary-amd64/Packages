@@ -2161,67 +2161,21 @@ Architecture: amd64
 Version: 0.18-2
 Multi-Arch: foreign
 Priority: optional
-Section: gnome
+Section: admin
 Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
 Installed-Size: 10929
 Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang, inotify-tools
 Filename: pool/main/s/sbctl/sbctl_0.18-2_amd64.deb
 Size: 3646146
-MD5sum: b8c0bf168183b4a2fe6fa1309d441577
-SHA1: 09b23b32e60d6f3e1308fdf14c84124db95ddf1c
-SHA256: 52b50b12998841c4aa35e7ad491dcf4dfef4640986009eb033c55ab78b0c6905
-SHA512: 3f9f83ddd3408187e189e78872c12177180e81f7444da3351596daccb343f60211b6d2b2492bf49929b414e10b5e1edfbb5362162c9161151423fbb0ff7b3b6b
+MD5sum: e9b1169c2ff216bdd4aef7c4f42d189d
+SHA1: 028ccd54a515ed63e3f1dfb8675eb2f4480e6e15
+SHA256: 0061e97cb905e493628cbe4cf0f2b76fd4c4953a55c8f0b5d3a479d19418fb73
+SHA512: d613d309c1b66e16fef1822dc176ca86e3f82e9b7ecd529a734759eb5c7d6923c4a279c74f590fcd542d20daf11382a54d5b77feafbb34502db32a52a0ff0f41
 Homepage: https://MLSTidbits.com/sbctl
 Description: A simple tool to manage Secure Boot keys on Linux
  sbctl is a simple tool to manage Secure Boot keys on Linux. It allows you to
  easily enroll your own keys, sign your own kernels, and manage the Secure Boot
  key database.
-
-Package: sbctl
-Architecture: amd64
-Version: 0.18-build.2
-Multi-Arch: foreign
-Priority: optional
-Section: gnome
-Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
-Installed-Size: 10929
-Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang, inotify-tools
-Filename: pool/main/s/sbctl/sbctl_0.18-build.2_amd64.deb
-Size: 3646138
-MD5sum: d93407d03d1e36d17bcb8037e8198e92
-SHA1: 1fb8a896449645e54e5b16320b2d6fb67d990c89
-SHA256: 07f83f60cba87c2c8aa3997b31580f5d098345f277429bd162d178c1301b2cd9
-SHA512: 650030cfef7673cc94eb7f638598f9237500aef917a815808587a9f66112c7400549e29a5fa5aabe64619b8b48f848f36d90fdfb2bc8938a506908cb20d2b769
-Homepage: https://MLSTidbits.com/sbctl
-Description: A customizable application menu for GNOME Shell
- sbctl is a highly customizable application menu extension for GNOME Shell.
- .
- It provides a traditional application menu layout, similar to the classic
- "Start Menu" found in other desktop environments, while integrating seamlessly
- with the GNOME Shell interface.
-
-Package: sbctl
-Architecture: amd64
-Version: 0.18-buld.1
-Multi-Arch: foreign
-Priority: optional
-Section: gnome
-Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
-Installed-Size: 10929
-Depends: systemd-boot, systemd-boot-efi, sbsigntool, efibootmgr, efitools, golang, inotify-tools
-Filename: pool/main/s/sbctl/sbctl_0.18-buld.1_amd64.deb
-Size: 3646170
-MD5sum: 33ea263af1bf8f33e630b3f87127573f
-SHA1: c3941adbd23f4e077eff90c57484c9d65bfc8f0d
-SHA256: 25db490debfae8a27f6e878d6fc4bebb4aa7b0f84007327cd3fbe19bbf21bda0
-SHA512: 8d76ccfdc9d25fd5128c079ccf54161a5e3da3e909883ffbe00a10e21596dce9835a75644302533d27183a0986beda50444fdd9195091cd158d404fa2abe6ff5
-Homepage: https://MLSTidbits.com/sbctl
-Description: A customizable application menu for GNOME Shell
- sbctl is a highly customizable application menu extension for GNOME Shell.
- .
- It provides a traditional application menu layout, similar to the classic
- "Start Menu" found in other desktop environments, while integrating seamlessly
- with the GNOME Shell interface.
 
 Package: starship-update
 Architecture: amd64
