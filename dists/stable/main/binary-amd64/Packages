@@ -1104,6 +1104,38 @@ Description: Dash to Panel GNOME Shell Extension
  .
  This package contains the Dash to Panel extension for GNOME Shell.
 
+Package: dash-to-panel
+Architecture: amd64
+Version: 73-git+build3
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Installed-Size: 1534
+Depends: gnome-shell (>= 46), arcmenu
+Suggests: gnome-tweaks, gnome-extensions-manager
+Filename: pool/main/d/dash-to-panel/dash-to-panel_73-git+build3_amd64.deb
+Size: 264632
+MD5sum: 196ff17b4c41cf9533c100d003c4c099
+SHA1: 0e02e013ec6f92dffc0397490175cfc691068730
+SHA256: dfad91dc4614f4c67f0bbc290c9e790069a941c017eacdbe83543c6a657e210e
+SHA512: 42d2a957338d3f58295acd8cf90e446409c0f3f1eed431ce4189fb2990462f059def094aa6429df0d1b14964f4e31f5c871c393fe8821b9d4aa92d1d6743ead0
+Homepage: https://github.com/home-sweet-gnome/dash-to-panel
+Description: Dash to Panel GNOME Shell Extension
+ Dash to Panel is a popular GNOME Shell extension that combines the
+ dash and the top panel into a single, customizable panel located at
+ the bottom of the screen. It provides a Windows-like taskbar experience,
+ allowing users to manage their applications and system tray more
+ efficiently.
+ .
+ Features include:
+  - Application launching and switching
+  - System tray integration
+  - Customizable appearance and behavior
+  - Support for multiple monitors
+ .
+ This package contains the Dash to Panel extension for GNOME Shell.
+
 Package: ddnsd-docs
 Architecture: all
 Version: 2.8.1

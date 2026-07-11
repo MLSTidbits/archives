@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 11 Jul 2026 00:00:00 -0600
+Source: dash-to-panel
+Binary: dash-to-panel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 73-git+build3
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ dash-to-panel - Dash to Panel GNOME Shell Extension
+Changes:
+ dash-to-panel (73-git+build3) noble; urgency=medium
+ .
+   * Add initial packaging for Dash to Panel GNOME Shell extension [`6810be8`](https://github.com/home-sweet-gnome/dash-to-panel.git
+   * Removed _build folder [`aa80a09`](https://github.com/home-sweet-gnome/dash-to-panel.git
+   * Update changelog [`2fa9625`](https://github.com/home-sweet-gnome/dash-to-panel.git
+Checksums-Sha1:
+ ac4a132225e290429691c5470ccd824b9aa5918e 7187 dash-to-panel_73-git+build3_amd64.buildinfo
+ 0e02e013ec6f92dffc0397490175cfc691068730 264632 dash-to-panel_73-git+build3_amd64.deb
+Checksums-Sha256:
+ 015047f4c709fca5dd9b676f9654cd3ffb493fa05854e50fb978d8ccee5596b1 7187 dash-to-panel_73-git+build3_amd64.buildinfo
+ dfad91dc4614f4c67f0bbc290c9e790069a941c017eacdbe83543c6a657e210e 264632 dash-to-panel_73-git+build3_amd64.deb
+Files:
+ c29a7d101c93ad5f4fdb88ac6c659199 7187 gnome optional dash-to-panel_73-git+build3_amd64.buildinfo
+ 196ff17b4c41cf9533c100d003c4c099 264632 gnome optional dash-to-panel_73-git+build3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpSmccACgkQbkoCnkKh
+yHmd3Q/eNwZTykA042/Ohz4OBGGe4UMAsZtsP7GUlYFjogJlxFO1PofkwpsaInz3
+cYN6fJN+5jXEuK0ut3JfDJ2M02wQt3nIajufUfZwSAjR3znMRqqoQitBTeYGvH2b
+MyCcZaWn5LIDJnvuVqb4A8XIcmEsqN64WrtzMueYUDLpn7fh6iw9oEXCilI8ddek
+en+rxQCHKymBzigRxugOX6u4tpMwoPDUFIKMMiiCLm9O1Id9qWBDpxk1l3/l3w3R
+Y5+JQ42NbBR47Gw0FdZFChPmUts1vG1ydofk3BnuXEFrJ8s6YUpldN9IPzqok1gF
+hCe8dvECvZkmCZNTnZIq+qB2/QYgj2cu4ZNDrK1OMzeOlrEGYTRExMnzVMv2YboR
+B4qcdmIF2VLSRM2UUgghqPuhpA9N5eo+eszx+kofQmGxSq0oqDydQGun2Xwa1Wxj
+1tkQU6g3NIT6wam29F37szU/xczARd1qRjXINYjrU8z7SrfmiyOfDJ2pVAack4D0
+qvWQxl56w3o8qQniUmRfRFbGR85noO/mYT6bKg/hEdYfQuXaHjGKULSdMQqlL+pc
+NEaY8K4dZGZFmfjKmlTf08t4xE46I06ntxPq1m3yXXlFSE0CFARWFCxj9eeL6DZ3
+Ofx2cohO1DTad4z5nQT3QKhzss2JxXFoZpAgEz6760Xjqw==
+=gdm2
+-----END PGP SIGNATURE-----
