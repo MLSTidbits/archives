@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 11 Jul 2026 00:00:00 -0600
+Source: arcmenu
+Binary: arcmenu
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 69.2-1
+Distribution: noble
+Urgency: medium
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Changed-By: MLSTidbits <michaelschaecher@mlstidbits.com>
+Description:
+ arcmenu    - A customizable application menu for GNOME Shell
+Changes:
+ arcmenu (69.2-1) noble; urgency=medium
+ .
+   * update ru.po
+   * package(fix): update resource paths for icon loading
+Checksums-Sha1:
+ fde68fca968bf32d9a1f7dd746b97cba02be16d5 7129 arcmenu_69.2-1_amd64.buildinfo
+ dcb08d3b4d415ed397c86c241b7fdb19d7f22270 536742 arcmenu_69.2-1_amd64.deb
+Checksums-Sha256:
+ 565aa9bc8619aae4d52f6d07cd853e7ffae97550716f9965c7e6539d0b6bcd14 7129 arcmenu_69.2-1_amd64.buildinfo
+ 02e7d2cc878b2afc5564ce7c559f75aaa0ea0cb91d019a28b0323ccc57417173 536742 arcmenu_69.2-1_amd64.deb
+Files:
+ 9365106ae3e07e88c31d83a74a30c66a 7129 gnome optional arcmenu_69.2-1_amd64.buildinfo
+ 0216dc8058fffa49b7b7c57705628226 536742 gnome optional arcmenu_69.2-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpR5p0ACgkQbkoCnkKh
+yHlvbw/eJDz8bDF0AlmnAAK+9K/BEomdk5o45qFBUMJFH7+KbLvQzqwz5LqZgaJj
+8u+MPa1iyW8ps1fdGssvhoHpchybe5Vacsj5lBNX16hIHT28F/8JAv/Ba48JSXfe
+lVZYvrNQviMtw3YWZRN6rCR9IXmeiAZIL99SfWGjtAb2C7ypRgH8P14nQpwQZ/GE
+teKUnnKBXa4MsyrpbwCnQIicpFcp/hC1VzMoVKBa0z6+UE3PvklceodOJNJ2kRFn
+0xcSX+4JIfYPY+gkbW1s55ynZKAJcpd2YVy5zC/KfbA9sQjnJvJElXk6a0P2B6i3
+7gNH53z+WU3wZicLy7Nkad+3P0pumX2wTL9dyuXTgXk7TH3pmheSPxh5xqR4MWkb
+/cdDPOMvk2o//IBSQeiRkrl4URZGtyHm4uy50nDIymPRCh6311bpdncn4fkRRE1K
+ya75iwDaccB/S85aIyd5v820UNopuNmQGwQ0bVM3ejuoAtHr4/gk/4YNzVOh44Xl
+yi8vemKy/NanE9G23mJku2XdROG9OmNqicIx+9GT0wUyXRmG7A+b2WSykhVVKpR0
+me/ROyxZCteuwMmV/W5OZgXIdkSfZSTDRCpjbsv75qXi4O0B+3oEVxrJqJgFPjXI
+w/1AKKskiw5ttHXijW6w7+Y5sl/IwvuJaCFwA/59j1jNjA==
+=cyQG
+-----END PGP SIGNATURE-----

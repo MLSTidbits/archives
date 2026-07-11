@@ -24,6 +24,30 @@ Description: A customizable application menu for GNOME Shell
 
 Package: arcmenu
 Architecture: amd64
+Version: 69.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Michael Schaecher <michaelschaecher@mlstidbits.com>
+Installed-Size: 2561
+Depends: gnome-shell (>= 45), dash-to-panel, libglib2.0-bin
+Suggests: gnome-tweaks, gnome-extensions-manager
+Filename: pool/main/a/arcmenu/arcmenu_69.2-1_amd64.deb
+Size: 536742
+MD5sum: 0216dc8058fffa49b7b7c57705628226
+SHA1: dcb08d3b4d415ed397c86c241b7fdb19d7f22270
+SHA256: 02e7d2cc878b2afc5564ce7c559f75aaa0ea0cb91d019a28b0323ccc57417173
+SHA512: 450380f86b6f62227ff1cf7de82b017afede53162551034c0934aa79084f942e75ec153864b8b7d0d41317c99d3573e531c605ce692895b6e2fc61f71a0304fc
+Homepage: https://gitlab.com/arcmenu/ArcMenu
+Description: A customizable application menu for GNOME Shell
+ ArcMenu is a highly customizable application menu extension for GNOME Shell.
+ .
+ It provides a traditional application menu layout, similar to the classic
+ "Start Menu" found in other desktop environments, while integrating seamlessly
+ with the GNOME Shell interface.
+
+Package: arcmenu
+Architecture: amd64
 Version: 69.2
 Multi-Arch: foreign
 Priority: optional
