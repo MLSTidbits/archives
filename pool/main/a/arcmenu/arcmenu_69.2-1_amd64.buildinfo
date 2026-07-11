@@ -7,14 +7,14 @@ Binary: arcmenu
 Architecture: amd64
 Version: 69.2-1
 Checksums-Md5:
- 0216dc8058fffa49b7b7c57705628226 536742 arcmenu_69.2-1_amd64.deb
+ 45f349dc3dd2ae4438eeedec3c090969 536858 arcmenu_69.2-1_amd64.deb
 Checksums-Sha1:
- dcb08d3b4d415ed397c86c241b7fdb19d7f22270 536742 arcmenu_69.2-1_amd64.deb
+ 2b3e4ba251830b5863abfc8eef18a7235d0a8b38 536858 arcmenu_69.2-1_amd64.deb
 Checksums-Sha256:
- 02e7d2cc878b2afc5564ce7c559f75aaa0ea0cb91d019a28b0323ccc57417173 536742 arcmenu_69.2-1_amd64.deb
+ 8d0ebd1c695dcd289759f943672d6b543227e061a0fca1439b298e0de59a9de4 536858 arcmenu_69.2-1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 11 Jul 2026 00:45:47 -0600
+Build-Date: Sat, 11 Jul 2026 01:03:01 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -187,17 +187,17 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpR5p0ACgkQbkoCnkKh
-yHl9Yg/gh/8J+I+d9pDa1vD2/KQFjABNd0Z5ib4p+oqUnakmpledgMf6P8vj8K0N
-D4xBEMTIv94H8vneuhZ94TRXKdsVtENt3Bb1VMrliC5yt1oWQGtUyFPcky1GLRVw
-ieYmU3oKzYJd9uyZzXju2nOK6JUMJYCV62wNia9dTHN89PMayjoJutE/Zmk5XpR0
-d3Wvdj63XvwDGWxHQ/pkSjLdCpnIVkZpUH2LJ2W8Rehfpq6d6Br2aBPtcw9Rqwey
-+2iVnBrk7ohgzSO+0uVu//drrwzOV7GaPKtB2Y2W5z9GSbDHV/dUyq+IB+3FTB3F
-eqsgGyx6bKwCAjW9SmEK+AaTwn4eSLRKDRj6QelTFwBQyNPAU/Q3Sx4C9NrfV2ME
-m2oVQPli9Pxe+7zRUB+Ft422vRCK5HJSDNCUKJfEc0RbqGrlgIwYT1faA0Kour+s
-WM00ZdeB5XezVMyLeTYBuil064cxJhW4xqEOhDwOIvRly5hV5pJRqB+DyLNFHOtN
-SRUX3KE4cdRpJ5MYNwxjhjnTke6IsodZOmGU7m1ppx6/mRwHSfaV/+4GM45nqBF3
-BeTOZKWWseHHK8jLSTtErvSYWon14LuEJpZJfGw7H7BWAfD8tbfadAyr0ScfoiCo
-TL7aMW2MprbN/JuyuC9437/U3y2WAZxDCHImpF57UvxZZA==
-=wB+2
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpR6qcACgkQbkoCnkKh
+yHmW9w/ffzHUsO4G/ELzrQPp+CMWLVk6fAwbLR6oqS3FVKOHeHx0Bn93XwUDBSdJ
+WItV7+Ov482klBsWkEzKTd1oz7jjw1+FmGhkeeMIpwMrJvmaQoQOdZ5ualemsutY
+AjuG0gsQNieG074c9g1vQrRtvCMtJUCrVioEZ2/s2BSuOzcZ2X7YRgdYuPs5Scs7
+mOoqnyMW5UL+My62bRh7PVgBcmCY8NMorDTn8BrlhH6LB0ny1WdBKHc9pQdXA2lw
+rgDuR3/EC3CqqxMGYHCEJomum82dhi6mZouhUeOaRq9ODh26Sns3IhJ2ytpvKA+U
+FCZJUMjK5fFH5RgVIoO0JdOGaY6WKgj1D/j/vPakyfGmrdHQLFmDb7eJfZsxsKdl
+PrMpsk5txSpjEPGQE2RUpVSKh8WV0eeRMk/jnnRNgq29QYhGj40FrHPIwOD3exeq
+MhuG7GqMZ6HMPoLOlpvTv+rtBrmLw+SZGrAuoeVq7ImqhfZPLofVckNThmtFxo99
+fK5fwxGaM08lGsG4S/qpRqnyVCKciUauc6isaBofmdOLf6c3QtIo41eWLqJSE5Sq
+RPo7b4RJNEMwV4ewp/1TaUkGAy9mwppRrvc2oCq5oSUekj5QzB3FZSPHn5JaggWu
+OxyiQOAKWLGRfnwSMb2xRQbV8W83U4+y0W2s4aMDIpDVIg==
+=ejBk
 -----END PGP SIGNATURE-----
