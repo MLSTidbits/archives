@@ -21,28 +21,28 @@ Changes:
    * Bump to 73-git+build1 [`fa26683`](https://github.com/home-sweet-gnome/dash-to-panel.git
    * Fix peek on window workspace change [`ca636f9`](https://github.com/home-sweet-gnome/dash-to-panel.git
 Checksums-Sha1:
- a6eac576d410bc1273a5fc8736dca9839857e402 7174 dash-to-panel_73-git+build2_amd64.buildinfo
- f121bba1c54902fa1423cdc7575495357048e66e 263968 dash-to-panel_73-git+build2_amd64.deb
+ fb424574db6031013c3a68d440f625d1534d341d 7187 dash-to-panel_73-git+build2_amd64.buildinfo
+ ecd0a810e30e66e8d5c9c55ab5f5754a783f632d 263974 dash-to-panel_73-git+build2_amd64.deb
 Checksums-Sha256:
- aabfd4fc4ed81275f82231d431b28a309bfe71f17fc29adf07073a408164b8a7 7174 dash-to-panel_73-git+build2_amd64.buildinfo
- b6e7ed2309c0122c0f00a5b8f2af1f6f22e2ea2deff579863c9e878a2c769b52 263968 dash-to-panel_73-git+build2_amd64.deb
+ 57c141ce25340a2136a8d7648d46c4e4bc83395c7d8b8630a359e37a3e11cec9 7187 dash-to-panel_73-git+build2_amd64.buildinfo
+ c7b9db51551b93680fea966183f77d4247df877d5711d119adb29999e29f6c95 263974 dash-to-panel_73-git+build2_amd64.deb
 Files:
- 9f2bb2a5d9d405cb9effe1168e33aed5 7174 gnome optional dash-to-panel_73-git+build2_amd64.buildinfo
- a028e246a9d2cc05a29f4404486f3dbb 263968 gnome optional dash-to-panel_73-git+build2_amd64.deb
+ 81dcd1c4d4158acd90a2b8ae65fc0eed 7187 gnome optional dash-to-panel_73-git+build2_amd64.buildinfo
+ d59dd21b836109f008bbecd55e25074f 263974 gnome optional dash-to-panel_73-git+build2_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmn+ylYACgkQbkoCnkKh
-yHkQWg/fQD0oIme/TxdtSS/w/Jff1URqqFTsCkgjXxJ92Rze7tRU24gikWrPB29Z
-03+tOMhCcKKZM71KqQt/yHK1ol/91A07SB6oaKe1CQK/+S+tehUdbqhhDIPnAXtl
-ctwU2quuvI1aJ6u4qdXEJJ9As7F5LuYCM6qJznERiZSHr5p6GvXcoIW1cJ9EyDlb
-Gude0nREH/PcGqJRTfHalXJhclO9eSQTcVBqie0c76YjE2WWX1Cahvp7CDgqhstI
-DqlFznhP/gqj68V7o+NWH/FXk/jIwZ17AYfkVoLQ+/V3naG+9HDqalNAs5UPushu
-UpCZxRLaqpsXXvW0MdmgPmnQldUHbk9uEED1Pi+TqDqJaFCIpNdvoLHnJ+HH+ggI
-yqOZMNvDElRtRcaAmpYPOB+F19+WUtcsgsTG+t4G/6KjoaBJyLHVAOQALXHZpavd
-vyffMM9uVvF9DlqKFgLe/CO3mRcLzshIAkC/Eg4UWSSUCG17qjcR6/Ztlp8Efvqe
-ildTFrJ2VBRMO5h5Mbvzh3VeC9jkdzCZebjrwa9o73NNcXQPL+xan6Zl6mJpNLGZ
-1ZQwJSvkbLsXm8Eo/nVk5ygOlq3KCCp7Ypft8J1Aev3zji+pE0Snru0QSPZqFTVm
-mZ2uIE01nRdDlJcO7waZdCiQaWm8AhgMWwUBbsvAvqeOow==
-=1VLt
+iQIvBAEBCgAdFiEE8E3p/iVGi3jdiDQxbkoCnkKhyHkFAmpSlzwACgkQbkoCnkKh
+yHn9lg/fe6kXe17hfU+AEgxBJ5FNLxhdziTR4qmBja+3U1WNVF4OYZJ6Wou1VdJJ
+Nmnwse5BumFyQdGFigI8T7kx7FKHcpcZZ/xlamj+oRhX0/nB07BXnWikkHCm6wax
+P9SSicKcorpX9IMBGfV1QRuMG28ZsFQAewGsCaFIGxwG8FoUdRWqfwqGKP9mWww6
+lYXdSQ2FoTEGsk9YAlla0rPbb+5xFpP8AQI2CX32T8Sx7j+951NZRZ9PG6M17gJx
+KwAZpTAByp3p3XKBvmMWicMrm7vsdfzhwIO3sHuBMYyWpXOHstr/9LBi9PtAjAuX
+pAdEv8cusaeAU58T/kzWO5ONAoL0zKgfxeB64jJlqXiVn/Qhhk6bqZEp/QIp/AG1
+RvoUBrjrBJegA7TSzz7asOH/wwbHRX/tAy0EZYAT3Ob2Vv9SHOO0gSnk/OJiJyQ0
+r1DNTny8QT1XhC76wd/Nr3O6vh4OO57MGftBa0Iaab3wlvQzGe34e8LWbJdP33wZ
+T1LTgzlpHBy6xSL0OWtjKbb5ndnWHerbnTCamPAk/7shnryZ61iCU3Xsv7D/Qq82
+sf+uYn8kNvsyLs338sUzMVMVucBWFyN/dS1t6iQK3Zh/zg4RkzpT/IyamrX2YzZJ
+sSnAHDPLtWCZC7huq1iA4yzi5rrm/lS0KAW6w4jJBCYPcw==
+=XKUG
 -----END PGP SIGNATURE-----
